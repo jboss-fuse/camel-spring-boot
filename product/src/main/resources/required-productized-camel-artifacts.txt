@@ -1,3 +1,5 @@
+org.apache.camel.archetypes:camel-archetype-spring-boot
+camel-archetype-spring-boot
 camel-spring-boot-engine-starter
 camel-spring-boot-starter
 camel-spring-boot-xml-starter

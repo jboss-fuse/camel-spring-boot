@@ -238,6 +238,7 @@
                         <additionalProductizedArtifactId>bom-generator</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>catalog</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>archetypes</additionalProductizedArtifactId>
+                        <additionalProductizedArtifactId>org.apache.camel.archetypes:camel-archetype-spring-boot</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>spring-boot-parent</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>tooling</additionalProductizedArtifactId> 
                         <additionalProductizedArtifactId>camel-spring-boot-bom</additionalProductizedArtifactId>

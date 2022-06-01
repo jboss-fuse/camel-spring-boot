@@ -34,7 +34,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <!-- <module>camel-archetype-spring-boot</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+        <module>camel-archetype-spring-boot</module>
     </modules>
 
     <profiles>
