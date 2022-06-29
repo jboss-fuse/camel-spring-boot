@@ -47,12 +47,14 @@
     </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
-      <artifactId>camel-cxf</artifactId>
+      <artifactId>camel-cxf-spring-transport</artifactId>
+      <version>3.14.2-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-slf4j-impl</artifactId>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-cxf-soap</artifactId>
+      <version>3.14.2-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
     <dependency>
