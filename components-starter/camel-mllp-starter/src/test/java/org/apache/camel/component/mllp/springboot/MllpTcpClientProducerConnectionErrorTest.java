@@ -35,7 +35,6 @@ import org.apache.camel.impl.DefaultCamelContext;
 import org.apache.camel.spring.boot.CamelAutoConfiguration;
 import org.apache.camel.spring.boot.CamelContextConfiguration;
 
-import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
 
@@ -46,12 +45,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.test.annotation.DirtiesContext;
 import org.apache.camel.test.AvailablePortFinder;
 import org.apache.camel.test.spring.junit5.CamelSpringBootTest;
 
 
-@DirtiesContext
 @CamelSpringBootTest
 @SpringBootTest(
     classes = {
@@ -105,14 +102,12 @@ public class MllpTcpClientProducerConnectionErrorTest {
             }
         };
     }
-
     
     /**
      * The component should reconnect, so the route shouldn't see any errors.
      *
      * @throws Exception
      */
-    @Ignore("Test is failing on QE CI, but not locally")
     @Test
     public void testConnectionClosedBeforeSendingHL7Message() throws Exception {
         MockEndpoint.resetMocks(context);
@@ -207,7 +202,6 @@ public class MllpTcpClientProducerConnectionErrorTest {
         MockEndpoint.assertIsSatisfied(5, TimeUnit.SECONDS);
     }
 
-    @Ignore("Test is failing on QE CI, but not locally")
     @Test
     public void testServerShutdownBeforeSendingHL7Message() throws Exception {
         MockEndpoint.resetMocks(context);
@@ -222,6 +216,8 @@ public class MllpTcpClientProducerConnectionErrorTest {
 
         mllpServer.shutdown();
 
+        TimeUnit.SECONDS.sleep(1);
+
         source.sendBody(Hl7TestMessageGenerator.generateMessage());
 
         assertTrue(done.matches(5, TimeUnit.SECONDS), "Should have completed an exchange");
@@ -233,7 +229,6 @@ public class MllpTcpClientProducerConnectionErrorTest {
                 "Either a write or a receive exception should have been be thrown");
     }
 
-    @Ignore
     @Test()
     public void testConnectionCloseAndServerShutdownBeforeSendingHL7Message() throws Exception {
         MockEndpoint.resetMocks(context);
@@ -248,6 +243,8 @@ public class MllpTcpClientProducerConnectionErrorTest {
 
         mllpServer.closeClientConnections();
         mllpServer.shutdown();
+
+        TimeUnit.SECONDS.sleep(1);
 
         source.sendBody(Hl7TestMessageGenerator.generateMessage());
 
@@ -275,7 +272,10 @@ public class MllpTcpClientProducerConnectionErrorTest {
         source.sendBody(Hl7TestMessageGenerator.generateMessage());
 
         mllpServer.resetClientConnections();
+
         mllpServer.shutdown();
+
+        TimeUnit.SECONDS.sleep(1);
 
         source.sendBody(Hl7TestMessageGenerator.generateMessage());
 
@@ -284,7 +284,6 @@ public class MllpTcpClientProducerConnectionErrorTest {
         MockEndpoint.assertIsSatisfied(5, TimeUnit.SECONDS);
     }
 
-    
     // *************************************
     // Config
     // *************************************
@@ -328,7 +327,4 @@ public class MllpTcpClientProducerConnectionErrorTest {
             };
         }
     }
-    
-   
-
 }
