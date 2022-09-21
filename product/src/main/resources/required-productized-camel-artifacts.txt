@@ -36,6 +36,7 @@ camel-dataset-starter
 camel-dependencies-starter
 camel-dependencies-generator-starter
 camel-direct-starter
+camel-elasticsearch-starter
 camel-endpointdsl-starter
 camel-fhir-starter
 camel-file-starter
