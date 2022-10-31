@@ -526,7 +526,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-dsl-modeline-starter</artifactId>
-        <version>${project.version}</version>
+        <version>3.18.2</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -691,7 +691,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-groovy-dsl-starter</artifactId>
-        <version>${project.version}</version>
+        <version>3.18.2</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
