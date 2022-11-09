@@ -64,6 +64,7 @@ camel-kubernetes-starter
 camel-language-starter
 camel-log-starter
 camel-mail-starter
+camel-mail-microsoft-oauth-starter
 camel-main-starter
 camel-master-starter
 camel-microprofile-config-starter

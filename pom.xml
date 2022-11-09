@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>3.18.3.redhat-00010</version>
+        <version>3.18.3.redhat-00021</version>
     </parent>
 
     <groupId>org.apache.camel.springboot</groupId>
@@ -111,14 +111,14 @@
         <spring-boot-version>2.7.6</spring-boot-version>
 
         <!-- Camel target version -->
-        <camel-version>3.18.3.redhat-00010</camel-version>
+        <camel-version>3.18.3.redhat-00021</camel-version>
 
         <!-- cq plugin version -->
         <cq-plugin.version>2.32.0</cq-plugin.version>
         <camel-community.version>3.18.3</camel-community.version>
 
         <!-- narayana spring boot version -->
-        <narayana-spring-boot.version>2.6.7.redhat-00011</narayana-spring-boot.version>
+        <narayana-spring-boot.version>2.6.7.redhat-00022</narayana-spring-boot.version>
 
         <!-- versions -->
         <aether-version>1.0.2.v20150114</aether-version>
