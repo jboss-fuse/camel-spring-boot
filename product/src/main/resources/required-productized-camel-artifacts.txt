@@ -51,6 +51,7 @@ camel-java-joor-dsl-starter
 camel-jaxb-starter
 camel-jira-starter
 camel-jms-starter
+camel-jpa-starter
 camel-jsonpath-starter
 camel-jta-starter
 camel-kafka-starter

@@ -283,7 +283,7 @@
     <!-- <module>camel-jolt-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jooq-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-joor-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-jpa-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-jpa-starter</module>
     <!-- <module>camel-jq-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jsch-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jslt-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
