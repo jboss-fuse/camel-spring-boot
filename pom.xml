@@ -111,14 +111,14 @@
         <spring-boot-version>2.7.5</spring-boot-version>
 
         <!-- Camel target version -->
-        <camel-version>3.18.3</camel-version>
+        <camel-version>3.18.3.redhat-00010</camel-version>
 
         <!-- cq plugin version -->
         <cq-plugin.version>2.32.0</cq-plugin.version>
         <camel-community.version>3.18.3</camel-community.version>
 
         <!-- narayana spring boot version -->
-        <narayana-spring-boot.version>2.6.7.redhat-00003</narayana-spring-boot.version>
+        <narayana-spring-boot.version>2.6.7.redhat-00011</narayana-spring-boot.version>
 
         <!-- versions -->
         <aether-version>1.0.2.v20150114</aether-version>

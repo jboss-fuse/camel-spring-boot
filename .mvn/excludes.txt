@@ -1,7 +1,6 @@
 :camel-activemq-starter
 :camel-ahc-starter
 :camel-ahc-ws-starter
-:camel-amqp-starter
 :camel-any23-starter
 :camel-arangodb-starter
 :camel-as2-starter
@@ -164,7 +163,6 @@
 :camel-micrometer-starter
 :camel-milo-starter
 :camel-mina-starter
-:camel-minio-starter
 :camel-mongodb-gridfs-starter
 :camel-mustache-starter
 :camel-mvel-starter
@@ -183,7 +181,6 @@
 :camel-pdf-starter
 :camel-pg-replication-slot-starter
 :camel-pgevent-starter
-:camel-platform-http-starter
 :camel-printer-starter
 :camel-protobuf-starter
 :camel-pubnub-starter

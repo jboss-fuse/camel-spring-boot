@@ -3,6 +3,7 @@ camel-archetype-spring-boot
 camel-spring-boot-engine-starter
 camel-spring-boot-starter
 camel-spring-boot-xml-starter
+camel-amqp-starter
 camel-avro-starter
 camel-aws2-cw-starter
 camel-aws2-ddb-starter
@@ -67,6 +68,7 @@ camel-master-starter
 camel-microprofile-config-starter
 camel-microprofile-health-starter
 camel-microprofile-metrics-starter
+camel-minio-starter
 camel-mllp-starter
 camel-mock-starter
 camel-mongodb-starter
@@ -74,6 +76,7 @@ camel-netty-starter
 camel-openapi-java-starter
 camel-paho-starter
 camel-paho-mqtt5-starter
+camel-platform-http-starter
 camel-http-vertx-starter
 camel-quartz-starter
 camel-ref-starter
