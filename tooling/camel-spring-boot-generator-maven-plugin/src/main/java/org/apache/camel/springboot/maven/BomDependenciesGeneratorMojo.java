@@ -218,6 +218,12 @@ public class BomDependenciesGeneratorMojo extends AbstractMojo {
                     File pom = new File(d.toFile(), "pom.xml");
                     return pom.isFile() && pom.exists();
                 })
+                // for 3.18.3, filter out debezium-db2 / debezium-oracle because they were not released
+                // upstream (CAMEL-18746)
+                .filter(d-> {
+                    return (!((d.getFileName().toString().equals("camel-debezium-db2-starter")) ||
+                            (d.getFileName().toString().equals("camel-debezium-oracle-starter"))));
+                })
                 .map(dir -> {
                     Dependency dep = new Dependency();
                     dep.setGroupId("org.apache.camel.springboot");

@@ -653,22 +653,12 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
-        <artifactId>camel-debezium-db2-starter</artifactId>
-        <version>3.18.3</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-debezium-mongodb-starter</artifactId>
         <version>3.18.3</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-debezium-mysql-starter</artifactId>
-        <version>3.18.3</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.springboot</groupId>
-        <artifactId>camel-debezium-oracle-starter</artifactId>
         <version>3.18.3</version>
       </dependency>
       <dependency>
