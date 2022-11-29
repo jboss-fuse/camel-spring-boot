@@ -138,6 +138,7 @@
         <maven-surefire-plugin-version>3.0.0-M4</maven-surefire-plugin-version>
         <mycila-license-version>3.0</mycila-license-version>
         <springdoc-version>1.6.6</springdoc-version>
+        <openshift-maven-plugin-version>1.9.1.redhat-00004</openshift-maven-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.0.31</swagger-parser-v3-version>
         <undertow-version>2.2.16.Final</undertow-version>
