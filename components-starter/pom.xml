@@ -353,7 +353,7 @@
     <!-- <module>camel-reactive-streams-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-reactor-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-ref-starter</module>
-    <!-- <module>camel-resilience4j-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-resilience4j-starter</module>
     <!-- <module>camel-rest-openapi-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-rest-starter</module>
     <!-- <module>camel-rest-swagger-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->

@@ -189,7 +189,6 @@
 :camel-rabbitmq-starter
 :camel-reactive-streams-starter
 :camel-reactor-starter
-:camel-resilience4j-starter
 :camel-rest-openapi-starter
 :camel-rest-swagger-starter
 :camel-resteasy-starter
