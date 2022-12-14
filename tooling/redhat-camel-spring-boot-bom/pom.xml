@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+     Copyright 2005-2022 Red Hat, Inc.
+
+     Red Hat licenses this file to you under the Apache License, version
+     2.0 (the "License"); you may not use this file except in compliance
+     with the License.  You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+     implied.  See the License for the specific language governing
+     permissions and limitations under the License.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.redhat.camel.springboot.platform</groupId>
+    <artifactId>camel-springboot-bom</artifactId>
+    <version>3.14.5-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Red Hat Application Foundations :: ${project.artifactId}</name>
+    <description>Red Hat Application Foundations provides organizations with a comprehensive set of components to develop and modernize their software</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+	<!-- Camel / SpringBoot dependency versions -->
+        <version.camel>3.14.5.redhat-00011</version.camel>
+        <version.camel-spring-boot>3.14.5.redhat-00014</version.camel-spring-boot>
+        <version.spring-boot>2.7.4</version.spring-boot>
+
+        <!-- Third party dependency versions -->
+        <version.snakeyaml>1.33</version.snakeyaml>
+
+    </properties>
+
+    <url>https://developers.redhat.com/products/fuse/overview</url>
+
+    <scm>
+        <connection>scm:git:git@github.com:jboss-fuse/redhat-fuse.git</connection>
+        <developerConnection>scm:git:git@github.com:jboss-fuse/redhat-fuse.git</developerConnection>
+        <tag>master</tag>
+    </scm>
+
+    <organization>
+        <name>Red Hat</name>
+        <url>http://redhat.com</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>fuseteam</id>
+            <name>Red Hat Development Team</name>
+            <organization>Red Hat</organization>
+            <organizationUrl>http://www.redhat.com/</organizationUrl>
+        </developer>
+    </developers>
+
+    <inceptionYear>2022</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <!-- These are place holder dependency management entries -->
+    <dependencyManagement>
+        <dependencies>	
+            <!-- Insert third party overrides here -->
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>${version.snakeyaml}</version>
+            </dependency>
+            <!-- Spring Boot Dependencies -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${version.spring-boot}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- Camel Spring Boot BOM -->
+            <dependency>
+                <groupId>org.apache.camel.springboot</groupId>
+                <artifactId>camel-spring-boot-bom</artifactId>
+                <version>${version.camel-spring-boot}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
