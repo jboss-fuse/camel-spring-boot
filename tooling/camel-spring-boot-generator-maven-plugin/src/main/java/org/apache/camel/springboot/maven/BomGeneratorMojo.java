@@ -169,7 +169,7 @@ public class BomGeneratorMojo extends AbstractMojo {
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-cli-connector-starter");
-        dep.setVersion("${project.version}");
+        dep.setVersion(productizedArtifacts.containsKey("camel-cli-connector-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
