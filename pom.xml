@@ -162,6 +162,11 @@
                 <artifactId>narayana-spring-boot-recovery-controller</artifactId>
                 <version>${narayana-spring-boot.version}</version>
             </dependency>
+            <dependency>
+                <groupId>me.snowdrop</groupId>
+                <artifactId>narayana-spring-boot-starter</artifactId>
+                <version>${narayana-spring-boot.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
