@@ -12,6 +12,7 @@ camel-aws2-lambda-starter
 camel-aws2-s3-starter
 camel-aws2-sns-starter
 camel-aws2-sqs-starter
+camel-azure-servicebus-starter
 camel-azure-storage-blob-starter
 camel-azure-storage-queue-starter
 camel-bean-starter
@@ -20,6 +21,7 @@ camel-bindy-starter
 camel-browse-starter
 camel-cassandraql-starter
 camel-catalog-starter
+camel-cli-connector-starter
 camel-cloud-starter
 camel-componentdsl-starter
 camel-controlbus-starter
@@ -66,6 +68,7 @@ camel-log-starter
 camel-mail-starter
 camel-mail-microsoft-oauth-starter
 camel-main-starter
+camel-mapstruct-starter
 camel-master-starter
 camel-microprofile-config-starter
 camel-microprofile-health-starter
@@ -74,8 +77,10 @@ camel-minio-starter
 camel-mllp-starter
 camel-mock-starter
 camel-mongodb-starter
+camel-nats-starter
 camel-netty-starter
 camel-openapi-java-starter
+camel-opentelemetry-starter
 camel-paho-starter
 camel-paho-mqtt5-starter
 camel-platform-http-starter

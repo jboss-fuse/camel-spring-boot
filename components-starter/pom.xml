@@ -146,7 +146,7 @@
     <!-- <module>camel-azure-cosmosdb-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-azure-eventhubs-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-azure-key-vault-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-azure-servicebus-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-azure-servicebus-starter</module>
     <module>camel-azure-storage-blob-starter</module>
     <!-- <module>camel-azure-storage-datalake-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-azure-storage-queue-starter</module>
@@ -316,7 +316,7 @@
     <module>camel-mail-microsoft-oauth-starter</module>
     <module>camel-mail-starter</module>
     <!-- <module>camel-management-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-mapstruct-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-mapstruct-starter</module>
     <module>camel-master-starter</module>
     <!-- <module>camel-metrics-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-micrometer-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -330,7 +330,7 @@
     <!-- <module>camel-mustache-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-mvel-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-mybatis-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-nats-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-nats-starter</module>
     <!-- <module>camel-netty-http-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-netty-starter</module>
     <!-- <module>camel-nitrite-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -340,7 +340,7 @@
     <!-- <module>camel-olingo4-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-openapi-java-starter</module>
     <!-- <module>camel-openstack-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-opentelemetry-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-opentelemetry-starter</module>
     <!-- <module>camel-opentracing-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-optaplanner-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-paho-mqtt5-starter</module>

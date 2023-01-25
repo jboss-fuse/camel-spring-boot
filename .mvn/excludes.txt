@@ -27,7 +27,6 @@
 :camel-azure-cosmosdb-starter
 :camel-azure-eventhubs-starter
 :camel-azure-key-vault-starter
-:camel-azure-servicebus-starter
 :camel-azure-storage-datalake-starter
 :camel-barcode-starter
 :camel-base64-starter
@@ -40,7 +39,6 @@
 :camel-cbor-starter
 :camel-chatscript-starter
 :camel-chunk-starter
-:camel-cli-connector-starter
 :camel-cloudevents-starter
 :camel-cm-sms-starter
 :camel-cmis-starter
@@ -164,7 +162,6 @@
 :camel-lumberjack-starter
 :camel-lzf-starter
 :camel-management-starter
-:camel-mapstruct-starter
 :camel-metrics-starter
 :camel-micrometer-starter
 :camel-milo-starter
@@ -173,7 +170,6 @@
 :camel-mustache-starter
 :camel-mvel-starter
 :camel-mybatis-starter
-:camel-nats-starter
 :camel-netty-http-starter
 :camel-nitrite-starter
 :camel-oaipmh-starter
@@ -181,7 +177,6 @@
 :camel-olingo2-starter
 :camel-olingo4-starter
 :camel-openstack-starter
-:camel-opentelemetry-starter
 :camel-opentracing-starter
 :camel-optaplanner-starter
 :camel-pdf-starter
