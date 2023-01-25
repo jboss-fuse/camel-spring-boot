@@ -88,6 +88,9 @@ public class BomGeneratorMojo extends AbstractMojo {
     @Parameter(property = "bom.camelCommunityVersion", defaultValue = "${camel-spring-boot-community.version}")
     protected String camelCommunityVersion;
 
+    @Parameter(property = "bom.narayanaSpringBoootVersion", defaultValue = "${narayana-spring-boot.version}")
+    protected String narayanaSpringBootVersion;
+
     @Parameter(property = "bom.camelVersion", defaultValue = "${camel-version}")
     protected String camelVersion;
 
@@ -210,6 +213,25 @@ public class BomGeneratorMojo extends AbstractMojo {
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-yaml-dsl-starter");
         dep.setVersion(productizedArtifacts.containsKey("camel-yaml-dsl-starter") ? "${project.version}" : camelCommunityVersion);
+        outDependencies.add(dep);
+
+        // Add Narayana starter and associated artifacts
+        dep = new Dependency();
+        dep.setGroupId("me.snowdrop");
+        dep.setArtifactId("narayana-spring-boot-starter");
+        dep.setVersion(narayanaSpringBootVersion);
+        outDependencies.add(dep);
+
+        dep = new Dependency();
+        dep.setGroupId("me.snowdrop");
+        dep.setArtifactId("narayana-spring-boot-core");
+        dep.setVersion(narayanaSpringBootVersion);
+        outDependencies.add(dep);
+
+        dep = new Dependency();
+        dep.setGroupId("me.snowdrop");
+        dep.setArtifactId("narayana-spring-boot-recovery-controller");
+        dep.setVersion(narayanaSpringBootVersion);
         outDependencies.add(dep);
 
         outDependencies.sort(Comparator.comparing(d -> (d.getGroupId() + ":" + d.getArtifactId())));
