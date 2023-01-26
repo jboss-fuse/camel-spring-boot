@@ -22,7 +22,7 @@
 
     <groupId>com.redhat.camel.springboot.platform</groupId>
     <artifactId>camel-springboot-bom</artifactId>
-    <version>3.14.5-SNAPSHOT</version>
+    <version>3.20.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Red Hat Application Foundations :: ${project.artifactId}</name>
@@ -33,8 +33,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	<!-- Camel / SpringBoot dependency versions -->
-        <version.camel>3.14.5.redhat-00011</version.camel>
-        <version.camel-spring-boot>3.14.5.redhat-00014</version.camel-spring-boot>
+        <version.camel>3.20.1.redhat-00005</version.camel>
+        <version.camel-spring-boot>3.20.1.redhat-00012</version.camel-spring-boot>
         <version.spring-boot>2.7.4</version.spring-boot>
 
         <!-- Third party dependency versions -->
