@@ -84,12 +84,10 @@
 :camel-geocoder-starter
 :camel-git-starter
 :camel-github-starter
-:camel-google-bigquery-starter
 :camel-google-calendar-starter
 :camel-google-drive-starter
 :camel-google-functions-starter
 :camel-google-mail-starter
-:camel-google-pubsub-starter
 :camel-google-secret-manager-starter
 :camel-google-sheets-starter
 :camel-google-storage-starter
@@ -144,7 +142,6 @@
 :camel-js-dsl-starter
 :camel-jsch-starter
 :camel-jsh-dsl-starter
-:camel-jslt-starter
 :camel-json-patch-starter
 :camel-json-validator-starter
 :camel-jsonapi-starter
@@ -240,7 +237,6 @@
 :camel-undertow-spring-security-starter
 :camel-undertow-starter
 :camel-univocity-parsers-starter
-:camel-velocity-starter
 :camel-vertx-http-starter
 :camel-vertx-kafka-starter
 :camel-vertx-starter

@@ -44,6 +44,8 @@ camel-endpointdsl-starter
 camel-fhir-starter
 camel-file-starter
 camel-ftp-starter
+camel-google-bigquery-starter
+camel-google-pubsub-starter
 camel-gson-starter
 camel-hl7-starter
 camel-http-starter
@@ -58,6 +60,7 @@ camel-jaxb-starter
 camel-jira-starter
 camel-jms-starter
 camel-jpa-starter
+camel-jslt-starter
 camel-jsonpath-starter
 camel-jta-starter
 camel-kafka-starter
@@ -104,6 +107,7 @@ camel-telegram-starter
 camel-test-spring-junit5-starter
 camel-timer-starter
 camel-validator-starter
+camel-velocity-starter
 camel-webhook-starter
 camel-xml-io-starter
 camel-xml-io-dsl-starter
