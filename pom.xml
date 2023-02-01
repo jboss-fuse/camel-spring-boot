@@ -152,6 +152,13 @@
                 <artifactId>javax.inject</artifactId>
                 <version>${javax-inject-version}</version>
             </dependency>
+            <!-- me.snowdrop:narayana-spring-boot-core dependencyManagement entry
+                is necessary for PME align to the correct narayana-spring-boot.version -->
+            <dependency>
+                <groupId>me.snowdrop</groupId>
+                <artifactId>narayana-spring-boot-core</artifactId>
+                <version>${narayana-spring-boot.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
