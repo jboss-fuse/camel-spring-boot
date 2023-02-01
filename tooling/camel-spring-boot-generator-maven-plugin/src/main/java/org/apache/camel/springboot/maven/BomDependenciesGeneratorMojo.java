@@ -171,6 +171,24 @@ public class BomDependenciesGeneratorMojo extends AbstractMojo {
         }
     }
 
+    /*
+     * Method that checks the list of dependencies for an existing entry for the same g:a to avoid
+     * collisions and duplicates.
+     */
+    private boolean dependencyExists(List<Dependency> outDependencies, Dependency depToCheck) {
+        for (Dependency dep : outDependencies) {
+            if ((dep.getGroupId().equals(depToCheck.getGroupId()))
+                && (dep.getArtifactId().equals(depToCheck.getArtifactId()))) {
+                getLog().error("Trying to add " + depToCheck.getGroupId() + ":" + depToCheck.getArtifactId() + ":"
+                    + depToCheck.getVersion() + ":" + depToCheck.getClassifier() + " to the list of dependencies "
+                    + "but " + dep.getGroupId() + ":" + dep.getArtifactId() + ":" + dep.getVersion() + ":" + dep.getClassifier()
+                    + " already was found in the list");
+                return true;
+            }
+        }
+        return false;
+    }
+
     private List<Dependency> enhance(List<Dependency> dependencyList) throws IOException {
         List<Dependency> outDependencies = new ArrayList<>();
 
@@ -234,11 +252,13 @@ public class BomDependenciesGeneratorMojo extends AbstractMojo {
         dep.setArtifactId("camel-spring-boot-engine-starter");
         dep.setVersion("${project.version}");
         outDependencies.add(dep);
+
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-spring-boot-starter");
         dep.setVersion("${project.version}");
         outDependencies.add(dep);
+
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-spring-boot-xml-starter");
@@ -251,16 +271,19 @@ public class BomDependenciesGeneratorMojo extends AbstractMojo {
         dep.setArtifactId("camel-cli-connector-starter");
         dep.setVersion(productizedArtifacts.containsKey("camel-cli-connector-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
+
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-componentdsl-starter");
         dep.setVersion(productizedArtifacts.containsKey("camel-componentdsl-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
+
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-dsl-modeline-starter");
         dep.setVersion(productizedArtifacts.containsKey("camel-dsl-modeline-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
+
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-endpointdsl-starter");
@@ -312,19 +335,25 @@ public class BomDependenciesGeneratorMojo extends AbstractMojo {
         dep.setGroupId("me.snowdrop");
         dep.setArtifactId("narayana-spring-boot-starter");
         dep.setVersion(narayanaSpringBootVersion);
-        outDependencies.add(dep);
+        if (!dependencyExists(outDependencies, dep)) {
+            outDependencies.add(dep);
+        }
 
         dep = new Dependency();
         dep.setGroupId("me.snowdrop");
         dep.setArtifactId("narayana-spring-boot-core");
         dep.setVersion(narayanaSpringBootVersion);
-        outDependencies.add(dep);
+        if (!dependencyExists(outDependencies, dep)) {
+            outDependencies.add(dep);
+        }
 
         dep = new Dependency();
         dep.setGroupId("me.snowdrop");
         dep.setArtifactId("narayana-spring-boot-recovery-controller");
         dep.setVersion(narayanaSpringBootVersion);
-        outDependencies.add(dep);
+        if (!dependencyExists(outDependencies, dep)) {
+            outDependencies.add(dep);
+        }
 
         outDependencies.sort(Comparator.comparing(d -> (d.getGroupId() + ":" + d.getArtifactId())));
 
