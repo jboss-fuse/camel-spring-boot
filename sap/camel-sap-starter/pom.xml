@@ -5,9 +5,8 @@
 
 	<parent>
 		<groupId>org.apache.camel.springboot</groupId>
-		<artifactId>camel-starter-parent</artifactId>
+		<artifactId>camel-sap-starter-parent</artifactId>
 		<version>3.20.1-SNAPSHOT</version>
-		<relativePath>../tooling/camel-starter-parent</relativePath>
 	</parent>
 
 	<groupId>org.fusesource</groupId>
