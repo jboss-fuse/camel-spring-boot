@@ -94,6 +94,7 @@ camel-rest-starter
 camel-resilience4j-starter
 camel-saga-starter
 camel-salesforce-starter
+camel-sap-starter
 camel-saxon-starter
 camel-scheduler-starter
 camel-seda-starter

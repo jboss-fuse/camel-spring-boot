@@ -198,6 +198,11 @@
       </dependency>
       <dependency>
         <groupId>me.snowdrop</groupId>
+        <artifactId>narayana-spring-boot-core</artifactId>
+        <version>2.6.7</version>
+      </dependency>
+      <dependency>
+        <groupId>me.snowdrop</groupId>
         <artifactId>narayana-spring-boot-recovery-controller</artifactId>
         <version>2.6.7</version>
       </dependency>
@@ -1640,6 +1645,11 @@
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-sap-netweaver-starter</artifactId>
         <version>3.20.1</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.springboot</groupId>
+        <artifactId>camel-sap-starter</artifactId>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -4627,6 +4637,11 @@
         <groupId>org.eclipse.rdf4j</groupId>
         <artifactId>rdf4j-rio-api</artifactId>
         <version>3.7.4</version>
+      </dependency>
+      <dependency>
+        <groupId>org.fusesource</groupId>
+        <artifactId>camel-sap</artifactId>
+        <version>3.20.1.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>org.junit-pioneer</groupId>

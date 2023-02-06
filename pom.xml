@@ -74,6 +74,7 @@
         <module>components-starter</module>
         <module>core-starter</module>
         <module>dsl-starter</module>
+        <module>sap</module>
         <module>catalog</module>
         <!-- <module>tests</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <!-- <module>docs</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -112,6 +113,9 @@
 
         <!-- Camel target version -->
         <camel-version>3.20.1</camel-version>
+
+        <!-- camel-sap version -->
+        <camel-sap.version>3.20.1.redhat-00002</camel-sap.version>
 
         <!-- cq plugin version -->
         <cq-plugin.version>2.32.0</cq-plugin.version>
@@ -158,6 +162,13 @@
                 <groupId>me.snowdrop</groupId>
                 <artifactId>narayana-spring-boot-core</artifactId>
                 <version>${narayana-spring-boot.version}</version>
+            </dependency>
+            <!-- org.fusesource:camel-sap dependencyManagement entry
+                is necessary for PME align to the correct narayana-spring-boot.version -->
+            <dependency>
+                <groupId>org.fusesource</groupId>
+                <artifactId>camel-sap</artifactId>
+                <version>${camel-sap.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
