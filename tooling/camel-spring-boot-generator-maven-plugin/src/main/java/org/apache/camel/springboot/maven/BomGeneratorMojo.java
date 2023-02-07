@@ -215,7 +215,7 @@ public class BomGeneratorMojo extends AbstractMojo {
         dep.setVersion(productizedArtifacts.containsKey("camel-yaml-dsl-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
-        dep.setGroupId("org.apache.camel.springboot");
+        dep.setGroupId("org.fusesource");
         dep.setArtifactId("camel-sap-starter");
         dep.setVersion("${project.version}");
         outDependencies.add(dep);
