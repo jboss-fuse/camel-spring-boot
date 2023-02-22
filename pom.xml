@@ -118,7 +118,7 @@
         <camel-sap.version>3.20.1.redhat-00007</camel-sap.version>
 
         <!-- cq plugin version -->
-        <cq-plugin.version>2.32.0</cq-plugin.version>
+        <cq-plugin.version>3.5.1-SNAPSHOT</cq-plugin.version>
         <camel-community.version>3.20.1</camel-community.version>
 
         <!-- narayana spring boot version -->
@@ -214,6 +214,10 @@
                     <requiredProductizedCamelArtifacts>${maven.multiModuleProjectDirectory}/product/src/main/resources/required-productized-camel-artifacts.txt</requiredProductizedCamelArtifacts>
                     <simpleElementWhitespace>SPACE</simpleElementWhitespace>
                     <additionalProductizedArtifactIds>
+                        <additionalProductizedArtifactId>com.redhat.camel.springboot.platform:camel-springboot-bom</additionalProductizedArtifactId>
+                        <additionalProductizedArtifactId>org.fusesource:camel-sap-starter</additionalProductizedArtifactId>
+                        <additionalProductizedArtifactId>com.sap.conn.idoc:com.sap.conn.idoc</additionalProductizedArtifactId>
+                        <additionalProductizedArtifactId>com.sap.conn.jco:com.sap.conn.jco</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>bom-generator</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>catalog</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>archetypes</additionalProductizedArtifactId>

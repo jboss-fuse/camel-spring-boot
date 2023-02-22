@@ -1,4 +1,5 @@
 org.apache.camel.archetypes:camel-archetype-spring-boot
+camel-sap-starter-parent
 camel-archetype-spring-boot
 camel-spring-boot-engine-starter
 camel-spring-boot-starter
