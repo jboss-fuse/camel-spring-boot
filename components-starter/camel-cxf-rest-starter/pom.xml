@@ -37,31 +37,30 @@
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-cxf-spring-rest</artifactId>
-      <version>${camel-version}</version>
+      <version>3.20.1.redhat-00011</version>
     </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-cxf-common</artifactId>
-      <version>${camel-version}</version>
+      <version>3.20.1.redhat-00011</version>
       <type>test-jar</type>
     </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-cxf-spring-rest</artifactId>
-      <version>${camel-version}</version>
+      <version>3.20.1.redhat-00011</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-http</artifactId>
-      <version>${camel-version}</version>
+      <version>3.20.1.redhat-00011</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.camel.springboot</groupId>
       <artifactId>camel-jetty-starter</artifactId>
-      <version>${camel-version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
