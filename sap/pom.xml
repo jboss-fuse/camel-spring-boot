@@ -35,8 +35,6 @@
   </build>
 
   <modules>
-    <module>com.sap.conn.idoc</module> 
-    <module>com.sap.conn.jco</module>
     <module>camel-sap-starter</module>
   </modules>
 </project>

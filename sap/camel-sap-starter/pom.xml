@@ -34,11 +34,13 @@
       <groupId>com.sap.conn.jco</groupId>
       <artifactId>sapjco3</artifactId>
       <version>${sapjco3-version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.sap.conn.idoc</groupId>
       <artifactId>sapidoc3</artifactId>
       <version>${sapidoc3-version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
