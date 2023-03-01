@@ -4631,7 +4631,7 @@
       <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap</artifactId>
-        <version>3.20.1.redhat-00007</version>
+        <version>3.20.1.redhat-00013</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
