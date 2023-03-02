@@ -211,7 +211,6 @@
 :camel-splunk-hec-starter
 :camel-splunk-starter
 :camel-spring-integration-starter
-:camel-spring-starter
 :camel-springdoc-starter
 :camel-ssh-starter
 :camel-stax-starter

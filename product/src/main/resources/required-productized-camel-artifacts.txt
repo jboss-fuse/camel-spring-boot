@@ -102,6 +102,7 @@ camel-seda-starter
 camel-servlet-starter
 camel-slack-starter
 camel-soap-starter
+camel-spring-starter
 camel-spring-boot-dependencies-starter
 camel-spring-batch-starter
 camel-spring-jdbc-starter
