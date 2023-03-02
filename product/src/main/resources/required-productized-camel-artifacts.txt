@@ -103,6 +103,13 @@ camel-servlet-starter
 camel-slack-starter
 camel-soap-starter
 camel-spring-boot-dependencies-starter
+camel-spring-batch-starter
+camel-spring-jdbc-starter
+camel-spring-ldap-starter
+camel-spring-rabbitmq-starter
+camel-spring-redis-starter
+camel-spring-security-starter
+camel-spring-ws-starter
 camel-stub-starter
 camel-sql-starter
 camel-telegram-starter

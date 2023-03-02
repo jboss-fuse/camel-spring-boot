@@ -210,15 +210,8 @@
 :camel-spark-starter
 :camel-splunk-hec-starter
 :camel-splunk-starter
-:camel-spring-batch-starter
 :camel-spring-integration-starter
-:camel-spring-jdbc-starter
-:camel-spring-ldap-starter
-:camel-spring-rabbitmq-starter
-:camel-spring-redis-starter
-:camel-spring-security-starter
 :camel-spring-starter
-:camel-spring-ws-starter
 :camel-springdoc-starter
 :camel-ssh-starter
 :camel-stax-starter
