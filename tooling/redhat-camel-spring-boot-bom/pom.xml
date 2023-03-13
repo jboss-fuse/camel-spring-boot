@@ -25,25 +25,12 @@
     <version>3.20.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Red Hat Application Foundations :: ${project.artifactId}</name>
+    <name>Red Hat Application Foundations :: Camel Spring Boot BOM</name>
     <description>Red Hat Application Foundations provides organizations with a comprehensive set of components to develop and modernize their software</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-        <!-- Camel / SpringBoot dependency versions -->
-        <version.camel>3.20.1.redhat-00005</version.camel>
-        <version.camel-spring-boot>3.20.1.redhat-00012</version.camel-spring-boot>
-        <version.spring-boot>2.7.9</version.spring-boot>
-
-        <!-- Third party dependency versions -->
-        <version.snakeyaml>1.33</version.snakeyaml>
-        <version.hsqldb>2.7.1</version.hsqldb>
-        <version.elasticsearch-java-client>8.5.2</version.elasticsearch-java-client>
-        <version.cxf>3.5.5</version.cxf>
-        <!-- Latest RH Artemis client release -->
-        <version.artemis>2.21.0</version.artemis> 
     </properties>
 
     <url>https://developers.redhat.com/products/fuse/overview</url>
@@ -80,34 +67,35 @@
 
     <!-- These are place holder dependency management entries -->
     <dependencyManagement>
-        <dependencies>	
+        <dependencies>
             <!-- Insert third party overrides here -->
             <dependency>
                 <groupId>org.yaml</groupId>
                 <artifactId>snakeyaml</artifactId>
-                <version>${version.snakeyaml}</version>
+                <version>1.33</version>
             </dependency>
             <dependency>
                 <groupId>org.hsqldb</groupId>
                 <artifactId>hsqldb</artifactId>
-                <version>${version.hsqldb}</version>
+                <version>2.7.1</version>
             </dependency>
             <!-- Overrides elastic-search dependency since SB is using an older version -->
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
                 <artifactId>elasticsearch-rest-client</artifactId>
-                <version>${version.elasticsearch-java-client}</version>
+                <version>8.5.2</version>
             </dependency>
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
                 <artifactId>elasticsearch-rest-client-sniffer</artifactId>
-                <version>${version.elasticsearch-java-client}</version>
+                <version>8.5.2</version>
             </dependency>
+
             <!-- Artemis Overrides -->
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-commons</artifactId>
-                <version>${version.artemis}</version>
+                <version>2.21.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>commons-logging</groupId>
@@ -118,7 +106,7 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-core-client</artifactId>
-                <version>${version.artemis}</version>
+                <version>2.21.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.apache.geronimo.specs</groupId>
@@ -129,12 +117,12 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jdbc-store</artifactId>
-                <version>${version.artemis}</version>
+                <version>2.21.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jms-client</artifactId>
-                <version>${version.artemis}</version>
+                <version>2.21.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.apache.geronimo.specs</groupId>
@@ -142,12 +130,11 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-
             <!-- Spring Boot Dependencies -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>${version.spring-boot}</version>
+                <version>2.7.9</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -155,7 +142,7 @@
             <dependency>
                 <groupId>org.apache.camel.springboot</groupId>
                 <artifactId>camel-spring-boot-bom</artifactId>
-                <version>${version.camel-spring-boot}</version>
+                <version>3.20.1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -163,7 +150,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>${version.cxf}</version>
+                <version>3.5.5</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
