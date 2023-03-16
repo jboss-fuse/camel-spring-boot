@@ -216,7 +216,7 @@
                     <requiredProductizedCamelArtifacts>${maven.multiModuleProjectDirectory}/product/src/main/resources/required-productized-camel-artifacts.txt</requiredProductizedCamelArtifacts>
                     <simpleElementWhitespace>SPACE</simpleElementWhitespace>
                     <additionalProductizedArtifactIds>
-                        <additionalProductizedArtifactId>com.redhat.camel.springboot.platform:camel-springboot-bom</additionalProductizedArtifactId>
+                        <additionalProductizedArtifactId>com.redhat.camel.springboot.platform:camel-spring-boot-bom</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>org.fusesource:camel-sap-starter</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>com.sap.conn.idoc:com.sap.conn.idoc</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>com.sap.conn.jco:com.sap.conn.jco</additionalProductizedArtifactId>
@@ -966,7 +966,7 @@
                    <configuration>
 			   <outputName>camel-spring-boot-sbom</outputName>
 			   <outputDirectory>${project.basedir}/camel-spring-boot-sbom/</outputDirectory>
-			   <excludeArtifactId>camel-spring-boot-bom,camel-spring-boot-dependencies,camel-springboot-bom</excludeArtifactId>
+			   <excludeArtifactId>camel-spring-boot-bom,camel-spring-boot-dependencies</excludeArtifactId>
                    </configuration>
                    <executions>
                        <execution>

@@ -21,7 +21,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.redhat.camel.springboot.platform</groupId>
-    <artifactId>camel-springboot-bom</artifactId>
+    <artifactId>camel-spring-boot-bom</artifactId>
     <version>3.20.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
