@@ -126,6 +126,7 @@
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <asciidoctorj-version>2.5.5</asciidoctorj-version>
         <avro-version>1.11.0</avro-version>
+        <build-helper-maven-plugin-version>3.3.0</build-helper-maven-plugin-version>
         <glassfish-jaxb-runtime-version>${jakarta-jaxb-version}</glassfish-jaxb-runtime-version>
         <groovy-version>3.0.10</groovy-version>
         <hadoop2-version>2.10.0</hadoop2-version>
@@ -133,12 +134,18 @@
         <jaxb-version>2.3.0</jaxb-version>
         <javax-inject-version>1.0.0.redhat-00008</javax-inject-version>
         <jetty9-version>9.4.45.v20220203</jetty9-version>
+        <!-- keep maven and maven-resolver versions in sync -->
+        <maven-version>3.8.6</maven-version>
+        <maven-resolver-version>1.6.3</maven-resolver-version>
+        <maven-wagon-version>3.5.3</maven-wagon-version>
         <maven-compiler-plugin-version>3.10.1</maven-compiler-plugin-version>
         <maven-javadoc-plugin-version>3.2.0</maven-javadoc-plugin-version>
         <maven-surefire-plugin-version>3.0.0-M4</maven-surefire-plugin-version>
         <mycila-license-version>3.0</mycila-license-version>
         <springdoc-version>1.6.6</springdoc-version>
         <openshift-maven-plugin-version>1.9.1.redhat-00004</openshift-maven-plugin-version>
+        <plexus-utils-version>3.5.1</plexus-utils-version>
+        <plexus-component-metadata-plugin-version>2.1.0</plexus-component-metadata-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.0.31</swagger-parser-v3-version>
         <undertow-version>2.2.16.Final</undertow-version>
@@ -433,6 +440,16 @@
                         </execution>
                     </executions>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>3.5.0</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>3.5.0</version>
+                </plugin>
 
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
@@ -509,6 +526,16 @@
                             <exclude>**/*XXXTest.*</exclude>
                         </excludes>
                     </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.codehaus.plexus</groupId>
+                    <artifactId>plexus-component-metadata</artifactId>
+                    <version>${plexus-component-metadata-plugin-version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>build-helper-maven-plugin</artifactId>
+                    <version>${build-helper-maven-plugin-version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -938,6 +965,12 @@
                     </plugin>
                 </plugins>
             </build>
+        </profile>
+        <profile>
+            <id>maintenance</id>
+            <modules>
+                <module>maintenance</module>
+            </modules>
         </profile>
 
     </profiles>
