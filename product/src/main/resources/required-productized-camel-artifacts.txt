@@ -30,7 +30,6 @@ camel-componentdsl-starter
 camel-controlbus-starter
 camel-core-starter
 camel-core-catalog-starter
-camel-core-engine-starter
 camel-core-languages-starter
 camel-core-processor-starter
 camel-cron-starter
