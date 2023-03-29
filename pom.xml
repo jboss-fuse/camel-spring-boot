@@ -130,7 +130,7 @@
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <artemis-version>2.21.0</artemis-version>
         <asciidoctorj-version>2.5.5</asciidoctorj-version>
-        <avro-version>1.11.0</avro-version>
+        <avro-version>1.11.1</avro-version>
         <build-helper-maven-plugin-version>3.3.0</build-helper-maven-plugin-version>
         <glassfish-jaxb-runtime-version>${jakarta-jaxb-version}</glassfish-jaxb-runtime-version>
         <groovy-version>3.0.16</groovy-version>
@@ -139,7 +139,7 @@
         <jakarta-jaxb-version>2.3.2</jakarta-jaxb-version>
         <jaxb-version>2.3.0</jaxb-version>
         <javax-inject-version>1.0.0.redhat-00008</javax-inject-version>
-        <jetty9-version>9.4.45.v20220203</jetty9-version>
+        <jetty9-version>9.4.50.v20221201</jetty9-version>
         <!-- keep maven and maven-resolver versions in sync -->
         <maven-version>3.8.6</maven-version>
         <maven-resolver-version>1.6.3</maven-resolver-version>
@@ -153,8 +153,8 @@
         <plexus-utils-version>3.5.1</plexus-utils-version>
         <plexus-component-metadata-plugin-version>2.1.0</plexus-component-metadata-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
-        <swagger-parser-v3-version>2.0.31</swagger-parser-v3-version>
-        <undertow-version>2.2.16.Final</undertow-version>
+        <swagger-parser-v3-version>2.1.13</swagger-parser-v3-version>
+        <undertow-version>2.2.23.SP1-redhat-00001</undertow-version>
         <camel-spring-boot-community.version>3.20.1</camel-spring-boot-community.version>
         <cyclonedx-maven-plugin-version>2.7.5</cyclonedx-maven-plugin-version>
 
