@@ -22,7 +22,7 @@
 
     <groupId>com.redhat.camel.springboot.platform</groupId>
     <artifactId>camel-spring-boot-bom</artifactId>
-    <version>3.20.1-SNAPSHOT</version>
+    <version>${project.version}</version>
     <packaging>pom</packaging>
 
     <name>Red Hat Application Foundations :: Camel Spring Boot BOM</name>
