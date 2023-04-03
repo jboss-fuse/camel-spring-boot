@@ -79,6 +79,17 @@
                 <artifactId>hsqldb</artifactId>
                 <version>${hsqldb-version}</version>
             </dependency>
+            <!-- Overrides undertow-core/servlet since SB is using an older version -->
+            <dependency>
+                <groupId>io.undertow</groupId>
+                <artifactId>undertow-core</artifactId>
+                <version>${undertow-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.undertow</groupId>
+                <artifactId>undertow-servlet</artifactId>
+                <version>${undertow-version}</version>
+            </dependency>
             <!-- Overrides elastic-search dependency since SB is using an older version -->
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
