@@ -69,7 +69,7 @@ import org.apache.cxf.spring.boot.autoconfigure.CxfAutoConfiguration;
         CxfRsProducerAddressOverrideTest.class,
         CxfRsProducerAddressOverrideTest.TestConfiguration.class,
         CxfAutoConfiguration.class
-    }, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
+    }
 )
 public class CxfRsProducerAddressOverrideTest {
 
@@ -297,12 +297,6 @@ public class CxfRsProducerAddressOverrideTest {
     @Configuration
     public class TestConfiguration {
 
-        
-        @Bean
-        public ServletWebServerFactory servletWebServerFactory() {
-            return new UndertowServletWebServerFactory(port1);
-        }
-              
         
         @Bean 
         public CamelEndpointFactoryBean fromEndpoint() {

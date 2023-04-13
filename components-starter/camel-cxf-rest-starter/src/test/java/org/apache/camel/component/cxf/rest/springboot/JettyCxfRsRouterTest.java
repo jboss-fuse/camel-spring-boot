@@ -56,7 +56,7 @@ import org.apache.cxf.spring.boot.autoconfigure.CxfAutoConfiguration;
         JettyCxfRsRouterTest.class,
         JettyCxfRsRouterTest.TestConfiguration.class,
         CxfAutoConfiguration.class
-    }, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
+    }
 )
 public class JettyCxfRsRouterTest extends CxfRsRouterTest {
     
@@ -104,13 +104,6 @@ public class JettyCxfRsRouterTest extends CxfRsRouterTest {
     @Configuration
     public class TestConfiguration {
 
-        
-        @Bean
-        public ServletWebServerFactory servletWebServerFactory() {
-            return new UndertowServletWebServerFactory(port);
-        }
-        
-        
         @Bean
         public AbstractJAXRSFactoryBean rsClient() {
             SpringJAXRSClientFactoryBean afb = new SpringJAXRSClientFactoryBean();

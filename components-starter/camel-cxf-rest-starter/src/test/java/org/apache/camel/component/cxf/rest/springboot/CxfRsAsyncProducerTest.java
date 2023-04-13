@@ -82,7 +82,7 @@ import org.apache.cxf.spring.boot.autoconfigure.CxfAutoConfiguration;
         CxfRsAsyncProducerTest.class,
         CxfRsAsyncProducerTest.TestConfiguration.class,
         CxfAutoConfiguration.class
-    }, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
+    }
 )
 public class CxfRsAsyncProducerTest {
 
@@ -570,11 +570,6 @@ public class CxfRsAsyncProducerTest {
     @Configuration
     public class TestConfiguration {
 
-        
-        @Bean
-        public ServletWebServerFactory servletWebServerFactory() {
-            return new UndertowServletWebServerFactory(port1);
-        }
               
         
         @Bean 

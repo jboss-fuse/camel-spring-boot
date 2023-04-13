@@ -88,7 +88,7 @@ import org.apache.cxf.testutil.common.ServerLauncher;
         CxfRsProducerTest.class,
         CxfRsProducerTest.TestConfiguration.class,
         CxfAutoConfiguration.class
-    }, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
+    }
 )
 public class CxfRsProducerTest {
 
@@ -664,13 +664,6 @@ public class CxfRsProducerTest {
     @Configuration
     public class TestConfiguration {
 
-        
-        @Bean
-        public ServletWebServerFactory servletWebServerFactory() {
-            return new UndertowServletWebServerFactory(port1);
-        }
-              
-        
         @Bean 
         public CamelEndpointFactoryBean fromEndpoint() {
             CamelEndpointFactoryBean jettyConsumer = new CamelEndpointFactoryBean();
