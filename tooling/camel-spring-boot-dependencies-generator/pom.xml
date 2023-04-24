@@ -125,6 +125,7 @@
 
                             <!-- Different versions from the ones provided by spring-boot -->
                             <exclude>de.flapdoodle*:*</exclude>
+                            <exclude>net.minidev:json-smart:*</exclude>
                             <exclude>org.apache.activemq:*</exclude>
                             <exclude>org.apache.commons:commons-pool2</exclude>
                             <exclude>org.apache.httpcomponents:httpasyncclient</exclude>
