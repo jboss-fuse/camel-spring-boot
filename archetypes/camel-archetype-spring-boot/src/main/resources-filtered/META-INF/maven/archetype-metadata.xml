@@ -24,6 +24,9 @@
     <requiredProperty key="camel-version">
       <defaultValue>${project.version}</defaultValue>
     </requiredProperty>
+    <requiredProperty key="camel-spring-boot-version">
+      <defaultValue>${project.version}</defaultValue>
+    </requiredProperty>
     <requiredProperty key="spring-boot-version">
       <defaultValue>${spring-boot-version}</defaultValue>
     </requiredProperty>
