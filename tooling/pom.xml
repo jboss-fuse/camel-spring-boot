@@ -42,6 +42,7 @@
         <module>camel-spring-boot-starter-generator</module>
         <module>redhat-camel-spring-boot-bom-generator</module>
         <module>redhat-camel-spring-boot-bom</module>
+        <module>redhat-patch-maven-plugin</module>
     </modules>
 
     <build>
