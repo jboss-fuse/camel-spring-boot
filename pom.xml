@@ -122,6 +122,7 @@
 
         <!-- versions -->
         <aether-version>1.0.2.v20150114</aether-version>
+        <artemis-version>2.21.0</artemis-version>
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <asciidoctorj-version>2.5.5</asciidoctorj-version>
