@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.apache.camel.springboot</groupId>
     <artifactId>components-starter</artifactId>
-    <version>4.0.0-M2</version>
+    <version>4.0.0-M2-SNAPSHOT</version>
   </parent>
   <artifactId>camel-mina-starter</artifactId>
   <packaging>jar</packaging>
@@ -37,7 +37,7 @@
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-mina</artifactId>
-      <version>${camel-version}</version>
+      <version>${camel-community.version}</version>
     </dependency>
     <!--START OF GENERATED CODE-->
     <dependency>

@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>spring-boot-parent</artifactId>
-        <version>4.0.0-M2</version>
+        <version>4.0.0-M2-SNAPSHOT</version>
         <relativePath>../parent/pom.xml</relativePath>
     </parent>
 
@@ -35,7 +35,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>camel-catalog-provider-springboot</module>
+        <!-- <module>camel-catalog-provider-springboot</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     </modules>
 
 </project>

@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-starter-parent</artifactId>
-        <version>4.0.0-M2</version>
+        <version>4.0.0-M2-SNAPSHOT</version>
         <relativePath>../tooling/camel-starter-parent</relativePath>
     </parent>
 
@@ -36,15 +36,15 @@
     <modules>
         <module>camel-cli-connector-starter</module>
         <module>camel-componentdsl-starter</module>
-        <module>camel-dsl-modeline-starter</module>
+        <!-- <module>camel-dsl-modeline-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <module>camel-endpointdsl-starter</module>
-        <module>camel-groovy-dsl-starter</module>
+        <!-- <module>camel-groovy-dsl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <module>camel-java-joor-dsl-starter</module>
-        <module>camel-js-dsl-starter</module>
-        <module>camel-jsh-dsl-starter</module>
-        <module>camel-kotlin-dsl-starter</module>
+        <!-- <module>camel-js-dsl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+        <!-- <module>camel-jsh-dsl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+        <!-- <module>camel-kotlin-dsl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <module>camel-xml-io-dsl-starter</module>
-        <module>camel-xml-jaxb-dsl-starter</module>
+        <!-- <module>camel-xml-jaxb-dsl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <module>camel-yaml-dsl-starter</module>
     </modules>
 
