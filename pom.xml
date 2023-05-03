@@ -203,7 +203,7 @@
                     <dependency>
                         <groupId>org.apache.camel</groupId>
                         <artifactId>camel-package-maven-plugin</artifactId>
-                        <version>${camel.version}</version>
+                        <version>${camel-version}</version>
                     </dependency>
                 </dependencies>
             </plugin>
