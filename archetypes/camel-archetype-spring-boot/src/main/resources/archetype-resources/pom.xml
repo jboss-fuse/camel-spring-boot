@@ -32,7 +32,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <spring.boot-version>${spring-boot-version}</spring.boot-version>
     <surefire.plugin.version>3.0.0-M4</surefire.plugin.version>
-    <jkube.generator.from>registry.access.redhat.com/ubi8/openjdk-11:1.14</jkube.generator.from>
+    <jkube.generator.from>registry.access.redhat.com/ubi8/openjdk-11:1.15</jkube.generator.from>
   </properties>
 
   <dependencyManagement>
