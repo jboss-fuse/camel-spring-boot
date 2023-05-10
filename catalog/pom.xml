@@ -35,7 +35,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>camel-catalog-provider-springboot</module>
+        <!-- <module>camel-catalog-provider-springboot</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     </modules>
 
 </project>

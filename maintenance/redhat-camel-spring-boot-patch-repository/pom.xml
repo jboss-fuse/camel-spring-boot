@@ -23,7 +23,7 @@
     <parent>
         <groupId>com.redhat.camel.springboot.platform</groupId>
         <artifactId>redhat-camel-spring-boot-maintenance</artifactId>
-        <version>3.18.3-SNAPSHOT</version>
+        <version>4.0.0-M3-SNAPSHOT</version>
     </parent>
 
     <artifactId>redhat-camel-spring-boot-patch-repository</artifactId>
