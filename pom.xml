@@ -77,6 +77,7 @@
         <module>catalog</module>
         <!-- <module>tests</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <!-- <module>docs</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+        <module>sap</module>
         <module>archetypes</module>
     </modules>
 
@@ -117,6 +118,7 @@
         <cq-plugin.version>4.1.4-SNAPSHOT</cq-plugin.version>
         <camel-community.version>4.0.0-M3</camel-community.version>
         <camel-spring-boot-community.version>4.0.0-M3</camel-spring-boot-community.version>
+        <camel-sap.version>4.0.0.redhat-00001</camel-sap.version>
 
         <!-- narayana spring boot version -->
         <narayana-spring-boot.version>2.6.5.redhat-00004</narayana-spring-boot.version>
