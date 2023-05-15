@@ -146,6 +146,25 @@
         <openshift-maven-plugin-version>1.13.1.redhat-00001</openshift-maven-plugin-version>
         <plexus-component-metadata-plugin-version>2.1.1</plexus-component-metadata-plugin-version>
     </properties>
+    <dependencyManagement>
+        <dependencies>
+            <!-- me.snowdrop:narayana-spring-boot-core dependencyManagement entry
+                is necessary for PME align to the correct narayana-spring-boot.version -->
+            <dependency>
+                <groupId>me.snowdrop</groupId>
+                <artifactId>narayana-spring-boot-core</artifactId>
+                <version>${narayana-spring-boot.version}</version>
+            </dependency>
+            <!-- org.fusesource:camel-sap dependencyManagement entry
+                is necessary for PME align to the correct narayana-spring-boot.version -->
+            <dependency>
+                <groupId>org.fusesource</groupId>
+                <artifactId>camel-sap</artifactId>
+                <version>${camel-sap.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
     <!-- Comment out the snapshot repositories as we don't need them now -->
     <repositories>
