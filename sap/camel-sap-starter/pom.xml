@@ -117,7 +117,7 @@
         </executions>
       </plugin>
     </plugins>
-    <pluginManagement/>
+    <pluginManagement />
   </build>
   <distributionManagement>
     <repository>

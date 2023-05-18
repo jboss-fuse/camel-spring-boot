@@ -31,7 +31,6 @@
 :camel-box-starter
 :camel-braintree-starter
 :camel-caffeine-starter
-:camel-catalog-provider-springboot
 :camel-cbor-starter
 :camel-chatscript-starter
 :camel-chunk-starter
@@ -229,8 +228,6 @@
 :dependency-management-example
 :dependency-management-example-module1
 :docs
-:patch-maven-plugin
-:redhat-camel-spring-boot-bom-generator
 :redhat-camel-spring-boot-maintenance
 :redhat-camel-spring-boot-patch-metadata
 :redhat-camel-spring-boot-patch-repository
