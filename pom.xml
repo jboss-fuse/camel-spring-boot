@@ -134,7 +134,7 @@
         <jakarta-jaxb-version>2.3.3</jakarta-jaxb-version>
         <jaxb-version>2.3.0</jaxb-version>
         <javax-inject-version>1.0.0.redhat-00008</javax-inject-version>
-        <jetty9-version>9.4.45.v20220203</jetty9-version>
+        <jetty9-version>9.4.49.v20220914-redhat-00001</jetty9-version>
         <!-- keep maven and maven-resolver versions in sync -->
         <maven-version>3.8.6</maven-version>
         <maven-resolver-version>1.6.3</maven-resolver-version>
