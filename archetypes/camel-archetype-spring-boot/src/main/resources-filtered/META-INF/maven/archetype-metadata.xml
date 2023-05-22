@@ -24,11 +24,17 @@
     <requiredProperty key="camel-version">
       <defaultValue>${project.version}</defaultValue>
     </requiredProperty>
+    <requiredProperty key="camel-spring-boot-version">
+      <defaultValue>${project.version}</defaultValue>
+    </requiredProperty>
     <requiredProperty key="spring-boot-version">
       <defaultValue>${spring-boot-version}</defaultValue>
     </requiredProperty>
     <requiredProperty key="maven-compiler-plugin-version">
       <defaultValue>${maven-compiler-plugin-version}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="openshift-maven-plugin-version">
+      <defaultValue>${openshift-maven-plugin-version}</defaultValue>
     </requiredProperty>
   </requiredProperties>
   <fileSets>
