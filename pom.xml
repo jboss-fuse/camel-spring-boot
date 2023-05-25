@@ -133,7 +133,7 @@
         <avro-version>1.11.1</avro-version>
         <build-helper-maven-plugin-version>3.3.0</build-helper-maven-plugin-version>
         <glassfish-jaxb-runtime-version>${jakarta-jaxb-version}</glassfish-jaxb-runtime-version>
-        <groovy-version>3.0.16</groovy-version>
+        <groovy-version>3.0.17</groovy-version>
         <hadoop2-version>2.10.0</hadoop2-version>
         <hsqldb-version>2.7.1</hsqldb-version>
         <jakarta-jaxb-version>2.3.2</jakarta-jaxb-version>
@@ -154,7 +154,7 @@
         <plexus-component-metadata-plugin-version>2.1.0</plexus-component-metadata-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.1.13</swagger-parser-v3-version>
-        <undertow-version>2.2.23.SP2-redhat-00001</undertow-version>
+        <undertow-version>2.2.24.Final</undertow-version>
         <camel-spring-boot-community.version>3.20.1</camel-spring-boot-community.version>
         <cyclonedx-maven-plugin-version>2.7.5</cyclonedx-maven-plugin-version>
 
