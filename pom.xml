@@ -149,7 +149,7 @@
         <plexus-component-metadata-plugin-version>2.1.0</plexus-component-metadata-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.0.31</swagger-parser-v3-version>
-        <undertow-version>2.2.24.SP1-redhat-00001</undertow-version>
+        <undertow-version>2.2.24.Final</undertow-version>
         <camel-spring-boot-community.version>3.18.3</camel-spring-boot-community.version>
     </properties>
 
