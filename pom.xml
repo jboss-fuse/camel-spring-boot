@@ -112,10 +112,10 @@
         <spring-boot-version>3.0.6</spring-boot-version>
 
         <!-- Camel target version -->
-        <camel-version>4.0.0.M3-redhat-00001</camel-version>
+        <camel-version>4.0.0.M3-redhat-00008</camel-version>
 
         <!-- cq plugin version -->
-        <cq-plugin.version>4.1.4-SNAPSHOT</cq-plugin.version>
+        <cq-plugin.version>4.3.0</cq-plugin.version>
         <camel-community.version>4.0.0-M3</camel-community.version>
         <camel-spring-boot-community.version>4.0.0-M3</camel-spring-boot-community.version>
         <camel-sap.version>4.0.0.redhat-00001</camel-sap.version>
