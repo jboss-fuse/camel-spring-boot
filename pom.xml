@@ -125,6 +125,7 @@
 
         <!-- versions -->
         <aether-version>1.0.2.v20150114</aether-version>
+        <artemis-version>2.26.0</artemis-version>
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <asciidoctorj-version>2.5.5</asciidoctorj-version>
@@ -150,7 +151,7 @@
         <plexus-component-metadata-plugin-version>2.1.1</plexus-component-metadata-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.1.10</swagger-parser-v3-version>
-	<cyclonedx-maven-plugin-version>2.7.6</cyclonedx-maven-plugin-version>
+        <cyclonedx-maven-plugin-version>2.7.6</cyclonedx-maven-plugin-version>
     </properties>
 
     <dependencyManagement>
@@ -980,8 +981,8 @@
                    <version>${cyclonedx-maven-plugin-version}</version>
                    <inherited>false</inherited>
                    <configuration>
-			            <outputName>camel-spring-boot-sbom</outputName>
-			            <outputDirectory>${project.basedir}/camel-spring-boot-sbom/</outputDirectory>
+                        <outputName>camel-spring-boot-sbom</outputName>
+                        <outputDirectory>${project.basedir}/camel-spring-boot-sbom/</outputDirectory>
                         <excludeArtifactId>camel-spring-boot-bom,camel-spring-boot-dependencies</excludeArtifactId>
                    </configuration>
                    <executions>
