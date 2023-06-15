@@ -121,7 +121,7 @@
         <camel-sap.version>4.0.0.redhat-00001</camel-sap.version>
 
         <!-- narayana spring boot version -->
-        <narayana-spring-boot.version>2.6.7.redhat-00123</narayana-spring-boot.version>
+        <narayana-spring-boot.version>3.0.0.redhat-00002</narayana-spring-boot.version>
 
         <!-- versions -->
         <aether-version>1.0.2.v20150114</aether-version>
