@@ -249,13 +249,8 @@ public class BomGeneratorMojo extends AbstractMojo {
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel");
-        dep.setArtifactId("camel-test-spring");
-        dep.setVersion(camelCommunityVersion);
-        outDependencies.add(dep);
-        dep = new Dependency();
-        dep.setGroupId("org.apache.camel");
         dep.setArtifactId("camel-test-spring-junit5");
-        dep.setVersion(camelCommunityVersion);
+        dep.setVersion(camelVersion);
         outDependencies.add(dep);
 
         return outDependencies;
