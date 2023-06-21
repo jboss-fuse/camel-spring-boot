@@ -1740,13 +1740,8 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
-        <artifactId>camel-test-spring</artifactId>
-        <version>4.0.0-RC2</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel</groupId>
         <artifactId>camel-test-spring-junit5</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>4.0.0.RC2-redhat-00003</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
