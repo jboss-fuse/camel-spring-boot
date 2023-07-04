@@ -17,6 +17,7 @@ package org.apache.camel.springboot.patch;
 
 import java.io.File;
 import java.util.Properties;
+import java.util.ServiceLoader;
 
 import com.google.inject.AbstractModule;
 import org.apache.commons.io.FileUtils;
@@ -59,6 +60,8 @@ import org.eclipse.aether.version.VersionRange;
 import org.apache.camel.springboot.patch.extensions.ZipWagon;
 import org.apache.camel.springboot.patch.model.ProductVersion;
 import org.junit.jupiter.api.Test;
+import org.junit.platform.engine.TestEngine;
+
 import org.slf4j.ILoggerFactory;
 import org.slf4j.LoggerFactory;
 
@@ -127,7 +130,8 @@ public class MavenTest {
         session.setLocalRepositoryManager(resolverSystem.newLocalRepositoryManager(session, localRepository));
 
         ArtifactRequest request = new ArtifactRequest();
-        request.setArtifact(new DefaultArtifact("commons-io:commons-io:jar:2.8.0"));
+        String junitVersion = ServiceLoader.load(TestEngine.class).findFirst().get().getVersion().get();
+        request.setArtifact(new DefaultArtifact("org.junit.jupiter:junit-jupiter-engine:" + junitVersion));
         ArtifactResult result = resolverSystem.resolveArtifact(session, request);
         System.out.println(result.getArtifact().getFile());
     }
