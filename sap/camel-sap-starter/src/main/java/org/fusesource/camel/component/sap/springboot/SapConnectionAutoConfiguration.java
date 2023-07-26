@@ -83,7 +83,8 @@ public class SapConnectionAutoConfiguration {
 					Map<String, Object> parameters = new HashMap<String, Object>();
 
 					BeanIntrospection bi = PluginHelper.getBeanIntrospection(camelContext);
-					CamelPropertiesHelper.setCamelProperties(camelContext, destinationsData, parameters, false);
+					bi.getProperties(entry.getValue(), parameters, null, false);
+					CamelPropertiesHelper.setCamelProperties(camelContext, destinationData, parameters, false);
 	
 					configuration.getDestinationDataStore().put(entry.getKey(), destinationData);
 				}
@@ -96,7 +97,9 @@ public class SapConnectionAutoConfiguration {
 
 					Map<String, Object> parameters = new HashMap<String, Object>();
 					BeanIntrospection bi = PluginHelper.getBeanIntrospection(camelContext);
+					bi.getProperties(entry.getValue(), parameters, null, false);
 					CamelPropertiesHelper.setCamelProperties(camelContext, serverData, parameters, false);
+
 					configuration.getServerDataStore().put(entry.getKey(), serverData);
 				}
 			}
