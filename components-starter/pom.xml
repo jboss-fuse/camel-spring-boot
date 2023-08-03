@@ -138,7 +138,7 @@
     <!-- <module>camel-aws2-sts-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-aws2-translate-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-azure-cosmosdb-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-azure-eventhubs-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-azure-eventhubs-starter</module>
     <!-- <module>camel-azure-files-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-azure-key-vault-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-azure-servicebus-starter</module>
@@ -171,7 +171,7 @@
     <!-- <module>camel-couchbase-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-couchdb-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-cron-starter</module>
-    <!-- <module>camel-crypto-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-crypto-starter</module>
     <!-- <module>camel-csimple-joor-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-csv-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-cxf-rest-starter</module>
@@ -227,7 +227,7 @@
     <!-- <module>camel-graphql-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-grok-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-groovy-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-grpc-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-grpc-starter</module>
     <module>camel-gson-starter</module>
     <!-- <module>camel-guava-eventbus-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-hashicorp-vault-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -245,7 +245,7 @@
     <!-- <module>camel-ical-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-iec60870-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-ignite-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-infinispan-embedded-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-infinispan-embedded-starter</module>
     <module>camel-infinispan-starter</module>
     <!-- <module>camel-influxdb-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-influxdb2-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -260,7 +260,7 @@
     <module>camel-jaxb-starter</module>
     <!-- <module>camel-jcache-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jcr-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-jdbc-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-jdbc-starter</module>
     <!-- <module>camel-jetty-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jfr-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jgroups-raft-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -302,7 +302,7 @@
     <module>camel-mapstruct-starter</module>
     <module>camel-master-starter</module>
     <!-- <module>camel-metrics-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-micrometer-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-micrometer-starter</module>
     <!-- <module>camel-mina-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-minio-starter</module>
     <module>camel-mllp-starter</module>
@@ -313,14 +313,14 @@
     <!-- <module>camel-mvel-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-mybatis-starter</module>
     <module>camel-nats-starter</module>
-    <!-- <module>camel-netty-http-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-netty-http-starter</module>
     <module>camel-netty-starter</module>
     <!-- <module>camel-nitrite-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-oaipmh-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-observation-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-ognl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-olingo2-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-olingo4-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-olingo4-starter</module>
     <module>camel-openapi-java-starter</module>
     <!-- <module>camel-opensearch-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-openstack-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -404,7 +404,7 @@
     <module>camel-velocity-starter</module>
     <!-- <module>camel-vertx-http-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-vertx-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-vertx-websocket-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-vertx-websocket-starter</module>
     <!-- <module>camel-weather-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-web3j-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-webhook-starter</module>
@@ -417,7 +417,7 @@
     <!-- <module>camel-xmlsecurity-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-xmpp-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-xpath-starter</module>
-    <!-- <module>camel-xslt-saxon-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-xslt-saxon-starter</module>
     <module>camel-xslt-starter</module>
     <!-- <module>camel-zeebe-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-zendesk-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->

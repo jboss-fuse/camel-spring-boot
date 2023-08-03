@@ -221,7 +221,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-azure-eventhubs-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -396,7 +396,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-crypto-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -691,7 +691,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-grpc-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -781,7 +781,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-infinispan-embedded-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -861,7 +861,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-jdbc-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -1071,7 +1071,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-micrometer-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -1126,7 +1126,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-netty-http-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -1161,7 +1161,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-olingo4-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -1611,7 +1611,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-vertx-websocket-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -1686,7 +1686,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-xslt-saxon-starter</artifactId>
-        <version>4.0.0-RC2</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>

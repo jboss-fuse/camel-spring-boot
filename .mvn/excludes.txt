@@ -23,7 +23,6 @@
 :camel-aws2-sts-starter
 :camel-aws2-translate-starter
 :camel-azure-cosmosdb-starter
-:camel-azure-eventhubs-starter
 :camel-azure-files-starter
 :camel-azure-key-vault-starter
 :camel-azure-storage-datalake-starter
@@ -45,7 +44,6 @@
 :camel-corda-starter
 :camel-couchbase-starter
 :camel-couchdb-starter
-:camel-crypto-starter
 :camel-csimple-joor-starter
 :camel-csv-starter
 :camel-datasonnet-starter
@@ -91,7 +89,6 @@
 :camel-grok-starter
 :camel-groovy-dsl-starter
 :camel-groovy-starter
-:camel-grpc-starter
 :camel-guava-eventbus-starter
 :camel-hashicorp-vault-starter
 :camel-hazelcast-starter
@@ -106,7 +103,6 @@
 :camel-ical-starter
 :camel-iec60870-starter
 :camel-ignite-starter
-:camel-infinispan-embedded-starter
 :camel-influxdb-starter
 :camel-influxdb2-starter
 :camel-irc-starter
@@ -116,7 +112,6 @@
 :camel-javascript-starter
 :camel-jcache-starter
 :camel-jcr-starter
-:camel-jdbc-starter
 :camel-jetty-starter
 :camel-jfr-starter
 :camel-jgroups-raft-starter
@@ -147,18 +142,15 @@
 :camel-lzf-starter
 :camel-management-starter
 :camel-metrics-starter
-:camel-micrometer-starter
 :camel-mina-starter
 :camel-mongodb-gridfs-starter
 :camel-mustache-starter
 :camel-mvel-starter
-:camel-netty-http-starter
 :camel-nitrite-starter
 :camel-oaipmh-starter
 :camel-observation-starter
 :camel-ognl-starter
 :camel-olingo2-starter
-:camel-olingo4-starter
 :camel-opensearch-starter
 :camel-openstack-starter
 :camel-optaplanner-starter
@@ -211,7 +203,6 @@
 :camel-univocity-parsers-starter
 :camel-vertx-http-starter
 :camel-vertx-starter
-:camel-vertx-websocket-starter
 :camel-weather-starter
 :camel-web3j-starter
 :camel-wordpress-starter
@@ -221,7 +212,6 @@
 :camel-xml-jaxb-starter
 :camel-xmlsecurity-starter
 :camel-xmpp-starter
-:camel-xslt-saxon-starter
 :camel-zeebe-starter
 :camel-zendesk-starter
 :camel-zip-deflater-starter
@@ -230,8 +220,6 @@
 :dependency-management-example
 :dependency-management-example-module1
 :docs
-:patch-maven-plugin
-:redhat-camel-spring-boot-bom-generator
 :redhat-camel-spring-boot-maintenance
 :redhat-camel-spring-boot-patch-metadata
 :redhat-camel-spring-boot-patch-repository
