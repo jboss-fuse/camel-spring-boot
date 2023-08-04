@@ -133,7 +133,6 @@
 :camel-knative-starter
 :camel-kotlin-dsl-starter
 :camel-kudu-starter
-:camel-ldap-starter
 :camel-ldif-starter
 :camel-leveldb-starter
 :camel-lra-starter

@@ -78,6 +78,7 @@ camel-kafka-starter
 camel-kamelet-starter
 camel-kubernetes-starter
 camel-language-starter
+camel-ldap-starter
 camel-log-starter
 camel-mail-starter
 camel-mail-microsoft-oauth-starter
