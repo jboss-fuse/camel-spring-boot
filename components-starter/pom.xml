@@ -288,7 +288,7 @@
     <module>camel-kubernetes-starter</module>
     <!-- <module>camel-kudu-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-language-starter</module>
-    <!-- <module>camel-ldap-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-ldap-starter</module>
     <!-- <module>camel-ldif-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-leveldb-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-log-starter</module>
