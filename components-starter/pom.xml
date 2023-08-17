@@ -271,7 +271,7 @@
     <!-- <module>camel-jooq-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-joor-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-jpa-starter</module>
-    <!-- <module>camel-jq-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-jq-starter</module>
     <!-- <module>camel-jsch-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-jslt-starter</module>
     <!-- <module>camel-json-patch-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -366,7 +366,7 @@
     <module>camel-slack-starter</module>
     <!-- <module>camel-smpp-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-snakeyaml-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-snmp-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-snmp-starter</module>
     <module>camel-soap-starter</module>
     <!-- <module>camel-splunk-hec-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-splunk-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -412,7 +412,7 @@
     <!-- <module>camel-workday-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-xchange-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-xj-starter</module>
-    <!-- <module>camel-xml-jaxb-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-xml-jaxb-starter</module>
     <module>camel-xml-jaxp-starter</module>
     <!-- <module>camel-xmlsecurity-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-xmpp-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
