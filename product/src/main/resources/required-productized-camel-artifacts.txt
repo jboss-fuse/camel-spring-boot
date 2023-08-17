@@ -71,6 +71,7 @@ camel-jdbc-starter
 camel-jira-starter
 camel-jms-starter
 camel-jpa-starter
+camel-jq-starter
 camel-jslt-starter
 camel-jsonpath-starter
 camel-jta-starter
@@ -116,6 +117,7 @@ camel-scheduler-starter
 camel-seda-starter
 camel-servlet-starter
 camel-slack-starter
+camel-snmp-starter
 camel-soap-starter
 camel-spring-starter
 camel-spring-boot-dependencies-starter
@@ -138,6 +140,7 @@ camel-webhook-starter
 camel-xj-starter
 camel-xml-io-starter
 camel-xml-io-dsl-starter
+camel-xml-jaxb-starter
 camel-xml-jaxp-starter
 camel-xpath-starter
 camel-xslt-starter
