@@ -28,15 +28,10 @@ camel-bean-validator-starter
 camel-bindy-starter
 camel-browse-starter
 camel-cassandraql-starter
-camel-catalog-starter
 camel-cli-connector-starter
-camel-cloud-starter
 camel-componentdsl-starter
 camel-controlbus-starter
 camel-core-starter
-camel-core-catalog-starter
-camel-core-languages-starter
-camel-core-processor-starter
 camel-cron-starter
 camel-crypto-starter
 camel-cxf-rest-starter
@@ -44,8 +39,6 @@ camel-cxf-soap-starter
 camel-cxf-transport-starter
 camel-dataformat-starter
 camel-dataset-starter
-camel-dependencies-starter
-camel-dependencies-generator-starter
 camel-direct-starter
 camel-elasticsearch-starter
 camel-endpointdsl-starter
@@ -58,7 +51,6 @@ camel-grpc-starter
 camel-gson-starter
 camel-hl7-starter
 camel-http-starter
-camel-http-common-starter
 camel-infinispan-starter
 camel-infinispan-embedded-starter
 camel-jackson-starter
@@ -74,7 +66,6 @@ camel-jpa-starter
 camel-jq-starter
 camel-jslt-starter
 camel-jsonpath-starter
-camel-jta-starter
 camel-kafka-starter
 camel-kamelet-starter
 camel-kubernetes-starter
@@ -83,13 +74,9 @@ camel-ldap-starter
 camel-log-starter
 camel-mail-starter
 camel-mail-microsoft-oauth-starter
-camel-main-starter
 camel-mapstruct-starter
 camel-master-starter
 camel-micrometer-starter
-camel-microprofile-config-starter
-camel-microprofile-health-starter
-camel-microprofile-metrics-starter
 camel-minio-starter
 camel-mllp-starter
 camel-mock-starter
@@ -104,7 +91,6 @@ camel-opentelemetry-starter
 camel-paho-starter
 camel-paho-mqtt5-starter
 camel-platform-http-starter
-camel-http-vertx-starter
 camel-quartz-starter
 camel-ref-starter
 camel-rest-starter
@@ -120,7 +106,6 @@ camel-slack-starter
 camel-snmp-starter
 camel-soap-starter
 camel-spring-starter
-camel-spring-boot-dependencies-starter
 camel-spring-batch-starter
 camel-spring-jdbc-starter
 camel-spring-ldap-starter
@@ -131,14 +116,12 @@ camel-spring-ws-starter
 camel-stub-starter
 camel-sql-starter
 camel-telegram-starter
-camel-test-spring-junit5-starter
 camel-timer-starter
 camel-validator-starter
 camel-velocity-starter
 camel-vertx-websocket-starter
 camel-webhook-starter
 camel-xj-starter
-camel-xml-io-starter
 camel-xml-io-dsl-starter
 camel-xml-jaxb-starter
 camel-xml-jaxp-starter
