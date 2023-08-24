@@ -79,6 +79,12 @@
                 <artifactId>hsqldb</artifactId>
                 <version>${hsqldb-version}</version>
             </dependency>
+            <!-- Override snappy-java -->
+            <dependency>
+                <groupId>org.xerial.snappy</groupId>
+                <artifactId>snappy-java</artifactId>
+                <version>${snappy-java-version}</version>
+            </dependency>
             <!-- Overrides undertow-core/servlet since SB is using an older version -->
             <dependency>
                 <groupId>io.undertow</groupId>
