@@ -72,7 +72,7 @@
             <dependency>
                 <groupId>org.yaml</groupId>
                 <artifactId>snakeyaml</artifactId>
-                <version>1.33.0.redhat-00001</version>
+                <version>1.33.0.redhat-00002</version>
             </dependency>
             <dependency>
                 <groupId>org.hsqldb</groupId>
@@ -83,12 +83,18 @@
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-core</artifactId>
-                <version>2.2.16.Final</version>
+                <version>2.2.24.Final</version>
             </dependency>
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-servlet</artifactId>
-                <version>2.2.16.Final</version>
+                <version>2.2.24.Final</version>
+            </dependency>
+            <!-- Overrides snappy-java -->
+            <dependency>
+                <groupId>org.xerial.snappy</groupId>
+                <artifactId>snappy-java</artifactId>
+                <version>1.1.10.3</version>
             </dependency>
             <!-- Overrides elastic-search dependency since SB is using an older version -->
             <dependency>
@@ -106,7 +112,7 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-commons</artifactId>
-                <version>${artemis-version}</version>
+                <version>2.21.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>commons-logging</groupId>
@@ -117,7 +123,7 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-core-client</artifactId>
-                <version>${artemis-version}</version>
+                <version>2.21.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.apache.geronimo.specs</groupId>
@@ -128,12 +134,12 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jdbc-store</artifactId>
-                <version>${artemis-version}</version>
+                <version>2.21.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jms-client</artifactId>
-                <version>${artemis-version}</version>
+                <version>2.21.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.apache.geronimo.specs</groupId>
@@ -145,7 +151,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.7.12</version>
+                <version>2.7.15</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -161,7 +167,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>3.5.3.redhat-00032</version>
+                <version>3.5.3.redhat-00047</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
