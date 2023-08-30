@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>3.18.3.redhat-00021</version>
+        <version>3.18.3.redhat-00035</version>
     </parent>
 
     <groupId>org.apache.camel.springboot</groupId>
@@ -108,10 +108,10 @@
         <compiler.fork>false</compiler.fork>
 
         <!-- Spring-Boot target version -->
-        <spring-boot-version>2.7.12</spring-boot-version>
+        <spring-boot-version>2.7.15</spring-boot-version>
 
         <!-- Camel target version -->
-        <camel-version>3.18.3.redhat-00021</camel-version>
+        <camel-version>3.18.3.redhat-00035</camel-version>
 
         <!-- cq plugin version -->
         <cq-plugin.version>2.32.0</cq-plugin.version>
