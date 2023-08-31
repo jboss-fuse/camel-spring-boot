@@ -90,6 +90,12 @@
                 <artifactId>undertow-servlet</artifactId>
                 <version>2.2.24.Final</version>
             </dependency>
+            <!-- Overrides snappy-java -->
+            <dependency>
+                <groupId>org.xerial.snappy</groupId>
+                <artifactId>snappy-java</artifactId>
+                <version>${snappy-java-version}</version>
+            </dependency>
             <!-- Overrides elastic-search dependency since SB is using an older version -->
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
@@ -145,7 +151,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.7.12</version>
+                <version>2.7.15</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
