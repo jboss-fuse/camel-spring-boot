@@ -401,7 +401,7 @@
     <!-- <module>camel-univocity-parsers-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-validator-starter</module>
     <module>camel-velocity-starter</module>
-    <!-- <module>camel-vertx-http-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-vertx-http-starter</module>
     <!-- <module>camel-vertx-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-vertx-websocket-starter</module>
     <!-- <module>camel-weather-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
