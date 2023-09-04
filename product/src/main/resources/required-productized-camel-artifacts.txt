@@ -119,6 +119,7 @@ camel-telegram-starter
 camel-timer-starter
 camel-validator-starter
 camel-velocity-starter
+camel-vertx-http-starter
 camel-vertx-websocket-starter
 camel-webhook-starter
 camel-xj-starter
