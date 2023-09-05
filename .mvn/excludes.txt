@@ -119,7 +119,6 @@
 :camel-jolt-starter
 :camel-jooq-starter
 :camel-joor-starter
-:camel-jq-starter
 :camel-js-dsl-starter
 :camel-jsch-starter
 :camel-jsh-dsl-starter
@@ -179,7 +178,6 @@
 :camel-sjms2-starter
 :camel-smpp-starter
 :camel-snakeyaml-starter
-:camel-snmp-starter
 :camel-splunk-hec-starter
 :camel-splunk-starter
 :camel-springdoc-starter
@@ -199,7 +197,6 @@
 :camel-undertow-spring-security-starter
 :camel-undertow-starter
 :camel-univocity-parsers-starter
-:camel-vertx-http-starter
 :camel-vertx-starter
 :camel-weather-starter
 :camel-web3j-starter
@@ -208,7 +205,6 @@
 :camel-workday-starter
 :camel-xchange-starter
 :camel-xml-jaxb-dsl-starter
-:camel-xml-jaxb-starter
 :camel-xmlsecurity-starter
 :camel-xmpp-starter
 :camel-zeebe-starter
@@ -216,5 +212,10 @@
 :camel-zip-deflater-starter
 :camel-zookeeper-master-starter
 :camel-zookeeper-starter
+:dependency-management-example
+:dependency-management-example-module1
 :docs
+:redhat-camel-spring-boot-maintenance
+:redhat-camel-spring-boot-patch-metadata
+:redhat-camel-spring-boot-patch-repository
 :tests
