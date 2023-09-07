@@ -17,7 +17,6 @@
 package org.apache.camel.component.file.remote.springboot.sftp;
 
 import org.apache.camel.component.file.remote.springboot.AbstractBaseFtp;
-import org.apache.camel.component.file.remote.springboot.ftp.FtpEmbeddedService;
 import org.junit.jupiter.api.extension.RegisterExtension;
 
 import java.nio.file.Path;
