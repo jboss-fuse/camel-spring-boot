@@ -45,7 +45,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
         classes = {
                 CamelAutoConfiguration.class,
                 SftpSimpleProduceThroughProxyTest.class,
-                SftpSimpleProduceThroughProxyTest.TestConfiguration.class
+                SftpSimpleProduceThroughProxyTest.ProxyConfiguration.class
         }
 )
 //Based on SftpSimpleProduceThroughProxyIT
@@ -134,7 +134,10 @@ public class SftpSimpleProduceThroughProxyTest extends BaseSftp {
                 }
             };
         }
+    }
 
+    @Configuration
+    public class ProxyConfiguration {
         @Bean(value = "proxy")
         public ProxyHTTP createProxy() {
 

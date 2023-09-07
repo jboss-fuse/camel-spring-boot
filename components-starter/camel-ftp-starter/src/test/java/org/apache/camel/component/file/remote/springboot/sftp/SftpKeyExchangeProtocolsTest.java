@@ -22,10 +22,10 @@ import org.apache.camel.EndpointInject;
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.file.remote.springboot.ftp.BaseFtp;
-import org.apache.camel.component.file.remote.springboot.ftp.FtpAnonymousTest;
 import org.apache.camel.component.mock.MockEndpoint;
 import org.apache.camel.spring.boot.CamelAutoConfiguration;
 import org.apache.camel.test.spring.junit5.CamelSpringBootTest;
+import org.hamcrest.core.StringContains;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.AfterAll;
@@ -91,7 +91,7 @@ public class SftpKeyExchangeProtocolsTest extends BaseSftp {
             exception = exception.getCause();
         }
 
-        MatcherAssert.assertThat(errorMessages, Matchers.hasItem("Algorithm negotiation fail"));
+        MatcherAssert.assertThat(errorMessages, Matchers.hasItem(StringContains.containsString("Algorithm negotiation fail")));
     }
 
     @Test
