@@ -38,7 +38,25 @@
                         <enabled>true</enabled>
                     </snapshots>
                 </repository>
+                <repository>
+                    <releases />
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>indy</id>
+                    <url>http://indy.psi.redhat.com/api/group/builds-untested+shared-imports+public</url>
+                </repository>
             </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <releases />
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>indy</id>
+                    <url>http://indy.psi.redhat.com/api/group/builds-untested+shared-imports+public</url>
+                </pluginRepository>
+            </pluginRepositories>
         </profile>
     </profiles>
 </settings>
