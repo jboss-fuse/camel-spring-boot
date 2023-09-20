@@ -143,7 +143,7 @@
         <cyclonedx-maven-plugin-version>2.7.9</cyclonedx-maven-plugin-version>
 
         <!-- Added for productized build - plexus versions used by patch maven plugin -->
-        <openshift-maven-plugin-version>1.13.1.redhat-00001</openshift-maven-plugin-version>
+        <openshift-maven-plugin-version>1.13.1.redhat-00013</openshift-maven-plugin-version>
         <plexus-component-metadata-plugin-version>2.1.1</plexus-component-metadata-plugin-version>
     </properties>
     <dependencyManagement>
