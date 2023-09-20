@@ -119,6 +119,7 @@
 :camel-jolt-starter
 :camel-jooq-starter
 :camel-joor-starter
+:camel-jq-starter
 :camel-js-dsl-starter
 :camel-jsch-starter
 :camel-jsh-dsl-starter
