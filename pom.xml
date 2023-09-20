@@ -162,6 +162,13 @@
                 <artifactId>camel-sap</artifactId>
                 <version>${camel-sap.version}</version>
             </dependency>
+            <!-- org.eclipse.jkube:openshift-maven-plugin dependencyManagement entry
+                is necessary for PME align to the correct openshift-maven-plugin-version -->
+            <dependency>
+                <groupId>org.eclipse.jkube</groupId>
+                <artifactId>openshift-maven-plugin</artifactId>
+                <version>${openshift-maven-plugin-version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
