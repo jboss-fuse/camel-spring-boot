@@ -63,7 +63,6 @@ camel-jdbc-starter
 camel-jira-starter
 camel-jms-starter
 camel-jpa-starter
-camel-jq-starter
 camel-jslt-starter
 camel-jsonpath-starter
 camel-kafka-starter
