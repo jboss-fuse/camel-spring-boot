@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-def MAVEN_PARAMS = '-B -e -ntp -s $MAVEN_SETTINGS -Darchetype.test.settingsFile=$MAVEN_SETTINGS -Djava.net.preferIPv4Stack=true'
+def MAVEN_PARAMS = '-B -e -ntp -s $MAVEN_SETTINGS -Parchetypes-skip-tests -Djava.net.preferIPv4Stack=true'
 
 pipeline {
 
