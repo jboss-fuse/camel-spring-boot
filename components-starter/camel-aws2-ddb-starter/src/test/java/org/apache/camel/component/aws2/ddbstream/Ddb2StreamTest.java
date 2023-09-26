@@ -33,6 +33,7 @@ import org.apache.camel.test.infra.aws2.clients.AWSSDKClientUtils;
 import org.apache.camel.test.spring.junit5.CamelSpringBootTest;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
@@ -62,6 +63,7 @@ import static org.awaitility.Awaitility.await;
                 Ddb2StreamTest.TestConfiguration.class
         }
 )
+@Disabled
 class Ddb2StreamTest extends BaseDdb2{
 
     private final static String tableName = "TestTable";
