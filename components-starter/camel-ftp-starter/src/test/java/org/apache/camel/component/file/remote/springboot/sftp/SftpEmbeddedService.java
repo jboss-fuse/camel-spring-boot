@@ -26,7 +26,6 @@ import org.apache.sshd.common.keyprovider.FileKeyPairProvider;
 import org.apache.sshd.common.session.helpers.AbstractSession;
 import org.apache.sshd.common.signature.BuiltinSignatures;
 import org.apache.sshd.common.signature.Signature;
-import org.apache.sshd.scp.server.ScpCommandFactory;
 import org.apache.sshd.server.SshServer;
 import org.apache.sshd.server.auth.pubkey.PublickeyAuthenticator;
 import org.apache.sshd.sftp.server.SftpSubsystemFactory;
@@ -82,7 +81,6 @@ public class SftpEmbeddedService extends AbstractTestService implements FtpServi
         sshd.setPort(port);
         sshd.setKeyPairProvider(new FileKeyPairProvider(Paths.get("src/test/resources/hostkey.pem")));
         sshd.setSubsystemFactories(Collections.singletonList(new SftpSubsystemFactory()));
-        sshd.setCommandFactory(new ScpCommandFactory());
         sshd.setPasswordAuthenticator((username, password, session) -> true);
         sshd.setPublickeyAuthenticator(getPublickeyAuthenticator());
 
