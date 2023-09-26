@@ -27,6 +27,7 @@ import org.apache.camel.test.infra.aws2.clients.AWSSDKClientUtils;
 import org.apache.camel.test.spring.junit5.CamelSpringBootTest;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -46,7 +47,7 @@ import software.amazon.awssdk.services.kinesis.model.CreateStreamRequest;
                 KinesisComponentTest.TestConfiguration.class
         }
 )
-@DisabledIfSystemProperty(named = "ci.env.name", matches = "github.com", disabledReason = "Disabled on GH Action due to Docker limit")
+@Disabled("API rate limit exceeded")
 public class KinesisComponentTest extends BaseKinesis {
 
     @EndpointInject("mock:result")
