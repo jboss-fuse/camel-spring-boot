@@ -101,6 +101,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
                 <version>${commons-compress-version}</version>
+            <!-- Overrides snappy-java -->
+            <dependency>
+                <groupId>org.xerial.snappy</groupId>
+                <artifactId>snappy-java</artifactId>
+                <version>${snappy-java-version}</version>
             </dependency>
             <!-- Overrides elastic-search dependency since SB is using an older version -->
             <dependency>
