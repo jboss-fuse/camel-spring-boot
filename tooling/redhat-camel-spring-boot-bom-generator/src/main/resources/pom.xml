@@ -90,6 +90,18 @@
                 <artifactId>undertow-servlet</artifactId>
                 <version>${undertow-version}</version>
             </dependency>
+            <!-- Overrides avro dependency version since SB's jackson version's takes precedence in camel-jackson-avro-starter -->
+            <dependency>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro</artifactId>
+                <version>${avro-version}</version>
+            </dependency>
+            <!-- Override commons-compress version -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${commons-compress-version}</version>
+            </dependency>
             <!-- Overrides elastic-search dependency since SB is using an older version -->
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
