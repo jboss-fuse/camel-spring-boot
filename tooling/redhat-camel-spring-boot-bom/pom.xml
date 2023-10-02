@@ -101,6 +101,7 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
                 <version>1.21</version>
+            </dependency>
             <!-- Overrides snappy-java -->
             <dependency>
                 <groupId>org.xerial.snappy</groupId>
