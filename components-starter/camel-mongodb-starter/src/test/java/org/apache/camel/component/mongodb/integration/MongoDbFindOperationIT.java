@@ -92,7 +92,7 @@ public class MongoDbFindOperationIT {
 	static {
 		// This one requires Mongo 4.4. This is related to
 		// "CAMEL-15604 support allowDiskUse for MongoDB find operations"
-		service = new MongoDBLocalContainerService("mongo:4.4");
+		service = new MongoDBLocalContainerService("library/mongo:4.4");
 
 		service.getContainer()
 				.waitingFor(Wait.forListeningPort())
