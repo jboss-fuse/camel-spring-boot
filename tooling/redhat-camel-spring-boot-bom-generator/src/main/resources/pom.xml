@@ -90,6 +90,12 @@
                 <artifactId>undertow-servlet</artifactId>
                 <version>${undertow-version}</version>
             </dependency>
+            <!-- Overrides guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava-version}</version>
+            </dependency>
             <!-- Overrides avro dependency version since SB's jackson version's takes precedence in camel-jackson-avro-starter -->
             <dependency>
                 <groupId>org.apache.avro</groupId>
@@ -101,6 +107,7 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
                 <version>${commons-compress-version}</version>
+            </dependency>
             <!-- Overrides snappy-java -->
             <dependency>
                 <groupId>org.xerial.snappy</groupId>
