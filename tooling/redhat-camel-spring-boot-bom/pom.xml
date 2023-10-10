@@ -90,6 +90,12 @@
                 <artifactId>undertow-servlet</artifactId>
                 <version>2.3.7.Final</version>
             </dependency>
+            <!-- Overrides guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>32.1.2-jre</version>
+            </dependency>
             <!-- Overrides avro dependency version since SB's jackson version's takes precedence in camel-jackson-avro-starter -->
             <dependency>
                 <groupId>org.apache.avro</groupId>
