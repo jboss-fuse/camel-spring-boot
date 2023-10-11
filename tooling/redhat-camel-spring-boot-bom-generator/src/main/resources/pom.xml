@@ -68,6 +68,22 @@
     <!-- These are place holder dependency management entries -->
     <dependencyManagement>
         <dependencies>
+            <!-- Netty bom -->
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-bom</artifactId>
+                <version>${netty-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- Override jetty versions -->
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-bom</artifactId>
+                <version>${jetty-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!-- Insert third party overrides here -->
             <dependency>
                 <groupId>org.yaml</groupId>
@@ -89,6 +105,24 @@
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-servlet</artifactId>
                 <version>${undertow-version}</version>
+            </dependency>
+            <!-- Overrides guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava-version}</version>
+            </dependency>
+            <!-- Overrides avro dependency version since SB's jackson version's takes precedence in camel-jackson-avro-starter -->
+            <dependency>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro</artifactId>
+                <version>${avro-version}</version>
+            </dependency>
+            <!-- Override commons-compress version -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${commons-compress-version}</version>
             </dependency>
             <!-- Overrides snappy-java -->
             <dependency>
