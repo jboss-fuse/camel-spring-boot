@@ -109,7 +109,7 @@
         <compiler.fork>false</compiler.fork>
 
         <!-- Spring-Boot target version -->
-        <spring-boot-version>2.7.15</spring-boot-version>
+        <spring-boot-version>2.7.16</spring-boot-version>
 
         <!-- Camel target version -->
         <camel-version>3.20.1</camel-version>
@@ -130,7 +130,7 @@
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <artemis-version>2.21.0</artemis-version>
         <asciidoctorj-version>2.5.5</asciidoctorj-version>
-        <avro-version>1.11.1</avro-version>
+        <avro-version>1.11.3</avro-version>
         <build-helper-maven-plugin-version>3.3.0</build-helper-maven-plugin-version>
         <glassfish-jaxb-runtime-version>${jakarta-jaxb-version}</glassfish-jaxb-runtime-version>
         <groovy-version>3.0.17</groovy-version>
@@ -139,7 +139,7 @@
         <jakarta-jaxb-version>2.3.2</jakarta-jaxb-version>
         <jaxb-version>2.3.0</jaxb-version>
         <javax-inject-version>1.0.0.redhat-00008</javax-inject-version>
-        <jetty9-version>9.4.50.v20221201</jetty9-version>
+        <jetty9-version>9.4.53.v20231009</jetty9-version>
         <!-- keep maven and maven-resolver versions in sync -->
         <maven-version>3.8.6</maven-version>
         <maven-resolver-version>1.6.3</maven-resolver-version>
