@@ -9,7 +9,7 @@
       "name": "camel.dataformat.hl7.customizer",
       "type": "org.apache.camel.spring.boot.DataFormatConfigurationPropertiesCommon$CustomizerProperties",
       "sourceType": "org.apache.camel.component.hl7.springboot.HL7DataFormatConfiguration",
-      "sourceMethod": "public org.apache.camel.spring.boot.DataFormatConfigurationPropertiesCommon.CustomizerProperties getCustomizer() "
+      "sourceMethod": "getCustomizer()"
     },
     {
       "name": "camel.language.hl7terser",
@@ -20,7 +20,7 @@
       "name": "camel.language.hl7terser.customizer",
       "type": "org.apache.camel.spring.boot.LanguageConfigurationPropertiesCommon$CustomizerProperties",
       "sourceType": "org.apache.camel.component.hl7.springboot.Hl7TerserLanguageConfiguration",
-      "sourceMethod": "public org.apache.camel.spring.boot.LanguageConfigurationPropertiesCommon.CustomizerProperties getCustomizer() "
+      "sourceMethod": "getCustomizer()"
     }
   ],
   "properties": [
@@ -39,7 +39,8 @@
       "name": "camel.dataformat.hl7.validate",
       "type": "java.lang.Boolean",
       "description": "Whether to validate the HL7 message Is by default true.",
-      "sourceType": "org.apache.camel.component.hl7.springboot.HL7DataFormatConfiguration"
+      "sourceType": "org.apache.camel.component.hl7.springboot.HL7DataFormatConfiguration",
+      "defaultValue": true
     },
     {
       "name": "camel.language.hl7terser.customizer.enabled",
@@ -68,7 +69,8 @@
       "name": "camel.language.hl7terser.trim",
       "type": "java.lang.Boolean",
       "description": "Whether to trim the value to remove leading and trailing whitespaces and line breaks",
-      "sourceType": "org.apache.camel.component.hl7.springboot.Hl7TerserLanguageConfiguration"
+      "sourceType": "org.apache.camel.component.hl7.springboot.Hl7TerserLanguageConfiguration",
+      "defaultValue": true
     }
   ],
   "hints": []
