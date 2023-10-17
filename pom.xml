@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.0.0</version>
+        <version>4.0.0.redhat-00025</version>
     </parent>
 
     <groupId>org.apache.camel.springboot</groupId>
@@ -112,16 +112,16 @@
         <spring-boot-version>3.1.4</spring-boot-version>
 
         <!-- Camel target version -->
-        <camel-version>4.0.0.redhat-00010</camel-version>
+        <camel-version>4.0.0.redhat-00025</camel-version>
 
         <!-- cq plugin version -->
         <cq-plugin.version>4.4.2</cq-plugin.version>
         <camel-community.version>4.0.0</camel-community.version>
         <camel-spring-boot-community.version>4.0.0</camel-spring-boot-community.version>
-        <camel-sap.version>4.0.0.redhat-00044</camel-sap.version>
+        <camel-sap.version>4.0.0.redhat-00059</camel-sap.version>
 
         <!-- narayana spring boot version -->
-        <narayana-spring-boot.version>3.0.0.redhat-00017</narayana-spring-boot.version>
+        <narayana-spring-boot.version>3.0.0.redhat-00060</narayana-spring-boot.version>
 
         <!-- versions -->
         <aether-version>1.0.2.v20150114</aether-version>
@@ -140,6 +140,7 @@
         <springdoc-version>2.2.0</springdoc-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.1.10</swagger-parser-v3-version>
+        <tomcat-version>10.1.14</tomcat-version>
         <cyclonedx-maven-plugin-version>2.7.9</cyclonedx-maven-plugin-version>
 
         <!-- Added for productized build - plexus versions used by patch maven plugin -->
