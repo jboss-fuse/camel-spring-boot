@@ -109,7 +109,7 @@
         <compiler.fork>false</compiler.fork>
 
         <!-- Spring-Boot target version -->
-        <spring-boot-version>3.1.4</spring-boot-version>
+        <spring-boot-version>3.1.5</spring-boot-version>
 
         <!-- Camel target version -->
         <camel-version>4.0.0.redhat-00025</camel-version>
@@ -140,7 +140,7 @@
         <springdoc-version>2.2.0</springdoc-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.1.10</swagger-parser-v3-version>
-        <tomcat-version>10.1.14</tomcat-version>
+        <tomcat-version>10.1.15</tomcat-version>
         <cyclonedx-maven-plugin-version>2.7.9</cyclonedx-maven-plugin-version>
 
         <!-- Added for productized build - plexus versions used by patch maven plugin -->
