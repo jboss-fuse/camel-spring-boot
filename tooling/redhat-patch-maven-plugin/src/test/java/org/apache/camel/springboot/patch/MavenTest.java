@@ -127,7 +127,7 @@ public class MavenTest {
         session.setLocalRepositoryManager(resolverSystem.newLocalRepositoryManager(session, localRepository));
 
         ArtifactRequest request = new ArtifactRequest();
-        request.setArtifact(new DefaultArtifact("commons-io:commons-io:jar:2.8.0"));
+        request.setArtifact(new DefaultArtifact("commons-io:commons-io:jar:2.11.0"));
         ArtifactResult result = resolverSystem.resolveArtifact(session, request);
         System.out.println(result.getArtifact().getFile());
     }
