@@ -1,0 +1,4 @@
+exclude:
+    global:
+        - "*IT.java"
+        - "*Test.java"

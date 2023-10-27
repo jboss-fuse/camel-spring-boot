@@ -3,6 +3,7 @@ target
 *.ipr
 *.iws
 .idea
+.dccache
 .DS_Store
 .classpath
 .ekstazi
