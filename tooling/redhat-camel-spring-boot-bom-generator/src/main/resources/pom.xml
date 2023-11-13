@@ -207,7 +207,7 @@
                 <plugin>
                     <groupId>com.redhat.camel.springboot.platform</groupId>
                     <artifactId>patch-maven-plugin</artifactId>
-                    <version>${project-version}</version>
+                    <version>${project.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>

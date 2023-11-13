@@ -201,4 +201,15 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.redhat.camel.springboot.platform</groupId>
+                    <artifactId>patch-maven-plugin</artifactId>
+                    <version>3.20.1-SNAPSHOT</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
