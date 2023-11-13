@@ -39,6 +39,7 @@ import java.util.Enumeration;
 import java.util.TimeZone;
 import java.util.stream.Collectors;
 import java.util.zip.ZipEntry;
+import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 
 import org.apache.maven.MavenExecutionException;
@@ -94,6 +95,14 @@ public class ZipWagon extends StreamWagon {
                 if (ze.isDirectory()) {
                     continue;
                 }
+
+                String canonicalPath = tmpDir.getCanonicalPath();
+                File destFile = new File(tmpDir, ze.getName());
+                String canonicalDestinationFile =  destFile.getCanonicalPath();
+                if (!canonicalDestinationFile.startsWith(canonicalPath + File.separator)) {
+                    throw new ZipException("Archive entry is outside of the target directory path : " + ze.getName());
+                }
+
                 String name = trimName(ze.getName());
                 File target = new File(tmpDir, name);
                 if ("maven-metadata-local.xml".equals(target.getName())) {
