@@ -179,6 +179,13 @@
                 <version>${elasticsearch-java-client-sniffer-version}</version>
             </dependency>
 
+            <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
+            <dependency>
+                <groupId>org.eclipse.angus</groupId>
+                <artifactId>angus-mail</artifactId>
+                <version>${angus-mail-version}</version>
+            </dependency>
+
             <!-- Artemis Overrides -->
             <dependency>
                 <groupId>org.apache.activemq</groupId>
