@@ -113,6 +113,22 @@
                 <artifactId>guava</artifactId>
                 <version>${guava-version}</version>
             </dependency>
+            <!-- Overrides for logback -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-access</artifactId>
+                <version>${logback-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback-version}</version>
+            </dependency>
             <!-- Overrides for tomcat -->
             <dependency>
                 <groupId>org.apache.tomcat</groupId>
