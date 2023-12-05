@@ -113,6 +113,22 @@
                 <artifactId>guava</artifactId>
                 <version>32.1.2.jre-redhat-00001</version>
             </dependency>
+            <!-- Overrides for logback -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-access</artifactId>
+                <version>1.4.14</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.4.14</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>1.4.14</version>
+            </dependency>
             <!-- Overrides for tomcat -->
             <dependency>
                 <groupId>org.apache.tomcat</groupId>

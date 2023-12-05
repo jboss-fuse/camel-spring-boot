@@ -133,6 +133,7 @@
         <graal-sdk-version>22.3.2</graal-sdk-version>
         <jakarta-jaxb-version>4.0.0</jakarta-jaxb-version>
         <jaxb-version>2.3.0</jaxb-version>
+        <logback-version>1.4.14</logback-version>
         <maven-compiler-plugin-version>3.11.0</maven-compiler-plugin-version>
         <maven-javadoc-plugin-version>3.4.1</maven-javadoc-plugin-version>
         <maven-surefire-plugin-version>3.1.2</maven-surefire-plugin-version>
