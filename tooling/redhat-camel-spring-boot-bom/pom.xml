@@ -129,6 +129,12 @@
                 <artifactId>logback-core</artifactId>
                 <version>1.4.14</version>
             </dependency>
+            <!-- Override for reactor-netty-http -->
+            <dependency>
+                <groupId>io.projectreactor.netty</groupId>
+                <artifactId>reactor-netty-http</artifactId>
+                <version>1.1.13</version>
+            </dependency>
             <!-- Overrides for tomcat -->
             <dependency>
                 <groupId>org.apache.tomcat</groupId>
