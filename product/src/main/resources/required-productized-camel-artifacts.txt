@@ -104,6 +104,8 @@ camel-servlet-starter
 camel-slack-starter
 camel-snmp-starter
 camel-soap-starter
+camel-splunk-starter
+camel-splunk-hec-starter
 camel-spring-starter
 camel-spring-batch-starter
 camel-spring-jdbc-starter

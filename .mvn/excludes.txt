@@ -179,8 +179,6 @@
 :camel-sjms2-starter
 :camel-smpp-starter
 :camel-snakeyaml-starter
-:camel-splunk-hec-starter
-:camel-splunk-starter
 :camel-springdoc-starter
 :camel-ssh-starter
 :camel-stax-starter

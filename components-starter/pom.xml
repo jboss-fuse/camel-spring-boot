@@ -368,8 +368,8 @@
     <!-- <module>camel-snakeyaml-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-snmp-starter</module>
     <module>camel-soap-starter</module>
-    <!-- <module>camel-splunk-hec-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-splunk-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-splunk-hec-starter</module>
+    <module>camel-splunk-starter</module>
     <module>camel-spring-batch-starter</module>
     <module>camel-spring-jdbc-starter</module>
     <module>camel-spring-ldap-starter</module>
