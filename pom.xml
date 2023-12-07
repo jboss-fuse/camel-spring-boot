@@ -139,6 +139,7 @@
         <maven-javadoc-plugin-version>3.4.1</maven-javadoc-plugin-version>
         <maven-surefire-plugin-version>3.1.2</maven-surefire-plugin-version>
         <mycila-license-version>3.0</mycila-license-version>
+        <org-json-json-version>20231013</org-json-json-version>
         <reactor-netty-version>1.1.13</reactor-netty-version>
         <springdoc-version>2.2.0</springdoc-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
