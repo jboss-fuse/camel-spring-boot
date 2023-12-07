@@ -135,6 +135,12 @@
                 <artifactId>reactor-netty-http</artifactId>
                 <version>${reactor-netty-version}</version>
             </dependency>
+            <!-- Override for org.json:json -->
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${org-json-json-version}</version>
+            </dependency>
             <!-- Overrides for tomcat -->
             <dependency>
                 <groupId>org.apache.tomcat</groupId>
