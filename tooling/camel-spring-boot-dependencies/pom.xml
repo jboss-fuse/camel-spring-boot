@@ -4055,6 +4055,11 @@
         <version>3.6.4</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-catalina</artifactId>
+        <version>10.1.16</version>
+      </dependency>
+      <dependency>
         <groupId>org.codehaus.jackson</groupId>
         <artifactId>jackson-core-asl</artifactId>
         <version>${jackson-version}</version>
@@ -4088,6 +4093,11 @@
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap-starter</artifactId>
         <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20231013</version>
       </dependency>
       <dependency>
         <groupId>org.xerial.snappy</groupId>
