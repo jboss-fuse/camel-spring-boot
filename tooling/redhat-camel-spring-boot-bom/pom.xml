@@ -175,14 +175,6 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-            <!-- Spring Boot Dependencies -->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.7.18</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
             <!-- Camel Spring Boot BOM -->
             <dependency>
                 <groupId>org.apache.camel.springboot</groupId>
@@ -196,6 +188,14 @@
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
                 <version>3.5.5.redhat-00050</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- Spring Boot Dependencies -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.7.18</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
