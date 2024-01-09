@@ -174,6 +174,41 @@
                 <artifactId>openshift-maven-plugin</artifactId>
                 <version>${openshift-maven-plugin-version}</version>
             </dependency>
+            <!-- org.apache.tomcat:catalina dependencyManagement entry
+                is necessary for PME align to the correct tomcat-version -->
+            <dependency>
+                <groupId>org.apache.tomcat</groupId>
+                <artifactId>tomcat-catalina</artifactId>
+                <version>${tomcat-version}</version>
+            </dependency>
+            <!-- io.projectreactor.netty:reactor-netty-http dependencyManagement entry
+                is necessary for PME align to the correct reactor-netty-version -->
+            <dependency>
+                <groupId>io.projectreactor.netty</groupId>
+                <artifactId>reactor-netty-http</artifactId>
+                <version>${reactor-netty-version}</version>
+            </dependency>
+            <!-- org.json:json dependencyManagement entry
+                is necessary for PME align to the correct org-json-json-version -->
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${org-json-json-version}</version>
+            </dependency>
+
+            <!-- org.apache.activemq:artemis-version dependencyManagement entry
+                is necessary for PME align to the correct artemis-version -->
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-commons</artifactId>
+                <version>${artemis-version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
