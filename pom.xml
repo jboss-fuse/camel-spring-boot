@@ -109,7 +109,7 @@
         <compiler.fork>false</compiler.fork>
 
         <!-- Spring-Boot target version -->
-        <spring-boot-version>3.1.6</spring-boot-version>
+        <spring-boot-version>3.1.7</spring-boot-version>
 
         <!-- Camel target version -->
         <camel-version>4.0.0.redhat-00025</camel-version>
