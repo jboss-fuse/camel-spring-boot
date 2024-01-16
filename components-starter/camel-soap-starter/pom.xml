@@ -52,10 +52,26 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>com.sun.xml.messaging.saaj</groupId>
+      <artifactId>saaj-impl</artifactId>
+      <version>1.5.3</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-cxf-soap</artifactId>
       <version>${camel-version}</version>
       <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>com.sun.xml.messaging.saaj</groupId>
+          <artifactId>saaj-impl</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jvnet.staxex</groupId>
+      <artifactId>stax-ex</artifactId>
+      <version>${stax-ex-version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>

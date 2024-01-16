@@ -131,6 +131,11 @@
       <artifactId>activemq-kahadb-store</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.jvnet.staxex</groupId>
+      <artifactId>stax-ex</artifactId>
+      <version>${stax-ex-version}</version>
+    </dependency>
     <!--START OF GENERATED CODE-->
     <dependency>
       <groupId>org.apache.camel.springboot</groupId>
