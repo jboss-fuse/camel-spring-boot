@@ -171,7 +171,7 @@
             <dependency>
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-bom</artifactId>
-                <version>14.0.18.Final</version>
+                <version>14.0.21.Final-redhat-00001</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
