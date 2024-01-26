@@ -150,7 +150,7 @@
         <mycila-license-version>3.0</mycila-license-version>
         <stax-ex-version>1.8.3</stax-ex-version>
         <springdoc-version>1.6.6</springdoc-version>
-        <openshift-maven-plugin-version>1.9.1.redhat-00006</openshift-maven-plugin-version>
+        <openshift-maven-plugin-version>1.9.1.redhat-00007</openshift-maven-plugin-version>
         <plexus-utils-version>3.5.1</plexus-utils-version>
         <plexus-component-metadata-plugin-version>2.1.0</plexus-component-metadata-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
