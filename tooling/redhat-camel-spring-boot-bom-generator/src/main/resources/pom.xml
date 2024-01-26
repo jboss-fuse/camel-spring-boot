@@ -69,6 +69,58 @@
     <dependencyManagement>
         <dependencies>
 
+            <!-- Insert third party overrides here -->
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>${snakeyaml-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hsqldb</groupId>
+                <artifactId>hsqldb</artifactId>
+                <version>${hsqldb-version}</version>
+            </dependency>
+
+            <!-- Overrides undertow-core/servlet since SB is using an older version -->
+            <dependency>
+                <groupId>io.undertow</groupId>
+                <artifactId>undertow-core</artifactId>
+                <version>${undertow-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.undertow</groupId>
+                <artifactId>undertow-servlet</artifactId>
+                <version>${undertow-version}</version>
+            </dependency>
+            <!-- Overrides guava -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava-version}</version>
+            </dependency>
+            <!-- Overrides for logback -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-access</artifactId>
+                <version>${logback-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback-version}</version>
+            </dependency>
+            <!-- Override for reactor-netty-http -->
+            <dependency>
+                <groupId>io.projectreactor.netty</groupId>
+                <artifactId>reactor-netty-http</artifactId>
+                <version>${reactor-netty-version}</version>
+            </dependency>
+
             <!-- Override for org.json:json -->
             <dependency>
                 <groupId>org.json</groupId>
@@ -110,6 +162,54 @@
                 <groupId>org.apache.tomcat.embed</groupId>
                 <artifactId>tomcat-embed-websocket</artifactId>
                 <version>${tomcat-version}</version>
+            </dependency>
+            <!-- Overrides mvel dependency -->
+            <dependency>
+                <groupId>org.mvel</groupId>
+                <artifactId>mvel2</artifactId>
+                <version>${mvel-version}</version>
+            </dependency>
+            <!-- Overrides json-path dependency -->
+            <dependency>
+                <groupId>com.jayway.jsonpath</groupId>
+                <artifactId>json-path</artifactId>
+                <version>${json-path-version}</version>
+            </dependency>
+            <!-- Overrides avro dependency version since SB's jackson version's takes precedence in camel-jackson-avro-starter -->
+            <dependency>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro</artifactId>
+                <version>${avro-version}</version>
+            </dependency>
+            <!-- Override commons-compress version -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${commons-compress-version}</version>
+            </dependency>
+            <!-- Overrides snappy-java -->
+            <dependency>
+                <groupId>org.xerial.snappy</groupId>
+                <artifactId>snappy-java</artifactId>
+                <version>${snappy-java-version}</version>
+            </dependency>
+            <!-- Overrides elastic-search dependency since SB is using an older version -->
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-client</artifactId>
+                <version>${elasticsearch-java-client-sniffer-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-client-sniffer</artifactId>
+                <version>${elasticsearch-java-client-sniffer-version}</version>
+            </dependency>
+
+            <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
+            <dependency>
+                <groupId>org.eclipse.angus</groupId>
+                <artifactId>angus-mail</artifactId>
+                <version>${angus-mail-version}</version>
             </dependency>
 
             <!-- Artemis Overrides -->
