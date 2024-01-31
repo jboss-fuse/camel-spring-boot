@@ -204,6 +204,11 @@
                 <artifactId>elasticsearch-rest-client-sniffer</artifactId>
                 <version>8.9.0</version>
             </dependency>
+            <dependency>
+                <groupId>co.elastic.clients</groupId>
+                <artifactId>elasticsearch-java</artifactId>
+                <version>8.9.0.redhat-00001</version>
+            </dependency>
 
             <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
             <dependency>
