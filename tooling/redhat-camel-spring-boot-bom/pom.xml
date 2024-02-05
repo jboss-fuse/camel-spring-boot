@@ -205,9 +205,9 @@
                 <version>8.9.0</version>
             </dependency>
             <dependency>
-                <groupId>co.elastic.clients</groupId>
-                <artifactId>elasticsearch-java</artifactId>
-                <version>8.9.0.redhat-00001</version>
+                <groupId>org.eclipse.parsson</groupId>
+                <artifactId>parsson</artifactId>
+                <version>1.0.5</version>
             </dependency>
 
             <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
