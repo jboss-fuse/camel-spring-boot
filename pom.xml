@@ -112,7 +112,7 @@
         <spring-boot-version>3.2.2</spring-boot-version>
 
         <!-- Camel target version -->
-        <camel-version>4.4.0</camel-version>
+        <camel-version>4.4.0.redhat-00001</camel-version>
 
         <!-- cq plugin version -->
         <cq-plugin.version>4.4.2</cq-plugin.version>
@@ -120,9 +120,6 @@
         <camel-spring-boot-community.version>4.4.0</camel-spring-boot-community.version>
 
         <camel-sap.version>4.0.0.redhat-00001</camel-sap.version>
-
-        <camel-sap.version>4.0.0.redhat-00001</camel-sap.version>
-
         <!-- narayana spring boot version -->
         <narayana-spring-boot.version>3.0.0.redhat-00017</narayana-spring-boot.version>
 
@@ -131,19 +128,19 @@
         <artemis-version>2.32.0</artemis-version>
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
-        <avro-version>1.11.0</avro-version>
-        <groovy-version>4.0.13</groovy-version>
+        <avro-version>1.11.3</avro-version>
+        <groovy-version>4.0.18</groovy-version>
         <graal-sdk-version>22.3.2</graal-sdk-version>
         <jakarta-jaxb-version>4.0.0</jakarta-jaxb-version>
         <jaxb-version>2.3.0</jaxb-version>
-        <maven-compiler-plugin-version>3.11.0</maven-compiler-plugin-version>
-        <maven-javadoc-plugin-version>3.4.1</maven-javadoc-plugin-version>
-        <maven-surefire-plugin-version>3.1.2</maven-surefire-plugin-version>
-        <mycila-license-version>3.0</mycila-license-version>
+        <maven-compiler-plugin-version>3.12.1</maven-compiler-plugin-version>
+        <maven-javadoc-plugin-version>3.6.3</maven-javadoc-plugin-version>
+        <maven-surefire-plugin-version>3.2.5</maven-surefire-plugin-version>
+        <mycila-license-version>4.3</mycila-license-version>
         <springdoc-version>2.2.0</springdoc-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
-        <swagger-parser-v3-version>2.1.10</swagger-parser-v3-version>
-	<cyclonedx-maven-plugin-version>2.7.10</cyclonedx-maven-plugin-version>
+        <swagger-parser-v3-version>2.1.20</swagger-parser-v3-version>
+        <cyclonedx-maven-plugin-version>2.7.11</cyclonedx-maven-plugin-version>
     </properties>
 
     <dependencyManagement>
