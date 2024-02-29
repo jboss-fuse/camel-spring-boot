@@ -4150,6 +4150,11 @@
         <version>3.9.0</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-catalina</artifactId>
+        <version>10.1.16</version>
+      </dependency>
+      <dependency>
         <groupId>org.codehaus.jackson</groupId>
         <artifactId>jackson-core-asl</artifactId>
         <version>${jackson-version}</version>
@@ -4170,6 +4175,11 @@
         <version>${jackson-version}</version>
       </dependency>
       <dependency>
+        <groupId>org.eclipse.jkube</groupId>
+        <artifactId>openshift-maven-plugin</artifactId>
+        <version>1.13.1.redhat-00001</version>
+      </dependency>
+      <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap</artifactId>
         <version>4.0.0.redhat-00001</version>
@@ -4178,6 +4188,11 @@
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap-starter</artifactId>
         <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20231013</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
