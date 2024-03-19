@@ -96,7 +96,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>33.0.0-jre</version>
+                <version>33.0.0.jre-redhat-00001</version>
             </dependency>
             <!-- Overrides for logback -->
             <dependency>
@@ -285,7 +285,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.0.3</version>
+                <version>4.0.4.fuse-redhat-00001</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
