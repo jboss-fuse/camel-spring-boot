@@ -185,7 +185,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
-                <version>1.26.0</version>
+                <version>1.26.0.redhat-00001</version>
             </dependency>
             <!-- Overrides snappy-java -->
             <dependency>
@@ -268,7 +268,7 @@
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-bom</artifactId>
-                <version>12.0.6</version>
+                <version>12.0.6.redhat-00001</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -276,7 +276,7 @@
             <dependency>
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-bom</artifactId>
-                <version>14.0.24.Final</version>
+                <version>14.0.24.Final-redhat-00001</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -285,7 +285,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.0.4.fuse-redhat-00001</version>
+                <version>4.0.4.fuse-redhat-00006</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
