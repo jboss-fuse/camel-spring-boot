@@ -36,17 +36,17 @@
       <dependency>
         <groupId>me.snowdrop</groupId>
         <artifactId>narayana-spring-boot-core</artifactId>
-        <version>3.0.1.redhat-00001</version>
+        <version>3.0.1.redhat-00007</version>
       </dependency>
       <dependency>
         <groupId>me.snowdrop</groupId>
         <artifactId>narayana-spring-boot-recovery-controller</artifactId>
-        <version>3.0.1.redhat-00001</version>
+        <version>3.0.1.redhat-00007</version>
       </dependency>
       <dependency>
         <groupId>me.snowdrop</groupId>
         <artifactId>narayana-spring-boot-starter</artifactId>
-        <version>3.0.1.redhat-00001</version>
+        <version>3.0.1.redhat-00007</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -1401,7 +1401,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-smb-starter</artifactId>
-        <version>4.4.0</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>

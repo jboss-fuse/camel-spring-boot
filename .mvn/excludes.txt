@@ -177,7 +177,6 @@
 :camel-shiro-starter
 :camel-sjms-starter
 :camel-sjms2-starter
-:camel-smb-starter
 :camel-smpp-starter
 :camel-snakeyaml-starter
 :camel-springdoc-starter
@@ -214,5 +213,10 @@
 :camel-zip-deflater-starter
 :camel-zookeeper-master-starter
 :camel-zookeeper-starter
+:dependency-management-example
+:dependency-management-example-module1
 :docs
+:redhat-camel-spring-boot-maintenance
+:redhat-camel-spring-boot-patch-metadata
+:redhat-camel-spring-boot-patch-repository
 :tests
