@@ -65,12 +65,6 @@
       <version>${sshd-version}</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.apache.sshd</groupId>
-      <artifactId>sshd-scp</artifactId>
-      <version>${sshd-version}</version>
-      <scope>test</scope>
-    </dependency>
     <!-- for testing sftp through http proxy -->
     <dependency>
       <groupId>org.littleshoot</groupId>
