@@ -295,7 +295,7 @@
     <!-- <module>camel-ldif-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-leveldb-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-log-starter</module>
-    <!-- <module>camel-lra-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-lra-starter</module>
     <!-- <module>camel-lucene-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-lumberjack-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-lzf-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->

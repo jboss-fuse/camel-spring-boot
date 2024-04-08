@@ -76,6 +76,7 @@ camel-kudu-starter
 camel-language-starter
 camel-ldap-starter
 camel-log-starter
+camel-lra-starter
 camel-mail-starter
 camel-mail-microsoft-oauth-starter
 camel-mapstruct-starter
