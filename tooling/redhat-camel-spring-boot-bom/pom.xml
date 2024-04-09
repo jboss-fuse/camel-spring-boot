@@ -485,10 +485,20 @@
                 <artifactId>swagger-models-jakarta</artifactId>
                 <version>2.2.20.redhat-00001</version>
             </dependency>
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-core-jakarta</artifactId>
+                <version>2.2.20.redhat-00001</version>
+            </dependency>
 
             <dependency>
                 <groupId>io.swagger.parser.v3</groupId>
                 <artifactId>swagger-parser</artifactId>
+                <version>2.1.20.redhat-00001</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger.parser.v3</groupId>
+                <artifactId>swagger-parser-v3</artifactId>
                 <version>2.1.20.redhat-00001</version>
             </dependency>
 
