@@ -343,6 +343,11 @@ public class BomDependenciesGeneratorMojo extends AbstractMojo {
         dep.setArtifactId("camel-sap-starter");
         dep.setVersion("${project.version}");
         outDependencies.add(dep);
+        dep = new Dependency();
+        dep.setGroupId("org.fusesource");
+        dep.setArtifactId("camel-cics-starter");
+        dep.setVersion("${project.version}");
+        outDependencies.add(dep);
 
         // Add Narayana starter and associated artifacts
         dep = new Dependency();

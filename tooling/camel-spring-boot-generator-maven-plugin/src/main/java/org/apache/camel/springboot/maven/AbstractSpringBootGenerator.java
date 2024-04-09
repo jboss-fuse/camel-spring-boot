@@ -89,7 +89,7 @@ public abstract class AbstractSpringBootGenerator extends AbstractMojo {
         String artifactId = project.getArtifactId();
         if ("camel-spring-boot-starter".equals(artifactId)) {
             return "org.apache.camel.springboot";
-        } else if ("camel-sap-starter".equals(artifactId)) {
+        } else if ("camel-sap-starter".equals(artifactId) || "camel-cics-starter".equals(artifactId)) {
             return "org.fusesource";
         } else {
             // others are from camel

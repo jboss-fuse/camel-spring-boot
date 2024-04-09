@@ -6,6 +6,7 @@ com.redhat.camel.springboot.platform:redhat-camel-spring-boot-bom
 com.redhat.camel.springboot.platform:redhat-camel-spring-boot-bom-generator
 camel-catalog-provider-springboot
 camel-sap-starter-parent
+camel-cics-starter-parent
 camel-archetype-spring-boot
 camel-spring-boot-engine-starter
 camel-spring-boot-starter
@@ -29,6 +30,7 @@ camel-bean-validator-starter
 camel-bindy-starter
 camel-browse-starter
 camel-cassandraql-starter
+camel-cics-starter
 camel-cli-connector-starter
 camel-componentdsl-starter
 camel-controlbus-starter
