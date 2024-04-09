@@ -1765,12 +1765,12 @@
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
-        <artifactId>camel-sap-starter</artifactId>
+        <artifactId>camel-cics-starter</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
-        <artifactId>camel-cics-starter</artifactId>
+        <artifactId>camel-sap-starter</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
