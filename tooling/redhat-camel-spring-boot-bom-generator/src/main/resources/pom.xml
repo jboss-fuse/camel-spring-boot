@@ -307,6 +307,12 @@
             </dependency>
 
             <dependency>
+                <groupId>com.google.code.findbugs</groupId>
+                <artifactId>jsr305</artifactId>
+                <version>${findbugs-version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.codehaus.woodstox</groupId>
                 <artifactId>stax2-api</artifactId>
                 <version>${woodstox-stax2-api-version}</version>
@@ -485,10 +491,20 @@
                 <artifactId>swagger-models-jakarta</artifactId>
                 <version>${swagger-openapi3-version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-core-jakarta</artifactId>
+                <version>${swagger-openapi3-version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>io.swagger.parser.v3</groupId>
                 <artifactId>swagger-parser</artifactId>
+                <version>${swagger-openapi3-java-parser-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger.parser.v3</groupId>
+                <artifactId>swagger-parser-v3</artifactId>
                 <version>${swagger-openapi3-java-parser-version}</version>
             </dependency>
 

@@ -307,6 +307,12 @@
             </dependency>
 
             <dependency>
+                <groupId>com.google.code.findbugs</groupId>
+                <artifactId>jsr305</artifactId>
+                <version>3.0.2.redhat-00017</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.codehaus.woodstox</groupId>
                 <artifactId>stax2-api</artifactId>
                 <version>4.2.1</version>
@@ -485,10 +491,20 @@
                 <artifactId>swagger-models-jakarta</artifactId>
                 <version>2.2.20.redhat-00001</version>
             </dependency>
+            <dependency>
+                <groupId>io.swagger.core.v3</groupId>
+                <artifactId>swagger-core-jakarta</artifactId>
+                <version>2.2.20.redhat-00001</version>
+            </dependency>
 
             <dependency>
                 <groupId>io.swagger.parser.v3</groupId>
                 <artifactId>swagger-parser</artifactId>
+                <version>2.1.20.redhat-00001</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger.parser.v3</groupId>
+                <artifactId>swagger-parser-v3</artifactId>
                 <version>2.1.20.redhat-00001</version>
             </dependency>
 
