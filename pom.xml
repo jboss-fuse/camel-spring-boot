@@ -78,6 +78,7 @@
         <!-- <module>tests</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <!-- <module>docs</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <module>sap</module>
+        <module>cics</module>
         <module>archetypes</module>
     </modules>
 
@@ -120,6 +121,7 @@
         <camel-spring-boot-community.version>4.4.0</camel-spring-boot-community.version>
 
         <camel-sap.version>4.4.0.redhat-00004</camel-sap.version>
+        <camel-cics.version>4.4.0-SNAPSHOT</camel-cics.version>
         <!-- narayana spring boot version -->
         <narayana-spring-boot.version>3.0.1.redhat-00007</narayana-spring-boot.version>
 
@@ -175,6 +177,13 @@
                 <artifactId>camel-sap</artifactId>
                 <version>${camel-sap.version}</version>
             </dependency>
+            <!-- org.fusesource:camel-cics dependencyManagement entry
+                is necessary for PME align to the correct narayana-spring-boot.version -->
+                <dependency>
+                    <groupId>org.fusesource</groupId>
+                    <artifactId>camel-cics</artifactId>
+                    <version>${camel-cics.version}</version>
+                </dependency>
             <!-- org.eclipse.jkube:openshift-maven-plugin dependencyManagement entry
                 is necessary for PME align to the correct openshift-maven-plugin-version -->
             <dependency>
@@ -318,6 +327,7 @@
                     <additionalProductizedArtifactIds>
                         <additionalProductizedArtifactId>com.redhat.camel.springboot.platform:camel-spring-boot-bom</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>org.fusesource:camel-sap-starter</additionalProductizedArtifactId>
+                        <additionalProductizedArtifactId>org.fusesource:camel-cics-starter</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>com.sap.conn.idoc:com.sap.conn.idoc</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>com.sap.conn.jco:com.sap.conn.jco</additionalProductizedArtifactId>
                         <additionalProductizedArtifactId>bom-generator</additionalProductizedArtifactId>

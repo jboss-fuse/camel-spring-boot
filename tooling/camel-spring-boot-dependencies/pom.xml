@@ -4225,6 +4225,11 @@
         <version>${project.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.fusesource</groupId>
+        <artifactId>camel-cics-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
         <version>20231013</version>

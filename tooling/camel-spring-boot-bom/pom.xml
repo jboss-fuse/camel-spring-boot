@@ -1769,6 +1769,11 @@
         <version>${project.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.fusesource</groupId>
+        <artifactId>camel-cics-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-management</artifactId>
         <version>4.4.0</version>
