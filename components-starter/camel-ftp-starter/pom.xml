@@ -82,6 +82,13 @@
         </exclusion>
       </exclusions>
     </dependency>
+    <!-- This override is needed by littleproxy during testing only -->
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>20.0</version>
+      <scope>tets</scope>
+    </dependency>
     <!--START OF GENERATED CODE-->
     <dependency>
       <groupId>org.apache.camel.springboot</groupId>
