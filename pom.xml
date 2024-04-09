@@ -153,6 +153,7 @@
         <cyclonedx-maven-plugin-version>2.7.11</cyclonedx-maven-plugin-version>
         <tomcat-version>10.1.19</tomcat-version>
         <snappy-java-version>1.1.10.4</snappy-java-version>
+        <woodstox-stax2-api-version>4.2.1</woodstox-stax2-api-version>
 
         <!-- Added for productized build - plexus versions used by patch maven plugin -->
         <openshift-maven-plugin-version>1.16.1.redhat-00003</openshift-maven-plugin-version>

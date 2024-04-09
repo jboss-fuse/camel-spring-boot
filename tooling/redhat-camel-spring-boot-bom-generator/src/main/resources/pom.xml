@@ -309,7 +309,7 @@
             <dependency>
                 <groupId>org.codehaus.woodstox</groupId>
                 <artifactId>stax2-api</artifactId>
-                <version>${woodstox-version}</version>
+                <version>${woodstox-stax2-api-version}</version>
             </dependency>
 
             <dependency>
