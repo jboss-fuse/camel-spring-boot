@@ -134,7 +134,7 @@
         <avro-version>1.11.3</avro-version>
         <groovy-version>4.0.21</groovy-version>
         <graal-sdk-version>22.3.2</graal-sdk-version>
-        <jakarta-jaxb-version>4.0.0</jakarta-jaxb-version>
+        <jakarta-jaxb-version>4.0.2</jakarta-jaxb-version>
         <jakarta-el-version>5.0.1</jakarta-el-version>
         <jakarta-resource-version>2.0.0</jakarta-resource-version>
         <jaxb-version>2.3.0</jaxb-version>
