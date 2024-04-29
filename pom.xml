@@ -132,6 +132,8 @@
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <avro-version>1.11.3</avro-version>
+        <checker-qual-version>3.42.0</checker-qual-version>
+        <error-prone-annotations-version>2.23.0</error-prone-annotations-version>
         <groovy-version>4.0.21</groovy-version>
         <graal-sdk-version>22.3.2</graal-sdk-version>
         <jakarta-jaxb-version>4.0.2</jakarta-jaxb-version>
@@ -243,6 +245,22 @@
                 <groupId>com.fasterxml</groupId>
                 <artifactId>aalto-xml</artifactId>
                 <version>${aalto-xml-version}</version>
+            </dependency>
+
+            <!-- org.checkerframework:checker-qual dependencyManagement entry
+                is necessary for PME align to the correct checker-qual -->
+            <dependency>
+                <groupId>org.checkerframework</groupId>
+                <artifactId>checker-qual</artifactId>
+                <version>${checker-qual-version}</version>
+            </dependency>
+
+            <!-- com.google.errorprone:error_prone_annotations dependencyManagement entry
+                is necessary for PME align to the correct error_prone_annotations -->
+            <dependency>
+                <groupId>com.google.errorprone</groupId>
+                <artifactId>error_prone_annotations</artifactId>
+                <version>${error-prone-annotations-version}</version>
             </dependency>
 
             <!-- com.esotericsoftware.kryo:kryo dependencyManagement entry
