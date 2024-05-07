@@ -126,6 +126,7 @@
 
         <!-- versions -->
         <aether-version>1.0.2.v20150114</aether-version>
+        <angus-mail-version>2.0.2</angus-mail-version>
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <artemis-version>2.21.0</artemis-version>
@@ -151,6 +152,7 @@
         <stax-ex-version>1.8.3</stax-ex-version>
         <springdoc-version>1.6.6</springdoc-version>
         <openshift-maven-plugin-version>1.9.1.redhat-00007</openshift-maven-plugin-version>
+        <parsson-version>1.0.5</parsson-version>
         <plexus-utils-version>3.5.1</plexus-utils-version>
         <plexus-component-metadata-plugin-version>2.1.0</plexus-component-metadata-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
