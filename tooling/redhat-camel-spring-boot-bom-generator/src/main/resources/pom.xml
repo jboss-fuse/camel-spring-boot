@@ -163,6 +163,11 @@
                 <artifactId>tomcat-embed-websocket</artifactId>
                 <version>${tomcat-version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.threeten</groupId>
+                <artifactId>threetenbp</artifactId>
+                <version>${threetenbp-version}</version>
+            </dependency>
             <!-- Overrides mvel dependency -->
             <dependency>
                 <groupId>org.mvel</groupId>
