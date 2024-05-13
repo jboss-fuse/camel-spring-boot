@@ -169,6 +169,12 @@
                 <version>${parsson-version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.threeten</groupId>
+                <artifactId>threetenbp</artifactId>
+                <version>${threetenbp-version}</version>
+            </dependency>
+
             <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
             <dependency>
                 <groupId>org.eclipse.angus</groupId>

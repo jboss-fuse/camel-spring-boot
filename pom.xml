@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>3.20.1.redhat-00042</version>
+        <version>3.20.1.redhat-00048</version>
     </parent>
 
     <groupId>org.apache.camel.springboot</groupId>
@@ -112,7 +112,7 @@
         <spring-boot-version>2.7.18</spring-boot-version>
 
         <!-- Camel target version -->
-        <camel-version>3.20.1.redhat-00042</camel-version>
+        <camel-version>3.20.1.redhat-00048</camel-version>
 
         <!-- camel-sap version -->
         <camel-sap.version>3.20.1.redhat-00013</camel-sap.version>
