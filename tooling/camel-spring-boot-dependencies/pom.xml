@@ -4564,6 +4564,11 @@
         <version>2.10.2</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-catalina</artifactId>
+        <version>9.0.89</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.ws.commons.axiom</groupId>
         <artifactId>axiom-api</artifactId>
         <version>1.2.14</version>
@@ -4643,6 +4648,11 @@
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap-starter</artifactId>
         <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20231013</version>
       </dependency>
       <dependency>
         <groupId>org.junit-pioneer</groupId>
