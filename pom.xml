@@ -152,11 +152,13 @@
         <stax-ex-version>1.8.3</stax-ex-version>
         <springdoc-version>1.6.6</springdoc-version>
         <openshift-maven-plugin-version>1.9.1.redhat-00007</openshift-maven-plugin-version>
+        <org-json-json-version>20231013</org-json-json-version>
         <parsson-version>1.0.5</parsson-version>
         <plexus-utils-version>3.5.1</plexus-utils-version>
         <plexus-component-metadata-plugin-version>2.1.0</plexus-component-metadata-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.1.13</swagger-parser-v3-version>
+        <tomcat-version>9.0.89</tomcat-version>
         <camel-spring-boot-community.version>3.20.1</camel-spring-boot-community.version>
         <cyclonedx-maven-plugin-version>2.7.5</cyclonedx-maven-plugin-version>
 
@@ -175,6 +177,20 @@
                 <groupId>me.snowdrop</groupId>
                 <artifactId>narayana-spring-boot-core</artifactId>
                 <version>${narayana-spring-boot.version}</version>
+            </dependency>
+            <!-- org.apache.tomcat:catalina dependencyManagement entry
+                is necessary for PME align to the correct tomcat-version -->
+            <dependency>
+                <groupId>org.apache.tomcat</groupId>
+                <artifactId>tomcat-catalina</artifactId>
+                <version>${tomcat-version}</version>
+            </dependency>
+            <!-- org.json:json dependencyManagement entry
+                is necessary for PME align to the correct org-json-json-version -->
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${org-json-json-version}</version>
             </dependency>
             <!-- org.fusesource:camel-sap dependencyManagement entry
                 is necessary for PME align to the correct narayana-spring-boot.version -->
