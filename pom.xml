@@ -142,7 +142,7 @@
         <javax-inject-version>1.0.0.redhat-00008</javax-inject-version>
         <jetty9-version>9.4.53.v20231009</jetty9-version>
         <!-- keep maven and maven-resolver versions in sync -->
-        <maven-version>3.8.6</maven-version>
+        <maven-version>3.9.7</maven-version>
         <maven-resolver-version>1.6.3</maven-resolver-version>
         <maven-wagon-version>3.5.3</maven-wagon-version>
         <maven-compiler-plugin-version>3.10.1</maven-compiler-plugin-version>
