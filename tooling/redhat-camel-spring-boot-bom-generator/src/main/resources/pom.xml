@@ -242,6 +242,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-jakarta-client</artifactId>
+                <version>${artemis-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jdbc-store</artifactId>
                 <version>${artemis-version}</version>
             </dependency>
