@@ -158,7 +158,7 @@
         <woodstox-stax2-api-version>4.2.1</woodstox-stax2-api-version>
 
         <!-- Added for productized build - plexus versions used by patch maven plugin -->
-        <openshift-maven-plugin-version>1.16.1.redhat-00003</openshift-maven-plugin-version>
+        <openshift-maven-plugin-version>1.16.2.redhat-00001</openshift-maven-plugin-version>
     </properties>
 
     <dependencyManagement>
