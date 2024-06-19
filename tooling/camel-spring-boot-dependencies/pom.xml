@@ -4212,7 +4212,7 @@
       <dependency>
         <groupId>org.eclipse.jkube</groupId>
         <artifactId>openshift-maven-plugin</artifactId>
-        <version>1.16.1.redhat-00003</version>
+        <version>1.16.2.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
