@@ -221,7 +221,7 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-commons</artifactId>
-                <version>${artemis-version}</version>
+                <version>${activemq-artemis-version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>commons-logging</groupId>
@@ -232,7 +232,7 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-core-client</artifactId>
-                <version>${artemis-version}</version>
+                <version>${activemq-artemis-version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.apache.geronimo.specs</groupId>
@@ -243,17 +243,17 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jakarta-client</artifactId>
-                <version>${artemis-version}</version>
+                <version>${activemq-artemis-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jdbc-store</artifactId>
-                <version>${artemis-version}</version>
+                <version>${activemq-artemis-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jms-client</artifactId>
-                <version>${artemis-version}</version>
+                <version>${activemq-artemis-version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.apache.geronimo.specs</groupId>
