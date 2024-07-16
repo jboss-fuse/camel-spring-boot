@@ -268,20 +268,6 @@
                 <version>${jakarta-resource-version}</version>
             </dependency>
 
-	    <!-- org.apache.activemq:artemis-version dependencyManagement entry
-                is necessary for PME align to the correct artemis-version -->
-            <dependency>
-                <groupId>org.apache.activemq</groupId>
-                <artifactId>artemis-commons</artifactId>
-                <version>${activemq-artemis-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
         </dependencies>
     </dependencyManagement>
 
