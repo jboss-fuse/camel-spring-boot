@@ -110,7 +110,7 @@
         <compiler.fork>false</compiler.fork>
 
         <!-- Spring-Boot target version -->
-        <spring-boot-version>3.2.8</spring-boot-version>
+        <spring-boot-version>3.2.9</spring-boot-version>
 
         <!-- Camel target version -->
         <camel-version>4.4.0.redhat-00018</camel-version>
@@ -131,7 +131,7 @@
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <avro-version>1.11.3</avro-version>
-        <groovy-version>4.0.21</groovy-version>
+        <groovy-version>4.0.22</groovy-version>
         <graal-sdk-version>22.3.2</graal-sdk-version>
         <jakarta-jaxb-version>4.0.2</jakarta-jaxb-version>
         <jakarta-el-version>5.0.1</jakarta-el-version>
@@ -152,7 +152,7 @@
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.1.20</swagger-parser-v3-version>
         <cyclonedx-maven-plugin-version>2.7.11</cyclonedx-maven-plugin-version>
-        <tomcat-version>10.1.24</tomcat-version>
+        <tomcat-version>10.1.28</tomcat-version>
         <snappy-java-version>1.1.10.5</snappy-java-version>
         <woodstox-stax2-api-version>4.2.1</woodstox-stax2-api-version>
 
