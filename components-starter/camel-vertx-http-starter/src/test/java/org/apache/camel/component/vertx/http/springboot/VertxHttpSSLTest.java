@@ -50,13 +50,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
                 "debug=false",
                 // camel.ssl.config
                 "camel.ssl.config.cert-alias=web",
-                "camel.ssl.config.key-managers.key-password=changeit",
+                "camel.ssl.config.key-managers.key-password=changeitchangeitchangeit",
                 "camel.ssl.config.key-managers.key-store.resource=/keystore.p12",
-                "camel.ssl.config.key-managers.key-store.password=changeit",
+                "camel.ssl.config.key-managers.key-store.password=changeitchangeitchangeit",
                 "camel.ssl.config.key-managers.key-store.type=PKCS12",
                 // camel.ssl
                 "camel.ssl.trust-managers.key-store.resource=/cacerts",
-                "camel.ssl.trust-managers.key-store.password=changeit",
+                "camel.ssl.trust-managers.key-store.password=changeitchangeitchangeit",
                 "camel.ssl.trust-managers.key-store.type=jks"
         }
 )
