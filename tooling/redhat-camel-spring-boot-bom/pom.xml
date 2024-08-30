@@ -78,19 +78,19 @@
             <dependency>
                 <groupId>org.hsqldb</groupId>
                 <artifactId>hsqldb</artifactId>
-                <version>2.7.2</version>
+                <version>2.7.3</version>
             </dependency>
 
             <!-- Overrides undertow-core/servlet since SB is using an older version -->
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-core</artifactId>
-                <version>2.3.12.Final</version>
+                <version>2.3.16.SP1-redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-servlet</artifactId>
-                <version>2.3.12.Final</version>
+                <version>2.3.16.SP1-redhat-00001</version>
             </dependency>
             <!-- Overrides guava -->
             <dependency>
@@ -185,7 +185,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
-                <version>1.26.0.redhat-00002</version>
+                <version>1.26.2.redhat-00001</version>
             </dependency>
             <!-- Overrides snappy-java -->
             <dependency>
@@ -220,65 +220,84 @@
             <!-- Artemis Overrides -->
             <dependency>
                 <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-amqp-protocol</artifactId>
+                <version>2.33.0.redhat-00013</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-commons</artifactId>
-                <version>2.32.0</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
+                <version>2.33.0.redhat-00013</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-core-client</artifactId>
-                <version>2.32.0</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.apache.geronimo.specs</groupId>
-                        <artifactId>geronimo-json_1.0_spec</artifactId>
-                    </exclusion>
-                </exclusions>
+                <version>${aactivemq-artemis-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jakarta-client</artifactId>
-                <version>2.32.0</version>
+                <version>2.33.0.redhat-00013</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-jakarta-server</artifactId>
+                <version>2.33.0.redhat-00013</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-jakarta-service-extensions</artifactId>
+                <version>2.33.0.redhat-00013</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-jdbc-store</artifactId>
-                <version>2.32.0</version>
+                <version>${aactivemq-artemis-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
-                <artifactId>artemis-jms-client</artifactId>
-                <version>2.32.0</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.apache.geronimo.specs</groupId>
-                        <artifactId>geronimo-json_1.0_spec</artifactId>
-                    </exclusion>
-                </exclusions>
+                <artifactId>artemis-journal</artifactId>
+                <version>2.33.0.redhat-00013</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-quorum-api</artifactId>
+                <version>2.33.0.redhat-00013</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-selector</artifactId>
+                <version>2.33.0.redhat-00013</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-server</artifactId>
+                <version>2.33.0.redhat-00013</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-service-extensions</artifactId>
+                <version>2.33.0.redhat-00013</version>
+            </dependency>
+
+            <!-- threetenbp -->
             <dependency>
                 <groupId>org.threeten</groupId>
                 <artifactId>threetenbp</artifactId>
-                <version>${threetenbp-version}</version>
+                <version>1.6.9.redhat-00001</version>
             </dependency>
 
             <!-- Netty bom -->
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-bom</artifactId>
-                <version>4.1.108.Final-redhat-00001</version>
+                <version>4.1.111.Final-redhat-00002</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-bom</artifactId>
-                <version>12.0.8.redhat-00001</version>
+                <version>12.0.12.redhat-00002</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -294,7 +313,7 @@
             <dependency>
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-bom</artifactId>
-                <version>14.0.24.Final-redhat-00001</version>
+                <version>14.0.30.Final-redhat-00001</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -333,13 +352,13 @@
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
-                <version>4.5.14.redhat-00011</version>
+                <version>4.5.14.redhat-00012</version>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient-cache</artifactId>
-                <version>4.5.14.redhat-00011</version>
+                <version>4.5.14.redhat-00012</version>
             </dependency>
 
             <dependency>
@@ -357,7 +376,7 @@
             <dependency>
                 <groupId>com.microsoft.azure</groupId>
                 <artifactId>msal4j</artifactId>
-                <version>1.14.2</version>
+                <version>1.15.1.redhat-00001</version>
             </dependency>
 
             <dependency>
@@ -393,7 +412,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-text</artifactId>
-                <version>1.11.0.redhat-00001</version>
+                <version>1.11.0.redhat-00002</version>
             </dependency>
 
             <dependency>
@@ -447,7 +466,7 @@
             <dependency>
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcprov-jdk18on</artifactId>
-                <version>1.77</version>
+                <version>1.78</version>
             </dependency>
 
             <dependency>
@@ -523,7 +542,7 @@
             <dependency>
                 <groupId>com.azure</groupId>
                 <artifactId>azure-sdk-bom</artifactId>
-                <version>1.2.20</version>
+                <version>1.2.25</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -532,7 +551,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.0.4.fuse-redhat-00013</version>
+                <version>4.0.4.fuse-redhat-00029</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

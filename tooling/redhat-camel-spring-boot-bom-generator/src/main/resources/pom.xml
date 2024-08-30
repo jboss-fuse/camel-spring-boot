@@ -220,25 +220,18 @@
             <!-- Artemis Overrides -->
             <dependency>
                 <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-amqp-protocol</artifactId>
+                <version>${activemq-artemis-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-commons</artifactId>
                 <version>${activemq-artemis-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-core-client</artifactId>
-                <version>${activemq-artemis-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.apache.geronimo.specs</groupId>
-                        <artifactId>geronimo-json_1.0_spec</artifactId>
-                    </exclusion>
-                </exclusions>
+                <version>${aactivemq-artemis-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
@@ -247,20 +240,46 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
-                <artifactId>artemis-jdbc-store</artifactId>
+                <artifactId>artemis-jakarta-server</artifactId>
                 <version>${activemq-artemis-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
-                <artifactId>artemis-jms-client</artifactId>
+                <artifactId>artemis-jakarta-service-extensions</artifactId>
                 <version>${activemq-artemis-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.apache.geronimo.specs</groupId>
-                        <artifactId>geronimo-json_1.0_spec</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-jdbc-store</artifactId>
+                <version>${aactivemq-artemis-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-journal</artifactId>
+                <version>${activemq-artemis-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-quorum-api</artifactId>
+                <version>${activemq-artemis-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-selector</artifactId>
+                <version>${activemq-artemis-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-server</artifactId>
+                <version>${activemq-artemis-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-service-extensions</artifactId>
+                <version>${activemq-artemis-version}</version>
+            </dependency>
+
+            <!-- threetenbp -->
             <dependency>
                 <groupId>org.threeten</groupId>
                 <artifactId>threetenbp</artifactId>
