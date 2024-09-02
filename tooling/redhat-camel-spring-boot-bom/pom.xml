@@ -260,7 +260,7 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.activemq</groupId>
-                <artifactId>artemis-quorum-api</artifactId>
+                <artifactId>artemis-lockmanager-api</artifactId>
                 <version>2.33.0.redhat-00013</version>
             </dependency>
             <dependency>
