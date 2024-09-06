@@ -76,7 +76,7 @@
     <dependency>
       <groupId>org.apache.camel.springboot</groupId>
       <artifactId>camel-xml-io-dsl-starter</artifactId>
-      <version>${camel-version}</version>
+      <version>${project.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -116,7 +116,7 @@
     <dependency>
       <groupId>org.codehaus.jettison</groupId>
       <artifactId>jettison</artifactId>
-      <version>1.5.4</version>
+      <version>${jettison-version} </version>
       <scope>test</scope>
     </dependency>
     <!--START OF GENERATED CODE-->
