@@ -112,7 +112,7 @@
         <spring-boot-version>2.7.18</spring-boot-version>
 
         <!-- Camel target version -->
-        <camel-version>3.20.1.redhat-00048</camel-version>
+        <camel-version>3.20.6</camel-version>
 
         <!-- camel-sap version -->
         <camel-sap.version>3.20.1.redhat-00013</camel-sap.version>
@@ -580,7 +580,7 @@
         <profile>
             <id>dev</id>
             <properties>
-                <camel-version>3.20.1</camel-version>
+                <camel-version>3.20.6</camel-version>
             </properties>
         </profile>
 
