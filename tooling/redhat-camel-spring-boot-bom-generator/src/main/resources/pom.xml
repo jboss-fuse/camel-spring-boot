@@ -217,6 +217,66 @@
                 <version>${angus-mail-version}</version>
             </dependency>
 
+            <!-- overrides for ca.uhn.hapi.fhir:org.hl7.fhir.* -->
+            <dependency>
+                <groupId>ca.uhn.hapi.fhir</groupId>
+                <artifactId>org.hl7.fhir.dstu2</artifactId>
+                <version>${hapi-fhir-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ca.uhn.hapi.fhir</groupId>
+                <artifactId>org.hl7.fhir.dstu2016may</artifactId>
+                <version>${hapi-fhir-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ca.uhn.hapi.fhir</groupId>
+                <artifactId>org.hl7.fhir.dstu3</artifactId>
+                <version>${hapi-fhir-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ca.uhn.hapi.fhir</groupId>
+                <artifactId>org.hl7.fhir.r4</artifactId>
+                <version>${hapi-fhir-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ca.uhn.hapi.fhir</groupId>
+                <artifactId>org.hl7.fhir.r4b</artifactId>
+                <version>${hapi-fhir-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ca.uhn.hapi.fhir</groupId>
+                <artifactId>org.hl7.fhir.r5</artifactId>
+                <version>${hapi-fhir-core.version}</version>
+                <exclusions>
+                <exclusion>
+                    <groupId>com.github.stephenc.jcip</groupId>
+                    <artifactId>jcip-annotations</artifactId>
+                </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>ca.uhn.hapi.fhir</groupId>
+                <artifactId>org.hl7.fhir.utilities</artifactId>
+                <version>${hapi-fhir-core.version}</version>
+            </dependency>
+
+            <!-- upgrades for spring -->
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-bom</artifactId>
+                <version>${spring-security-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-framework-bom</artifactId>
+                <version>${spring5-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
             <!-- Artemis Overrides -->
             <dependency>
                 <groupId>org.apache.activemq</groupId>
