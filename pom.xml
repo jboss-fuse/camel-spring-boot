@@ -158,7 +158,7 @@
         <plexus-component-metadata-plugin-version>2.1.0</plexus-component-metadata-plugin-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.1.13</swagger-parser-v3-version>
-        <tomcat-version>9.0.89</tomcat-version>
+        <tomcat-version>9.0.94</tomcat-version>
         <camel-spring-boot-community.version>3.20.1</camel-spring-boot-community.version>
         <cyclonedx-maven-plugin-version>2.7.5</cyclonedx-maven-plugin-version>
 
@@ -198,6 +198,13 @@
                 <groupId>org.fusesource</groupId>
                 <artifactId>camel-sap</artifactId>
                 <version>${camel-sap.version}</version>
+            </dependency>
+            <!-- org.apache.activemq:artemis-core-client dependencyManagement entry
+                is necessary for PME align to the correct artemis-version -->
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-core-client</artifactId>
+                <version>${artemis-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
