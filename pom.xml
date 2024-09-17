@@ -125,28 +125,153 @@
         <!-- narayana spring boot version -->
         <narayana-spring-boot.version>3.0.0.redhat-00017</narayana-spring-boot.version>
 
-
         <!-- versions -->
+        <aalto-xml-version>1.3.2</aalto-xml-version>
         <aether-version>1.0.2.v20150114</aether-version>
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <avro-version>1.11.0</avro-version>
-        <groovy-version>4.0.13</groovy-version>
+        <groovy-version>4.0.22</groovy-version>
         <graal-sdk-version>22.3.2</graal-sdk-version>
         <jakarta-jaxb-version>4.0.0</jakarta-jaxb-version>
+        <jakarta-el-version>6.0.1</jakarta-el-version>
+        <jakarta-resource-version>2.0.0</jakarta-resource-version>
         <jaxb-version>2.3.0</jaxb-version>
+        <jna-version>5.13.0</jna-version>
+        <jobjc-version>2.8</jobjc-version>
+        <kryo-version>2.24.0</kryo-version>
         <maven-compiler-plugin-version>3.11.0</maven-compiler-plugin-version>
         <maven.compiler.release>${jdk.version}</maven.compiler.release>
         <maven-javadoc-plugin-version>3.10.0</maven-javadoc-plugin-version>
         <maven-surefire-plugin-version>3.1.2</maven-surefire-plugin-version>
         <mycila-license-version>3.0</mycila-license-version>
+        <org-json-json-version>20231013</org-json-json-version>
+        <parsson-version>1.0.5</parsson-version>
+        <perfmark-version>0.27.0</perfmark-version>
         <plexus-component-metadata-plugin-version>2.1.1</plexus-component-metadata-plugin-version>
         <springdoc-version>2.2.0</springdoc-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
-        <swagger-parser-v3-version>2.1.10</swagger-parser-v3-version>
+        <swagger-parser-v3-version>2.1.20</swagger-parser-v3-version>
         <cyclonedx-maven-plugin-version>2.8.1</cyclonedx-maven-plugin-version>
+
+        <tomcat-version>10.1.28</tomcat-version>
+        <snappy-java-version>1.1.10.5</snappy-java-version>
+        <woodstox-stax2-api-version>4.2.1</woodstox-stax2-api-version>
+
+        <!-- Added for productized build - plexus versions used by patch maven plugin -->
+        <openshift-maven-plugin-version>1.17.0.redhat-00003</openshift-maven-plugin-version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <!-- me.snowdrop:narayana-spring-boot-core dependencyManagement entry
+                is necessary for PME align to the correct narayana-spring-boot.version -->
+            <dependency>
+                <groupId>me.snowdrop</groupId>
+                <artifactId>narayana-spring-boot-core</artifactId>
+                <version>${narayana-spring-boot.version}</version>
+            </dependency>
+            <!-- org.fusesource:camel-sap dependencyManagement entry
+                is necessary for PME align to the correct narayana-spring-boot.version -->
+            <dependency>
+                <groupId>org.fusesource</groupId>
+                <artifactId>camel-sap</artifactId>
+                <version>${camel-sap.version}</version>
+            </dependency>
+            <!-- org.fusesource:camel-cics dependencyManagement entry
+                is necessary for PME align to the correct narayana-spring-boot.version -->
+                <dependency>
+                    <groupId>org.fusesource</groupId>
+                    <artifactId>camel-cics</artifactId>
+                    <version>${camel-cics.version}</version>
+                </dependency>
+            <!-- org.eclipse.jkube:openshift-maven-plugin dependencyManagement entry
+                is necessary for PME align to the correct openshift-maven-plugin-version -->
+            <dependency>
+                <groupId>org.eclipse.jkube</groupId>
+                <artifactId>openshift-maven-plugin</artifactId>
+                <version>${openshift-maven-plugin-version}</version>
+            </dependency>
+            <!-- org.apache.tomcat:catalina dependencyManagement entry
+                is necessary for PME align to the correct tomcat-version -->
+            <dependency>
+                <groupId>org.apache.tomcat</groupId>
+                <artifactId>tomcat-catalina</artifactId>
+                <version>${tomcat-version}</version>
+            </dependency>
+            <!-- io.projectreactor.netty:reactor-netty-http dependencyManagement entry
+                is necessary for PME align to the correct reactor-netty-version -->
+            <dependency>
+                <groupId>io.projectreactor.netty</groupId>
+                <artifactId>reactor-netty-http</artifactId>
+                <version>${reactor-netty-version}</version>
+            </dependency>
+            <!-- org.json:json dependencyManagement entry
+                is necessary for PME align to the correct org-json-json-version -->
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${org-json-json-version}</version>
+            </dependency>
+
+            <!-- j2objc dependencyManagement entry
+                is necessary for PME align to the correct j2objc version -->
+            <dependency>
+                <groupId>com.google.j2objc</groupId>
+                <artifactId>j2objc-annotations</artifactId>
+                <version>${jobjc-version}</version>
+            </dependency>
+
+            <!-- jna dependencyManagement entry
+                is necessary for PME align to the correct jna version -->
+            <dependency>
+                <groupId>net.java.dev.jna</groupId>
+                <artifactId>jna-platform</artifactId>
+                <version>${jna-version}</version>
+            </dependency>
+
+            <!-- io.perfmark dependencyManagement entry
+                is necessary for PME align to the correct perfmark version -->
+            <dependency>
+                <groupId>io.perfmark</groupId>
+                <artifactId>perfmark-api</artifactId>
+                <version>${perfmark-version}</version>
+            </dependency>
+
+            <!-- com.fasterxml:aalto-xml dependencyManagement entry
+                is necessary for PME align to the correct aalto-xml -->
+            <dependency>
+                <groupId>com.fasterxml</groupId>
+                <artifactId>aalto-xml</artifactId>
+                <version>${aalto-xml-version}</version>
+            </dependency>
+
+            <!-- com.esotericsoftware.kryo:kryo dependencyManagement entry
+                is necessary for PME align to the correct kryo -->
+            <dependency>
+                <groupId>com.esotericsoftware.kryo</groupId>
+                <artifactId>kryo</artifactId>
+                <version>${kryo-version}</version>
+            </dependency>
+
+            <!-- jakarta.el dependencyManagement entry
+                is necessary for PME align to the correct jakarta.el -->
+            <dependency>
+                <groupId>jakarta.el</groupId>
+                <artifactId>jakarta.el-api</artifactId>
+                <version>${jakarta-el-version}</version>
+            </dependency>
+
+            <!-- jakarta.resource dependencyManagement entry
+                is necessary for PME align to the correct jakarta.resource -->
+            <dependency>
+                <groupId>jakarta.resource</groupId>
+                <artifactId>jakarta.resource-api</artifactId>
+                <version>${jakarta-resource-version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
     <!-- Comment out the snapshot repositories as we don't need them now -->
     <repositories>
