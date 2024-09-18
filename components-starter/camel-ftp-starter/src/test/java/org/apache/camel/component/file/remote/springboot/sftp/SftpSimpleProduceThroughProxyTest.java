@@ -111,7 +111,6 @@ public class SftpSimpleProduceThroughProxyTest extends BaseSftp {
 
     @Configuration
     public class TestConfiguration extends BaseFtp.TestConfiguration {
-        @Bean
         public RouteBuilder routeBuilder() {
 
             return new RouteBuilder() {
