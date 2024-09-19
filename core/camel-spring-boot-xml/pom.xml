@@ -95,7 +95,7 @@
         <dependency>
             <groupId>org.apache.camel.springboot</groupId>
             <artifactId>camel-jetty-starter</artifactId>
-            <version>${project.version}</version>
+            <version>${camel-spring-boot-community.version}</version>
         </dependency>
     </dependencies>
 
