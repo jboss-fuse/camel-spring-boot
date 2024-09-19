@@ -92,6 +92,11 @@
                 <artifactId>undertow-servlet</artifactId>
                 <version>2.3.17.Final</version>
             </dependency>
+            <dependency>
+                <groupId>io.undertow</groupId>
+                <artifactId>undertow-websockets-jsr</artifactId>
+                <version>2.3.17.Final</version>
+            </dependency>
             <!-- Overrides guava -->
             <dependency>
                 <groupId>com.google.guava</groupId>
