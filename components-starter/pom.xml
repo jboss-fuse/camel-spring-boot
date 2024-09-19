@@ -270,7 +270,7 @@
     <!-- <module>camel-jcache-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jcr-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-jdbc-starter</module>
-    <module>camel-jetty-starter</module>
+    <!-- <module>camel-jetty-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jfr-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jgroups-cluster-service-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jgroups-raft-cluster-service-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
