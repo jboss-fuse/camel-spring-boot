@@ -1,0 +1,31 @@
+Jolokia SB starter
+
+The starter creates the required objects in the Spring context to allow the Jolokia server endpoint to be exposed with zero configuration and additional dependencies.
+
+In case of standalone execution it exposes the endpoint on http://0.0.0.0:8778/jolokia/
+
+In case of OpenShift execution it exposes the endpoint on https://0.0.0.0:8778/jolokia/ with ssl properties:
+
+`useSslClientAuthentication` = `true`
+
+`caCert` = `/var/run/secrets/kubernetes.io/serviceaccount/service-ca.crt`
+
+link:./camel-jolokia-starter/src/main/java/com/redhat/camel/springboot/platform/jolokia/JolokiaAgentConfig.java[JolokiaAgentConfig] wrapper for the agent configuration, documented in https://jolokia.org/reference/html/manual/spring.html[Jolokia Spring support]
+
+|===
+|property | description | default value
+
+|camel.jolokia.agent.enabled | to enable/disable the autoconfiguration | true
+|camel.jolokia.agent.lookupConfig | see Jolokia Spring support | false
+|camel.jolokia.agent.lookupServices | see Jolokia Spring support | false
+|camel.jolokia.agent.systemPropertiesMode | see Jolokia Spring support | never
+|camel.jolokia.agent.exposeApplicationContext | see Jolokia Spring support | false
+|camel.jolokia.agent.serverConfig | server configuration map with keys documented in https://jolokia.org/reference/html/manual/agents.html#jvm-agent[JVM agent configuration options] | { host=0.0.0.0, autoStart=true }
+|camel.jolokia.agent.kubernetesDiscover | to allow default properties to make the agent work on k8s/OCP | true
+|camel.jolokia.agent.kubernetesUseDefaultCa | if the CA used is `/var/run/secrets/kubernetes.io/serviceaccount/service-ca.crt` | true
+|===
+
+link:./camel-jolokia-starter/src/main/java/com/redhat/camel/springboot/platform/jolokia/JolokiaAgentAutoConfiguration.java[JolokiaAgentAutoConfiguration] Spring Boot autoconfiguration class,
+it creates `SpringJolokiaAgent` instance on the Spring context.
+It is possible to implement a custom Bean of type `SpringJolokiaConfigHolder` and name `configHolder`
+to create your own custom configuration.
