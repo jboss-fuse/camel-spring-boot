@@ -221,32 +221,32 @@
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>org.hl7.fhir.dstu2</artifactId>
-                <version>${hapi-fhir-core-version}</version>
+                <version>6.3.23.redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>org.hl7.fhir.dstu2016may</artifactId>
-                <version>${hapi-fhir-core-version}</version>
+                <version>6.3.23.redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>org.hl7.fhir.dstu3</artifactId>
-                <version>${hapi-fhir-core-version}</version>
+                <version>6.3.23.redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>org.hl7.fhir.r4</artifactId>
-                <version>${hapi-fhir-core-version}</version>
+                <version>6.3.23.redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>org.hl7.fhir.r4b</artifactId>
-                <version>${hapi-fhir-core-version}</version>
+                <version>6.3.23.redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>org.hl7.fhir.r5</artifactId>
-                <version>${hapi-fhir-core-version}</version>
+                <version>6.3.23.redhat-00001</version>
                 <exclusions>
                 <exclusion>
                     <groupId>com.github.stephenc.jcip</groupId>
@@ -257,7 +257,7 @@
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>org.hl7.fhir.utilities</artifactId>
-                <version>${hapi-fhir-core-version}</version>
+                <version>6.3.23.redhat-00001</version>
             </dependency>
 
             <!-- upgrades for spring -->
