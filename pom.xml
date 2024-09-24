@@ -157,7 +157,7 @@
         <tomcat-version>10.1.28</tomcat-version>
         <snappy-java-version>1.1.10.5</snappy-java-version>
         <woodstox-stax2-api-version>4.2.1</woodstox-stax2-api-version>
-
+        <jolokia-version>2.1.1</jolokia-version>
         <!-- Added for productized build - plexus versions used by patch maven plugin -->
         <openshift-maven-plugin-version>1.17.0.redhat-00003</openshift-maven-plugin-version>
     </properties>

@@ -279,6 +279,7 @@
     <module>camel-jira-starter</module>
     <module>camel-jms-starter</module>
     <!-- <module>camel-jmx-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-jolokia-starter</module>
     <!-- <module>camel-jolt-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-jooq-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-joor-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
