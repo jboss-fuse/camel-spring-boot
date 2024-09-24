@@ -339,13 +339,6 @@
                 <version>${activemq-artemis-version}</version>
             </dependency>
 
-            <!-- threetenbp -->
-            <dependency>
-                <groupId>org.threeten</groupId>
-                <artifactId>threetenbp</artifactId>
-                <version>${threetenbp-version}</version>
-            </dependency>
-
             <!-- Netty bom -->
             <dependency>
                 <groupId>io.netty</groupId>
