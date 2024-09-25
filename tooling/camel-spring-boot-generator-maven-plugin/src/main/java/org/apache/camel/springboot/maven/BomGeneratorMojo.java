@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+import java.util.function.Predicate;
 
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
@@ -42,14 +43,28 @@ import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.maven.RepositoryUtils;
+import org.apache.maven.artifact.Artifact;
+import org.apache.maven.artifact.repository.ArtifactRepository;
 import org.apache.maven.model.Dependency;
 import org.apache.maven.model.Exclusion;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
+import org.apache.maven.plugins.annotations.Component;
 import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.project.MavenProject;
+import org.eclipse.aether.RepositorySystem;
+import org.eclipse.aether.RepositorySystemSession;
+import org.eclipse.aether.artifact.DefaultArtifact;
+import org.eclipse.aether.collection.CollectRequest;
+import org.eclipse.aether.resolution.ArtifactDescriptorException;
+import org.eclipse.aether.resolution.ArtifactDescriptorRequest;
+import org.eclipse.aether.resolution.ArtifactDescriptorResult;
+import org.eclipse.aether.resolution.ArtifactResult;
+import org.eclipse.aether.resolution.DependencyRequest;
+import org.eclipse.aether.resolution.DependencyResolutionException;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -93,6 +108,15 @@ public class BomGeneratorMojo extends AbstractMojo {
 
     @Parameter(property = "bom.camelVersion", defaultValue = "${camel-version}")
     protected String camelVersion;
+
+    @Component
+    protected RepositorySystem repositorySystem;
+
+    @Parameter(defaultValue="${repositorySystemSession}", readonly = true, required = true)
+    protected RepositorySystemSession repoSession;
+
+    @Parameter(property = "project.remoteArtifactRepositories", readonly = true, required = true)
+    protected List<ArtifactRepository> remoteRepositories;
 
     @Override
     public void execute() throws MojoExecutionException {
@@ -244,6 +268,27 @@ public class BomGeneratorMojo extends AbstractMojo {
         dep.setVersion(narayanaSpringBootVersion);
         outDependencies.add(dep);
 
+        // Add Agroal using the same version used in Narayana tests
+        String agroalVersion = resolveAgroalVersion();
+
+        dep = new Dependency();
+        dep.setGroupId("io.agroal");
+        dep.setArtifactId("agroal-spring-boot-starter");
+        dep.setVersion(agroalVersion);
+        outDependencies.add(dep);
+
+        dep = new Dependency();
+        dep.setGroupId("io.agroal");
+        dep.setArtifactId("agroal-api");
+        dep.setVersion(agroalVersion);
+        outDependencies.add(dep);
+
+        dep = new Dependency();
+        dep.setGroupId("io.agroal");
+        dep.setArtifactId("agroal-pool");
+        dep.setVersion(agroalVersion);
+        outDependencies.add(dep);
+
         outDependencies.sort(Comparator.comparing(d -> (d.getGroupId() + ":" + d.getArtifactId())));
 
         // include some dependencies for testing and management
@@ -259,6 +304,23 @@ public class BomGeneratorMojo extends AbstractMojo {
         outDependencies.add(dep);
 
         return outDependencies;
+    }
+
+    private String resolveAgroalVersion() {
+        List<ArtifactResult> artifactResults = resolveProjectDependencies(
+            "me.snowdrop",
+            "narayana-spring-boot-starter-it",
+            narayanaSpringBootVersion,
+            artifact -> artifact.getGroupId().equals("io.agroal")
+                && artifact.getArtifactId().equals("agroal-api")
+        );
+        if (artifactResults.isEmpty()) {
+            throw new IllegalStateException("No agroal-api version found");
+        }
+        if (artifactResults.size() > 1) {
+            throw new IllegalStateException("Multiple agroal-api versions found");
+        }
+        return artifactResults.get(0).getArtifact().getVersion();
     }
 
     private Document loadBasePom() throws Exception {
@@ -420,6 +482,41 @@ public class BomGeneratorMojo extends AbstractMojo {
             }
 
             dependenciesSection.appendChild(dependencyEl);
+        }
+    }
+
+    /**
+     * Finds dependencies from a project.
+     * E.g.: You may use this to find out witch version of <b>io.agroal:agroal-pool</b> is used by <b>me.snowdrop:narayana-spring-boot-starter-it:3.2.0</b>
+     */
+    private List<ArtifactResult> resolveProjectDependencies(String projectGroup, String projectArtifactId, String projectVersion, Predicate<Artifact> dependenciesFilter) {
+        String artifactStr = String.format("%s:%s:%s", projectGroup, projectArtifactId, projectVersion);
+        org.eclipse.aether.artifact.Artifact artifact = new DefaultArtifact(artifactStr);
+
+        ArtifactDescriptorRequest descriptorRequest = new ArtifactDescriptorRequest();
+        descriptorRequest.setArtifact(artifact);
+        descriptorRequest.setRepositories(RepositoryUtils.toRepos(remoteRepositories));
+        ArtifactDescriptorResult descriptorResult = null;
+        try {
+            descriptorResult = repositorySystem.readArtifactDescriptor(repoSession, descriptorRequest);
+        } catch (ArtifactDescriptorException e) {
+            throw new RuntimeException("Failed to read artifact descriptor", e);
+        }
+
+        CollectRequest collectRequest = new CollectRequest();
+        collectRequest.setRootArtifact(descriptorResult.getArtifact());
+        collectRequest.setDependencies(descriptorResult.getDependencies());
+        collectRequest.setManagedDependencies(descriptorResult.getManagedDependencies());
+        collectRequest.setRepositories(descriptorRequest.getRepositories());
+
+        DependencyRequest dependencyRequest = new DependencyRequest(collectRequest,
+            (node, parents) -> dependenciesFilter.test(RepositoryUtils.toArtifact(node.getArtifact()))
+        );
+
+        try {
+            return repositorySystem.resolveDependencies(repoSession, dependencyRequest).getArtifactResults();
+        } catch (DependencyResolutionException e) {
+            throw new RuntimeException("Failed to resolve dependencies", e);
         }
     }
 
