@@ -251,19 +251,19 @@ public class BomGeneratorMojo extends AbstractMojo {
 
         // Add Narayana starter and associated artifacts
         dep = new Dependency();
-        dep.setGroupId("me.snowdrop");
+        dep.setGroupId("dev.snowdrop");
         dep.setArtifactId("narayana-spring-boot-starter");
         dep.setVersion(narayanaSpringBootVersion);
         outDependencies.add(dep);
 
         dep = new Dependency();
-        dep.setGroupId("me.snowdrop");
+        dep.setGroupId("dev.snowdrop");
         dep.setArtifactId("narayana-spring-boot-core");
         dep.setVersion(narayanaSpringBootVersion);
         outDependencies.add(dep);
 
         dep = new Dependency();
-        dep.setGroupId("me.snowdrop");
+        dep.setGroupId("dev.snowdrop");
         dep.setArtifactId("narayana-spring-boot-recovery-controller");
         dep.setVersion(narayanaSpringBootVersion);
         outDependencies.add(dep);

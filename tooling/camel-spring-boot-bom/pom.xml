@@ -34,19 +34,19 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>me.snowdrop</groupId>
+        <groupId>dev.snowdrop</groupId>
         <artifactId>narayana-spring-boot-core</artifactId>
-        <version>3.0.0.redhat-00017</version>
+        <version>3.2.0.redhat-00006</version>
       </dependency>
       <dependency>
-        <groupId>me.snowdrop</groupId>
+        <groupId>dev.snowdrop</groupId>
         <artifactId>narayana-spring-boot-recovery-controller</artifactId>
-        <version>3.0.0.redhat-00017</version>
+        <version>3.2.0.redhat-00006</version>
       </dependency>
       <dependency>
-        <groupId>me.snowdrop</groupId>
+        <groupId>dev.snowdrop</groupId>
         <artifactId>narayana-spring-boot-starter</artifactId>
-        <version>3.0.0.redhat-00017</version>
+        <version>3.2.0.redhat-00006</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
