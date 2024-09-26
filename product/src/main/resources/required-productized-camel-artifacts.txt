@@ -44,6 +44,7 @@ camel-dataformat-starter
 camel-dataset-starter
 camel-direct-starter
 camel-elasticsearch-starter
+camel-elasticsearch-rest-client-starter
 camel-endpointdsl-starter
 camel-fhir-starter
 camel-file-starter
@@ -51,9 +52,11 @@ camel-flink-starter
 camel-ftp-starter
 camel-google-bigquery-starter
 camel-google-pubsub-starter
+camel-graphql-starter
 camel-groovy-starter
 camel-grpc-starter
 camel-gson-starter
+camel-hashicorp-vault-starter
 camel-hl7-starter
 camel-http-starter
 camel-infinispan-starter
@@ -70,6 +73,7 @@ camel-jira-starter
 camel-jms-starter
 camel-jolokia-starter
 camel-jpa-starter
+camel-jq-starter
 camel-jslt-starter
 camel-jsonpath-starter
 camel-kafka-starter

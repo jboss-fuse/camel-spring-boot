@@ -35,6 +35,6 @@
   </build>
 
   <modules>
-    <module>camel-cics-starter</module>
+    <!-- <module>camel-cics-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
   </modules>
 </project>

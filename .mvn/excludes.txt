@@ -40,6 +40,7 @@
 :camel-cbor-starter
 :camel-chatscript-starter
 :camel-chunk-starter
+:camel-cics-starter
 :camel-cloudevents-starter
 :camel-cm-sms-starter
 :camel-coap-starter
@@ -71,7 +72,6 @@
 :camel-dsl-modeline-starter
 :camel-dynamic-router-starter
 :camel-ehcache-starter
-:camel-elasticsearch-rest-client-starter
 :camel-etcd3-starter
 :camel-exec-starter
 :camel-fastjson-starter
@@ -92,11 +92,9 @@
 :camel-google-sheets-starter
 :camel-google-storage-starter
 :camel-grape-starter
-:camel-graphql-starter
 :camel-grok-starter
 :camel-groovy-dsl-starter
 :camel-guava-eventbus-starter
-:camel-hashicorp-vault-starter
 :camel-hazelcast-starter
 :camel-huaweicloud-dms-starter
 :camel-huaweicloud-frs-starter
@@ -117,6 +115,7 @@
 :camel-javascript-starter
 :camel-jcache-starter
 :camel-jcr-starter
+:camel-jetty-starter
 :camel-jfr-starter
 :camel-jgroups-cluster-service-starter
 :camel-jgroups-raft-cluster-service-starter
@@ -126,7 +125,6 @@
 :camel-jolt-starter
 :camel-jooq-starter
 :camel-joor-starter
-:camel-jq-starter
 :camel-js-dsl-starter
 :camel-jsch-starter
 :camel-jsh-dsl-starter
@@ -151,7 +149,6 @@
 :camel-lucene-starter
 :camel-lumberjack-starter
 :camel-lzf-starter
-:camel-management-starter
 :camel-metrics-starter
 :camel-milvus-starter
 :camel-mina-starter
@@ -234,5 +231,10 @@
 :camel-zookeeper-cluster-service-starter
 :camel-zookeeper-master-starter
 :camel-zookeeper-starter
+:dependency-management-example
+:dependency-management-example-module1
 :docs
+:redhat-camel-spring-boot-maintenance
+:redhat-camel-spring-boot-patch-metadata
+:redhat-camel-spring-boot-patch-repository
 :tests

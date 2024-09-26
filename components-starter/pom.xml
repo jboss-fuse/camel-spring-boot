@@ -205,7 +205,7 @@
     <!-- <module>camel-dropbox-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-dynamic-router-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-ehcache-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-elasticsearch-rest-client-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-elasticsearch-rest-client-starter</module>
     <module>camel-elasticsearch-starter</module>
     <!-- <module>camel-etcd3-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-exec-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -233,13 +233,13 @@
     <!-- <module>camel-google-sheets-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-google-storage-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-grape-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-graphql-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-graphql-starter</module>
     <!-- <module>camel-grok-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-groovy-starter</module>
     <module>camel-grpc-starter</module>
     <module>camel-gson-starter</module>
     <!-- <module>camel-guava-eventbus-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-hashicorp-vault-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-hashicorp-vault-starter</module>
     <!-- <module>camel-hazelcast-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-hl7-starter</module>
     <module>camel-http-starter</module>
@@ -284,7 +284,7 @@
     <!-- <module>camel-jooq-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-joor-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-jpa-starter</module>
-    <!-- <module>camel-jq-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-jq-starter</module>
     <!-- <module>camel-jsch-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-jslt-starter</module>
     <!-- <module>camel-json-patch-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -316,7 +316,7 @@
     <!-- <module>camel-lzf-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-mail-microsoft-oauth-starter</module>
     <module>camel-mail-starter</module>
-    <!-- <module>camel-management-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-management-starter</module>
     <module>camel-mapstruct-starter</module>
     <module>camel-master-starter</module>
     <!-- <module>camel-metrics-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
