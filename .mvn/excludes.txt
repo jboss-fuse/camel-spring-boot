@@ -40,7 +40,6 @@
 :camel-cbor-starter
 :camel-chatscript-starter
 :camel-chunk-starter
-:camel-cics-starter
 :camel-cloudevents-starter
 :camel-cm-sms-starter
 :camel-coap-starter

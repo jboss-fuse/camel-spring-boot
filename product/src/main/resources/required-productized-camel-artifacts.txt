@@ -1,6 +1,7 @@
 org.apache.camel.archetypes:camel-archetype-spring-boot
 org.apache.camel.springboot:catalog
 org.apache.camel.springboot:camel-catalog-provider-springboot
+org.fusesource:camel-cics-starter
 com.redhat.camel.springboot.platform:patch-maven-plugin
 com.redhat.camel.springboot.platform:redhat-camel-spring-boot-bom
 com.redhat.camel.springboot.platform:redhat-camel-spring-boot-bom-generator
