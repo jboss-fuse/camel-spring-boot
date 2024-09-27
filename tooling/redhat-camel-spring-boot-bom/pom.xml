@@ -465,7 +465,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-text</artifactId>
-                <version>1.12.0</version>
+                <version>1.12.0.redhat-00001</version>
             </dependency>
 
             <dependency>
@@ -542,17 +542,17 @@
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm</artifactId>
-                <version>9.7</version>
+                <version>9.7.0.redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm-commons</artifactId>
-                <version>9.7</version>
+                <version>9.7.0.redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm-tree</artifactId>
-                <version>9.7</version>
+                <version>9.7.0.redhat-00001</version>
             </dependency>
 
             <dependency>
@@ -604,7 +604,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.0.5.redhat-00001</version>
+                <version>4.0.5.fuse-redhat-00006</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
