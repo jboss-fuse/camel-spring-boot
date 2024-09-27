@@ -118,7 +118,7 @@
     <!-- <module>camel-aws-bedrock-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-aws-cloudtrail-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-aws-config-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-aws-secrets-manager-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-aws-secrets-manager-starter</module>
     <!-- <module>camel-aws-xray-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-aws2-athena-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-aws2-cw-starter</module>
@@ -145,7 +145,7 @@
     <!-- <module>camel-azure-cosmosdb-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-azure-eventhubs-starter</module>
     <!-- <module>camel-azure-files-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-azure-key-vault-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-azure-key-vault-starter</module>
     <module>camel-azure-servicebus-starter</module>
     <module>camel-azure-storage-blob-starter</module>
     <!-- <module>camel-azure-storage-datalake-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -229,7 +229,7 @@
     <!-- <module>camel-google-mail-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-google-pubsub-lite-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-google-pubsub-starter</module>
-    <!-- <module>camel-google-secret-manager-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-google-secret-manager-starter</module>
     <!-- <module>camel-google-sheets-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-google-storage-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-grape-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -342,7 +342,7 @@
     <module>camel-olingo4-starter</module>
     <module>camel-openapi-java-starter</module>
     <!-- <module>camel-openapi-validator-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-opensearch-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-opensearch-starter</module>
     <!-- <module>camel-openstack-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-opentelemetry-starter</module>
     <!-- <module>camel-optaplanner-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->

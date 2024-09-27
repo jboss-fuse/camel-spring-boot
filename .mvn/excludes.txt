@@ -10,7 +10,6 @@
 :camel-aws-bedrock-starter
 :camel-aws-cloudtrail-starter
 :camel-aws-config-starter
-:camel-aws-secrets-manager-starter
 :camel-aws-xray-starter
 :camel-aws2-athena-starter
 :camel-aws2-ec2-starter
@@ -29,7 +28,6 @@
 :camel-aws2-translate-starter
 :camel-azure-cosmosdb-starter
 :camel-azure-files-starter
-:camel-azure-key-vault-starter
 :camel-azure-storage-datalake-starter
 :camel-barcode-starter
 :camel-base64-starter
@@ -87,7 +85,6 @@
 :camel-google-functions-starter
 :camel-google-mail-starter
 :camel-google-pubsub-lite-starter
-:camel-google-secret-manager-starter
 :camel-google-sheets-starter
 :camel-google-storage-starter
 :camel-grape-starter
@@ -160,7 +157,6 @@
 :camel-ognl-starter
 :camel-olingo2-starter
 :camel-openapi-validator-starter
-:camel-opensearch-starter
 :camel-openstack-starter
 :camel-optaplanner-starter
 :camel-parquet-avro-starter

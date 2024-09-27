@@ -14,6 +14,7 @@ camel-spring-boot-starter
 camel-spring-boot-xml-starter
 camel-amqp-starter
 camel-avro-starter
+camel-aws-secrets-manager-starter
 camel-aws2-cw-starter
 camel-aws2-ddb-starter
 camel-aws2-kinesis-starter
@@ -22,6 +23,7 @@ camel-aws2-s3-starter
 camel-aws2-sns-starter
 camel-aws2-sqs-starter
 camel-azure-eventhubs-starter
+camel-azure-key-vault-starter
 camel-azure-servicebus-starter
 camel-azure-storage-blob-starter
 camel-azure-storage-queue-starter
@@ -53,6 +55,7 @@ camel-flink-starter
 camel-ftp-starter
 camel-google-bigquery-starter
 camel-google-pubsub-starter
+camel-google-secret-manager-starter
 camel-graphql-starter
 camel-groovy-starter
 camel-grpc-starter
@@ -100,6 +103,7 @@ camel-netty-starter
 camel-netty-http-starter
 camel-olingo4-starter
 camel-openapi-java-starter
+camel-opensearch-starter
 camel-opentelemetry-starter
 camel-paho-starter
 camel-paho-mqtt5-starter
