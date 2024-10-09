@@ -93,8 +93,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel.springboot</groupId>
-            <artifactId>camel-jetty-starter</artifactId>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-jetty</artifactId>
             <version>${camel-community.version}</version>
             <scope>test</scope>
         </dependency>
@@ -118,15 +118,6 @@
                 </executions>
             </plugin>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>**/*MixedRestDslTest.java</exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 </project>
