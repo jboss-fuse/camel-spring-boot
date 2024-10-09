@@ -26,7 +26,9 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
@@ -47,6 +49,8 @@ import org.apache.maven.artifact.Artifact;
 import org.apache.maven.artifact.repository.ArtifactRepository;
 import org.apache.maven.model.Dependency;
 import org.apache.maven.model.Exclusion;
+import org.apache.maven.model.Model;
+import org.apache.maven.model.io.xpp3.MavenXpp3Reader;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Component;
@@ -61,6 +65,7 @@ import org.eclipse.aether.collection.CollectRequest;
 import org.eclipse.aether.resolution.ArtifactDescriptorException;
 import org.eclipse.aether.resolution.ArtifactDescriptorRequest;
 import org.eclipse.aether.resolution.ArtifactDescriptorResult;
+import org.eclipse.aether.resolution.ArtifactRequest;
 import org.eclipse.aether.resolution.ArtifactResult;
 import org.eclipse.aether.resolution.DependencyRequest;
 import org.eclipse.aether.resolution.DependencyResolutionException;
@@ -332,20 +337,11 @@ public class BomGeneratorMojo extends AbstractMojo {
     }
 
     private String resolveAgroalVersion() {
-        List<ArtifactResult> artifactResults = resolveProjectDependencies(
-            "dev.snowdrop",
-            "narayana-spring-boot-starter-it",
-            narayanaSpringBootVersion,
-            artifact -> artifact.getGroupId().equals("io.agroal")
-                && artifact.getArtifactId().equals("agroal-api")
-        );
-        if (artifactResults.isEmpty()) {
-            throw new IllegalStateException("No agroal-api version found");
-        }
-        if (artifactResults.size() > 1) {
-            throw new IllegalStateException("Multiple agroal-api versions found");
-        }
-        return artifactResults.get(0).getArtifact().getVersion();
+        return resolveArtifactProperties("dev.snowdrop", "narayana-spring-boot-parent", "pom",
+                narayanaSpringBootVersion).entrySet().stream().filter(entry -> "agroal.version".equals(entry.getKey()))
+                .map(Map.Entry::getValue)
+                .findFirst()
+                .orElseThrow(() -> new IllegalStateException("No agroal.version property found in narayana-spring-boot-parent"));
     }
 
     private Document loadBasePom() throws Exception {
@@ -546,4 +542,29 @@ public class BomGeneratorMojo extends AbstractMojo {
         }
     }
 
+    /**
+     * Retrieves the Map representing the properties of a given artifact
+     */
+    private Map<String, String> resolveArtifactProperties(String projectGroup, String projectArtifactId, String extension, String projectVersion) {
+        DefaultArtifact artifact = new DefaultArtifact(projectGroup, projectArtifactId, extension,
+                projectVersion);
+        ArtifactRequest artifactRequest = new ArtifactRequest();
+        artifactRequest.setArtifact(artifact);
+        artifactRequest.setRepositories(RepositoryUtils.toRepos(remoteRepositories));
+
+        try {
+            ArtifactResult artifactResult = repositorySystem
+                    .resolveArtifact(repoSession, artifactRequest);
+
+            MavenXpp3Reader reader = new MavenXpp3Reader();
+            Model model = reader.read(new FileReader(artifactResult.getArtifact().getFile()));
+
+            return model.getProperties().entrySet().stream().collect(Collectors.toMap(
+                    e -> (String) e.getKey(),
+                    e -> (String) e.getValue()
+            ));
+        } catch (Exception e) {
+            throw new RuntimeException(String.format("unable to resolve properties in %s:$s:%s", projectGroup, projectArtifactId, projectVersion), e);
+        }
+    }
 }
