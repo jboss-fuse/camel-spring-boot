@@ -16,7 +16,6 @@
  */
 package org.apache.camel.component.platform.http.springboot;
 
-import org.apache.camel.Consumer;
 import org.apache.camel.Processor;
 import org.apache.camel.component.platform.http.PlatformHttpEndpoint;
 import org.apache.camel.component.platform.http.spi.PlatformHttpConsumer;
