@@ -1929,6 +1929,16 @@
         <version>${project.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.camel.kamelets</groupId>
+        <artifactId>camel-kamelets-catalog</artifactId>
+        <version>4.8.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.kamelets</groupId>
+        <artifactId>camel-kamelets-utils</artifactId>
+        <version>4.8.0</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-management</artifactId>
         <version>4.8.0</version>
