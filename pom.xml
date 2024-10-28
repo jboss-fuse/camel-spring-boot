@@ -166,6 +166,17 @@
 
     <dependencyManagement>
         <dependencies>
+
+
+
+            <!-- org.apache.camel.kamelets:camel-kamelets-bom dependencyManagement entry
+                is necessary for PME align to the correct camel-kamelets-version -->
+            <dependency>
+                <groupId>org.apache.camel.kamelets</groupId>
+                <artifactId>camel-kamelets-bom</artifactId>
+                <version>${camel-kamelets-version}</version>
+            </dependency>
+
             <!-- dev.snowdrop:narayana-spring-boot-core dependencyManagement entry
                 is necessary for PME align to the correct narayana-spring-boot.version -->
             <dependency>
