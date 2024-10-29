@@ -1181,7 +1181,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-management-starter</artifactId>
-        <version>4.8.0</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>

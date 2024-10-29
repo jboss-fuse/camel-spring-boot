@@ -90,6 +90,7 @@ camel-log-starter
 camel-lra-starter
 camel-mail-starter
 camel-mail-microsoft-oauth-starter
+camel-management-starter
 camel-mapstruct-starter
 camel-master-starter
 camel-micrometer-starter

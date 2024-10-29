@@ -331,7 +331,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            
+
             <!-- Dependency Convergence additions -->
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
