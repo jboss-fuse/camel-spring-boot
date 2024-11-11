@@ -96,11 +96,7 @@ public class PlatformHttpMessage extends DefaultMessage {
     }
 
     public PlatformHttpMessage newInstance() {
-        PlatformHttpMessage answer = new PlatformHttpMessage(this.request, this.response, this.getExchange(), this.binding, this.requestRead);
-        if (answer.camelContext == null) {
-            answer.setCamelContext(this.camelContext);
-        }
-        return answer;
+        return new PlatformHttpMessage(this.request, this.response, this.getExchange(), this.binding, this.requestRead);
     }
 
     public String toString() {
