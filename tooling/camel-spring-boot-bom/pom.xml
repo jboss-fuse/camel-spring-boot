@@ -1941,7 +1941,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-management</artifactId>
-        <version>4.8.0</version>
+        <version>${camel-version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
