@@ -33,6 +33,6 @@
     <module>camel-spring-boot-starter</module>
     <module>camel-spring-boot-engine-starter</module>
     <module>camel-spring-boot-xml-starter</module>
-    <module>camel-k-starter</module>
+    <!-- <module>camel-k-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
   </modules>
 </project>
