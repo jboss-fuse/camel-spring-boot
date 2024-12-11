@@ -4452,7 +4452,7 @@
       <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-cics</artifactId>
-        <version>4.8.0.redhat-00005</version>
+        <version>4.8.2.temporary-redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
@@ -4462,7 +4462,7 @@
       <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap</artifactId>
-        <version>4.8.0.redhat-00005</version>
+        <version>4.8.2.temporary-redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
