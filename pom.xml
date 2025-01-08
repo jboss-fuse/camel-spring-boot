@@ -110,7 +110,7 @@
         <compiler.fork>false</compiler.fork>
 
         <!-- Spring-Boot target version -->
-        <spring-boot-version>3.3.6</spring-boot-version>
+        <spring-boot-version>3.3.7</spring-boot-version>
 
         <!-- Camel target version -->
         <camel-version>4.8.0.redhat-00010</camel-version>
@@ -133,7 +133,7 @@
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <avro-version>1.12.0</avro-version>
-        <groovy-version>4.0.23</groovy-version>
+        <groovy-version>4.0.24</groovy-version>
         <graal-sdk-version>22.3.2</graal-sdk-version>
         <jakarta-jaxb-version>4.0.0</jakarta-jaxb-version>
         <jakarta-el-version>6.0.1</jakarta-el-version>
@@ -156,13 +156,13 @@
         <swagger-parser-v3-version>2.1.20</swagger-parser-v3-version>
         <cyclonedx-maven-plugin-version>2.8.1</cyclonedx-maven-plugin-version>
 
-        <tomcat-version>10.1.33</tomcat-version>
+        <tomcat-version>10.1.34</tomcat-version>
         <snappy-java-version>1.1.10.5</snappy-java-version>
         <woodstox-stax2-api-version>4.2.1</woodstox-stax2-api-version>
         <!-- Added for productized build - plexus versions used by patch maven plugin -->
         <openshift-maven-plugin-version>1.17.0.redhat-00003</openshift-maven-plugin-version>
         <wiremock-spring-boot-version>3.0.2</wiremock-spring-boot-version>
-        <spring-session-hazelcast-version>3.3.3</spring-session-hazelcast-version>
+        <spring-session-hazelcast-version>3.3.5</spring-session-hazelcast-version>
     </properties>
 
     <dependencyManagement>
