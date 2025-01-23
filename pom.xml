@@ -131,7 +131,7 @@
         <compiler.fork>false</compiler.fork>
 
         <!-- Spring-Boot target version -->
-        <spring-boot-version>3.3.7</spring-boot-version>
+        <spring-boot-version>3.3.8</spring-boot-version>
 
         <!-- Camel target version -->
         <camel-version>4.8.3.redhat-00001</camel-version>
@@ -141,7 +141,7 @@
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.7.0.Alpha10</arquillian-version>
         <avro-version>1.12.0</avro-version>
-        <groovy-version>4.0.13</groovy-version>
+        <groovy-version>4.0.24</groovy-version>
         <graal-sdk-version>22.3.2</graal-sdk-version>
         <jakarta-jaxb-version>4.0.0</jakarta-jaxb-version>
         <jaxb-version>2.3.0</jaxb-version>
@@ -154,7 +154,7 @@
         <springdoc-version>2.2.0</springdoc-version>
         <surefire.version>${maven-surefire-plugin-version}</surefire.version>
         <swagger-parser-v3-version>2.1.10</swagger-parser-v3-version>
-	    <cyclonedx-maven-plugin-version>2.8.1</cyclonedx-maven-plugin-version>
+	<cyclonedx-maven-plugin-version>2.8.1</cyclonedx-maven-plugin-version>
         <wiremock-spring-boot-version>3.0.2</wiremock-spring-boot-version>
         <spring-session-hazelcast-version>3.3.5</spring-session-hazelcast-version>
     </properties>
