@@ -37,7 +37,7 @@
     <dependency>
       <groupId>org.jolokia</groupId>
       <artifactId>jolokia-support-spring</artifactId>
-      <version>${jolokia-version}</version>
+      <version>${jolokia-starter-jolokia-version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.camel.springboot</groupId>
