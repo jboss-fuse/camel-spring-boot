@@ -50,6 +50,8 @@ import java.util.HashMap;
                     map.replace(line, true);
                 }
             }
+            br.close();
+            fileReader.close();
         } catch (IOException ioe) {
             throw new RuntimeException(ioe);
         }

@@ -141,6 +141,7 @@ public class ZipWagon extends StreamWagon {
                 target.getParentFile().setLastModified(ze.getTime());
                 target.setLastModified(ze.getTime());
             }
+            zf.close();
         } catch (IOException e) {
             throw new MavenExecutionException("Problem extracting data from " + zipFile, e);
         }
