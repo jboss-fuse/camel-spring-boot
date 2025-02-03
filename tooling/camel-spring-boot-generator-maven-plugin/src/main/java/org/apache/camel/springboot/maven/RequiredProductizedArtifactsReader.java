@@ -34,9 +34,8 @@ import java.util.HashMap;
     public static HashMap<String, Boolean> getProductizedCSBArtifacts(File requiredFile) {
         HashMap<String, Boolean> map = new HashMap<>();
 
-        try {
-            FileReader fileReader = new FileReader(requiredFile);
-            BufferedReader br = new BufferedReader(fileReader);
+        try (FileReader fileReader = new FileReader(requiredFile);
+            BufferedReader br = new BufferedReader(fileReader)) {
 
             String line;
             while ((line = br.readLine()) != null) {
@@ -50,8 +49,6 @@ import java.util.HashMap;
                     map.replace(line, true);
                 }
             }
-            br.close();
-            fileReader.close();
         } catch (IOException ioe) {
             throw new RuntimeException(ioe);
         }
