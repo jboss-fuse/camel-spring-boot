@@ -86,8 +86,7 @@ public class ZipWagon extends StreamWagon {
             throw new MavenExecutionException("Can't create temporary directory to unzip " + zipFile, e);
         }
 
-        try {
-            ZipFile zf = new ZipFile(zipFile);
+        try (ZipFile zf = new ZipFile(zipFile)) {
             byte[] buf = new byte[16384];
             for (Enumeration<? extends ZipEntry> e = zf.entries(); e.hasMoreElements(); ) {
                 ZipEntry ze = e.nextElement();
