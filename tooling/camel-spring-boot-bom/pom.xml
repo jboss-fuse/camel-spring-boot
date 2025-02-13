@@ -36,32 +36,32 @@
       <dependency>
         <groupId>dev.snowdrop</groupId>
         <artifactId>narayana-spring-boot-core</artifactId>
-        <version>3.2.0.redhat-00006</version>
+        <version>3.3.1.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>dev.snowdrop</groupId>
         <artifactId>narayana-spring-boot-recovery-controller</artifactId>
-        <version>3.2.0.redhat-00006</version>
+        <version>3.3.1.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>dev.snowdrop</groupId>
         <artifactId>narayana-spring-boot-starter</artifactId>
-        <version>3.2.0.redhat-00006</version>
+        <version>3.3.1.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.agroal</groupId>
         <artifactId>agroal-api</artifactId>
-        <version>2.5</version>
+        <version>2.5.0.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.agroal</groupId>
         <artifactId>agroal-pool</artifactId>
-        <version>2.5</version>
+        <version>2.5.0.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.agroal</groupId>
         <artifactId>agroal-spring-boot-starter</artifactId>
-        <version>2.5</version>
+        <version>2.5.0.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
