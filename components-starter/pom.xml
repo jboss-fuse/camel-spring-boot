@@ -340,7 +340,7 @@
     <module>camel-netty-starter</module>
     <!-- <module>camel-nitrite-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-oaipmh-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-observability-services-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-observability-services-starter</module>
     <!-- <module>camel-observation-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-ognl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-olingo2-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -411,7 +411,7 @@
     <module>camel-spring-ws-starter</module>
     <!-- <module>camel-springdoc-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-sql-starter</module>
-    <!-- <module>camel-ssh-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-ssh-starter</module>
     <!-- <module>camel-stax-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-stitch-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-stomp-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->

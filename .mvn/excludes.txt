@@ -151,7 +151,6 @@
 :camel-neo4j-starter
 :camel-nitrite-starter
 :camel-oaipmh-starter
-:camel-observability-services-starter
 :camel-observation-starter
 :camel-ognl-starter
 :camel-olingo2-starter
@@ -190,7 +189,6 @@
 :camel-snakeyaml-starter
 :camel-solr-starter
 :camel-springdoc-starter
-:camel-ssh-starter
 :camel-stax-starter
 :camel-stitch-starter
 :camel-stomp-starter

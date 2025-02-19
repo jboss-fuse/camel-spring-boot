@@ -74,12 +74,12 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-api</artifactId>
-                <version>4.10.0.redhat-00004</version>
+                <version>4.10.0.redhat-00005</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-support</artifactId>
-                <version>4.10.0.redhat-00004</version>
+                <version>4.10.0.redhat-00005</version>
             </dependency>
 
             <!-- Insert third party overrides here -->
@@ -289,7 +289,7 @@
             <dependency>
                 <groupId>com.fasterxml.jackson</groupId>
                 <artifactId>jackson-bom</artifactId>
-                <version>2.18.2.redhat-00002</version>
+                <version>2.18.2.redhat-00004</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -517,7 +517,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.1.0.rbac-redhat-00002</version>
+                <version>4.1.0.rbac-redhat-00004</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

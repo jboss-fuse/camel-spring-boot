@@ -102,6 +102,7 @@ camel-mybatis-starter
 camel-nats-starter
 camel-netty-starter
 camel-netty-http-starter
+camel-observability-services-starter
 camel-olingo4-starter
 camel-openapi-java-starter
 camel-opensearch-starter
@@ -134,6 +135,7 @@ camel-spring-rabbitmq-starter
 camel-spring-redis-starter
 camel-spring-security-starter
 camel-spring-ws-starter
+camel-ssh-starter
 camel-stub-starter
 camel-sql-starter
 camel-telegram-starter
