@@ -53,6 +53,7 @@
     <dependency>
       <groupId>org.apache.camel.springboot</groupId>
       <artifactId>camel-jetty-starter</artifactId>
+      <version>${camel-spring-boot-community.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
