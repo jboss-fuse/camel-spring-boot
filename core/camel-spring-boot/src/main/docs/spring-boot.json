@@ -14,37 +14,37 @@
       "name": "camel.cloud.load-balancer",
       "type": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$LoadBalancer",
       "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties",
-      "sourceMethod": "getLoadBalancer()"
+      "sourceMethod": "public org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties.LoadBalancer getLoadBalancer() "
     },
     {
       "name": "camel.cloud.service-call",
       "type": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceCall",
       "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties",
-      "sourceMethod": "getServiceCall()"
+      "sourceMethod": "public org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties.ServiceCall getServiceCall() "
     },
     {
       "name": "camel.cloud.service-chooser",
       "type": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceChooser",
       "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties",
-      "sourceMethod": "getServiceChooser()"
+      "sourceMethod": "public org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties.ServiceChooser getServiceChooser() "
     },
     {
       "name": "camel.cloud.service-discovery",
       "type": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceDiscovery",
       "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties",
-      "sourceMethod": "getServiceDiscovery()"
+      "sourceMethod": "public org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties.ServiceDiscovery getServiceDiscovery() "
     },
     {
       "name": "camel.cloud.service-filter",
       "type": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceFilter",
       "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties",
-      "sourceMethod": "getServiceFilter()"
+      "sourceMethod": "public org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties.ServiceFilter getServiceFilter() "
     },
     {
       "name": "camel.cloud.service-registry",
       "type": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceRegistry",
       "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties",
-      "sourceMethod": "getServiceRegistry()"
+      "sourceMethod": "public org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties.ServiceRegistry getServiceRegistry() "
     },
     {
       "name": "camel.clustered.controller",
@@ -60,7 +60,7 @@
       "name": "camel.component.customizer",
       "type": "org.apache.camel.spring.boot.ComponentConfigurationPropertiesCommon$CustomizerProperties",
       "sourceType": "org.apache.camel.spring.boot.ComponentConfigurationProperties",
-      "sourceMethod": "getCustomizer()"
+      "sourceMethod": "public org.apache.camel.spring.boot.ComponentConfigurationPropertiesCommon.CustomizerProperties getCustomizer() "
     },
     {
       "name": "camel.component.properties",
@@ -76,7 +76,7 @@
       "name": "camel.dataformat.customizer",
       "type": "org.apache.camel.spring.boot.DataFormatConfigurationPropertiesCommon$CustomizerProperties",
       "sourceType": "org.apache.camel.spring.boot.DataFormatConfigurationProperties",
-      "sourceMethod": "getCustomizer()"
+      "sourceMethod": "public org.apache.camel.spring.boot.DataFormatConfigurationPropertiesCommon.CustomizerProperties getCustomizer() "
     },
     {
       "name": "camel.health",
@@ -92,13 +92,13 @@
       "name": "camel.language.customizer",
       "type": "org.apache.camel.spring.boot.LanguageConfigurationPropertiesCommon$CustomizerProperties",
       "sourceType": "org.apache.camel.spring.boot.LanguageConfigurationProperties",
-      "sourceMethod": "getCustomizer()"
+      "sourceMethod": "public org.apache.camel.spring.boot.LanguageConfigurationPropertiesCommon.CustomizerProperties getCustomizer() "
     },
     {
       "name": "camel.main",
       "type": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties",
-      "sourceMethod": "getMain()"
+      "sourceMethod": "public org.apache.camel.spring.boot.CamelConfigurationProperties.Main getMain() "
     },
     {
       "name": "camel.routecontroller",
@@ -114,7 +114,7 @@
       "name": "camel.springboot",
       "type": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties",
-      "sourceMethod": "getSpringboot()"
+      "sourceMethod": "public org.apache.camel.spring.boot.CamelConfigurationProperties.Springboot getSpringboot() "
     },
     {
       "name": "camel.ssl",
@@ -182,15 +182,13 @@
       "name": "camel.cloud.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable Camel cloud support, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties"
     },
     {
       "name": "camel.cloud.load-balancer.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable Camel cloud load balancer, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$LoadBalancer",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$LoadBalancer"
     },
     {
       "name": "camel.cloud.service-call.component",
@@ -202,8 +200,7 @@
       "name": "camel.cloud.service-call.default-load-balancer",
       "type": "java.lang.Boolean",
       "description": "Determine if the default load balancer should be used instead of any auto discovered one.",
-      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceCall",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceCall"
     },
     {
       "name": "camel.cloud.service-call.expression",
@@ -215,8 +212,7 @@
       "name": "camel.cloud.service-call.expression-language",
       "type": "java.lang.String",
       "description": "The expression language to use, default is ref.",
-      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceCall",
-      "defaultValue": "ref"
+      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceCall"
     },
     {
       "name": "camel.cloud.service-call.load-balancer",
@@ -252,8 +248,7 @@
       "name": "camel.cloud.service-chooser.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable Camel cloud service chooser, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceChooser",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceChooser"
     },
     {
       "name": "camel.cloud.service-discovery.configurations",
@@ -265,8 +260,7 @@
       "name": "camel.cloud.service-discovery.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable Camel cloud service discovery, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceDiscovery",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceDiscovery"
     },
     {
       "name": "camel.cloud.service-discovery.service-definitions",
@@ -296,15 +290,13 @@
       "name": "camel.cloud.service-filter.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable Camel cloud service filter, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceFilter",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceFilter"
     },
     {
       "name": "camel.cloud.service-registry.enabled",
       "type": "java.lang.Boolean",
       "description": "Configure if service registry should be enabled or not, default true.",
-      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceRegistry",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.cloud.CamelCloudConfigurationProperties$ServiceRegistry"
     },
     {
       "name": "camel.cloud.service-registry.service-host",
@@ -322,8 +314,7 @@
       "name": "camel.clustered.controller.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable Camel clustered route controller, default is false.",
-      "sourceType": "org.apache.camel.spring.boot.cluster.ClusteredRouteControllerConfiguration",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.cluster.ClusteredRouteControllerConfiguration"
     },
     {
       "name": "camel.clustered.controller.initial-delay",
@@ -347,29 +338,25 @@
       "name": "camel.component.customizer.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable component customizers, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.ComponentConfigurationPropertiesCommon$CustomizerProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.ComponentConfigurationPropertiesCommon$CustomizerProperties"
     },
     {
       "name": "camel.component.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable component auto-configuration, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.ComponentConfigurationProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.ComponentConfigurationProperties"
     },
     {
       "name": "camel.component.properties.auto-discover-properties-sources",
       "type": "java.lang.Boolean",
       "description": "Whether to automatically discovery instances of PropertiesSource from registry and service factory.",
-      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration"
     },
     {
       "name": "camel.component.properties.default-fallback-enabled",
       "type": "java.lang.Boolean",
       "description": "If false, the component does not attempt to find a default for the key by looking after the colon separator.",
-      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration"
     },
     {
       "name": "camel.component.properties.encoding",
@@ -381,15 +368,13 @@
       "name": "camel.component.properties.environment-variable-mode",
       "type": "java.lang.Integer",
       "description": "Sets the OS environment variables mode (0 = never, 1 = fallback, 2 = override). The default mode (override) is to use OS environment variables if present, and override any existing properties. OS environment variable mode is checked before JVM system property mode",
-      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration",
-      "defaultValue": 2
+      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration"
     },
     {
       "name": "camel.component.properties.ignore-missing-location",
       "type": "java.lang.Boolean",
       "description": "Whether to silently ignore if a location cannot be located, such as a properties file not found.",
-      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration"
     },
     {
       "name": "camel.component.properties.initial-properties",
@@ -407,8 +392,7 @@
       "name": "camel.component.properties.nested-placeholder",
       "type": "java.lang.Boolean",
       "description": "Whether to support nested property placeholders. A nested placeholder, means that a placeholder, has also a placeholder, that should be resolved (recursively).",
-      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration"
     },
     {
       "name": "camel.component.properties.override-properties",
@@ -426,29 +410,25 @@
       "name": "camel.component.properties.system-properties-mode",
       "type": "java.lang.Integer",
       "description": "Sets the JVM system property mode (0 = never, 1 = fallback, 2 = override). The default mode (override) is to use system properties if present, and override any existing properties. OS environment variable mode is checked before JVM system property mode",
-      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration",
-      "defaultValue": 2
+      "sourceType": "org.apache.camel.spring.boot.properties.PropertiesComponentConfiguration"
     },
     {
       "name": "camel.dataformat.customizer.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable dataformat customizers, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.DataFormatConfigurationPropertiesCommon$CustomizerProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.DataFormatConfigurationPropertiesCommon$CustomizerProperties"
     },
     {
       "name": "camel.dataformat.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable dataformat auto-configuration, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.DataFormatConfigurationProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.DataFormatConfigurationProperties"
     },
     {
       "name": "camel.health.async-camel-health-check",
       "type": "java.lang.Boolean",
       "description": "Whether Camel Health Checks are executed asynchronously <p> disabled by default",
-      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties"
     },
     {
       "name": "camel.health.consumers-enabled",
@@ -472,36 +452,31 @@
       "name": "camel.health.exposure-level",
       "type": "java.lang.String",
       "description": "Sets the level of details to exposure as result of invoking health checks. There are the following levels: full, default, oneline The full level will include all details and status from all the invoked health checks. The default level will report UP if everything is okay, and only include detailed information for health checks that was DOWN. The oneline level will only report either UP or DOWN.",
-      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties",
-      "defaultValue": "default"
+      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties"
     },
     {
       "name": "camel.health.health-check-frequency",
       "type": "java.lang.Integer",
       "description": "Camel's HealthCheck frequency in seconds",
-      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties",
-      "defaultValue": 10
+      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties"
     },
     {
       "name": "camel.health.health-check-pool-size",
       "type": "java.lang.Integer",
       "description": "Camel HealthCheck pool size",
-      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties",
-      "defaultValue": 5
+      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties"
     },
     {
       "name": "camel.health.health-check-thread-name-prefix",
       "type": "java.lang.String",
       "description": "Camel HealthCheck thread name prefix",
-      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties",
-      "defaultValue": "CamelHealthTaskScheduler"
+      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties"
     },
     {
       "name": "camel.health.initial-state",
       "type": "java.lang.String",
       "description": "The initial state of health-checks (readiness). There are the following states: UP, DOWN, UNKNOWN. By default, the state is DOWN, is regarded as being pessimistic\/careful. This means that the overall health checks may report as DOWN during startup and then only if everything is up and running flip to being UP. Setting the initial state to UP, is regarded as being optimistic. This means that the overall health checks may report as UP during startup and then if a consumer or other service is in fact un-healthy, then the health-checks can flip being DOWN. Setting the state to UNKNOWN means that some health-check would be reported in unknown state, especially during early bootstrap where a consumer may not be fully initialized or validated a connection to a remote system. This option allows to pre-configure the state for different modes.",
-      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties",
-      "defaultValue": "down"
+      "sourceType": "org.apache.camel.spring.boot.actuate.health.CamelHealthCheckConfigurationProperties"
     },
     {
       "name": "camel.health.producers-enabled",
@@ -525,43 +500,37 @@
       "name": "camel.language.customizer.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable language customizers, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.LanguageConfigurationPropertiesCommon$CustomizerProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.LanguageConfigurationPropertiesCommon$CustomizerProperties"
     },
     {
       "name": "camel.language.enabled",
       "type": "java.lang.Boolean",
       "description": "Global option to enable\/disable language auto-configuration, default is true.",
-      "sourceType": "org.apache.camel.spring.boot.LanguageConfigurationProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.LanguageConfigurationProperties"
     },
     {
       "name": "camel.main.allow-use-original-message",
       "type": "java.lang.Boolean",
       "description": "Sets whether to allow access to the original message from Camel's error handler, or from org.apache.camel.spi.UnitOfWork.getOriginalInMessage(). Turning this off can optimize performance, as defensive copy of the original message is not needed. Default is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.auto-startup",
       "type": "java.lang.Boolean",
       "description": "Sets whether the object should automatically start when Camel starts. Important: Currently only routes can be disabled, as CamelContext's are always started. Note: When setting auto startup false on CamelContext then that takes precedence and no routes are started. You would need to start CamelContext explicit using the org.apache.camel.CamelContext.start() method, to start the context, and then you would need to start the routes manually using CamelContext.getRouteController().startRoute(String). Default is true to always start up.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.autowired-enabled",
       "type": "java.lang.Boolean",
       "description": "Whether autowiring is enabled. This is used for automatic autowiring options (the option must be marked as autowired) by looking up in the registry to find if there is a single instance of matching type, which then gets configured on the component. This can be used for automatic configuring JDBC data sources, JMS connection factories, AWS Clients, etc. Default is true.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.bean-introspection-extended-statistics",
       "type": "java.lang.Boolean",
       "description": "Sets whether bean introspection uses extended statistics. The default is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.bean-introspection-logging-level",
@@ -573,22 +542,19 @@
       "name": "camel.main.bean-post-processor-enabled",
       "type": "java.lang.Boolean",
       "description": "Can be used to turn off bean post processing. Be careful to turn this off, as this means that beans that use Camel annotations such as {@link org.apache.camel.EndpointInject}, {@link org.apache.camel.ProducerTemplate}, {@link org.apache.camel.Produce}, {@link org.apache.camel.Consume} etc will not be injected and in use. Turning this off should only be done if you are sure you do not use any of these Camel features. Not all runtimes allow turning this off. The default value is true (enabled).",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.camel-events-timestamp-enabled",
       "type": "java.lang.Boolean",
       "description": "Whether to include timestamps for all emitted Camel Events. Enabling this allows to know fine-grained at what time each event was emitted, which can be used for reporting to report exactly the time of the events. This is by default false to avoid the overhead of including this information.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.case-insensitive-headers",
       "type": "java.lang.Boolean",
       "description": "Whether to use case sensitive or insensitive headers. Important: When using case sensitive (this is set to false). Then the map is case sensitive which means headers such as content-type and Content-Type are two different keys which can be a problem for some protocols such as HTTP based, which rely on case insensitive headers. However case sensitive implementations can yield faster performance. Therefore use case sensitive implementation with care. Default is true.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.cloud-properties-location",
@@ -606,15 +572,13 @@
       "name": "camel.main.consumer-template-cache-size",
       "type": "java.lang.Integer",
       "description": "Consumer template endpoints cache size.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 1000
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.context-reload-enabled",
       "type": "java.lang.Boolean",
       "description": "Used for enabling context reloading. If enabled then Camel allow external systems such as security vaults (AWS secrets manager, etc.) to trigger refreshing Camel by updating property placeholders and reload all existing routes to take changes into effect.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.description",
@@ -626,8 +590,7 @@
       "name": "camel.main.dev-console-enabled",
       "type": "java.lang.Boolean",
       "description": "Whether to enable developer console (requires camel-console on classpath). The developer console is only for assisting during development. This is NOT for production usage.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.dump-routes",
@@ -639,22 +602,19 @@
       "name": "camel.main.dump-routes-generated-ids",
       "type": "java.lang.Boolean",
       "description": "Whether to include auto generated IDs in the dumped output. Default is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.dump-routes-include",
       "type": "java.lang.String",
       "description": "Controls what to include in output for route dumping. Possible values: all, routes, rests, routeConfigurations, routeTemplates, beans. Multiple values can be separated by comma. Default is routes.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": "routes"
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.dump-routes-log",
       "type": "java.lang.Boolean",
       "description": "Whether to log route dumps to Logger",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.dump-routes-output",
@@ -666,85 +626,73 @@
       "name": "camel.main.dump-routes-resolve-placeholders",
       "type": "java.lang.Boolean",
       "description": "Whether to resolve property placeholders in the dumped output. Default is true.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.dump-routes-uri-as-parameters",
       "type": "java.lang.Boolean",
       "description": "When dumping routes to YAML format, then this option controls whether endpoint URIs should be expanded into a key\/value parameters.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.duration-max-action",
       "type": "java.lang.String",
       "description": "Controls whether the Camel application should shutdown the JVM, or stop all routes, when duration max is triggered.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": "shutdown"
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.duration-max-idle-seconds",
       "type": "java.lang.Integer",
       "description": "To specify for how long time in seconds Camel can be idle before automatic terminating the JVM. You can use this to run Camel for a short while.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.duration-max-messages",
       "type": "java.lang.Integer",
       "description": "To specify how many messages to process by Camel before automatic terminating the JVM. You can use this to run Camel for a short while.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.duration-max-seconds",
       "type": "java.lang.Integer",
       "description": "To specify for how long time in seconds to keep running the JVM before automatic terminating the JVM. You can use this to run Camel for a short while.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.endpoint-bridge-error-handler",
       "type": "java.lang.Boolean",
       "description": "Allows for bridging the consumer to the Camel routing Error Handler, which mean any exceptions occurred while the consumer is trying to pickup incoming messages, or the likes, will now be processed as a message and handled by the routing Error Handler. <p\/> By default the consumer will use the org.apache.camel.spi.ExceptionHandler to deal with exceptions, that will be logged at WARN\/ERROR level and ignored. The default value is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.endpoint-lazy-start-producer",
       "type": "java.lang.Boolean",
       "description": "Whether the producer should be started lazy (on the first message). By starting lazy you can use this to allow CamelContext and routes to startup in situations where a producer may otherwise fail during starting and cause the route to fail being started. By deferring this startup to be lazy then the startup failure can be handled during routing messages via Camel's routing error handlers. Beware that when the first message is processed then creating and starting the producer may take a little time and prolong the total processing time of the processing. The default value is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.endpoint-runtime-statistics-enabled",
       "type": "java.lang.Boolean",
       "description": "Sets whether endpoint runtime statistics is enabled (gathers runtime usage of each incoming and outgoing endpoints). The default value is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.exchange-factory",
       "type": "java.lang.String",
       "description": "Controls whether to pool (reuse) exchanges or create new exchanges (prototype). Using pooled will reduce JVM garbage collection overhead by avoiding to re-create Exchange instances per message each consumer receives. The default is prototype mode.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": "default"
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.exchange-factory-capacity",
       "type": "java.lang.Integer",
       "description": "The capacity the pool (for each consumer) uses for storing exchanges. The default capacity is 100.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 100
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.exchange-factory-statistics-enabled",
       "type": "java.lang.Boolean",
       "description": "Configures whether statistics is enabled on exchange factory.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.file-configurations",
@@ -762,8 +710,7 @@
       "name": "camel.main.inflight-repository-browse-enabled",
       "type": "java.lang.Boolean",
       "description": "Sets whether the inflight repository should allow browsing each inflight exchange. This is by default disabled as there is a very slight performance overhead when enabled.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.java-routes-exclude-pattern",
@@ -781,8 +728,7 @@
       "name": "camel.main.jmx-enabled",
       "type": "java.lang.Boolean",
       "description": "Enable JMX in your Camel application.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.jmx-management-m-beans-level",
@@ -794,22 +740,19 @@
       "name": "camel.main.jmx-management-name-pattern",
       "type": "java.lang.String",
       "description": "The naming pattern for creating the CamelContext JMX management name. The default pattern is #name#",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": "#name#"
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.jmx-management-register-routes-create-by-kamelet",
       "type": "java.lang.Boolean",
       "description": "Whether routes created by Kamelets should be registered for JMX management. Enabling this allows to have fine-grained monitoring and management of every route created via Kamelets. This is default disabled as a Kamelet is intended as a component (black-box) and its implementation details as Camel route makes the overall management and monitoring of Camel applications more verbose. During development of Kamelets then enabling this will make it possible for developers to do fine-grained performance inspection and identify potential bottlenecks in the Kamelet routes. However, for production usage then keeping this disabled is recommended.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.jmx-management-register-routes-create-by-template",
       "type": "java.lang.Boolean",
       "description": "Whether routes created by route templates (not Kamelets) should be registered for JMX management. Enabling this allows to have fine-grained monitoring and management of every route created via route templates. This is default enabled (unlike Kamelets) as routes created via templates is regarded as standard routes, and should be available for management and monitoring.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.jmx-management-statistics-level",
@@ -821,57 +764,49 @@
       "name": "camel.main.jmx-update-route-enabled",
       "type": "java.lang.Boolean",
       "description": "Whether to allow updating routes at runtime via JMX using the ManagedRouteMBean. This is disabled by default, but can be enabled for development and troubleshooting purposes, such as updating routes in an existing running Camel via JMX and other tools.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.lightweight",
       "type": "java.lang.Boolean",
       "description": "Configure the context to be lightweight. This will trigger some optimizations and memory reduction options. Lightweight context have some limitations. At this moment, dynamic endpoint destinations are not supported.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.load-health-checks",
       "type": "java.lang.Boolean",
       "description": "Whether to load custom health checks by scanning classpath.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.load-statistics-enabled",
       "type": "java.lang.Boolean",
       "description": "Sets whether context load statistics is enabled (something like the unix load average). The statistics requires to have camel-management on the classpath as JMX is required. The default value is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.load-type-converters",
       "type": "java.lang.Boolean",
       "description": "Whether to load custom type converters by scanning classpath. This is used for backwards compatibility with Camel 2.x. Its recommended to migrate to use fast type converter loading by setting <tt>@Converter(loader = true)<\/tt> on your custom type converter classes.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.log-debug-max-chars",
       "type": "java.lang.Integer",
       "description": "Is used to limit the maximum length of the logging Camel message bodies. If the message body is longer than the limit, the log message is clipped. Use -1 to have unlimited length. Use for example 1000 to log at most 1000 characters.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.log-exhausted-message-body",
       "type": "java.lang.Boolean",
       "description": "Sets whether to log exhausted message body with message history. Default is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.log-mask",
       "type": "java.lang.Boolean",
       "description": "Sets whether log mask is enabled or not. Default is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.log-name",
@@ -889,15 +824,13 @@
       "name": "camel.main.message-history",
       "type": "java.lang.Boolean",
       "description": "Sets whether message history is enabled or not. Default is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.modeline",
       "type": "java.lang.Boolean",
       "description": "Whether camel-k style modeline is also enabled when not using camel-k. Enabling this allows to use a camel-k like experience by being able to configure various settings using modeline directly in your route source code.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.name",
@@ -909,8 +842,7 @@
       "name": "camel.main.producer-template-cache-size",
       "type": "java.lang.Integer",
       "description": "Producer template endpoints cache size.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 1000
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.route-filter-exclude-pattern",
@@ -928,15 +860,13 @@
       "name": "camel.main.routes-collector-enabled",
       "type": "java.lang.Boolean",
       "description": "Whether the routes collector is enabled or not. When enabled Camel will auto-discover routes (RouteBuilder instances from the registry and also load additional routes from the file system). The routes collector is default enabled.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.routes-collector-ignore-loading-error",
       "type": "java.lang.Boolean",
       "description": "Whether the routes collector should ignore any errors during loading and compiling routes. This is only intended for development or tooling.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.routes-exclude-pattern",
@@ -948,29 +878,25 @@
       "name": "camel.main.routes-include-pattern",
       "type": "java.lang.String",
       "description": "Used for inclusive filtering of routes from directories. The exclusive filtering takes precedence over inclusive filtering. The pattern is using Ant-path style pattern. Multiple patterns can be specified separated by comma, as example, to include all the routes from a directory whose name contains foo use: &#42;&#42;\/*foo*.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": "classpath:camel\/*,classpath:camel-template\/*,classpath:camel-rest\/*"
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.routes-reload-directory",
       "type": "java.lang.String",
       "description": "Directory to scan for route changes. Camel cannot scan the classpath, so this must be configured to a file directory. Development with Maven as build tool, you can configure the directory to be src\/main\/resources to scan for Camel routes in XML or YAML files.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": "src\/main\/resources\/camel"
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.routes-reload-directory-recursive",
       "type": "java.lang.Boolean",
       "description": "Whether the directory to scan should include sub directories. Depending on the number of sub directories, then this can cause the JVM to startup slower as Camel uses the JDK file-watch service to scan for file changes.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.routes-reload-enabled",
       "type": "java.lang.Boolean",
       "description": "Used for enabling automatic routes reloading. If enabled then Camel will watch for file changes in the given reload directory, and trigger reloading routes if files are changed.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.routes-reload-pattern",
@@ -982,57 +908,49 @@
       "name": "camel.main.routes-reload-remove-all-routes",
       "type": "java.lang.Boolean",
       "description": "When reloading routes should all existing routes be stopped and removed. By default, Camel will stop and remove all existing routes before reloading routes. This ensures that only the reloaded routes will be active. If disabled then only routes with the same route id is updated, and any existing routes are continued to run.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.routes-reload-restart-duration",
       "type": "java.lang.Boolean",
       "description": "Whether to restart max duration when routes are reloaded. For example if max duration is 60 seconds, and a route is reloaded after 25 seconds, then this will restart the count and wait 60 seconds again.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.shutdown-log-inflight-exchanges-on-timeout",
       "type": "java.lang.Boolean",
       "description": "Sets whether to log information about the inflight Exchanges which are still running during a shutdown which didn't complete without the given timeout. This requires to enable the option inflightRepositoryBrowseEnabled.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.shutdown-now-on-timeout",
       "type": "java.lang.Boolean",
       "description": "Sets whether to force shutdown of all consumers when a timeout occurred and thus not all consumers was shutdown within that period. You should have good reasons to set this option to false as it means that the routes keep running and is halted abruptly when CamelContext has been shutdown.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.shutdown-routes-in-reverse-order",
       "type": "java.lang.Boolean",
       "description": "Sets whether routes should be shutdown in reverse or the same order as they were started.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.shutdown-suppress-logging-on-timeout",
       "type": "java.lang.Boolean",
       "description": "Whether Camel should try to suppress logging during shutdown and timeout was triggered, meaning forced shutdown is happening. And during forced shutdown we want to avoid logging errors\/warnings et all in the logs as a side-effect of the forced timeout. Notice the suppress is a best effort as there may still be some logs coming from 3rd party libraries and whatnot, which Camel cannot control. This option is default false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.shutdown-timeout",
       "type": "java.lang.Integer",
       "description": "Timeout in seconds to graceful shutdown all the Camel routes.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 45
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.source-location-enabled",
       "type": "java.lang.Boolean",
       "description": "Whether to capture precise source location:line-number for all EIPs in Camel routes. Enabling this will impact parsing Java based routes (also Groovy, Kotlin, etc.) on startup as this uses JDK StackTraceElement to calculate the location from the Camel route, which comes with a performance cost. This only impact startup, not the performance of the routes at runtime.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.startup-recorder",
@@ -1050,29 +968,25 @@
       "name": "camel.main.startup-recorder-duration",
       "type": "java.lang.Long",
       "description": "How long time to run the startup recorder. Use 0 (default) to keep the recorder running until the JVM is exited. Use -1 to stop the recorder right after Camel has been started (to only focus on potential Camel startup performance bottlenecks) Use a positive value to keep recording for N seconds. When the recorder is stopped then the recording is auto saved to disk (note: save to disk can be disabled by setting startupRecorderDir to false)",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.startup-recorder-max-depth",
       "type": "java.lang.Integer",
       "description": "To filter our sub steps at a maximum depth. Use -1 for no maximum. Use 0 for no sub steps. Use 1 for max 1 sub step, and so forth. The default is -1.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": -1
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.startup-recorder-profile",
       "type": "java.lang.String",
       "description": "To use a specific Java Flight Recorder profile configuration, such as default or profile. The default is default.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": "default"
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.startup-recorder-recording",
       "type": "java.lang.Boolean",
       "description": "To enable Java Flight Recorder to start a recording and automatic dump the recording to disk after startup is complete. This requires that camel-jfr is on the classpath, and to enable this option.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.startup-summary-level",
@@ -1090,15 +1004,13 @@
       "name": "camel.main.stream-caching-any-spool-rules",
       "type": "java.lang.Boolean",
       "description": "Sets whether if just any of the org.apache.camel.spi.StreamCachingStrategy.SpoolRule rules returns true then shouldSpoolCache(long) returns true, to allow spooling to disk. If this option is false, then all the org.apache.camel.spi.StreamCachingStrategy.SpoolRule must return true. The default value is false which means that all the rules must return true.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.stream-caching-buffer-size",
       "type": "java.lang.Integer",
       "description": "Sets the stream caching buffer size to use when allocating in-memory buffers used for in-memory stream caches. The default size is 4096.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.stream-caching-deny-classes",
@@ -1110,15 +1022,13 @@
       "name": "camel.main.stream-caching-enabled",
       "type": "java.lang.Boolean",
       "description": "Sets whether stream caching is enabled or not. While stream types (like StreamSource, InputStream and Reader) are commonly used in messaging for performance reasons, they also have an important drawback: they can only be read once. In order to be able to work with message content multiple times, the stream needs to be cached. Streams are cached in memory only (by default). If streamCachingSpoolEnabled=true, then, for large stream messages (over 128 KB by default) will be cached in a temporary file instead, and Camel will handle deleting the temporary file once the cached stream is no longer necessary. Default is true.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.stream-caching-remove-spool-directory-when-stopping",
       "type": "java.lang.Boolean",
       "description": "Whether to remove stream caching temporary directory when stopping. This option is default true.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.stream-caching-spool-cipher",
@@ -1136,15 +1046,13 @@
       "name": "camel.main.stream-caching-spool-enabled",
       "type": "java.lang.Boolean",
       "description": "To enable stream caching spooling to disk. This means, for large stream messages (over 128 KB by default) will be cached in a temporary file instead, and Camel will handle deleting the temporary file once the cached stream is no longer necessary. Default is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.stream-caching-spool-threshold",
       "type": "java.lang.Long",
       "description": "Stream caching threshold in bytes when overflow to disk is activated. The default threshold is 128kb. Use -1 to disable overflow to disk.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.stream-caching-spool-used-heap-memory-limit",
@@ -1156,15 +1064,13 @@
       "name": "camel.main.stream-caching-spool-used-heap-memory-threshold",
       "type": "java.lang.Integer",
       "description": "Sets a percentage (1-99) of used heap memory threshold to activate stream caching spooling to disk.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.stream-caching-statistics-enabled",
       "type": "java.lang.Boolean",
       "description": "Sets whether stream caching statistics is enabled.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.thread-name-pattern",
@@ -1176,8 +1082,7 @@
       "name": "camel.main.tracing",
       "type": "java.lang.Boolean",
       "description": "Sets whether tracing is enabled or not. Default is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.tracing-logging-format",
@@ -1195,92 +1100,79 @@
       "name": "camel.main.tracing-standby",
       "type": "java.lang.Boolean",
       "description": "Whether to set tracing on standby. If on standby then the tracer is installed and made available. Then the tracer can be enabled later at runtime via JMX or via {@link Tracer#setEnabled(boolean)}.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.tracing-templates",
       "type": "java.lang.Boolean",
       "description": "Whether tracing should trace inner details from route templates (or kamelets). Turning this on increases the verbosity of tracing by including events from internal routes in the templates or kamelets. Default is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.type-converter-statistics-enabled",
       "type": "java.lang.Boolean",
       "description": "Sets whether type converter statistics is enabled. By default the type converter utilization statistics is disabled. Notice: If enabled then there is a slight performance impact under very heavy load.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.use-breadcrumb",
       "type": "java.lang.Boolean",
       "description": "Set whether breadcrumb is enabled. The default value is false.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.use-data-type",
       "type": "java.lang.Boolean",
       "description": "Whether to enable using data type on Camel messages. Data type are automatic turned on if one ore more routes has been explicit configured with input and output types. Otherwise data type is default off.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.use-mdc-logging",
       "type": "java.lang.Boolean",
       "description": "To turn on MDC logging",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.main.uuid-generator",
       "type": "java.lang.String",
       "description": "UUID generator to use. default (32 bytes), short (16 bytes), classic (32 bytes or longer), simple (long incrementing counter), off (turned off for exchanges - only intended for performance profiling)",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main",
-      "defaultValue": "default"
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Main"
     },
     {
       "name": "camel.routecontroller.back-off-delay",
       "type": "java.lang.Long",
       "description": "Backoff delay in millis when restarting a route that failed to startup.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": 2000
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routecontroller.back-off-max-attempts",
       "type": "java.lang.Long",
       "description": "Backoff maximum number of attempts to restart a route that failed to startup. When this threshold has been exceeded then the controller will give up attempting to restart the route, and the route will remain as stopped.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routecontroller.back-off-max-delay",
       "type": "java.lang.Long",
       "description": "Backoff maximum delay in millis when restarting a route that failed to startup.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routecontroller.back-off-max-elapsed-time",
       "type": "java.lang.Long",
       "description": "Backoff maximum elapsed time in millis, after which the backoff should be considered exhausted and no more attempts should be made.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routecontroller.back-off-multiplier",
       "type": "java.lang.Double",
       "description": "Backoff multiplier to use for exponential backoff. This is used to extend the delay between restart attempts.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": 1
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routecontroller.enabled",
       "type": "java.lang.Boolean",
       "description": "To enable using supervising route controller which allows Camel to startup and then the controller takes care of starting the routes in a safe manner. This can be used when you want to startup Camel despite a route may otherwise fail fast during startup and cause Camel to fail to startup as well. By delegating the route startup to the supervising route controller then it manages the startup using a background thread. The controller allows to be configured with various settings to attempt to restart failing routes.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routecontroller.exclude-routes",
@@ -1298,29 +1190,25 @@
       "name": "camel.routecontroller.initial-delay",
       "type": "java.lang.Long",
       "description": "Initial delay in milli seconds before the route controller starts, after CamelContext has been started.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routecontroller.thread-pool-size",
       "type": "java.lang.Integer",
       "description": "The number of threads used by the route controller scheduled thread pool that are used for restarting routes. The pool uses 1 thread by default, but you can increase this to allow the controller to concurrently attempt to restart multiple routes in case more than one route has problems starting.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": 1
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routecontroller.unhealthy-on-exhausted",
       "type": "java.lang.Boolean",
       "description": "Whether to mark the route as unhealthy (down) when all restarting attempts (backoff) have failed and the route is not successfully started and the route manager is giving up. If setting this to false will make health checks ignore this problem and allow to report the Camel application as UP.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routecontroller.unhealthy-on-restarting",
       "type": "java.lang.Boolean",
       "description": "Whether to mark the route as unhealthy (down) when the route failed to initially start, and is being controlled for restarting (backoff). If setting this to false will make health checks ignore this problem and allow to report the Camel application as UP.",
-      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.routecontroller.SupervisingRouteControllerConfiguration"
     },
     {
       "name": "camel.routetemplate.config",
@@ -1332,22 +1220,19 @@
       "name": "camel.springboot.include-non-singletons",
       "type": "java.lang.Boolean",
       "description": "Whether to include non-singleton beans (prototypes) when scanning for RouteBuilder instances. By default only singleton beans is included in the context scan.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot"
     },
     {
       "name": "camel.springboot.main-run-controller",
       "type": "java.lang.Boolean",
       "description": "Whether to use the main run controller to ensure the Spring-Boot application keeps running until being stopped or the JVM terminated. You typically only need this if you run Spring-Boot standalone. If you run Spring-Boot with spring-boot-starter-web then the web container keeps the JVM running.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot"
     },
     {
       "name": "camel.springboot.warn-on-early-shutdown",
       "type": "java.lang.Boolean",
       "description": "Whether to log a WARN if Camel on Spring Boot was immediately shutdown after starting which very likely is because there is no JVM thread to keep the application running.",
-      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot"
     },
     {
       "name": "camel.ssl.cert-alias",
@@ -1533,71 +1418,61 @@
       "name": "camel.trace.backlog-size",
       "type": "java.lang.Integer",
       "description": "Defines how many of the last messages to keep in the tracer.",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": 1000
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.body-include-files",
       "type": "java.lang.Boolean",
       "description": "Whether to include the message body of file based messages. The overhead is that the file content has to be read from the file.",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.body-include-streams",
       "type": "java.lang.Boolean",
       "description": "Whether to include the message body of stream based messages. If enabled then beware the stream may not be re-readable later. See more about Stream Caching.",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.body-max-chars",
       "type": "java.lang.Integer",
       "description": "To limit the message body to a maximum size in the traced message. Use 0 or negative value to use unlimited size.",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": 0
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.enabled",
       "type": "java.lang.Boolean",
       "description": "Enables tracer in your Camel application.",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.include-exception",
       "type": "java.lang.Boolean",
       "description": "Trace messages to include exception if the message failed",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.include-exchange-properties",
       "type": "java.lang.Boolean",
       "description": "Whether to include the exchange properties in the traced message",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.include-exchange-variables",
       "type": "java.lang.Boolean",
       "description": "Whether to include the exchange variables in the traced message",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.remove-on-dump",
       "type": "java.lang.Boolean",
       "description": "Whether all traced messages should be removed when the tracer is dumping. By default, the messages are removed, which means that dumping will not contain previous dumped messages.",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.standby",
       "type": "java.lang.Boolean",
       "description": "To set the tracer in standby mode, where the tracer will be installed by not automatic enabled. The tracer can then later be enabled explicit from Java, JMX or tooling.",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.trace-filter",
@@ -1615,15 +1490,13 @@
       "name": "camel.trace.trace-rests",
       "type": "java.lang.Boolean",
       "description": "Whether to trace routes that is created from Rest DSL.",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.trace.trace-templates",
       "type": "java.lang.Boolean",
       "description": "Whether to trace routes that is created from route templates or kamelets.",
-      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.trace.CamelTraceConfigurationProperties"
     },
     {
       "name": "camel.vault.aws.access-key",
@@ -1635,15 +1508,13 @@
       "name": "camel.vault.aws.default-credentials-provider",
       "type": "java.lang.Boolean",
       "description": "Define if we want to use the AWS Default Credentials Provider or not",
-      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.aws.profile-credentials-provider",
       "type": "java.lang.Boolean",
       "description": "Define if we want to use the AWS Profile Credentials Provider or not",
-      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.aws.profile-name",
@@ -1655,15 +1526,13 @@
       "name": "camel.vault.aws.refresh-enabled",
       "type": "java.lang.Boolean",
       "description": "Define if we want to refresh the secrets on update",
-      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.aws.refresh-period",
       "type": "java.lang.Long",
       "description": "Define the refresh period",
-      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties",
-      "defaultValue": 30000
+      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.aws.region",
@@ -1693,15 +1562,13 @@
       "name": "camel.vault.aws.use-sqs-notification",
       "type": "java.lang.Boolean",
       "description": "Whether to use AWS SQS for secrets updates notification, this will require setting up Eventbridge\/Cloudtrail\/SQS communication",
-      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.vault.AwsVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.azure.azure-identity-enabled",
       "type": "java.lang.Boolean",
       "description": "Whether the Azure Identity Authentication should be used or not.",
-      "sourceType": "org.apache.camel.spring.boot.vault.AzureVaultConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.vault.AzureVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.azure.blob-access-key",
@@ -1743,15 +1610,13 @@
       "name": "camel.vault.azure.refresh-enabled",
       "type": "java.lang.Boolean",
       "description": "Whether to automatically reload Camel upon secrets being updated in Azure.",
-      "sourceType": "org.apache.camel.spring.boot.vault.AzureVaultConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.vault.AzureVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.azure.refresh-period",
       "type": "java.lang.Long",
       "description": "The period (millis) between checking Azure for updated secrets.",
-      "sourceType": "org.apache.camel.spring.boot.vault.AzureVaultConfigurationProperties",
-      "defaultValue": 30000
+      "sourceType": "org.apache.camel.spring.boot.vault.AzureVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.azure.secrets",
@@ -1781,15 +1646,13 @@
       "name": "camel.vault.gcp.refresh-enabled",
       "type": "java.lang.Boolean",
       "description": "Define if we want to refresh the secrets on update",
-      "sourceType": "org.apache.camel.spring.boot.vault.GcpVaultConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.vault.GcpVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.gcp.refresh-period",
       "type": "java.lang.Long",
       "description": "Define the refresh period",
-      "sourceType": "org.apache.camel.spring.boot.vault.GcpVaultConfigurationProperties",
-      "defaultValue": 30000
+      "sourceType": "org.apache.camel.spring.boot.vault.GcpVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.gcp.secrets",
@@ -1813,8 +1676,7 @@
       "name": "camel.vault.gcp.use-default-instance",
       "type": "java.lang.Boolean",
       "description": "Define if we want to use the GCP Client Default Instance or not",
-      "sourceType": "org.apache.camel.spring.boot.vault.GcpVaultConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.vault.GcpVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.hashicorp.engine",
@@ -1850,8 +1712,7 @@
       "name": "camel.vault.kubernetes.refresh-enabled",
       "type": "java.lang.Boolean",
       "description": "Define if we want to refresh the secrets on update",
-      "sourceType": "org.apache.camel.spring.boot.vault.KubernetesVaultConfigurationProperties",
-      "defaultValue": false
+      "sourceType": "org.apache.camel.spring.boot.vault.KubernetesVaultConfigurationProperties"
     },
     {
       "name": "camel.vault.kubernetes.secrets",
@@ -1905,21 +1766,13 @@
       "name": "management.endpoint.camelroutes.read-only",
       "type": "java.lang.Boolean",
       "description": "Whether Camel Routes actuator is in read-only mode. If not in read-only mode then operations to start\/stop routes would be enabled.",
-      "sourceType": "org.apache.camel.spring.boot.actuate.endpoint.CamelRoutesEndpointProperties",
-      "defaultValue": true
-    },
-    {
-      "name": "management.info.camel.enabled",
-      "type": "java.lang.Boolean",
-      "description": "Whether to enable Camel info.",
-      "defaultValue": true
+      "sourceType": "org.apache.camel.spring.boot.actuate.endpoint.CamelRoutesEndpointProperties"
     },
     {
       "name": "camel.springboot.allow-use-original-message",
       "type": "java.lang.Boolean",
       "description": "Sets whether to allow access to the original message from Camel's error handler, or from org.apache.camel.spi.UnitOfWork.getOriginalInMessage(). Turning this off can optimize performance, as defensive copy of the original message is not needed. Default is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.allow-use-original-message",
@@ -1931,7 +1784,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether the object should automatically start when Camel starts. Important: Currently only routes can be disabled, as CamelContext's are always started. Note: When setting auto startup false on CamelContext then that takes precedence and no routes are started. You would need to start CamelContext explicit using the org.apache.camel.CamelContext.start() method, to start the context, and then you would need to start the routes manually using CamelContext.getRouteController().startRoute(String). Default is true to always start up.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.auto-startup",
@@ -1943,7 +1795,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether autowiring is enabled. This is used for automatic autowiring options (the option must be marked as autowired) by looking up in the registry to find if there is a single instance of matching type, which then gets configured on the component. This can be used for automatic configuring JDBC data sources, JMS connection factories, AWS Clients, etc. Default is true.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.autowired-enabled",
@@ -1955,7 +1806,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether bean introspection uses extended statistics. The default is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.bean-introspection-extended-statistics",
@@ -1978,7 +1828,6 @@
       "type": "java.lang.Boolean",
       "description": "Can be used to turn off bean post processing. Be careful to turn this off, as this means that beans that use Camel annotations such as {@link org.apache.camel.EndpointInject}, {@link org.apache.camel.ProducerTemplate}, {@link org.apache.camel.Produce}, {@link org.apache.camel.Consume} etc will not be injected and in use. Turning this off should only be done if you are sure you do not use any of these Camel features. Not all runtimes allow turning this off. The default value is true (enabled).",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.bean-post-processor-enabled",
@@ -1990,7 +1839,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to include timestamps for all emitted Camel Events. Enabling this allows to know fine-grained at what time each event was emitted, which can be used for reporting to report exactly the time of the events. This is by default false to avoid the overhead of including this information.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.camel-events-timestamp-enabled",
@@ -2002,7 +1850,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to use case sensitive or insensitive headers. Important: When using case sensitive (this is set to false). Then the map is case sensitive which means headers such as content-type and Content-Type are two different keys which can be a problem for some protocols such as HTTP based, which rely on case insensitive headers. However case sensitive implementations can yield faster performance. Therefore use case sensitive implementation with care. Default is true.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.case-insensitive-headers",
@@ -2036,7 +1883,6 @@
       "type": "java.lang.Integer",
       "description": "Consumer template endpoints cache size.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 1000,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.consumer-template-cache-size",
@@ -2048,7 +1894,6 @@
       "type": "java.lang.Boolean",
       "description": "Used for enabling context reloading. If enabled then Camel allow external systems such as security vaults (AWS secrets manager, etc.) to trigger refreshing Camel by updating property placeholders and reload all existing routes to take changes into effect.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.context-reload-enabled",
@@ -2071,7 +1916,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to enable developer console (requires camel-console on classpath). The developer console is only for assisting during development. This is NOT for production usage.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.dev-console-enabled",
@@ -2094,7 +1938,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to include auto generated IDs in the dumped output. Default is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.dump-routes-generated-ids",
@@ -2106,7 +1949,6 @@
       "type": "java.lang.String",
       "description": "Controls what to include in output for route dumping. Possible values: all, routes, rests, routeConfigurations, routeTemplates, beans. Multiple values can be separated by comma. Default is routes.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": "routes",
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.dump-routes-include",
@@ -2118,7 +1960,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to log route dumps to Logger",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.dump-routes-log",
@@ -2141,7 +1982,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to resolve property placeholders in the dumped output. Default is true.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.dump-routes-resolve-placeholders",
@@ -2153,7 +1993,6 @@
       "type": "java.lang.Boolean",
       "description": "When dumping routes to YAML format, then this option controls whether endpoint URIs should be expanded into a key\/value parameters.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.dump-routes-uri-as-parameters",
@@ -2165,7 +2004,6 @@
       "type": "java.lang.String",
       "description": "Controls whether the Camel application should shutdown the JVM, or stop all routes, when duration max is triggered.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": "shutdown",
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.duration-max-action",
@@ -2177,7 +2015,6 @@
       "type": "java.lang.Integer",
       "description": "To specify for how long time in seconds Camel can be idle before automatic terminating the JVM. You can use this to run Camel for a short while.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 0,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.duration-max-idle-seconds",
@@ -2189,7 +2026,6 @@
       "type": "java.lang.Integer",
       "description": "To specify how many messages to process by Camel before automatic terminating the JVM. You can use this to run Camel for a short while.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 0,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.duration-max-messages",
@@ -2201,7 +2037,6 @@
       "type": "java.lang.Integer",
       "description": "To specify for how long time in seconds to keep running the JVM before automatic terminating the JVM. You can use this to run Camel for a short while.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 0,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.duration-max-seconds",
@@ -2213,7 +2048,6 @@
       "type": "java.lang.Boolean",
       "description": "Allows for bridging the consumer to the Camel routing Error Handler, which mean any exceptions occurred while the consumer is trying to pickup incoming messages, or the likes, will now be processed as a message and handled by the routing Error Handler. <p\/> By default the consumer will use the org.apache.camel.spi.ExceptionHandler to deal with exceptions, that will be logged at WARN\/ERROR level and ignored. The default value is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.endpoint-bridge-error-handler",
@@ -2225,7 +2059,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether the producer should be started lazy (on the first message). By starting lazy you can use this to allow CamelContext and routes to startup in situations where a producer may otherwise fail during starting and cause the route to fail being started. By deferring this startup to be lazy then the startup failure can be handled during routing messages via Camel's routing error handlers. Beware that when the first message is processed then creating and starting the producer may take a little time and prolong the total processing time of the processing. The default value is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.endpoint-lazy-start-producer",
@@ -2237,7 +2070,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether endpoint runtime statistics is enabled (gathers runtime usage of each incoming and outgoing endpoints). The default value is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.endpoint-runtime-statistics-enabled",
@@ -2249,7 +2081,6 @@
       "type": "java.lang.String",
       "description": "Controls whether to pool (reuse) exchanges or create new exchanges (prototype). Using pooled will reduce JVM garbage collection overhead by avoiding to re-create Exchange instances per message each consumer receives. The default is prototype mode.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": "default",
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.exchange-factory",
@@ -2261,7 +2092,6 @@
       "type": "java.lang.Integer",
       "description": "The capacity the pool (for each consumer) uses for storing exchanges. The default capacity is 100.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 100,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.exchange-factory-capacity",
@@ -2273,7 +2103,6 @@
       "type": "java.lang.Boolean",
       "description": "Configures whether statistics is enabled on exchange factory.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.exchange-factory-statistics-enabled",
@@ -2307,7 +2136,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether the inflight repository should allow browsing each inflight exchange. This is by default disabled as there is a very slight performance overhead when enabled.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.inflight-repository-browse-enabled",
@@ -2341,7 +2169,6 @@
       "type": "java.lang.Boolean",
       "description": "Enable JMX in your Camel application.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.jmx-enabled",
@@ -2364,7 +2191,6 @@
       "type": "java.lang.String",
       "description": "The naming pattern for creating the CamelContext JMX management name. The default pattern is #name#",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": "#name#",
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.jmx-management-name-pattern",
@@ -2376,7 +2202,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether routes created by Kamelets should be registered for JMX management. Enabling this allows to have fine-grained monitoring and management of every route created via Kamelets. This is default disabled as a Kamelet is intended as a component (black-box) and its implementation details as Camel route makes the overall management and monitoring of Camel applications more verbose. During development of Kamelets then enabling this will make it possible for developers to do fine-grained performance inspection and identify potential bottlenecks in the Kamelet routes. However, for production usage then keeping this disabled is recommended.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.jmx-management-register-routes-create-by-kamelet",
@@ -2388,7 +2213,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether routes created by route templates (not Kamelets) should be registered for JMX management. Enabling this allows to have fine-grained monitoring and management of every route created via route templates. This is default enabled (unlike Kamelets) as routes created via templates is regarded as standard routes, and should be available for management and monitoring.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.jmx-management-register-routes-create-by-template",
@@ -2411,7 +2235,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to allow updating routes at runtime via JMX using the ManagedRouteMBean. This is disabled by default, but can be enabled for development and troubleshooting purposes, such as updating routes in an existing running Camel via JMX and other tools.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.jmx-update-route-enabled",
@@ -2423,7 +2246,6 @@
       "type": "java.lang.Boolean",
       "description": "Configure the context to be lightweight. This will trigger some optimizations and memory reduction options. Lightweight context have some limitations. At this moment, dynamic endpoint destinations are not supported.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.lightweight",
@@ -2435,7 +2257,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to load custom health checks by scanning classpath.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.load-health-checks",
@@ -2447,7 +2268,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether context load statistics is enabled (something like the unix load average). The statistics requires to have camel-management on the classpath as JMX is required. The default value is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.load-statistics-enabled",
@@ -2459,7 +2279,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to load custom type converters by scanning classpath. This is used for backwards compatibility with Camel 2.x. Its recommended to migrate to use fast type converter loading by setting <tt>@Converter(loader = true)<\/tt> on your custom type converter classes.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.load-type-converters",
@@ -2471,7 +2290,6 @@
       "type": "java.lang.Integer",
       "description": "Is used to limit the maximum length of the logging Camel message bodies. If the message body is longer than the limit, the log message is clipped. Use -1 to have unlimited length. Use for example 1000 to log at most 1000 characters.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 0,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.log-debug-max-chars",
@@ -2483,7 +2301,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether to log exhausted message body with message history. Default is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.log-exhausted-message-body",
@@ -2495,7 +2312,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether log mask is enabled or not. Default is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.log-mask",
@@ -2529,7 +2345,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether message history is enabled or not. Default is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.message-history",
@@ -2541,7 +2356,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether camel-k style modeline is also enabled when not using camel-k. Enabling this allows to use a camel-k like experience by being able to configure various settings using modeline directly in your route source code.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.modeline",
@@ -2564,7 +2378,6 @@
       "type": "java.lang.Integer",
       "description": "Producer template endpoints cache size.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 1000,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.producer-template-cache-size",
@@ -2598,7 +2411,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether the routes collector is enabled or not. When enabled Camel will auto-discover routes (RouteBuilder instances from the registry and also load additional routes from the file system). The routes collector is default enabled.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.routes-collector-enabled",
@@ -2610,7 +2422,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether the routes collector should ignore any errors during loading and compiling routes. This is only intended for development or tooling.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.routes-collector-ignore-loading-error",
@@ -2633,7 +2444,6 @@
       "type": "java.lang.String",
       "description": "Used for inclusive filtering of routes from directories. The exclusive filtering takes precedence over inclusive filtering. The pattern is using Ant-path style pattern. Multiple patterns can be specified separated by comma, as example, to include all the routes from a directory whose name contains foo use: &#42;&#42;\/*foo*.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": "classpath:camel\/*,classpath:camel-template\/*,classpath:camel-rest\/*",
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.routes-include-pattern",
@@ -2645,7 +2455,6 @@
       "type": "java.lang.String",
       "description": "Directory to scan for route changes. Camel cannot scan the classpath, so this must be configured to a file directory. Development with Maven as build tool, you can configure the directory to be src\/main\/resources to scan for Camel routes in XML or YAML files.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": "src\/main\/resources\/camel",
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.routes-reload-directory",
@@ -2657,7 +2466,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether the directory to scan should include sub directories. Depending on the number of sub directories, then this can cause the JVM to startup slower as Camel uses the JDK file-watch service to scan for file changes.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.routes-reload-directory-recursive",
@@ -2669,7 +2477,6 @@
       "type": "java.lang.Boolean",
       "description": "Used for enabling automatic routes reloading. If enabled then Camel will watch for file changes in the given reload directory, and trigger reloading routes if files are changed.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.routes-reload-enabled",
@@ -2692,7 +2499,6 @@
       "type": "java.lang.Boolean",
       "description": "When reloading routes should all existing routes be stopped and removed. By default, Camel will stop and remove all existing routes before reloading routes. This ensures that only the reloaded routes will be active. If disabled then only routes with the same route id is updated, and any existing routes are continued to run.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.routes-reload-remove-all-routes",
@@ -2704,7 +2510,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to restart max duration when routes are reloaded. For example if max duration is 60 seconds, and a route is reloaded after 25 seconds, then this will restart the count and wait 60 seconds again.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.routes-reload-restart-duration",
@@ -2716,7 +2521,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether to log information about the inflight Exchanges which are still running during a shutdown which didn't complete without the given timeout. This requires to enable the option inflightRepositoryBrowseEnabled.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.shutdown-log-inflight-exchanges-on-timeout",
@@ -2728,7 +2532,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether to force shutdown of all consumers when a timeout occurred and thus not all consumers was shutdown within that period. You should have good reasons to set this option to false as it means that the routes keep running and is halted abruptly when CamelContext has been shutdown.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.shutdown-now-on-timeout",
@@ -2740,7 +2543,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether routes should be shutdown in reverse or the same order as they were started.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.shutdown-routes-in-reverse-order",
@@ -2752,7 +2554,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether Camel should try to suppress logging during shutdown and timeout was triggered, meaning forced shutdown is happening. And during forced shutdown we want to avoid logging errors\/warnings et all in the logs as a side-effect of the forced timeout. Notice the suppress is a best effort as there may still be some logs coming from 3rd party libraries and whatnot, which Camel cannot control. This option is default false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.shutdown-suppress-logging-on-timeout",
@@ -2764,7 +2565,6 @@
       "type": "java.lang.Integer",
       "description": "Timeout in seconds to graceful shutdown all the Camel routes.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 45,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.shutdown-timeout",
@@ -2776,7 +2576,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to capture precise source location:line-number for all EIPs in Camel routes. Enabling this will impact parsing Java based routes (also Groovy, Kotlin, etc.) on startup as this uses JDK StackTraceElement to calculate the location from the Camel route, which comes with a performance cost. This only impact startup, not the performance of the routes at runtime.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.source-location-enabled",
@@ -2810,7 +2609,6 @@
       "type": "java.lang.Long",
       "description": "How long time to run the startup recorder. Use 0 (default) to keep the recorder running until the JVM is exited. Use -1 to stop the recorder right after Camel has been started (to only focus on potential Camel startup performance bottlenecks) Use a positive value to keep recording for N seconds. When the recorder is stopped then the recording is auto saved to disk (note: save to disk can be disabled by setting startupRecorderDir to false)",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 0,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.startup-recorder-duration",
@@ -2822,7 +2620,6 @@
       "type": "java.lang.Integer",
       "description": "To filter our sub steps at a maximum depth. Use -1 for no maximum. Use 0 for no sub steps. Use 1 for max 1 sub step, and so forth. The default is -1.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": -1,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.startup-recorder-max-depth",
@@ -2834,7 +2631,6 @@
       "type": "java.lang.String",
       "description": "To use a specific Java Flight Recorder profile configuration, such as default or profile. The default is default.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": "default",
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.startup-recorder-profile",
@@ -2846,7 +2642,6 @@
       "type": "java.lang.Boolean",
       "description": "To enable Java Flight Recorder to start a recording and automatic dump the recording to disk after startup is complete. This requires that camel-jfr is on the classpath, and to enable this option.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.startup-recorder-recording",
@@ -2880,7 +2675,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether if just any of the org.apache.camel.spi.StreamCachingStrategy.SpoolRule rules returns true then shouldSpoolCache(long) returns true, to allow spooling to disk. If this option is false, then all the org.apache.camel.spi.StreamCachingStrategy.SpoolRule must return true. The default value is false which means that all the rules must return true.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.stream-caching-any-spool-rules",
@@ -2892,7 +2686,6 @@
       "type": "java.lang.Integer",
       "description": "Sets the stream caching buffer size to use when allocating in-memory buffers used for in-memory stream caches. The default size is 4096.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 0,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.stream-caching-buffer-size",
@@ -2915,7 +2708,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether stream caching is enabled or not. While stream types (like StreamSource, InputStream and Reader) are commonly used in messaging for performance reasons, they also have an important drawback: they can only be read once. In order to be able to work with message content multiple times, the stream needs to be cached. Streams are cached in memory only (by default). If streamCachingSpoolEnabled=true, then, for large stream messages (over 128 KB by default) will be cached in a temporary file instead, and Camel will handle deleting the temporary file once the cached stream is no longer necessary. Default is true.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.stream-caching-enabled",
@@ -2927,7 +2719,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to remove stream caching temporary directory when stopping. This option is default true.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": true,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.stream-caching-remove-spool-directory-when-stopping",
@@ -2961,7 +2752,6 @@
       "type": "java.lang.Boolean",
       "description": "To enable stream caching spooling to disk. This means, for large stream messages (over 128 KB by default) will be cached in a temporary file instead, and Camel will handle deleting the temporary file once the cached stream is no longer necessary. Default is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.stream-caching-spool-enabled",
@@ -2973,7 +2763,6 @@
       "type": "java.lang.Long",
       "description": "Stream caching threshold in bytes when overflow to disk is activated. The default threshold is 128kb. Use -1 to disable overflow to disk.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 0,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.stream-caching-spool-threshold",
@@ -2996,7 +2785,6 @@
       "type": "java.lang.Integer",
       "description": "Sets a percentage (1-99) of used heap memory threshold to activate stream caching spooling to disk.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": 0,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.stream-caching-spool-used-heap-memory-threshold",
@@ -3008,7 +2796,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether stream caching statistics is enabled.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.stream-caching-statistics-enabled",
@@ -3031,7 +2818,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether tracing is enabled or not. Default is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.tracing",
@@ -3065,7 +2851,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to set tracing on standby. If on standby then the tracer is installed and made available. Then the tracer can be enabled later at runtime via JMX or via {@link Tracer#setEnabled(boolean)}.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.tracing-standby",
@@ -3077,7 +2862,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether tracing should trace inner details from route templates (or kamelets). Turning this on increases the verbosity of tracing by including events from internal routes in the templates or kamelets. Default is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.tracing-templates",
@@ -3089,7 +2873,6 @@
       "type": "java.lang.Boolean",
       "description": "Sets whether type converter statistics is enabled. By default the type converter utilization statistics is disabled. Notice: If enabled then there is a slight performance impact under very heavy load.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.type-converter-statistics-enabled",
@@ -3101,7 +2884,6 @@
       "type": "java.lang.Boolean",
       "description": "Set whether breadcrumb is enabled. The default value is false.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.use-breadcrumb",
@@ -3113,7 +2895,6 @@
       "type": "java.lang.Boolean",
       "description": "Whether to enable using data type on Camel messages. Data type are automatic turned on if one ore more routes has been explicit configured with input and output types. Otherwise data type is default off.",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.use-data-type",
@@ -3125,7 +2906,6 @@
       "type": "java.lang.Boolean",
       "description": "To turn on MDC logging",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": false,
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.use-mdc-logging",
@@ -3137,7 +2917,6 @@
       "type": "java.lang.String",
       "description": "UUID generator to use. default (32 bytes), short (16 bytes), classic (32 bytes or longer), simple (long incrementing counter), off (turned off for exchanges - only intended for performance profiling)",
       "sourceType": "org.apache.camel.spring.boot.CamelConfigurationProperties$Springboot",
-      "defaultValue": "default",
       "deprecated": true,
       "deprecation": {
         "replacement": "camel.main.uuid-generator",
