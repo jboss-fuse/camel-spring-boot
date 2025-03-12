@@ -53,6 +53,12 @@ public class JacksonDataFormatConfiguration
      */
     private Boolean prettyPrint = false;
     /**
+     * Force generator that outputs JSON content to combine unicode surrogate
+     * pairs (if any) into 4-byte characters. This should be preferred when
+     * using languages such as Japanese. This property is Jackson exclusive.
+     */
+    private Boolean combineUnicodeSurrogates = false;
+    /**
      * Class name of the java type to use when unmarshalling
      */
     private String unmarshalType;
@@ -179,6 +185,14 @@ public class JacksonDataFormatConfiguration
 
     public void setPrettyPrint(Boolean prettyPrint) {
         this.prettyPrint = prettyPrint;
+    }
+
+    public Boolean getCombineUnicodeSurrogates() {
+        return combineUnicodeSurrogates;
+    }
+
+    public void setCombineUnicodeSurrogates(Boolean combineUnicodeSurrogates) {
+        this.combineUnicodeSurrogates = combineUnicodeSurrogates;
     }
 
     public String getUnmarshalType() {
