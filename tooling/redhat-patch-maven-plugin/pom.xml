@@ -34,6 +34,10 @@
 
     <description>Maven plugin that adjusts dependencies according to patch/security metadata.</description>
 
+    <properties>
+        <maven-version>3.8.6</maven-version>
+    </properties>
+
     <dependencies>
 
         <!-- Maven -->
