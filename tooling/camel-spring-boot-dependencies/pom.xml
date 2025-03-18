@@ -290,7 +290,7 @@
       <dependency>
         <groupId>org.apache.camel.kamelets</groupId>
         <artifactId>camel-kamelets-bom</artifactId>
-        <version>4.10.2</version>
+        <version>4.10.2.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.maven</groupId>
@@ -4648,12 +4648,12 @@
       <dependency>
         <groupId>org.eclipse.jkube</groupId>
         <artifactId>openshift-maven-plugin</artifactId>
-        <version>1.17.0.redhat-00003</version>
+        <version>1.18.1.redhat-00007</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-cics</artifactId>
-        <version>4.10.0.redhat-00005</version>
+        <version>4.10.2.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
@@ -4663,7 +4663,7 @@
       <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap</artifactId>
-        <version>4.10.1.redhat-00001</version>
+        <version>4.10.2.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
