@@ -132,12 +132,7 @@
                 <artifactId>logback-core</artifactId>
                 <version>1.5.16</version>
             </dependency>
-            <!-- Override for reactor-netty-http -->
-            <dependency>
-                <groupId>io.projectreactor.netty</groupId>
-                <artifactId>reactor-netty-http</artifactId>
-                <version>1.1.22</version>
-            </dependency>
+
 
             <!-- Override for org.json:json -->
             <dependency>
@@ -149,37 +144,37 @@
             <dependency>
                 <groupId>org.apache.tomcat</groupId>
                 <artifactId>tomcat-annotations-api</artifactId>
-                <version>10.1.36</version>
+                <version>10.1.39</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.tomcat</groupId>
                 <artifactId>tomcat-jdbc</artifactId>
-                <version>10.1.36</version>
+                <version>10.1.39</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.tomcat</groupId>
                 <artifactId>tomcat-jsp-api</artifactId>
-                <version>10.1.36</version>
+                <version>10.1.39</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.tomcat.embed</groupId>
                 <artifactId>tomcat-embed-core</artifactId>
-                <version>10.1.36</version>
+                <version>10.1.39</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.tomcat.embed</groupId>
                 <artifactId>tomcat-embed-el</artifactId>
-                <version>10.1.36</version>
+                <version>10.1.39</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.tomcat.embed</groupId>
                 <artifactId>tomcat-embed-jasper</artifactId>
-                <version>10.1.36</version>
+                <version>10.1.39</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.tomcat.embed</groupId>
                 <artifactId>tomcat-embed-websocket</artifactId>
-                <version>10.1.36</version>
+                <version>10.1.39</version>
             </dependency>
             <!-- Overrides mvel dependency -->
             <dependency>
@@ -320,6 +315,13 @@
                 <version>4.1.119.Final-redhat-00004</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!-- Override for reactor-netty-http -->
+            <dependency>
+                <groupId>io.projectreactor.netty</groupId>
+                <artifactId>reactor-netty-http</artifactId>
+                <version>1.1.22</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
@@ -578,7 +580,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>3.3.9</version>
+                <version>3.3.10</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
