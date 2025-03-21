@@ -19,6 +19,9 @@ package org.apache.camel.openapi;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+import org.skyscreamer.jsonassert.JSONAssert;
+import org.skyscreamer.jsonassert.JSONCompareMode;
+
 import org.apache.camel.BindToRegistry;
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
@@ -134,7 +137,7 @@ public class ComplexTypesTest {
                 .collect(Collectors.joining("\n"));
         is.close();
 
-        assertEquals(expected, json);
+        JSONAssert.assertEquals(expected, json, JSONCompareMode.STRICT);
     }
 
     private BeanConfig getBeanConfig(String apiVersion) {
