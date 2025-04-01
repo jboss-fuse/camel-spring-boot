@@ -22,7 +22,7 @@
 
     <groupId>com.redhat.camel.springboot.platform</groupId>
     <artifactId>camel-spring-boot-bom</artifactId>
-    <version>4.10.2-SNAPSHOT</version>
+    <version>4.10.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Red Hat Application Foundations :: Camel Spring Boot BOM</name>
@@ -74,12 +74,12 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-api</artifactId>
-                <version>4.10.2</version>
+                <version>4.10.3.redhat-00002</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-support</artifactId>
-                <version>4.10.2</version>
+                <version>4.10.3.redhat-00002</version>
             </dependency>
 
             <!-- Insert third party overrides here -->
@@ -233,7 +233,7 @@
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-bom</artifactId>
-                <version>6.4.3</version>
+                <version>6.4.4</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -241,7 +241,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>6.2.3</version>
+                <version>6.2.5</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -268,7 +268,7 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-bom</artifactId>
-                <version>4.1.118.Final-redhat-00002</version>
+                <version>4.1.119.Final-redhat-00004</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -283,7 +283,7 @@
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-bom</artifactId>
-                <version>12.0.16.redhat-00002</version>
+                <version>12.0.18</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -317,7 +317,7 @@
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>hapi-fhir-base</artifactId>
-                <version>7.6.1</version>
+                <version>7.6.1.redhat-00001</version>
             </dependency>
 
             <dependency>
@@ -371,7 +371,7 @@
             <dependency>
                 <groupId>com.microsoft.azure</groupId>
                 <artifactId>msal4j</artifactId>
-                <version>1.18.0</version>
+                <version>1.18.0.redhat-00001</version>
             </dependency>
 
             <dependency>
@@ -401,7 +401,7 @@
             <dependency>
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
-                <version>2.13.1</version>
+                <version>2.13.1.redhat-00001</version>
             </dependency>
 
             <dependency>
@@ -499,12 +499,12 @@
             <dependency>
                 <groupId>io.swagger.parser.v3</groupId>
                 <artifactId>swagger-parser</artifactId>
-                <version>2.1.25.redhat-00001</version>
+                <version>2.1.25.redhat-00002</version>
             </dependency>
             <dependency>
                 <groupId>io.swagger.parser.v3</groupId>
                 <artifactId>swagger-parser-v3</artifactId>
-                <version>2.1.25.redhat-00001</version>
+                <version>2.1.25.redhat-00002</version>
             </dependency>
 
             <dependency>
@@ -519,7 +519,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.1.1.rbac-redhat-00001</version>
+                <version>4.1.1.rbac-redhat-00002</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -528,7 +528,7 @@
             <dependency>
                 <groupId>org.apache.camel.springboot</groupId>
                 <artifactId>camel-spring-boot-bom</artifactId>
-                <version>4.10.2-SNAPSHOT</version>
+                <version>4.10.3-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
