@@ -103,7 +103,7 @@
         <aalto-xml-version>1.3.2</aalto-xml-version>
         <camel-cics.version>4.10.3.redhat-00001</camel-cics.version>
         <camel-community-version>4.10.3</camel-community-version>
-        <camel-kamelets-version>4.10.2</camel-kamelets-version>
+        <camel-kamelets-version>4.10.3.redhat-00001</camel-kamelets-version>
         <camel-sap.version>4.10.3.redhat-00001</camel-sap.version>
         <camel-spring-boot-community.version>4.10.3</camel-spring-boot-community.version>
         <cq-plugin.version>4.16.2</cq-plugin.version>
