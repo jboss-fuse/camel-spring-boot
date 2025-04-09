@@ -1805,7 +1805,7 @@
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-smooks-starter</artifactId>
-        <version>4.10.3</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
@@ -3997,7 +3997,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-smooks</artifactId>
-        <version>4.10.3.redhat-00002</version>
+        <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>

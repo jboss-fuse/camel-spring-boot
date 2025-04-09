@@ -184,7 +184,6 @@
 :camel-shiro-starter
 :camel-sjms-starter
 :camel-sjms2-starter
-:camel-smooks-starter
 :camel-smpp-starter
 :camel-snakeyaml-starter
 :camel-solr-starter

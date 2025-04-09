@@ -123,6 +123,7 @@ camel-seda-starter
 camel-servlet-starter
 camel-slack-starter
 camel-smb-starter
+camel-smooks-starter
 camel-snmp-starter
 camel-soap-starter
 camel-splunk-starter
