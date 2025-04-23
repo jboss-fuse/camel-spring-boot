@@ -68,20 +68,6 @@
     <!-- These are place holder dependency management entries -->
     <dependencyManagement>
         <dependencies>
-
-            <!-- CSB-5913 - please remove these overrides after 4.8.0 -->
-            <!-- These are required for the ThreadFactoryListener changes -->
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-api</artifactId>
-                <version>4.10.3.redhat-00002</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-support</artifactId>
-                <version>4.10.3.redhat-00002</version>
-            </dependency>
-
             <!-- Insert third party overrides here -->
             <dependency>
                 <groupId>org.yaml</groupId>
