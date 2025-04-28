@@ -74,19 +74,19 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-api</artifactId>
-                <version>4.10.3.redhat-00002</version>
+                <version>4.10.3.redhat-00015</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-support</artifactId>
-                <version>4.10.3.redhat-00002</version>
+                <version>4.10.3.redhat-00015</version>
             </dependency>
 
             <!-- Insert third party overrides here -->
             <dependency>
                 <groupId>org.yaml</groupId>
                 <artifactId>snakeyaml</artifactId>
-                <version>2.3</version>
+                <version>2.3.0.redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>org.hsqldb</groupId>
@@ -98,17 +98,17 @@
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-core</artifactId>
-                <version>2.3.18.Final</version>
+                <version>2.3.18.SP1-redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-servlet</artifactId>
-                <version>2.3.18.Final</version>
+                <version>2.3.18.SP1-redhat-00001</version>
             </dependency>
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-websockets-jsr</artifactId>
-                <version>2.3.18.Final</version>
+                <version>2.3.18.SP1-redhat-00001</version>
             </dependency>
             <!-- Overrides guava -->
             <dependency>
@@ -233,7 +233,7 @@
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-bom</artifactId>
-                <version>6.4.4</version>
+                <version>6.4.5</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -241,7 +241,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>6.2.5</version>
+                <version>6.2.6</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -250,7 +250,7 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-bom</artifactId>
-                <version>2.39.0</version>
+                <version>2.33.0.redhat-00017</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -259,7 +259,7 @@
             <dependency>
                 <groupId>io.opentelemetry</groupId>
                 <artifactId>opentelemetry-bom</artifactId>
-                <version>1.46.0</version>
+                <version>1.46.0.redhat-00001</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -283,7 +283,7 @@
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-bom</artifactId>
-                <version>12.0.18</version>
+                <version>12.0.19.redhat-00001</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -299,7 +299,7 @@
             <dependency>
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-bom</artifactId>
-                <version>15.1.5.Final</version>
+                <version>15.0.14.Final-redhat-00002</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -519,7 +519,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.1.1.rbac-redhat-00002</version>
+                <version>4.1.1.rhbac-redhat-00011</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
