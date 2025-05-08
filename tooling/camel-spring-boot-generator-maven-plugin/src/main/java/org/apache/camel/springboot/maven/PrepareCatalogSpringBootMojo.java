@@ -21,6 +21,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
@@ -41,6 +42,16 @@ import org.apache.maven.plugins.annotations.ResolutionScope;
 public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
 
     private static final String[] IGNORE_MODULES = { "camel-spring-boot-xml", "camel-spring-boot-engine" };
+
+    @Parameter(defaultValue = "${basedir}/../../product/src/main/resources/required-productized-camel-artifacts.txt")
+    protected File requiredProductizedCamelSpringBootArtifactsFile;
+
+
+    @Parameter(property = "projectVersion", defaultValue = "${project.version}")
+    protected String projectVersion;
+
+    @Parameter(property = "bom.camelCommunityVersion", defaultValue = "${camel-spring-boot-community.version}")
+    protected String camelCommunityVersion;
 
     /**
      * The catalog directory
@@ -90,11 +101,14 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
 
     protected void executeComponents(JarFile componentJar, Map<String, Supplier<String>> jsonFiles)
             throws MojoExecutionException, MojoFailureException, IOException {
+        HashMap<String, Boolean> productizedArtifacts = RequiredProductizedArtifactsReader.getProductizedCSBArtifacts(requiredProductizedCamelSpringBootArtifactsFile);
+
         List<String> componentNames = findComponentNames(componentJar);
         if (!componentNames.isEmpty()) {
             getLog().info("Components found: " + String.join(", ", componentNames));
             List<String> actual = new ArrayList<>();
             for (String componentName : componentNames) {
+
                 String json = loadComponentJson(jsonFiles, componentName);
                 if (json != null) {
                     json = json
@@ -103,7 +117,7 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
                             .replace("\"artifactId\": \"" + getMainDepArtifactId() + "\"",
                                     "\"artifactId\": \"" + project.getArtifactId() + "\"")
                             .replace("\"version\": \"" + getMainDepVersion() + "\"",
-                                    "\"version\": \"" + project.getVersion() + "\"");
+                                    "\"version\": \"" + (productizedArtifacts.containsKey(project.getArtifactId()) ? projectVersion : camelCommunityVersion) + "\"");
                     writeIfChanged(json,
                             new File(catalogDir, "src/main/resources/org/apache/camel/springboot/catalog/components/"
                                     + componentName + ".json"));
@@ -121,11 +135,14 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
 
     protected void executeDataFormats(JarFile componentJar, Map<String, Supplier<String>> jsonFiles)
             throws MojoExecutionException, MojoFailureException, IOException {
+        HashMap<String, Boolean> productizedArtifacts = RequiredProductizedArtifactsReader.getProductizedCSBArtifacts(requiredProductizedCamelSpringBootArtifactsFile);
+
         List<String> dataFormatNames = findDataFormatNames(componentJar);
         if (!dataFormatNames.isEmpty()) {
             getLog().info("Dataformats found: " + String.join(", ", dataFormatNames));
             List<String> actual = new ArrayList<>();
             for (String dataformatName : dataFormatNames) {
+
                 String json = loadDataFormatJson(jsonFiles, dataformatName);
                 if (json != null) {
                     json = json
@@ -134,7 +151,7 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
                             .replace("\"artifactId\": \"" + getMainDepArtifactId() + "\"",
                                     "\"artifactId\": \"" + project.getArtifactId() + "\"")
                             .replace("\"version\": \"" + getMainDepVersion() + "\"",
-                                    "\"version\": \"" + project.getVersion() + "\"");
+                                    "\"version\": \"" + (productizedArtifacts.containsKey(project.getArtifactId()) ? projectVersion : camelCommunityVersion) + "\"");
                     writeIfChanged(json,
                             new File(catalogDir, "src/main/resources/org/apache/camel/springboot/catalog/dataformats/"
                                     + dataformatName + ".json"));
@@ -152,11 +169,14 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
 
     protected void executeLanguages(JarFile componentJar, Map<String, Supplier<String>> jsonFiles)
             throws MojoExecutionException, MojoFailureException, IOException {
+        HashMap<String, Boolean> productizedArtifacts = RequiredProductizedArtifactsReader.getProductizedCSBArtifacts(requiredProductizedCamelSpringBootArtifactsFile);
+
         List<String> languageNames = findLanguageNames(componentJar);
         if (!languageNames.isEmpty()) {
             getLog().info("Languages found: " + String.join(", ", languageNames));
             List<String> actual = new ArrayList<>();
             for (String languageName : languageNames) {
+
                 String json = loadLanguageJson(jsonFiles, languageName);
                 if (json != null) {
                     json = json
@@ -165,7 +185,7 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
                             .replace("\"artifactId\": \"" + getMainDepArtifactId() + "\"",
                                     "\"artifactId\": \"" + project.getArtifactId() + "\"")
                             .replace("\"version\": \"" + getMainDepVersion() + "\"",
-                                    "\"version\": \"" + project.getVersion() + "\"");
+                                    "\"version\": \"" + (productizedArtifacts.containsKey(project.getArtifactId()) ? projectVersion : camelCommunityVersion) + "\"");
                     writeIfChanged(json,
                             new File(catalogDir, "src/main/resources/org/apache/camel/springboot/catalog/languages/"
                                     + languageName + ".json"));
@@ -183,6 +203,8 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
 
     protected void executeOthers(JarFile componentJar, Map<String, Supplier<String>> jsonFiles)
             throws MojoExecutionException, MojoFailureException, IOException {
+        HashMap<String, Boolean> productizedArtifacts = RequiredProductizedArtifactsReader.getProductizedCSBArtifacts(requiredProductizedCamelSpringBootArtifactsFile);
+
         // The json files for 'other' components are in the root of the jars
         List<String> otherNames = findNames(componentJar, "").stream()
                 .map(s -> s.substring(0, s.length() - ".json".length()))
@@ -194,6 +216,7 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
             getLog().info("Others found: " + String.join(", ", otherNames));
             List<String> actual = new ArrayList<>();
             for (String otherName : otherNames) {
+
                 String json = loadOtherJson(jsonFiles, otherName);
                 if (json != null) {
                     json = json
@@ -202,7 +225,7 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
                             .replace("\"artifactId\": \"" + getMainDepArtifactId() + "\"",
                                     "\"artifactId\": \"" + project.getArtifactId() + "\"")
                             .replace("\"version\": \"" + getMainDepVersion() + "\"",
-                                    "\"version\": \"" + project.getVersion() + "\"");
+                                    "\"version\": \"" + (productizedArtifacts.containsKey(project.getArtifactId()) ? projectVersion : camelCommunityVersion) + "\"");
                     writeIfChanged(json, new File(catalogDir,
                             "src/main/resources/org/apache/camel/springboot/catalog/others/" + otherName + ".json"));
                     actual.add(otherName);
@@ -219,11 +242,14 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
 
     protected void executeTransformers(JarFile componentJar, Map<String, Supplier<String>> jsonFiles)
             throws MojoExecutionException, MojoFailureException, IOException {
+        HashMap<String, Boolean> productizedArtifacts = RequiredProductizedArtifactsReader.getProductizedCSBArtifacts(requiredProductizedCamelSpringBootArtifactsFile);
+
         List<String> transformerNames = findTransformerNames(componentJar);
         if (!transformerNames.isEmpty()) {
             getLog().info("Transformers found: " + String.join(", ", transformerNames));
             List<String> actual = new ArrayList<>();
             for (String transformerName : transformerNames) {
+
                 String json = loadTransformerJson(jsonFiles, transformerName);
                 if (json != null) {
                     json = json
@@ -232,7 +258,7 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
                             .replace("\"artifactId\": \"" + getMainDepArtifactId() + "\"",
                                     "\"artifactId\": \"" + project.getArtifactId() + "\"")
                             .replace("\"version\": \"" + getMainDepVersion() + "\"",
-                                    "\"version\": \"" + project.getVersion() + "\"");
+                                    "\"version\": \"" + (productizedArtifacts.containsKey(project.getArtifactId()) ? projectVersion : camelCommunityVersion) + "\"");
                     writeIfChanged(json,
                             new File(catalogDir, "src/main/resources/org/apache/camel/springboot/catalog/transformers/"
                                                  + transformerName + ".json"));
@@ -250,6 +276,8 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
 
     protected void executeDevConsoles(JarFile componentJar, Map<String, Supplier<String>> jsonFiles)
             throws MojoExecutionException, MojoFailureException, IOException {
+        HashMap<String, Boolean> productizedArtifacts = RequiredProductizedArtifactsReader.getProductizedCSBArtifacts(requiredProductizedCamelSpringBootArtifactsFile);
+
         List<String> names = findDevConsoleNames(componentJar);
         if (!names.isEmpty()) {
             getLog().info("DevConsoles found: " + String.join(", ", names));
@@ -263,7 +291,7 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
                             .replace("\"artifactId\": \"" + getMainDepArtifactId() + "\"",
                                     "\"artifactId\": \"" + project.getArtifactId() + "\"")
                             .replace("\"version\": \"" + getMainDepVersion() + "\"",
-                                    "\"version\": \"" + project.getVersion() + "\"");
+                                    "\"version\": \"" + (productizedArtifacts.containsKey(project.getArtifactId()) ? projectVersion : camelCommunityVersion) + "\"");
                     writeIfChanged(json,
                             new File(catalogDir, "src/main/resources/org/apache/camel/springboot/catalog/dev-consoles/"
                                                  + name + ".json"));
@@ -281,6 +309,8 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
 
     protected void executeBeans(JarFile componentJar, Map<String, Supplier<String>> jsonFiles)
             throws MojoExecutionException, MojoFailureException, IOException {
+        HashMap<String, Boolean> productizedArtifacts = RequiredProductizedArtifactsReader.getProductizedCSBArtifacts(requiredProductizedCamelSpringBootArtifactsFile);
+
         List<String> names = findBeanNames(componentJar);
         if (!names.isEmpty()) {
             getLog().info("Beans found: " + String.join(", ", names));
@@ -294,7 +324,7 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
                             .replace("\"artifactId\": \"" + getMainDepArtifactId() + "\"",
                                     "\"artifactId\": \"" + project.getArtifactId() + "\"")
                             .replace("\"version\": \"" + getMainDepVersion() + "\"",
-                                    "\"version\": \"" + project.getVersion() + "\"");
+                                    "\"version\": \"" + (productizedArtifacts.containsKey(project.getArtifactId()) ? projectVersion : camelCommunityVersion) + "\"");
                     writeIfChanged(json,
                             new File(catalogDir, "src/main/resources/org/apache/camel/springboot/catalog/beans/"
                                                  + name + ".json"));
