@@ -247,7 +247,10 @@ public abstract class AbstractSpringBootGenerator extends AbstractMojo {
                 if (!content.equals(oldContent)) {
                     getLog().debug("Writing new file " + file.getAbsolutePath());
                     fr.close();
-                } 
+                } else {
+                    getLog().debug("File " + file.getAbsolutePath() + " has been left unchanged");
+                    write = false;
+                }
             }
         } else {
             // Create the structure
