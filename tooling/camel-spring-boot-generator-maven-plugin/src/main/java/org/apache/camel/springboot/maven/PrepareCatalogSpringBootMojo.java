@@ -303,6 +303,7 @@ public class PrepareCatalogSpringBootMojo extends AbstractSpringBootGenerator {
             Stream<String> existing = languages.isFile() ? Files.lines(languages.toPath()) : Stream.empty();
             String content = Stream.concat(existing, actual.stream()).sorted().distinct()
                     .collect(Collectors.joining("\n"));
+
             writeIfChanged(content, languages);
         }
     }
