@@ -222,6 +222,49 @@
                 <version>1.0.5</version>
             </dependency>
 
+            <!-- Add overrides for mongodb artifacts -->
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>bson</artifactId>
+                <version>5.3.1</version>
+            </dependency>
+                <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>bson-kotlin</artifactId>
+                <version>5.3.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>bson-record-codec</artifactId>
+                <version>5.3.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-core</artifactId>
+                <version>5.3.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-kotlin-coroutine</artifactId>
+                <version>5.3.1</version>
+            </dependency>
+                <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-legacy</artifactId>
+                <version>5.3.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-reactivestreams</artifactId>
+                <version>5.3.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-sync</artifactId>
+                <version>5.3.1</version>
+            </dependency>
+
+
             <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
             <dependency>
                 <groupId>org.eclipse.angus</groupId>

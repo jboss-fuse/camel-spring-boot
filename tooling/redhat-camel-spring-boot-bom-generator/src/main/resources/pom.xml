@@ -222,6 +222,49 @@
                 <version>${parsson-version}</version>
             </dependency>
 
+            <!-- Add overrides for mongodb artifacts -->
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>bson</artifactId>
+                <version>${mongo-java-driver-version}</version>
+            </dependency>
+                <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>bson-kotlin</artifactId>
+                <version>${mongo-java-driver-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>bson-record-codec</artifactId>
+                <version>${mongo-java-driver-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-core</artifactId>
+                <version>${mongo-java-driver-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-kotlin-coroutine</artifactId>
+                <version>${mongo-java-driver-version}</version>
+            </dependency>
+                <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-legacy</artifactId>
+                <version>${mongo-java-driver-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-reactivestreams</artifactId>
+                <version>${mongo-java-driver-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver-sync</artifactId>
+                <version>${mongo-java-driver-version}</version>
+            </dependency>
+
+
             <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
             <dependency>
                 <groupId>org.eclipse.angus</groupId>
