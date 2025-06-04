@@ -93,7 +93,11 @@ public class PlatformHttpAsyncRequestHandlingTest extends PlatformHttpBase {
             return new RouteBuilder() {
                 @Override
                 public void configure() {
-                    from("platform-http:/myget").id(getRouteId).setBody().constant("get");
+                    from("platform-http:/myget").id(getRouteId)
+                            .process(exchange -> {
+                                Thread.sleep(2000);
+                            })
+                            .setBody().constant("get");
                     from("platform-http:/mypost").id(postRouteId).transform().body(String.class, b -> b.toUpperCase());
                 }
             };
