@@ -74,12 +74,12 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-api</artifactId>
-                <version>4.10.3.redhat-00016</version>
+                <version>4.10.3.redhat-00022</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-support</artifactId>
-                <version>4.10.3.redhat-00016</version>
+                <version>4.10.3.redhat-00022</version>
             </dependency>
 
             <!-- Insert third party overrides here -->
@@ -132,7 +132,11 @@
                 <artifactId>logback-core</artifactId>
                 <version>1.5.16</version>
             </dependency>
-
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>1.11.0</version>
+            </dependency>
             <!-- Override for org.json:json -->
             <dependency>
                 <groupId>org.json</groupId>
@@ -276,7 +280,7 @@
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-bom</artifactId>
-                <version>6.4.5</version>
+                <version>6.4.6</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -284,7 +288,7 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>6.2.6</version>
+                <version>6.2.7</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -301,7 +305,7 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-bom</artifactId>
-                <version>2.40.0.redhat-00003</version>
+                <version>2.40.0.redhat-00004</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -319,7 +323,7 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-bom</artifactId>
-                <version>4.1.119.Final-redhat-00004</version>
+                <version>4.1.119.Final-redhat-00005</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -562,7 +566,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.1.1.rhbac-redhat-00012</version>
+                <version>4.1.1.rhbac-redhat-00018</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
