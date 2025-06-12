@@ -116,6 +116,13 @@
                 <artifactId>guava</artifactId>
                 <version>${guava-version}</version>
             </dependency>
+            <!-- Override for PG JDBC -->
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${pgjdbc-driver-version}</version>
+            </dependency>
+
             <!-- Overrides for logback -->
             <dependency>
                 <groupId>ch.qos.logback</groupId>

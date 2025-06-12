@@ -116,6 +116,13 @@
                 <artifactId>guava</artifactId>
                 <version>33.4.0.jre-redhat-00001</version>
             </dependency>
+            <!-- Override for PG JDBC -->
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>42.7.5</version>
+            </dependency>
+
             <!-- Overrides for logback -->
             <dependency>
                 <groupId>ch.qos.logback</groupId>
