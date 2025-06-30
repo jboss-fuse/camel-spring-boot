@@ -113,6 +113,7 @@ camel-platform-http-starter
 camel-quartz-starter
 camel-ref-starter
 camel-rest-starter
+camel-rest-openapi-starter
 camel-resilience4j-starter
 camel-saga-starter
 camel-salesforce-starter
