@@ -94,6 +94,18 @@
                 <version>2.7.4</version>
             </dependency>
 
+            <!-- Override jackrabbit -->
+            <dependency>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>jackrabbit-core</artifactId>
+                <version>2.22.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>jackrabbit-spi-commons</artifactId>
+                <version>2.22.0</version>
+            </dependency>
+
             <!-- Overrides undertow-core/servlet since SB is using an older version -->
             <dependency>
                 <groupId>io.undertow</groupId>
