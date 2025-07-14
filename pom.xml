@@ -78,6 +78,8 @@
         <!-- <module>tests</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <!-- <module>docs</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <module>archetypes</module>
+        <module>sap</module>
+        <module>cics</module>
     </modules>
 
     <scm>
