@@ -22,7 +22,7 @@
 
     <groupId>com.redhat.camel.springboot.platform</groupId>
     <artifactId>camel-spring-boot-bom</artifactId>
-    <version>4.10.3-SNAPSHOT</version>
+    <version>4.10.6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Red Hat Application Foundations :: Camel Spring Boot BOM</name>
@@ -74,19 +74,19 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-api</artifactId>
-                <version>4.10.3.redhat-00025</version>
+                <version>4.10.6</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-support</artifactId>
-                <version>4.10.3.redhat-00025</version>
+                <version>4.10.6</version>
             </dependency>
 
             <!-- Insert third party overrides here -->
             <dependency>
                 <groupId>org.yaml</groupId>
                 <artifactId>snakeyaml</artifactId>
-                <version>2.3.0.redhat-00001</version>
+                <version>2.3</version>
             </dependency>
             <dependency>
                 <groupId>org.hsqldb</groupId>
@@ -98,23 +98,23 @@
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-core</artifactId>
-                <version>2.3.18.SP1-redhat-00001</version>
+                <version>2.3.18.Final</version>
             </dependency>
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-servlet</artifactId>
-                <version>2.3.18.SP1-redhat-00001</version>
+                <version>2.3.18.Final</version>
             </dependency>
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-websockets-jsr</artifactId>
-                <version>2.3.18.SP1-redhat-00001</version>
+                <version>2.3.18.Final</version>
             </dependency>
             <!-- Overrides guava -->
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>33.4.0.jre-redhat-00001</version>
+                <version>33.4.0-jre</version>
             </dependency>
             <!-- Overrides for logback -->
             <dependency>
@@ -183,13 +183,13 @@
             <dependency>
                 <groupId>org.mvel</groupId>
                 <artifactId>mvel2</artifactId>
-                <version>2.5.2.Final-redhat-00001</version>
+                <version>2.5.2.Final</version>
             </dependency>
             <!-- Overrides json-path dependency -->
             <dependency>
                 <groupId>com.jayway.jsonpath</groupId>
                 <artifactId>json-path</artifactId>
-                <version>2.9.0.redhat-00001</version>
+                <version>2.9.0</version>
             </dependency>
             <!-- Overrides avro dependency version since SB's jackson version's takes precedence in camel-jackson-avro-starter -->
             <dependency>
@@ -201,7 +201,7 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
-                <version>1.27.1.redhat-00001</version>
+                <version>1.27.1</version>
             </dependency>
             <!-- Overrides snappy-java -->
             <dependency>
@@ -273,7 +273,7 @@
             <dependency>
                 <groupId>org.eclipse.angus</groupId>
                 <artifactId>angus-mail</artifactId>
-                <version>2.0.3.redhat-00001</version>
+                <version>2.0.3</version>
             </dependency>
 
             <!-- upgrades for spring -->
@@ -296,7 +296,7 @@
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-bom</artifactId>
-                <version>12.0.22.redhat-00002</version>
+                <version>12.0.21</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -305,7 +305,7 @@
             <dependency>
                 <groupId>org.apache.activemq</groupId>
                 <artifactId>artemis-bom</artifactId>
-                <version>2.40.0.redhat-00004</version>
+                <version>2.39.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -314,7 +314,7 @@
             <dependency>
                 <groupId>io.opentelemetry</groupId>
                 <artifactId>opentelemetry-bom</artifactId>
-                <version>1.46.0.redhat-00001</version>
+                <version>1.46.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -323,7 +323,7 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-bom</artifactId>
-                <version>4.1.119.Final-redhat-00005</version>
+                <version>4.1.122.Final</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -338,7 +338,7 @@
             <dependency>
                 <groupId>com.fasterxml.jackson</groupId>
                 <artifactId>jackson-bom</artifactId>
-                <version>2.18.2.redhat-00004</version>
+                <version>2.18.4</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -346,7 +346,7 @@
             <dependency>
                 <groupId>org.infinispan</groupId>
                 <artifactId>infinispan-bom</artifactId>
-                <version>15.0.14.Final-redhat-00002</version>
+                <version>15.1.5.Final</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -364,13 +364,13 @@
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>hapi-fhir-base</artifactId>
-                <version>7.6.1.redhat-00001</version>
+                <version>7.6.1</version>
             </dependency>
 
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
-                <version>2.18.0.redhat-00001</version>
+                <version>2.18.0</version>
             </dependency>
 
             <dependency>
@@ -394,13 +394,13 @@
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
-                <version>4.5.14.redhat-00012</version>
+                <version>4.5.14</version>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient-cache</artifactId>
-                <version>4.5.14.redhat-00012</version>
+                <version>4.5.14</version>
             </dependency>
 
             <dependency>
@@ -418,7 +418,7 @@
             <dependency>
                 <groupId>com.microsoft.azure</groupId>
                 <artifactId>msal4j</artifactId>
-                <version>1.18.0.redhat-00001</version>
+                <version>1.18.0</version>
             </dependency>
 
             <dependency>
@@ -436,7 +436,7 @@
             <dependency>
                 <groupId>jakarta.inject</groupId>
                 <artifactId>jakarta.inject</artifactId>
-                <version>2.0.1.redhat-00006</version>
+                <version>2.0.1</version>
             </dependency>
 
             <dependency>
@@ -448,13 +448,13 @@
             <dependency>
                 <groupId>joda-time</groupId>
                 <artifactId>joda-time</artifactId>
-                <version>2.13.1.redhat-00001</version>
+                <version>2.13.1</version>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-text</artifactId>
-                <version>1.13.0.redhat-00001</version>
+                <version>1.13.0</version>
             </dependency>
 
             <dependency>
@@ -475,7 +475,7 @@
             <dependency>
                 <groupId>org.apache.qpid</groupId>
                 <artifactId>proton-j</artifactId>
-                <version>0.34.1.redhat-00002</version>
+                <version>0.34.1</version>
             </dependency>
 
             <dependency>
@@ -487,7 +487,7 @@
             <dependency>
                 <groupId>org.jasypt</groupId>
                 <artifactId>jasypt</artifactId>
-                <version>1.9.3.redhat-00004</version>
+                <version>1.9.3</version>
             </dependency>
 
             <dependency>
@@ -504,54 +504,54 @@
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm</artifactId>
-                <version>9.7.1.redhat-00001</version>
+                <version>9.7.1</version>
             </dependency>
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm-commons</artifactId>
-                <version>9.7.1.redhat-00001</version>
+                <version>9.7.1</version>
             </dependency>
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm-tree</artifactId>
-                <version>9.7.1.redhat-00001</version>
+                <version>9.7.1</version>
             </dependency>
 
             <dependency>
                 <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-integration-jakarta</artifactId>
-                <version>2.2.23.redhat-00001</version>
+                <version>2.2.23</version>
             </dependency>
             <dependency>
                 <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-jaxrs2-jakarta</artifactId>
-                <version>2.2.23.redhat-00001</version>
+                <version>2.2.23</version>
             </dependency>
             <dependency>
                 <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-models</artifactId>
-                <version>2.2.23.redhat-00001</version>
+                <version>2.2.23</version>
             </dependency>
             <dependency>
                 <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-models-jakarta</artifactId>
-                <version>2.2.23.redhat-00001</version>
+                <version>2.2.23</version>
             </dependency>
             <dependency>
                 <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-core-jakarta</artifactId>
-                <version>2.2.23.redhat-00001</version>
+                <version>2.2.23</version>
             </dependency>
 
             <dependency>
                 <groupId>io.swagger.parser.v3</groupId>
                 <artifactId>swagger-parser</artifactId>
-                <version>2.1.25.redhat-00002</version>
+                <version>2.1.25</version>
             </dependency>
             <dependency>
                 <groupId>io.swagger.parser.v3</groupId>
                 <artifactId>swagger-parser-v3</artifactId>
-                <version>2.1.25.redhat-00002</version>
+                <version>2.1.25</version>
             </dependency>
 
             <dependency>
@@ -566,7 +566,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.1.1.rhbac-redhat-00021</version>
+                <version>4.1.1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -575,7 +575,7 @@
             <dependency>
                 <groupId>org.apache.camel.springboot</groupId>
                 <artifactId>camel-spring-boot-bom</artifactId>
-                <version>4.10.3-SNAPSHOT</version>
+                <version>4.10.6-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
