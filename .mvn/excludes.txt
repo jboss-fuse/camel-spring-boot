@@ -172,7 +172,6 @@
 :camel-quickfix-starter
 :camel-reactive-streams-starter
 :camel-reactor-starter
-:camel-rest-openapi-starter
 :camel-robotframework-starter
 :camel-rocketmq-starter
 :camel-rss-starter
