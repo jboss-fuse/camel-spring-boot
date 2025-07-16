@@ -117,7 +117,6 @@
         <org-json-json-version>20231013</org-json-json-version>
         <parsson-version>1.0.5</parsson-version>
         <perfmark-version>0.27.0</perfmark-version>
-        <plexus-component-metadata-plugin-version>2.1.1</plexus-component-metadata-plugin-version>
         <snappy-java-version>1.1.10.7</snappy-java-version>
         <tomcat-version>10.1.42</tomcat-version>
         <woodstox-stax2-api-version>4.2.1</woodstox-stax2-api-version>
