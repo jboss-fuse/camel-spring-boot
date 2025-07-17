@@ -209,6 +209,17 @@
                 <artifactId>avro</artifactId>
                 <version>${avro-version}</version>
             </dependency>
+            <!-- Override parquet avro -->
+            <dependency>
+                <groupId>org.apache.parquet</groupId>
+                <artifactId>parquet-avro</artifactId>
+                <version>${parquet-common-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.parquet</groupId>
+                <artifactId>parquet-common</artifactId>
+                <version>${parquet-common-version}</version>
+            </dependency>
             <!-- Override commons-compress version -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
