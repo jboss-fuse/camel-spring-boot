@@ -186,7 +186,6 @@
 :camel-smpp-starter
 :camel-snakeyaml-starter
 :camel-solr-starter
-:camel-springdoc-starter
 :camel-stax-starter
 :camel-stitch-starter
 :camel-stomp-starter

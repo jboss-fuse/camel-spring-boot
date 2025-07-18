@@ -409,7 +409,7 @@
     <module>camel-spring-security-starter</module>
     <module>camel-spring-starter</module>
     <module>camel-spring-ws-starter</module>
-    <!-- <module>camel-springdoc-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-springdoc-starter</module>
     <module>camel-sql-starter</module>
     <module>camel-ssh-starter</module>
     <!-- <module>camel-stax-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
