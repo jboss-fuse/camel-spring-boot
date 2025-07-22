@@ -130,6 +130,7 @@ camel-soap-starter
 camel-splunk-starter
 camel-splunk-hec-starter
 camel-spring-starter
+camel-springdoc-starter
 camel-spring-batch-starter
 camel-spring-jdbc-starter
 camel-spring-ldap-starter
