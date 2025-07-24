@@ -74,12 +74,12 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-api</artifactId>
-                <version>4.10.6.redhat-00002</version>
+                <version>4.10.6.redhat-00003</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-support</artifactId>
-                <version>4.10.6.redhat-00002</version>
+                <version>4.10.6.redhat-00003</version>
             </dependency>
 
             <!-- Insert third party overrides here -->
@@ -607,7 +607,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>3.4.7</version>
+                <version>3.4.8</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
