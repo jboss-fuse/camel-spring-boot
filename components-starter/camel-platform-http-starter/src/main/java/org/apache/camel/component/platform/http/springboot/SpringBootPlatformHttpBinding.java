@@ -297,12 +297,8 @@ public class SpringBootPlatformHttpBinding extends DefaultHttpBinding {
 
     @Override
     protected String getRawPath(HttpServletRequest request) {
-        String uri = request.getRequestURI();
         String contextPath = request.getContextPath() == null ? "" : request.getContextPath();
-        if (contextPath.isEmpty() || contextPath.equals("/")) {
-            return uri;
-        }
-        // skip context-path
-        return uri.substring(contextPath.length());
+        String servletPath = request.getServletPath() == null ? "" : request.getServletPath();
+        return contextPath + servletPath;
     }
 }
