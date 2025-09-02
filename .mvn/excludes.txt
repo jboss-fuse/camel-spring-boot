@@ -28,7 +28,6 @@
 :camel-aws2-translate-starter
 :camel-azure-cosmosdb-starter
 :camel-azure-files-starter
-:camel-azure-storage-datalake-starter
 :camel-barcode-starter
 :camel-base64-starter
 :camel-bonita-starter
@@ -225,12 +224,16 @@
 :camel-xml-jaxb-dsl-starter
 :camel-xmlsecurity-starter
 :camel-xmpp-starter
-:camel-yaml-io-starter
 :camel-zeebe-starter
 :camel-zendesk-starter
 :camel-zip-deflater-starter
 :camel-zookeeper-cluster-service-starter
 :camel-zookeeper-master-starter
 :camel-zookeeper-starter
+:dependency-management-example
+:dependency-management-example-module1
 :docs
+:redhat-camel-spring-boot-maintenance
+:redhat-camel-spring-boot-patch-metadata
+:redhat-camel-spring-boot-patch-repository
 :tests

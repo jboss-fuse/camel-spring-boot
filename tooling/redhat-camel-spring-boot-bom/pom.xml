@@ -74,12 +74,12 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-api</artifactId>
-                <version>4.14.0.redhat-00001</version>
+                <version>4.14.0.redhat-00003</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-support</artifactId>
-                <version>4.14.0.redhat-00001</version>
+                <version>4.14.0.redhat-00003</version>
             </dependency>
 
             <!-- Insert third party overrides here -->
@@ -589,7 +589,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.1.3</version>
+                <version>4.1.3.rhbac-redhat-00004</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
