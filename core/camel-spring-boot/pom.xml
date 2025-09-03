@@ -68,6 +68,13 @@
             <version>${spring-boot-version}</version>
             <optional>true</optional>
         </dependency>
+        <!-- Needed for Undertow metrics -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
+            <version>${spring-boot-version}</version>
+            <optional>true</optional>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.camel</groupId>
