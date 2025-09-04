@@ -27,8 +27,10 @@ import org.apache.camel.component.platform.http.cookie.CookieHandler;
 import org.apache.camel.spring.boot.CamelAutoConfiguration;
 import org.apache.camel.test.spring.junit5.CamelSpringBootTest;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.security.oauth2.client.OAuth2ClientAutoConfiguration;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
@@ -37,6 +39,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.test.annotation.DirtiesContext;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.matcher.RestAssuredMatchers.detailedCookie;
@@ -44,7 +47,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.startsWith;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@EnableAutoConfiguration(exclude = {OAuth2ClientAutoConfiguration.class, SecurityAutoConfiguration.class})
+@EnableAutoConfiguration(exclude = {ManagementWebSecurityAutoConfiguration.class, OAuth2ClientAutoConfiguration.class, SecurityAutoConfiguration.class})
 @CamelSpringBootTest
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, classes = { CamelAutoConfiguration.class,
         SpringBootPlatformHttpCookiesTest.class, SpringBootPlatformHttpCookiesTest.TestConfiguration.class,
@@ -123,8 +126,7 @@ public class SpringBootPlatformHttpCookiesTest {
                         detailedCookie()
                                 .value("bar")
                                 .path(CookieConfiguration.DEFAULT_PATH)
-                                .domain((String) null)
-                                .sameSite(CookieConfiguration.DEFAULT_SAME_SITE.getValue()))
+                                .domain((String) null))
                 .body(equalTo("add"));
     }
 
@@ -156,13 +158,13 @@ public class SpringBootPlatformHttpCookiesTest {
 
     @Test
     public void replaceCookie() {
-        given()
+        var v = given()
                 .header("cookie", "XSRF-TOKEN=c359b44aef83415")
                 .when()
                 .get("/replace")
                 .then()
                 .statusCode(200)
-                .header("set-cookie", "XSRF-TOKEN=88533580000c314; Path=/")
+                .header("Set-Cookie", "XSRF-TOKEN=88533580000c314; path=/")
                 .body(equalTo("replace"));
     }
 

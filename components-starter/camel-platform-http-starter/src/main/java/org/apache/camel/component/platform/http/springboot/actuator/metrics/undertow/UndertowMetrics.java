@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.camel.spring.boot.actuate.metrics.undertow;
+package org.apache.camel.component.platform.http.springboot.actuator.metrics.undertow;
 
 import io.micrometer.core.instrument.FunctionCounter;
 import io.micrometer.core.instrument.Gauge;

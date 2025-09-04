@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.camel.spring.boot.actuate.metrics.undertow;
+package org.apache.camel.component.platform.http.springboot.actuator.metrics.undertow;
 
 import io.micrometer.core.instrument.MeterRegistry;
 import io.micrometer.core.instrument.Tag;
@@ -24,13 +24,11 @@ import org.springframework.beans.factory.DisposableBean;
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.boot.web.context.WebServerApplicationContext;
 import org.springframework.boot.web.embedded.undertow.UndertowServletWebServer;
-import org.springframework.boot.web.embedded.undertow.UndertowWebServer;
 import org.springframework.boot.web.server.WebServer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationListener;
 import org.xnio.XnioWorker;
 
-import javax.naming.Context;
 import java.util.Collections;
 
 public class UndertowMetricsBinder implements ApplicationListener<ApplicationStartedEvent>, DisposableBean {

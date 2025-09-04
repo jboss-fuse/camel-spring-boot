@@ -15,8 +15,4 @@
 ## limitations under the License.
 ## ---------------------------------------------------------------------------
 
-org.apache.camel.component.platform.http.springboot.PlatformHttpComponentConverter
-org.apache.camel.component.platform.http.springboot.PlatformHttpComponentAutoConfiguration
-org.apache.camel.component.platform.http.springboot.SpringBootPlatformHttpAutoConfiguration
-org.apache.camel.component.platform.http.springboot.SpringBootPlatformWebMvcConfiguration
-org.apache.camel.component.platform.http.springboot.actuator.metrics.undertow.UndertowMetricsAutoConfiguration
+org.apache.camel.component.platform.http.springboot.UndertowWebServerFactory
