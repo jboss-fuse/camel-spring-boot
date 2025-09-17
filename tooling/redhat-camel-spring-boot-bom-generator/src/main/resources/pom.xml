@@ -155,42 +155,6 @@
                 <artifactId>json</artifactId>
                 <version>${org-json-json-version}</version>
             </dependency>
-            <!-- Overrides for tomcat -->
-            <dependency>
-                <groupId>org.apache.tomcat</groupId>
-                <artifactId>tomcat-annotations-api</artifactId>
-                <version>${tomcat-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat</groupId>
-                <artifactId>tomcat-jdbc</artifactId>
-                <version>${tomcat-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat</groupId>
-                <artifactId>tomcat-jsp-api</artifactId>
-                <version>${tomcat-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-core</artifactId>
-                <version>${tomcat-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-el</artifactId>
-                <version>${tomcat-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-jasper</artifactId>
-                <version>${tomcat-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-websocket</artifactId>
-                <version>${tomcat-version}</version>
-            </dependency>
             <!-- Overrides mvel dependency -->
             <dependency>
                 <groupId>org.mvel</groupId>
@@ -248,49 +212,6 @@
                 <artifactId>parsson</artifactId>
                 <version>${parsson-version}</version>
             </dependency>
-
-            <!-- Add overrides for mongodb artifacts -->
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>bson</artifactId>
-                <version>${mongo-java-driver-version}</version>
-            </dependency>
-                <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>bson-kotlin</artifactId>
-                <version>${mongo-java-driver-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>bson-record-codec</artifactId>
-                <version>${mongo-java-driver-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-core</artifactId>
-                <version>${mongo-java-driver-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-kotlin-coroutine</artifactId>
-                <version>${mongo-java-driver-version}</version>
-            </dependency>
-                <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-legacy</artifactId>
-                <version>${mongo-java-driver-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-reactivestreams</artifactId>
-                <version>${mongo-java-driver-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-sync</artifactId>
-                <version>${mongo-java-driver-version}</version>
-            </dependency>
-
 
             <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
             <dependency>

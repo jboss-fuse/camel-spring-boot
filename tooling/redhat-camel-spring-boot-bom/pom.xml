@@ -155,42 +155,6 @@
                 <artifactId>json</artifactId>
                 <version>20250517</version>
             </dependency>
-            <!-- Overrides for tomcat -->
-            <dependency>
-                <groupId>org.apache.tomcat</groupId>
-                <artifactId>tomcat-annotations-api</artifactId>
-                <version>10.1.44</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat</groupId>
-                <artifactId>tomcat-jdbc</artifactId>
-                <version>10.1.44</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat</groupId>
-                <artifactId>tomcat-jsp-api</artifactId>
-                <version>10.1.44</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-core</artifactId>
-                <version>10.1.44</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-el</artifactId>
-                <version>10.1.44</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-jasper</artifactId>
-                <version>10.1.44</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-websocket</artifactId>
-                <version>10.1.44</version>
-            </dependency>
             <!-- Overrides mvel dependency -->
             <dependency>
                 <groupId>org.mvel</groupId>
@@ -248,49 +212,6 @@
                 <artifactId>parsson</artifactId>
                 <version>1.1.7</version>
             </dependency>
-
-            <!-- Add overrides for mongodb artifacts -->
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>bson</artifactId>
-                <version>5.5.1</version>
-            </dependency>
-                <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>bson-kotlin</artifactId>
-                <version>5.5.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>bson-record-codec</artifactId>
-                <version>5.5.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-core</artifactId>
-                <version>5.5.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-kotlin-coroutine</artifactId>
-                <version>5.5.1</version>
-            </dependency>
-                <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-legacy</artifactId>
-                <version>5.5.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-reactivestreams</artifactId>
-                <version>5.5.1</version>
-            </dependency>
-            <dependency>
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-sync</artifactId>
-                <version>5.5.1</version>
-            </dependency>
-
 
             <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
             <dependency>
