@@ -28,6 +28,7 @@
 :camel-aws2-translate-starter
 :camel-azure-cosmosdb-starter
 :camel-azure-files-starter
+:camel-azure-storage-datalake-starter
 :camel-barcode-starter
 :camel-base64-starter
 :camel-bonita-starter
@@ -58,7 +59,6 @@
 :camel-debezium-oracle-starter
 :camel-debezium-postgres-starter
 :camel-debezium-sqlserver-starter
-:camel-debug-starter
 :camel-dfdl-starter
 :camel-dhis2-starter
 :camel-digitalocean-starter
@@ -224,6 +224,7 @@
 :camel-xml-jaxb-dsl-starter
 :camel-xmlsecurity-starter
 :camel-xmpp-starter
+:camel-yaml-io-starter
 :camel-zeebe-starter
 :camel-zendesk-starter
 :camel-zip-deflater-starter
