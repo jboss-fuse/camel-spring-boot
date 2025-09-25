@@ -45,6 +45,7 @@ camel-cxf-soap-starter
 camel-cxf-transport-starter
 camel-dataformat-starter
 camel-dataset-starter
+camel-debug-starter
 camel-direct-starter
 camel-elasticsearch-starter
 camel-elasticsearch-rest-client-starter
