@@ -155,6 +155,12 @@
                 <artifactId>json</artifactId>
                 <version>${org-json-json-version}</version>
             </dependency>
+            <!-- Override for threetenbp -->
+            <dependency>
+                <groupId>org.threeten</groupId>
+                <artifactId>threetenbp</artifactId>
+                <version>${threetenbp-version}</version>
+            </dependency>
             <!-- Overrides mvel dependency -->
             <dependency>
                 <groupId>org.mvel</groupId>

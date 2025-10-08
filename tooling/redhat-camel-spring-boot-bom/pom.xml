@@ -74,12 +74,12 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-api</artifactId>
-                <version>4.14.1.redhat-00001</version>
+                <version>4.14.1.redhat-00005</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-support</artifactId>
-                <version>4.14.1.redhat-00001</version>
+                <version>4.14.1.redhat-00005</version>
             </dependency>
 
             <!-- Insert third party overrides here -->
@@ -154,6 +154,12 @@
                 <groupId>org.json</groupId>
                 <artifactId>json</artifactId>
                 <version>20250517</version>
+            </dependency>
+            <!-- Override for threetenbp -->
+            <dependency>
+                <groupId>org.threeten</groupId>
+                <artifactId>threetenbp</artifactId>
+                <version>1.7.2</version>
             </dependency>
             <!-- Overrides mvel dependency -->
             <dependency>
@@ -510,7 +516,7 @@
             <dependency>
                 <groupId>org.apache.cxf</groupId>
                 <artifactId>cxf-bom</artifactId>
-                <version>4.1.3.rhbac-redhat-00009</version>
+                <version>4.1.3.rhbac-redhat-00013</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
