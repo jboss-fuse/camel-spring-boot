@@ -115,7 +115,7 @@
         <narayana-spring-boot.version>3.3.1.redhat-00037</narayana-spring-boot.version>
         <openshift-maven-plugin-version>1.18.1.redhat-00007</openshift-maven-plugin-version>
         <org-json-json-version>20250517</org-json-json-version>
-        <parsson-version>1.1.7</parsson-version>
+        <parsson-version>1.1.7.redhat-00003</parsson-version>
         <perfmark-version>0.27.0</perfmark-version>
         <plexus-component-metadata-plugin-version>2.1.1</plexus-component-metadata-plugin-version>
         <snappy-java-version>1.1.10.8</snappy-java-version>
@@ -183,6 +183,11 @@
         <groupId>io.perfmark</groupId>
         <artifactId>perfmark-api</artifactId>
         <version>${perfmark-version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.parsson</groupId>
+        <artifactId>parsson</artifactId>
+        <version>${parsson-version}</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor.netty</groupId>
