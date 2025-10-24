@@ -148,7 +148,7 @@
     <module>camel-azure-key-vault-starter</module>
     <module>camel-azure-servicebus-starter</module>
     <module>camel-azure-storage-blob-starter</module>
-    <!-- <module>camel-azure-storage-datalake-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-azure-storage-datalake-starter</module>
     <module>camel-azure-storage-queue-starter</module>
     <!-- <module>camel-barcode-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-base64-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->

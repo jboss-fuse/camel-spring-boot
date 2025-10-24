@@ -27,6 +27,7 @@ camel-azure-key-vault-starter
 camel-azure-servicebus-starter
 camel-azure-storage-blob-starter
 camel-azure-storage-queue-starter
+camel-azure-storage-datalake-starter
 camel-bean-starter
 camel-beanio-starter
 camel-bean-validator-starter
