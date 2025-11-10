@@ -196,6 +196,12 @@
                 <artifactId>commons-compress</artifactId>
                 <version>1.28.0.redhat-00002</version>
             </dependency>
+            <!-- Override commons-lang3 version -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.18.0.redhat-00003</version>
+            </dependency>
             <!-- Overrides snappy-java -->
             <dependency>
                 <groupId>org.xerial.snappy</groupId>
