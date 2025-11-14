@@ -23,7 +23,7 @@
     <parent>
         <groupId>com.redhat.camel.springboot.platform</groupId>
         <artifactId>redhat-camel-spring-boot-maintenance</artifactId>
-        <version>4.4.0-SNAPSHOT</version>
+        <version>4.14.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>redhat-camel-spring-boot-patch-repository</artifactId>
@@ -35,7 +35,7 @@
     </description>
 
     <properties>
-        <patch.camel-version>4.4.0</patch.camel-version>
+        <patch.camel-version>4.14.2</patch.camel-version>
     </properties>
 
     <dependencies>
