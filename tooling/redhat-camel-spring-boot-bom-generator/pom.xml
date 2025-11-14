@@ -90,26 +90,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins </groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>deploy-file</id>
-                        <phase>deploy</phase>
-                        <goals>
-                            <goal>deploy-file</goal>
-                        </goals>
-                        <configuration>
-                            <file>${project.build.directory}/redhat-camel-spring-boot-bom/pom.xml</file>
-                            <groupId>com.redhat.camel.springboot.platform</groupId>
-                            <artifactId>camel-spring-boot-bom</artifactId>
-                            <version>${project.version}</version>
-                            <packaging>pom</packaging>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
 
