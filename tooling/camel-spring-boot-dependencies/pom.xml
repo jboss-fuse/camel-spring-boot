@@ -4773,7 +4773,7 @@
       <dependency>
         <groupId>org.fusesource</groupId>
         <artifactId>camel-sap</artifactId>
-        <version>4.14.2.redhat-00001</version>
+        <version>4.14.2.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>org.fusesource</groupId>
