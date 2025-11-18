@@ -104,7 +104,7 @@
         <camel-cics.version>4.14.2.redhat-00001</camel-cics.version>
         <camel-community-version>4.14.2</camel-community-version>
         <camel-kamelets-version>4.14.2</camel-kamelets-version>
-        <camel-sap.version>4.14.2.redhat-00001</camel-sap.version>
+        <camel-sap.version>4.14.2.redhat-00002</camel-sap.version>
         <camel-spring-boot-community.version>4.14.2</camel-spring-boot-community.version>
         <cq-plugin.version>4.16.2</cq-plugin.version>
         <jakarta-el-version>6.0.1</jakarta-el-version>
