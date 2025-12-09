@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.14.2.redhat-00003</version>
+        <version>4.14.2.redhat-00010</version>
     </parent>
 
     <groupId>org.apache.camel.springboot</groupId>
@@ -135,7 +135,7 @@
         <spring-boot-version>3.5.8</spring-boot-version>
 
         <!-- Camel target version -->
-        <camel-version>4.14.2.redhat-00003</camel-version>
+        <camel-version>4.14.2.redhat-00010</camel-version>
 
         <!-- versions -->
         <aether-version>1.0.2.v20150114</aether-version>
