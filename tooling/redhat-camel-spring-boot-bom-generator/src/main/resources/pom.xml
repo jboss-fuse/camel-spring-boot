@@ -190,6 +190,12 @@
                 <artifactId>parquet-common</artifactId>
                 <version>${parquet-common-version}</version>
             </dependency>
+            <!-- Override org.apache.kafka:kafka-clients -->
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka-clients</artifactId>
+                <version>${kafka-version}</version>
+            </dependency>
             <!-- Override commons-compress version -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
