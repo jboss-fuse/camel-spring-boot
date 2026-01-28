@@ -36,12 +36,12 @@
     <modules>
         <module>camel-cli-connector-starter</module>
         <module>camel-componentdsl-starter</module>
-        <module>camel-dsl-modeline-starter</module>
+        <!-- <module>camel-dsl-modeline-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <module>camel-endpointdsl-starter</module>
         <module>camel-java-joor-dsl-starter</module>
         <module>camel-xml-io-dsl-starter</module>
-        <module>camel-xml-jaxb-dsl-starter</module>
-        <module>camel-yaml-io-starter</module>
+        <!-- <module>camel-xml-jaxb-dsl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+        <!-- <module>camel-yaml-io-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <module>camel-yaml-dsl-starter</module>
     </modules>
 
