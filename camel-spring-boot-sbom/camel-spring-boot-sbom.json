@@ -57,11 +57,11 @@
     },
     "component" : {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/spring-boot@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/spring-boot@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "spring-boot",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Root POM",
       "licenses" : [
         {
@@ -71,7 +71,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/spring-boot@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/spring-boot@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -113,11 +113,11 @@
   "components" : [
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/spring-boot-parent@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/spring-boot-parent@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "spring-boot-parent",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Root POM",
       "licenses" : [
         {
@@ -127,7 +127,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/spring-boot-parent@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/spring-boot-parent@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -153,11 +153,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/tooling@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/tooling@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "tooling",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Root POM",
       "licenses" : [
         {
@@ -167,7 +167,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/tooling@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/tooling@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -193,11 +193,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin@4.14.1-SNAPSHOT?type=maven-plugin",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin@4.14.4-SNAPSHOT?type=maven-plugin",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-spring-boot-config-generator-maven-plugin",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Root POM",
       "licenses" : [
         {
@@ -207,7 +207,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin@4.14.1-SNAPSHOT?type=maven-plugin",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin@4.14.4-SNAPSHOT?type=maven-plugin",
       "externalReferences" : [
         {
           "type" : "website",
@@ -233,11 +233,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-package-maven-plugin@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-package-maven-plugin@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-package-maven-plugin",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Maven plugin to help package Camel components and plugins",
       "scope" : "required",
       "hashes" : [
@@ -282,7 +282,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-package-maven-plugin@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-package-maven-plugin@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -885,11 +885,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-tooling-util@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-tooling-util@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-tooling-util",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Tooling utilities",
       "scope" : "required",
       "hashes" : [
@@ -934,7 +934,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-tooling-util@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-tooling-util@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -956,11 +956,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-tooling-model@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-tooling-model@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-tooling-model",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Tooling Model",
       "scope" : "required",
       "hashes" : [
@@ -1005,7 +1005,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-tooling-model@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-tooling-model@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1027,11 +1027,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/bom-generator-maven-plugin@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/bom-generator-maven-plugin@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "bom-generator-maven-plugin",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Maven plugin to help generating BOM projects",
       "scope" : "required",
       "hashes" : [
@@ -1076,7 +1076,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/bom-generator-maven-plugin@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/bom-generator-maven-plugin@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1404,11 +1404,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-util-json@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-util-json@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-util-json",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "A json simple parser that preserves the ordering in Map as read from JSon source",
       "scope" : "required",
       "hashes" : [
@@ -1453,7 +1453,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-util-json@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-util-json@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6079,11 +6079,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/spi-annotations@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/spi-annotations@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "spi-annotations",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Annotations for Camel Endpoint developers",
       "scope" : "required",
       "hashes" : [
@@ -6128,7 +6128,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/spi-annotations@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/spi-annotations@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6577,11 +6577,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-generator-maven-plugin@4.14.1-SNAPSHOT?type=maven-plugin",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-generator-maven-plugin@4.14.4-SNAPSHOT?type=maven-plugin",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-spring-boot-generator-maven-plugin",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Root POM",
       "licenses" : [
         {
@@ -6591,7 +6591,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-generator-maven-plugin@4.14.1-SNAPSHOT?type=maven-plugin",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-generator-maven-plugin@4.14.4-SNAPSHOT?type=maven-plugin",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6692,11 +6692,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies-generator@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies-generator@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-spring-boot-dependencies-generator",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Root POM",
       "licenses" : [
         {
@@ -6706,7 +6706,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies-generator@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies-generator@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6732,11 +6732,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-spring-boot-dependencies",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring-Boot Dependencies BOM",
       "licenses" : [
         {
@@ -6746,7 +6746,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6772,11 +6772,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom-generator@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom-generator@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-spring-boot-bom-generator",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Root POM",
       "licenses" : [
         {
@@ -6786,7 +6786,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom-generator@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom-generator@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6812,11 +6812,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-spring-boot-bom",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring-Boot BOM",
       "licenses" : [
         {
@@ -6826,7 +6826,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6852,11 +6852,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-starter-parent@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-starter-parent@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-starter-parent",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Root POM",
       "licenses" : [
         {
@@ -6866,7 +6866,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-starter-parent@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-starter-parent@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6892,11 +6892,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter-generator@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter-generator@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-spring-boot-starter-generator",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Root POM",
       "licenses" : [
         {
@@ -6906,7 +6906,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter-generator@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter-generator@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6932,11 +6932,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/core-modules@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/core-modules@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "core-modules",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Boot Core Modules",
       "licenses" : [
         {
@@ -6946,7 +6946,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/core-modules@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/core-modules@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -6972,11 +6972,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-spring-boot",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Using Camel with Spring Boot",
       "licenses" : [
         {
@@ -6986,7 +6986,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -8881,11 +8881,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-spring@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-spring@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-spring",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring",
       "scope" : "required",
       "hashes" : [
@@ -8930,7 +8930,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-spring@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-spring@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -8952,11 +8952,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-engine@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-engine@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-engine",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Just the Camel Core engine without any core components",
       "scope" : "required",
       "hashes" : [
@@ -9001,7 +9001,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-engine@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-engine@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9023,11 +9023,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-api@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-api@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-api",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "The Camel API",
       "scope" : "required",
       "hashes" : [
@@ -9072,7 +9072,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-api@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-api@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9094,11 +9094,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-reifier@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-reifier@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-reifier",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel model to processor reifiers",
       "scope" : "required",
       "hashes" : [
@@ -9143,7 +9143,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-reifier@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-reifier@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9165,11 +9165,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-util@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-util@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-util",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "The Camel Utilities",
       "scope" : "required",
       "hashes" : [
@@ -9214,7 +9214,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-util@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-util@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9236,11 +9236,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-management-api@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-management-api@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-management-api",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "The Camel Management API",
       "scope" : "required",
       "hashes" : [
@@ -9285,7 +9285,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-management-api@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-management-api@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9373,11 +9373,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-spring-main@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-spring-main@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-spring-main",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring Main support",
       "scope" : "required",
       "hashes" : [
@@ -9422,7 +9422,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-spring-main@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-spring-main@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9444,11 +9444,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-main@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-main@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-main",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Main",
       "scope" : "required",
       "hashes" : [
@@ -9493,7 +9493,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-main@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-main@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9515,11 +9515,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-base@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-base@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-base",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "The Base Camel Framework",
       "scope" : "required",
       "hashes" : [
@@ -9564,7 +9564,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-base@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-base@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9586,11 +9586,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-languages@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-languages@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-languages",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Core Languages",
       "scope" : "required",
       "hashes" : [
@@ -9635,7 +9635,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-languages@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-languages@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9657,11 +9657,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-cloud@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-cloud@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-cloud",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Cloud support",
       "scope" : "required",
       "hashes" : [
@@ -9706,7 +9706,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-cloud@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-cloud@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9728,11 +9728,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-model@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-model@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-model",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel model",
       "scope" : "required",
       "hashes" : [
@@ -9777,7 +9777,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-model@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-model@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9799,11 +9799,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-processor@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-processor@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-processor",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel core processors",
       "scope" : "required",
       "hashes" : [
@@ -9848,7 +9848,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-processor@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-processor@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9870,11 +9870,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-cluster@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-cluster@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-cluster",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Cluster Support",
       "scope" : "required",
       "hashes" : [
@@ -9919,7 +9919,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-cluster@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-cluster@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -9941,11 +9941,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-base-engine@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-base-engine@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-base-engine",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "The Base Engine Camel Framework",
       "scope" : "required",
       "hashes" : [
@@ -9990,7 +9990,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-base-engine@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-base-engine@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10012,11 +10012,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-health@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-health@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-health",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Health Support",
       "scope" : "required",
       "hashes" : [
@@ -10061,7 +10061,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-health@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-health@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10083,11 +10083,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-spring-xml@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-spring-xml@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-spring-xml",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Spring with XML DSL",
       "scope" : "required",
       "hashes" : [
@@ -10132,7 +10132,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-spring-xml@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-spring-xml@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10154,11 +10154,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxb@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxb@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-xml-jaxb",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel XML JAXB",
       "scope" : "required",
       "hashes" : [
@@ -10203,7 +10203,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxb@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxb@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10521,11 +10521,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxp@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxp@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-xml-jaxp",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel XML JAXP",
       "scope" : "required",
       "hashes" : [
@@ -10570,7 +10570,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxp@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxp@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10592,11 +10592,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-xml-jaxp-util",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel XML JAXP Util",
       "scope" : "required",
       "hashes" : [
@@ -10641,7 +10641,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10663,11 +10663,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-io-util@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-io-util@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-xml-io-util",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel XML IO Utilities",
       "scope" : "required",
       "hashes" : [
@@ -10712,7 +10712,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-xml-io-util@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-xml-io-util@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10734,11 +10734,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-xml@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-core-xml@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-core-xml",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Core XML support",
       "scope" : "required",
       "hashes" : [
@@ -10783,7 +10783,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-core-xml@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-core-xml@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10805,11 +10805,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-xml-jaxb-dsl",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel XML DSL with camel-xml-jaxb",
       "scope" : "required",
       "hashes" : [
@@ -10854,7 +10854,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10876,11 +10876,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-dsl-support@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-dsl-support@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-dsl-support",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel DSL Support",
       "scope" : "required",
       "hashes" : [
@@ -10925,7 +10925,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-dsl-support@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-dsl-support@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -10947,11 +10947,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-browse@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-browse@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-browse",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Browse component",
       "scope" : "required",
       "hashes" : [
@@ -10996,7 +10996,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-browse@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-browse@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11018,11 +11018,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-controlbus@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-controlbus@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-controlbus",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Controlbus component",
       "scope" : "required",
       "hashes" : [
@@ -11067,7 +11067,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-controlbus@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-controlbus@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11089,11 +11089,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-dataformat@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-dataformat@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-dataformat",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel DataFormat component",
       "scope" : "required",
       "hashes" : [
@@ -11138,7 +11138,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-dataformat@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-dataformat@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11160,11 +11160,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-dataset@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-dataset@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-dataset",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel DataSet component",
       "scope" : "required",
       "hashes" : [
@@ -11209,7 +11209,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-dataset@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-dataset@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11231,11 +11231,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-direct@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-direct@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-direct",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Direct component",
       "scope" : "required",
       "hashes" : [
@@ -11280,7 +11280,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-direct@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-direct@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11302,11 +11302,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-language@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-language@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-language",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Language component",
       "scope" : "required",
       "hashes" : [
@@ -11351,7 +11351,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-language@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-language@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11373,11 +11373,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-mock@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-mock@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-mock",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Mock component",
       "scope" : "required",
       "hashes" : [
@@ -11422,7 +11422,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-mock@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-mock@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11444,11 +11444,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-ref@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-ref@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-ref",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Ref component",
       "scope" : "required",
       "hashes" : [
@@ -11493,7 +11493,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-ref@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-ref@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11515,11 +11515,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-rest@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-rest@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-rest",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel REST component",
       "scope" : "required",
       "hashes" : [
@@ -11564,7 +11564,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-rest@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-rest@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11586,11 +11586,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-saga@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-saga@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-saga",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Saga component",
       "scope" : "required",
       "hashes" : [
@@ -11635,7 +11635,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-saga@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-saga@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11657,11 +11657,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-scheduler@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-scheduler@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-scheduler",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Scheduler component",
       "scope" : "required",
       "hashes" : [
@@ -11706,7 +11706,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-scheduler@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-scheduler@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11728,11 +11728,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-seda@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-seda@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-seda",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Seda component",
       "scope" : "required",
       "hashes" : [
@@ -11777,7 +11777,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-seda@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-seda@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11799,11 +11799,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-stub@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-stub@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-stub",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Stub component",
       "scope" : "required",
       "hashes" : [
@@ -11848,7 +11848,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-stub@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-stub@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11870,11 +11870,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-timer@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-timer@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-timer",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Timer component",
       "scope" : "required",
       "hashes" : [
@@ -11919,7 +11919,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-timer@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-timer@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -11941,11 +11941,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-validator@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-validator@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-validator",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Validator component",
       "scope" : "required",
       "hashes" : [
@@ -11990,7 +11990,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-validator@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-validator@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12012,11 +12012,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-xpath@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-xpath@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-xpath",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel XPath language",
       "scope" : "required",
       "hashes" : [
@@ -12061,7 +12061,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-xpath@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-xpath@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12083,11 +12083,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-xslt@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-xslt@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-xslt",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel XSLT component",
       "scope" : "required",
       "hashes" : [
@@ -12132,7 +12132,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-xslt@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-xslt@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12154,11 +12154,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-management@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-management@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-management",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Management",
       "scope" : "required",
       "hashes" : [
@@ -12203,7 +12203,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-management@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-management@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12225,11 +12225,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-io@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-xml-io@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-xml-io",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel XML IO",
       "scope" : "required",
       "hashes" : [
@@ -12274,7 +12274,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-xml-io@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-xml-io@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12296,11 +12296,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-bean@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-bean@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-bean",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Bean component",
       "scope" : "required",
       "hashes" : [
@@ -12345,7 +12345,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-bean@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-bean@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12367,11 +12367,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-log@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-log@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-log",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Log component",
       "scope" : "required",
       "hashes" : [
@@ -12416,7 +12416,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-log@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-log@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12758,11 +12758,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-jetty@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-jetty@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-jetty",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Jetty support",
       "scope" : "required",
       "hashes" : [
@@ -12807,7 +12807,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-jetty@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-jetty@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12829,11 +12829,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-support@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-support@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-support",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "The Camel Support",
       "scope" : "required",
       "hashes" : [
@@ -12878,7 +12878,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-support@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-support@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12900,11 +12900,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-http-common@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-http-common@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-http-common",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel HTTP common",
       "scope" : "required",
       "hashes" : [
@@ -12949,7 +12949,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-http-common@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-http-common@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -12971,11 +12971,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-jetty-common@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-jetty-common@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-jetty-common",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Jetty 11.x support",
       "scope" : "required",
       "hashes" : [
@@ -13020,7 +13020,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-jetty-common@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-jetty-common@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -13279,11 +13279,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-jackson@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-jackson@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-jackson",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Jackson support",
       "scope" : "required",
       "hashes" : [
@@ -13328,7 +13328,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-jackson@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-jackson@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -13350,11 +13350,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-http@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-http@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-http",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel HTTP support",
       "scope" : "required",
       "hashes" : [
@@ -13399,7 +13399,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-http@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-http@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -13421,11 +13421,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-file@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-file@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-file",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel File component",
       "scope" : "required",
       "hashes" : [
@@ -13470,7 +13470,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-file@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-file@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -13872,11 +13872,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-kafka@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-kafka@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-kafka",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Kafka support",
       "scope" : "required",
       "hashes" : [
@@ -13921,7 +13921,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-kafka@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-kafka@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -14181,11 +14181,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-cxf-soap@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-cxf-soap@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-cxf-soap",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel CXF SOAP support",
       "scope" : "required",
       "hashes" : [
@@ -14230,7 +14230,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-cxf-soap@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-cxf-soap@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -14252,11 +14252,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-attachments@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-attachments@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-attachments",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Support for attachments on Camel messages",
       "scope" : "required",
       "hashes" : [
@@ -14301,7 +14301,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-attachments@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-attachments@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -14323,11 +14323,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-cxf-common@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-cxf-common@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-cxf-common",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel CXF Common",
       "scope" : "required",
       "hashes" : [
@@ -14372,7 +14372,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-cxf-common@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-cxf-common@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -14468,11 +14468,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-cxf-transport@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-cxf-transport@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-cxf-transport",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Transport for Apache CXF",
       "scope" : "required",
       "hashes" : [
@@ -14517,7 +14517,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-cxf-transport@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-cxf-transport@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -14539,11 +14539,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-http-base@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-http-base@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-http-base",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel HTTP base",
       "scope" : "required",
       "hashes" : [
@@ -14588,7 +14588,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-http-base@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-http-base@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -16295,11 +16295,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-xml@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-xml@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-spring-boot-xml",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Using Camel XML with Spring Boot",
       "licenses" : [
         {
@@ -16309,7 +16309,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-xml@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-spring-boot-xml@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -16620,11 +16620,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/components-starter@4.14.1-SNAPSHOT?type=pom",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/components-starter@4.14.4-SNAPSHOT?type=pom",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "components-starter",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Components Starter",
       "licenses" : [
         {
@@ -16634,7 +16634,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/components-starter@4.14.1-SNAPSHOT?type=pom",
+      "purl" : "pkg:maven/org.apache.camel.springboot/components-starter@4.14.4-SNAPSHOT?type=pom",
       "externalReferences" : [
         {
           "type" : "website",
@@ -16660,11 +16660,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-core-starter@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-core-starter@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-core-starter",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Spring-Boot Starter for The Core Camel Java DSL based router",
       "licenses" : [
         {
@@ -16674,7 +16674,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-core-starter@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-core-starter@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -16700,11 +16700,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-activemq-starter@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-activemq-starter@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-activemq-starter",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Components Starter",
       "licenses" : [
         {
@@ -16714,7 +16714,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-activemq-starter@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-activemq-starter@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -16740,11 +16740,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-activemq@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-activemq@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-activemq",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "ActiveMQ 5.x component for Camel",
       "scope" : "required",
       "hashes" : [
@@ -16789,7 +16789,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-activemq@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-activemq@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -16811,11 +16811,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-jms@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-jms@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-jms",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel JMS support",
       "scope" : "required",
       "hashes" : [
@@ -16860,7 +16860,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-jms@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-jms@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -17244,11 +17244,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-activemq6-starter@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-activemq6-starter@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-activemq6-starter",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Components Starter",
       "licenses" : [
         {
@@ -17258,7 +17258,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-activemq6-starter@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-activemq6-starter@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -17284,11 +17284,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-activemq6@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-activemq6@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-activemq6",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "ActiveMQ 6.x component for Camel",
       "scope" : "required",
       "hashes" : [
@@ -17333,7 +17333,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-activemq6@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-activemq6@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -17430,11 +17430,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-amqp-starter@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-amqp-starter@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-amqp-starter",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Spring-Boot Starter for Camel AMQP component which is based on the Apache Qpid project",
       "licenses" : [
         {
@@ -17444,7 +17444,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-amqp-starter@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-amqp-starter@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -17470,11 +17470,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-amqp@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-amqp@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-amqp",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel AMQP component which is based on the Apache Qpid project",
       "scope" : "required",
       "hashes" : [
@@ -17519,7 +17519,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-amqp@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-amqp@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -18486,11 +18486,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-arangodb-starter@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-arangodb-starter@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-arangodb-starter",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Spring-Boot Starter for Camel Support for ArangoDB",
       "licenses" : [
         {
@@ -18500,7 +18500,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-arangodb-starter@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-arangodb-starter@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -18526,11 +18526,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-arangodb@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-arangodb@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-arangodb",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel ArangoDB (Java Driver) component",
       "scope" : "required",
       "hashes" : [
@@ -18575,7 +18575,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-arangodb@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-arangodb@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -19665,11 +19665,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-as2-starter@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-as2-starter@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-as2-starter",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Spring-Boot Starter for Camel AS2 component",
       "licenses" : [
         {
@@ -19679,7 +19679,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-as2-starter@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-as2-starter@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -19705,11 +19705,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-as2@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-as2@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-as2",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel AS2 component",
       "scope" : "required",
       "hashes" : [
@@ -19754,7 +19754,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-as2@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-as2@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -19776,11 +19776,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-as2-api@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-as2-api@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-as2-api",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel AS2 API",
       "scope" : "required",
       "hashes" : [
@@ -19825,7 +19825,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-as2-api@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-as2-api@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -20119,11 +20119,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-asn1-starter@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-asn1-starter@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-asn1-starter",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Spring-Boot Starter for Camel ASN.1 support",
       "licenses" : [
         {
@@ -20133,7 +20133,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-asn1-starter@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-asn1-starter@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -20159,11 +20159,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-asn1@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-asn1@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-asn1",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel ASN.1 support",
       "scope" : "required",
       "hashes" : [
@@ -20208,7 +20208,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel/camel-asn1@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel/camel-asn1@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -20291,11 +20291,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-asterisk-starter@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel.springboot/camel-asterisk-starter@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel.springboot",
       "name" : "camel-asterisk-starter",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Spring-Boot Starter for Camel Asterisk to interact with an Asterisk PBX Server",
       "licenses" : [
         {
@@ -20305,7 +20305,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.camel.springboot/camel-asterisk-starter@4.14.1-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.apache.camel.springboot/camel-asterisk-starter@4.14.4-SNAPSHOT?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -20331,11 +20331,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.camel/camel-asterisk@4.14.1-SNAPSHOT?type=jar",
+      "bom-ref" : "pkg:maven/org.apache.camel/camel-asterisk@4.14.4-SNAPSHOT?type=jar",
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.camel",
       "name" : "camel-asterisk",
-      "version" : "4.14.1-SNAPSHOT",
+      "version" : "4.14.4-SNAPSHOT",
       "description" : "Camel Asterisk to interact with an Asterisk PBX Server",
       "scope" : "required",
       "hashes" : [

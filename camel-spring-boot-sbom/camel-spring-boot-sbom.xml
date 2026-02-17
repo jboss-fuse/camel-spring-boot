@@ -27,7 +27,7 @@
         </component>
       </components>
     </tools>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/spring-boot@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/spring-boot@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>spring-boot</name>
@@ -39,7 +39,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/spring-boot@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/spring-boot@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org</url>
@@ -65,7 +65,7 @@
     </properties>
   </metadata>
   <components>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/spring-boot-parent@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/spring-boot-parent@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>spring-boot-parent</name>
@@ -77,7 +77,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/spring-boot-parent@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/spring-boot-parent@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent</url>
@@ -96,7 +96,7 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/tooling@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/tooling@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>tooling</name>
@@ -108,7 +108,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/tooling@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/tooling@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling</url>
@@ -127,7 +127,7 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin@4.14.1-SNAPSHOT?type=maven-plugin">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin@4.14.4-SNAPSHOT?type=maven-plugin">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-spring-boot-config-generator-maven-plugin</name>
@@ -139,7 +139,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin@4.14.1-SNAPSHOT?type=maven-plugin</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin@4.14.4-SNAPSHOT?type=maven-plugin</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-spring-boot-config-generator-maven-plugin</url>
@@ -158,7 +158,7 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-package-maven-plugin@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-package-maven-plugin@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-package-maven-plugin</name>
@@ -181,7 +181,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-package-maven-plugin@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-package-maven-plugin@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/tooling/tooling-parent/maven-plugins/camel-package-maven-plugin/</url>
@@ -517,7 +517,7 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-util@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-util@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-tooling-util</name>
@@ -540,7 +540,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-tooling-util@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-tooling-util@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/tooling/camel-tooling-util/</url>
@@ -556,7 +556,7 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-model@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-tooling-model@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-tooling-model</name>
@@ -579,7 +579,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-tooling-model@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-tooling-model@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/tooling/camel-tooling-model/</url>
@@ -595,7 +595,7 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/bom-generator-maven-plugin@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/bom-generator-maven-plugin@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>bom-generator-maven-plugin</name>
@@ -618,7 +618,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/bom-generator-maven-plugin@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/bom-generator-maven-plugin@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/tooling/tooling-parent/maven-plugins/bom-generator-maven-plugin/</url>
@@ -806,7 +806,7 @@
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util-json@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util-json@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-util-json</name>
@@ -829,7 +829,7 @@
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-util-json@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-util-json@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/tooling/camel-util-json/</url>
@@ -3430,7 +3430,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/spi-annotations@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/spi-annotations@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>spi-annotations</name>
@@ -3453,7 +3453,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/spi-annotations@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/spi-annotations@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/tooling/spi-annotations/</url>
@@ -3686,7 +3686,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-generator-maven-plugin@4.14.1-SNAPSHOT?type=maven-plugin">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-generator-maven-plugin@4.14.4-SNAPSHOT?type=maven-plugin">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-spring-boot-generator-maven-plugin</name>
@@ -3698,7 +3698,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-generator-maven-plugin@4.14.1-SNAPSHOT?type=maven-plugin</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-generator-maven-plugin@4.14.4-SNAPSHOT?type=maven-plugin</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-spring-boot-generator-maven-plugin</url>
@@ -3759,7 +3759,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies-generator@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies-generator@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-spring-boot-dependencies-generator</name>
@@ -3771,7 +3771,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies-generator@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies-generator@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-spring-boot-dependencies-generator</url>
@@ -3790,7 +3790,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-spring-boot-dependencies</name>
@@ -3802,7 +3802,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-dependencies@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-spring-boot-dependencies</url>
@@ -3821,7 +3821,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom-generator@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom-generator@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-spring-boot-bom-generator</name>
@@ -3833,7 +3833,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom-generator@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom-generator@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-spring-boot-bom-generator</url>
@@ -3852,7 +3852,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-spring-boot-bom</name>
@@ -3864,7 +3864,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-bom@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/camel-spring-boot-bom</url>
@@ -3883,7 +3883,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-starter-parent@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-starter-parent@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-starter-parent</name>
@@ -3895,7 +3895,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-starter-parent@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-starter-parent@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent</url>
@@ -3914,7 +3914,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter-generator@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter-generator@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-spring-boot-starter-generator</name>
@@ -3926,7 +3926,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter-generator@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-starter-generator@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-spring-boot-starter-generator</url>
@@ -3945,7 +3945,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/core-modules@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/core-modules@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>core-modules</name>
@@ -3957,7 +3957,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/core-modules@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/core-modules@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/core-modules</url>
@@ -3976,7 +3976,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-spring-boot</name>
@@ -3988,7 +3988,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/core-modules/camel-spring-boot</url>
@@ -5007,7 +5007,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-spring@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-spring@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-spring</name>
@@ -5030,7 +5030,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-spring@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-spring@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-spring-parent/camel-spring/</url>
@@ -5046,7 +5046,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-engine@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-engine@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-engine</name>
@@ -5069,7 +5069,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-engine@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-engine@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-core-engine/</url>
@@ -5085,7 +5085,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-api@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-api@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-api</name>
@@ -5108,7 +5108,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-api@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-api@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-api/</url>
@@ -5124,7 +5124,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-reifier@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-reifier@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-reifier</name>
@@ -5147,7 +5147,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-reifier@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-reifier@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-core-reifier/</url>
@@ -5163,7 +5163,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-util@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-util</name>
@@ -5186,7 +5186,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-util@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-util@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-util/</url>
@@ -5202,7 +5202,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-management-api@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-management-api@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-management-api</name>
@@ -5225,7 +5225,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-management-api@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-management-api@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-management-api/</url>
@@ -5276,7 +5276,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-spring-main@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-spring-main@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-spring-main</name>
@@ -5299,7 +5299,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-spring-main@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-spring-main@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-spring-parent/camel-spring-main/</url>
@@ -5315,7 +5315,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-main@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-main@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-main</name>
@@ -5338,7 +5338,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-main@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-main@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-main/</url>
@@ -5354,7 +5354,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-base</name>
@@ -5377,7 +5377,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-base@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-base@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-base/</url>
@@ -5393,7 +5393,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-languages@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-languages@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-languages</name>
@@ -5416,7 +5416,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-languages@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-languages@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-core-languages/</url>
@@ -5432,7 +5432,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cloud@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cloud@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-cloud</name>
@@ -5455,7 +5455,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-cloud@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-cloud@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-cloud/</url>
@@ -5471,7 +5471,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-model@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-model@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-model</name>
@@ -5494,7 +5494,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-model@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-model@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-core-model/</url>
@@ -5510,7 +5510,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-processor@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-processor@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-processor</name>
@@ -5533,7 +5533,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-processor@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-processor@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-core-processor/</url>
@@ -5549,7 +5549,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cluster@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cluster@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-cluster</name>
@@ -5572,7 +5572,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-cluster@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-cluster@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-cluster/</url>
@@ -5588,7 +5588,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base-engine@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-base-engine@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-base-engine</name>
@@ -5611,7 +5611,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-base-engine@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-base-engine@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-base-engine/</url>
@@ -5627,7 +5627,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-health@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-health@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-health</name>
@@ -5650,7 +5650,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-health@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-health@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-health/</url>
@@ -5666,7 +5666,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-spring-xml@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-spring-xml@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-spring-xml</name>
@@ -5689,7 +5689,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-spring-xml@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-spring-xml@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-spring-parent/camel-spring-xml/</url>
@@ -5705,7 +5705,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxb@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxb@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-xml-jaxb</name>
@@ -5728,7 +5728,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-xml-jaxb@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-xml-jaxb@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-xml-jaxb/</url>
@@ -5908,7 +5908,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxp@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxp@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-xml-jaxp</name>
@@ -5931,7 +5931,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-xml-jaxp@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-xml-jaxp@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-xml-jaxp/</url>
@@ -5947,7 +5947,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-xml-jaxp-util</name>
@@ -5970,7 +5970,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-xml-jaxp-util@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-xml-jaxp-util/</url>
@@ -5986,7 +5986,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-io-util@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-io-util@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-xml-io-util</name>
@@ -6009,7 +6009,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-xml-io-util@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-xml-io-util@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-xml-io-util/</url>
@@ -6025,7 +6025,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-xml@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-core-xml@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-core-xml</name>
@@ -6048,7 +6048,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-core-xml@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-core-xml@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-core-xml/</url>
@@ -6064,7 +6064,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-xml-jaxb-dsl</name>
@@ -6087,7 +6087,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-xml-jaxb-dsl@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/dsl/camel-xml-jaxb-dsl/</url>
@@ -6103,7 +6103,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-dsl-support@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-dsl-support@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-dsl-support</name>
@@ -6126,7 +6126,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-dsl-support@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-dsl-support@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/dsl/camel-dsl-support/</url>
@@ -6142,7 +6142,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-browse@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-browse@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-browse</name>
@@ -6165,7 +6165,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-browse@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-browse@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-browse/</url>
@@ -6181,7 +6181,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-controlbus@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-controlbus@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-controlbus</name>
@@ -6204,7 +6204,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-controlbus@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-controlbus@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-controlbus/</url>
@@ -6220,7 +6220,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-dataformat@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-dataformat@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-dataformat</name>
@@ -6243,7 +6243,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-dataformat@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-dataformat@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-dataformat/</url>
@@ -6259,7 +6259,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-dataset@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-dataset@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-dataset</name>
@@ -6282,7 +6282,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-dataset@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-dataset@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-dataset/</url>
@@ -6298,7 +6298,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-direct@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-direct@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-direct</name>
@@ -6321,7 +6321,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-direct@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-direct@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-direct/</url>
@@ -6337,7 +6337,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-language@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-language@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-language</name>
@@ -6360,7 +6360,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-language@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-language@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-language/</url>
@@ -6376,7 +6376,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-mock@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-mock@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-mock</name>
@@ -6399,7 +6399,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-mock@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-mock@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-mock/</url>
@@ -6415,7 +6415,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-ref@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-ref@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-ref</name>
@@ -6438,7 +6438,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-ref@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-ref@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-ref/</url>
@@ -6454,7 +6454,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-rest@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-rest@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-rest</name>
@@ -6477,7 +6477,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-rest@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-rest@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-rest/</url>
@@ -6493,7 +6493,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-saga@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-saga@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-saga</name>
@@ -6516,7 +6516,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-saga@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-saga@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-saga/</url>
@@ -6532,7 +6532,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-scheduler@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-scheduler@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-scheduler</name>
@@ -6555,7 +6555,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-scheduler@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-scheduler@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-scheduler/</url>
@@ -6571,7 +6571,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-seda@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-seda@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-seda</name>
@@ -6594,7 +6594,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-seda@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-seda@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-seda/</url>
@@ -6610,7 +6610,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-stub@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-stub@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-stub</name>
@@ -6633,7 +6633,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-stub@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-stub@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-stub/</url>
@@ -6649,7 +6649,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-timer@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-timer@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-timer</name>
@@ -6672,7 +6672,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-timer@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-timer@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-timer/</url>
@@ -6688,7 +6688,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-validator@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-validator@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-validator</name>
@@ -6711,7 +6711,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-validator@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-validator@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-validator/</url>
@@ -6727,7 +6727,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xpath@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xpath@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-xpath</name>
@@ -6750,7 +6750,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-xpath@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-xpath@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-xpath/</url>
@@ -6766,7 +6766,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xslt@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xslt@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-xslt</name>
@@ -6789,7 +6789,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-xslt@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-xslt@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-xslt/</url>
@@ -6805,7 +6805,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-management@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-management@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-management</name>
@@ -6828,7 +6828,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-management@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-management@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-management/</url>
@@ -6844,7 +6844,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-io@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-xml-io@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-xml-io</name>
@@ -6867,7 +6867,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-xml-io@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-xml-io@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-xml-io/</url>
@@ -6883,7 +6883,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-bean@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-bean@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-bean</name>
@@ -6906,7 +6906,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-bean@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-bean@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-bean/</url>
@@ -6922,7 +6922,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-log@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-log@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-log</name>
@@ -6945,7 +6945,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-log@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-log@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-log/</url>
@@ -7128,7 +7128,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jetty@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jetty@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-jetty</name>
@@ -7151,7 +7151,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-jetty@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-jetty@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-jetty/</url>
@@ -7167,7 +7167,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-support@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-support@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-support</name>
@@ -7190,7 +7190,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-support@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-support@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/core/camel-support/</url>
@@ -7206,7 +7206,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-http-common@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-http-common@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-http-common</name>
@@ -7229,7 +7229,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-http-common@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-http-common@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-http-common/</url>
@@ -7245,7 +7245,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jetty-common@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jetty-common@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-jetty-common</name>
@@ -7268,7 +7268,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-jetty-common@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-jetty-common@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-jetty-common/</url>
@@ -7416,7 +7416,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jackson@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jackson@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-jackson</name>
@@ -7439,7 +7439,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-jackson@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-jackson@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-jackson/</url>
@@ -7455,7 +7455,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-http@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-http@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-http</name>
@@ -7478,7 +7478,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-http@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-http@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-http/</url>
@@ -7494,7 +7494,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-file@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-file@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-file</name>
@@ -7517,7 +7517,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-file@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-file@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-file/</url>
@@ -7750,7 +7750,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-kafka@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-kafka@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-kafka</name>
@@ -7773,7 +7773,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-kafka@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-kafka@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-kafka/</url>
@@ -7909,7 +7909,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cxf-soap@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cxf-soap@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-cxf-soap</name>
@@ -7932,7 +7932,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-cxf-soap@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-cxf-soap@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-cxf-parent/camel-cxf-soap/</url>
@@ -7948,7 +7948,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-attachments@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-attachments@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-attachments</name>
@@ -7971,7 +7971,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-attachments@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-attachments@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-attachments/</url>
@@ -7987,7 +7987,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cxf-common@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cxf-common@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-cxf-common</name>
@@ -8010,7 +8010,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-cxf-common@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-cxf-common@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-cxf-parent/camel-cxf-common/</url>
@@ -8067,7 +8067,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cxf-transport@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-cxf-transport@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-cxf-transport</name>
@@ -8090,7 +8090,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-cxf-transport@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-cxf-transport@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-cxf-parent/camel-cxf-transport/</url>
@@ -8106,7 +8106,7 @@ introspection of method/constructor parameter names, without having to add expli
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-http-base@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-http-base@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-http-base</name>
@@ -8129,7 +8129,7 @@ introspection of method/constructor parameter names, without having to add expli
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-http-base@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-http-base@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-http-base/</url>
@@ -9096,7 +9096,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-xml@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-spring-boot-xml@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-spring-boot-xml</name>
@@ -9108,7 +9108,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-xml@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-spring-boot-xml@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/core-modules/camel-spring-boot-xml</url>
@@ -9283,7 +9283,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/components-starter@4.14.1-SNAPSHOT?type=pom">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/components-starter@4.14.4-SNAPSHOT?type=pom">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>components-starter</name>
@@ -9295,7 +9295,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/components-starter@4.14.1-SNAPSHOT?type=pom</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/components-starter@4.14.4-SNAPSHOT?type=pom</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter</url>
@@ -9314,7 +9314,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-core-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-core-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-core-starter</name>
@@ -9326,7 +9326,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-core-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-core-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-core-starter</url>
@@ -9345,7 +9345,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-activemq-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-activemq-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-activemq-starter</name>
@@ -9357,7 +9357,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-activemq-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-activemq-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-activemq-starter</url>
@@ -9376,7 +9376,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-activemq@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-activemq@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-activemq</name>
@@ -9399,7 +9399,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-activemq@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-activemq@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-activemq/</url>
@@ -9415,7 +9415,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jms@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-jms@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-jms</name>
@@ -9438,7 +9438,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-jms@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-jms@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-jms/</url>
@@ -9654,7 +9654,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-activemq6-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-activemq6-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-activemq6-starter</name>
@@ -9666,7 +9666,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-activemq6-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-activemq6-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-activemq6-starter</url>
@@ -9685,7 +9685,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-activemq6@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-activemq6@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-activemq6</name>
@@ -9708,7 +9708,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-activemq6@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-activemq6@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-activemq6/</url>
@@ -9766,7 +9766,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-amqp-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-amqp-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-amqp-starter</name>
@@ -9778,7 +9778,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-amqp-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-amqp-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-amqp-starter</url>
@@ -9797,7 +9797,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-amqp@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-amqp@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-amqp</name>
@@ -9820,7 +9820,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-amqp@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-amqp@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-amqp/</url>
@@ -10364,7 +10364,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-arangodb-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-arangodb-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-arangodb-starter</name>
@@ -10376,7 +10376,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-arangodb-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-arangodb-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-arangodb-starter</url>
@@ -10395,7 +10395,7 @@ SAX2 and Stax2 APIs</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-arangodb@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-arangodb@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-arangodb</name>
@@ -10418,7 +10418,7 @@ SAX2 and Stax2 APIs</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-arangodb@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-arangodb@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-arangodb/</url>
@@ -11011,7 +11011,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-as2-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-as2-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-as2-starter</name>
@@ -11023,7 +11023,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-as2-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-as2-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-as2-starter</url>
@@ -11042,7 +11042,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-as2@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-as2@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-as2</name>
@@ -11065,7 +11065,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-as2@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-as2@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-as2-parent/camel-as2/</url>
@@ -11081,7 +11081,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-as2-api@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-as2-api@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-as2-api</name>
@@ -11104,7 +11104,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-as2-api@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-as2-api@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-as2-parent/camel-as2-api/</url>
@@ -11266,7 +11266,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-asn1-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-asn1-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-asn1-starter</name>
@@ -11278,7 +11278,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-asn1-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-asn1-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-asn1-starter</url>
@@ -11297,7 +11297,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-asn1@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-asn1@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-asn1</name>
@@ -11320,7 +11320,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-asn1@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-asn1@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-asn1/</url>
@@ -11367,7 +11367,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-asterisk-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-asterisk-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-asterisk-starter</name>
@@ -11379,7 +11379,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-asterisk-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-asterisk-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-asterisk-starter</url>
@@ -11398,7 +11398,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-asterisk@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-asterisk@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-asterisk</name>
@@ -11421,7 +11421,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-asterisk@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-asterisk@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-asterisk/</url>
@@ -11624,7 +11624,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-atmosphere-websocket-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-atmosphere-websocket-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-atmosphere-websocket-starter</name>
@@ -11636,7 +11636,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-atmosphere-websocket-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-atmosphere-websocket-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-atmosphere-websocket-starter</url>
@@ -11655,7 +11655,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-atmosphere-websocket@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-atmosphere-websocket@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-atmosphere-websocket</name>
@@ -11678,7 +11678,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-atmosphere-websocket@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-atmosphere-websocket@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-atmosphere-websocket/</url>
@@ -11694,7 +11694,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-servlet@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-servlet@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-servlet</name>
@@ -11717,7 +11717,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-servlet@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-servlet@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-servlet/</url>
@@ -11824,7 +11824,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-atom-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-atom-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-atom-starter</name>
@@ -11836,7 +11836,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-atom-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-atom-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-atom-starter</url>
@@ -11855,7 +11855,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-atom@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-atom@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-atom</name>
@@ -11878,7 +11878,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-atom@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-atom@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-atom/</url>
@@ -11926,7 +11926,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-avro-rpc-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-avro-rpc-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-avro-rpc-starter</name>
@@ -11938,7 +11938,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-avro-rpc-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-avro-rpc-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-avro-rpc-starter</url>
@@ -11957,7 +11957,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-avro-rpc@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-avro-rpc@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-avro-rpc</name>
@@ -11980,7 +11980,7 @@ working with JSON-P (JSON Processing) node types (new Jakarta flavor) via data-b
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-avro-rpc@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-avro-rpc@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-avro-rpc-parent/camel-avro-rpc/</url>
@@ -12286,7 +12286,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-avro-rpc-jetty@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-avro-rpc-jetty@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-avro-rpc-jetty</name>
@@ -12309,7 +12309,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-avro-rpc-jetty@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-avro-rpc-jetty@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-avro-rpc-parent/camel-avro-rpc-jetty/</url>
@@ -12325,7 +12325,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-avro-rpc-spi@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-avro-rpc-spi@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-avro-rpc-spi</name>
@@ -12348,7 +12348,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-avro-rpc-spi@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-avro-rpc-spi@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-avro-rpc-parent/camel-avro-rpc-spi/</url>
@@ -12714,7 +12714,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-avro-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-avro-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-avro-starter</name>
@@ -12726,7 +12726,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-avro-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-avro-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-avro-starter</url>
@@ -12745,7 +12745,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-avro@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-avro@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-avro</name>
@@ -12768,7 +12768,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-avro@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-avro@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-avro/</url>
@@ -12784,7 +12784,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-bedrock-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-bedrock-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws-bedrock-starter</name>
@@ -12796,7 +12796,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-bedrock-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-bedrock-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws-bedrock-starter</url>
@@ -12815,7 +12815,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-bedrock@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-bedrock@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws-bedrock</name>
@@ -12838,7 +12838,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws-bedrock@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws-bedrock@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws-bedrock/</url>
@@ -14001,7 +14001,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-cloudtrail-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-cloudtrail-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws-cloudtrail-starter</name>
@@ -14013,7 +14013,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-cloudtrail-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-cloudtrail-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws-cloudtrail-starter</url>
@@ -14032,7 +14032,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-cloudtrail@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-cloudtrail@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws-cloudtrail</name>
@@ -14055,7 +14055,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws-cloudtrail@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws-cloudtrail@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws-cloudtrail/</url>
@@ -14104,7 +14104,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-config-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-config-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws-config-starter</name>
@@ -14116,7 +14116,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-config-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-config-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws-config-starter</url>
@@ -14135,7 +14135,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-config@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-config@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws-config</name>
@@ -14158,7 +14158,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws-config@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws-config@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws-config/</url>
@@ -14206,7 +14206,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-secrets-manager-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-secrets-manager-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws-secrets-manager-starter</name>
@@ -14218,7 +14218,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-secrets-manager-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-secrets-manager-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws-secrets-manager-starter</url>
@@ -14237,7 +14237,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-secrets-manager@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-secrets-manager@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws-secrets-manager</name>
@@ -14260,7 +14260,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws-secrets-manager@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws-secrets-manager@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws-secrets-manager/</url>
@@ -14341,7 +14341,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-xray-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws-xray-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws-xray-starter</name>
@@ -14353,7 +14353,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-xray-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws-xray-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws-xray-starter</url>
@@ -14372,7 +14372,7 @@ file comparators, endian transformation classes, and much more.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-xray@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws-xray@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws-xray</name>
@@ -14395,7 +14395,7 @@ file comparators, endian transformation classes, and much more.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws-xray@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws-xray@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws-xray/</url>
@@ -14764,7 +14764,7 @@ encoded data using Jackson abstractions (streaming API, data binding, tree model
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-athena-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-athena-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-athena-starter</name>
@@ -14776,7 +14776,7 @@ encoded data using Jackson abstractions (streaming API, data binding, tree model
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-athena-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-athena-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-athena-starter</url>
@@ -14795,7 +14795,7 @@ encoded data using Jackson abstractions (streaming API, data binding, tree model
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-athena@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-athena@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-athena</name>
@@ -14818,7 +14818,7 @@ encoded data using Jackson abstractions (streaming API, data binding, tree model
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-athena@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-athena@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-athena/</url>
@@ -14866,7 +14866,7 @@ encoded data using Jackson abstractions (streaming API, data binding, tree model
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-cw-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-cw-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-cw-starter</name>
@@ -14878,7 +14878,7 @@ encoded data using Jackson abstractions (streaming API, data binding, tree model
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-cw-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-cw-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-cw-starter</url>
@@ -14897,7 +14897,7 @@ encoded data using Jackson abstractions (streaming API, data binding, tree model
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-cw@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-cw@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-cw</name>
@@ -14920,7 +14920,7 @@ encoded data using Jackson abstractions (streaming API, data binding, tree model
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-cw@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-cw@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-cw/</url>
@@ -15560,7 +15560,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-ddb-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-ddb-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-ddb-starter</name>
@@ -15572,7 +15572,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-ddb-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-ddb-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-ddb-starter</url>
@@ -15591,7 +15591,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-ddb@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-ddb@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-ddb</name>
@@ -15614,7 +15614,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-ddb@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-ddb@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-ddb/</url>
@@ -15630,7 +15630,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-ec2-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-ec2-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-ec2-starter</name>
@@ -15642,7 +15642,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-ec2-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-ec2-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-ec2-starter</url>
@@ -15661,7 +15661,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-ec2@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-ec2@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-ec2</name>
@@ -15684,7 +15684,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-ec2@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-ec2@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-ec2/</url>
@@ -15700,7 +15700,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-ecs-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-ecs-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-ecs-starter</name>
@@ -15712,7 +15712,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-ecs-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-ecs-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-ecs-starter</url>
@@ -15731,7 +15731,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-ecs@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-ecs@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-ecs</name>
@@ -15754,7 +15754,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-ecs@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-ecs@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-ecs/</url>
@@ -15803,7 +15803,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-eks-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-eks-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-eks-starter</name>
@@ -15815,7 +15815,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-eks-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-eks-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-eks-starter</url>
@@ -15834,7 +15834,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-eks@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-eks@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-eks</name>
@@ -15857,7 +15857,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-eks@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-eks@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-eks/</url>
@@ -15905,7 +15905,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-eventbridge-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-eventbridge-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-eventbridge-starter</name>
@@ -15917,7 +15917,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-eventbridge-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-eventbridge-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-eventbridge-starter</url>
@@ -15936,7 +15936,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-eventbridge@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-eventbridge@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-eventbridge</name>
@@ -15959,7 +15959,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-eventbridge@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-eventbridge@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-eventbridge/</url>
@@ -15975,7 +15975,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-iam-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-iam-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-iam-starter</name>
@@ -15987,7 +15987,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-iam-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-iam-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-iam-starter</url>
@@ -16006,7 +16006,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-iam@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-iam@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-iam</name>
@@ -16029,7 +16029,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-iam@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-iam@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-iam/</url>
@@ -16045,7 +16045,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-kinesis-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-kinesis-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-kinesis-starter</name>
@@ -16057,7 +16057,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-kinesis-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-kinesis-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-kinesis-starter</url>
@@ -16076,7 +16076,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-kinesis@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-kinesis@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-kinesis</name>
@@ -16099,7 +16099,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-kinesis@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-kinesis@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-kinesis/</url>
@@ -18066,7 +18066,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-kms-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-kms-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-kms-starter</name>
@@ -18078,7 +18078,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-kms-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-kms-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-kms-starter</url>
@@ -18097,7 +18097,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-kms@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-kms@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-kms</name>
@@ -18120,7 +18120,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-kms@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-kms@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-kms/</url>
@@ -18136,7 +18136,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-lambda-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-lambda-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-lambda-starter</name>
@@ -18148,7 +18148,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-lambda-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-lambda-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-lambda-starter</url>
@@ -18167,7 +18167,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-lambda@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-lambda@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-lambda</name>
@@ -18190,7 +18190,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-lambda@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-lambda@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-lambda/</url>
@@ -18206,7 +18206,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-mq-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-mq-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-mq-starter</name>
@@ -18218,7 +18218,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-mq-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-mq-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-mq-starter</url>
@@ -18237,7 +18237,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-mq@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel/camel-aws2-mq@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel</group>
       <name>camel-aws2-mq</name>
@@ -18260,7 +18260,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel/camel-aws2-mq@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel/camel-aws2-mq@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://www.apache.org/camel/camel-parent/components/camel-aws-parent/camel-aws2-mq/</url>
@@ -18308,7 +18308,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </reference>
       </externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-msk-starter@4.14.1-SNAPSHOT?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.camel.springboot/camel-aws2-msk-starter@4.14.4-SNAPSHOT?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>org.apache.camel.springboot</group>
       <name>camel-aws2-msk-starter</name>
@@ -18320,7 +18320,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
           <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-msk-starter@4.14.1-SNAPSHOT?type=jar</purl>
+      <purl>pkg:maven/org.apache.camel.springboot/camel-aws2-msk-starter@4.14.4-SNAPSHOT?type=jar</purl>
       <externalReferences>
         <reference type="website">
           <url>https://camel.apache.org/spring-boot-parent/tooling/camel-starter-parent/components-starter/camel-aws2-msk-starter</url>
