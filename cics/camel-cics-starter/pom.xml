@@ -58,7 +58,7 @@
                 -->
             <groupId>org.apache.camel.springboot</groupId>
             <artifactId>camel-spring-boot-generator-maven-plugin</artifactId>
-            <version>4.4.0.redhat-00008</version>
+            <version>4.18.0.redhat-00002</version>
             <configuration>
               <!-- set to true to make build fail fast if missing documentation in docs files -->
               <failFast>false</failFast>

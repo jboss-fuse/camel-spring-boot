@@ -32,7 +32,7 @@
 
     <properties>
         <!-- A list of versions used to filter patch metadata.xml -->
-        <patch.camel-version>4.4.0</patch.camel-version>
+        <patch.camel-version>4.18.0</patch.camel-version>
     </properties>
 
     <build>
