@@ -144,94 +144,94 @@ public class BomGeneratorMojo extends AbstractMojo {
             System.out.println("Starter [" + s  + "] " + productizedArtifacts.get(s));
         }
 
-        Files.list(startersDir.toPath()).filter(Files::isDirectory)
+        Files.list(startersDir.toPath())
+                .filter(Files::isDirectory)
                 // must have a pom.xml to be active
                 .filter(d -> {
                     File pom = new File(d.toFile(), "pom.xml");
                     return pom.isFile() && pom.exists();
-                }).map(dir -> {
+                })
+                .map(dir -> {
                     Dependency dep = new Dependency();
                     dep.setGroupId("org.apache.camel.springboot");
                     dep.setArtifactId(dir.getFileName().toString());
-                    dep.setVersion(project.getVersion());
+                    dep.setVersion(productizedArtifacts.containsKey(dir.getFileName().toString()) ? "${project.version}"
+                        : camelCommunityVersion);
                     return dep;
-                }).forEach(outDependencies::add);
+                })
+                .forEach(outDependencies::add);
 
         // include core starters
         Dependency dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-spring-boot-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-spring-boot-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-spring-boot-engine-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-spring-boot-engine-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-spring-boot-xml-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-spring-boot-xml-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
+
 
         // include base jars
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-spring-boot-xml");
-        dep.setVersion(project.getVersion());
+        dep.setVersion("${project.version}");
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-spring-boot");
-        dep.setVersion(project.getVersion());
+        dep.setVersion("${project.version}");
         outDependencies.add(dep);
         // include maven plugin
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-spring-boot-generator-maven-plugin");
-        dep.setVersion(project.getVersion());
+        dep.setVersion("${project.version}");
         outDependencies.add(dep);
 
         // include dsl starters
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-cli-connector-starter");
-        dep.setVersion(project.getVersion());
-        outDependencies.add(dep);
-        dep = new Dependency();
-        dep.setGroupId("org.apache.camel.springboot");
-        dep.setArtifactId("camel-cli-debug-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-cli-connector-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-componentdsl-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-componentdsl-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-dsl-modeline-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-dsl-modeline-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-endpointdsl-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-endpointdsl-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-java-joor-dsl-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-java-joor-dsl-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-xml-io-dsl-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-xml-io-dsl-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
         dep.setArtifactId("camel-xml-jaxb-dsl-starter");
-        dep.setVersion(project.getVersion());
+        dep.setVersion(productizedArtifacts.containsKey("camel-xml-jaxb-dsl-starter") ? "${project.version}" : camelCommunityVersion);
         outDependencies.add(dep);
         dep = new Dependency();
         dep.setGroupId("org.apache.camel.springboot");
