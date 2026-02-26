@@ -48,11 +48,13 @@ camel-dataformat-starter
 camel-dataset-starter
 camel-debug-starter
 camel-direct-starter
+camel-docling-starter
 camel-elasticsearch-starter
 camel-elasticsearch-rest-client-starter
 camel-endpointdsl-starter
 camel-fhir-starter
 camel-file-starter
+camel-file-watch-starter
 camel-flink-starter
 camel-ftp-starter
 camel-google-bigquery-starter
@@ -96,6 +98,8 @@ camel-management-starter
 camel-mapstruct-starter
 camel-master-starter
 camel-micrometer-starter
+camel-milvus-starter
+camel-mina-ftp-starter
 camel-minio-starter
 camel-mllp-starter
 camel-mock-starter
@@ -106,12 +110,14 @@ camel-netty-starter
 camel-netty-http-starter
 camel-observability-services-starter
 camel-olingo4-starter
+camel-openai-starter
 camel-openapi-java-starter
 camel-opensearch-starter
 camel-opentelemetry-starter
 camel-paho-starter
 camel-paho-mqtt5-starter
 camel-platform-http-starter
+camel-qdrant-starter
 camel-quartz-starter
 camel-ref-starter
 camel-rest-starter
