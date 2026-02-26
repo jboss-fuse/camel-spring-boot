@@ -214,7 +214,7 @@
     <!-- <module>camel-djl-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-dns-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-docker-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-docling-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-docling-starter</module>
     <!-- <module>camel-drill-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-dropbox-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-dynamic-router-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -226,7 +226,7 @@
     <module>camel-fhir-starter</module>
     <!-- <module>camel-file-cluster-service-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-file-starter</module>
-    <!-- <module>camel-file-watch-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-file-watch-starter</module>
     <!-- <module>camel-flatpack-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-flink-starter</module>
     <!-- <module>camel-flowable-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
@@ -356,7 +356,7 @@
     <!-- <module>camel-micrometer-observability-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-micrometer-starter</module>
     <!-- <module>camel-milo-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-milvus-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-milvus-starter</module>
     <!-- <module>camel-mina-sftp-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-mina-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-minio-starter</module>
@@ -380,7 +380,7 @@
     <!-- <module>camel-olingo2-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-olingo4-starter</module>
     <!-- <module>camel-once-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-openai-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-openai-starter</module>
     <module>camel-openapi-java-starter</module>
     <!-- <module>camel-openapi-validator-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-opensearch-starter</module>
@@ -404,7 +404,7 @@
     <!-- <module>camel-pubnub-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-pulsar-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-python-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
-    <!-- <module>camel-qdrant-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-qdrant-starter</module>
     <module>camel-quartz-starter</module>
     <!-- <module>camel-quickfix-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-reactive-streams-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->

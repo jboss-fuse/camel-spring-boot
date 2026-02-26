@@ -76,7 +76,6 @@
 :camel-djl-starter
 :camel-dns-starter
 :camel-docker-starter
-:camel-docling-starter
 :camel-drill-starter
 :camel-dropbox-starter
 :camel-dsl-modeline-starter
@@ -85,7 +84,6 @@
 :camel-exec-starter
 :camel-fastjson-starter
 :camel-file-cluster-service-starter
-:camel-file-watch-starter
 :camel-flatpack-starter
 :camel-flowable-starter
 :camel-fop-starter
@@ -174,7 +172,6 @@
 :camel-metrics-starter
 :camel-micrometer-observability-starter
 :camel-milo-starter
-:camel-milvus-starter
 :camel-mina-sftp-starter
 :camel-mina-starter
 :camel-mongodb-gridfs-starter
@@ -188,7 +185,6 @@
 :camel-ognl-starter
 :camel-olingo2-starter
 :camel-once-starter
-:camel-openai-starter
 :camel-openapi-validator-starter
 :camel-openstack-starter
 :camel-opentelemetry-metrics-starter
@@ -205,7 +201,6 @@
 :camel-pubnub-starter
 :camel-pulsar-starter
 :camel-python-starter
-:camel-qdrant-starter
 :camel-quickfix-starter
 :camel-reactive-streams-starter
 :camel-reactor-starter
