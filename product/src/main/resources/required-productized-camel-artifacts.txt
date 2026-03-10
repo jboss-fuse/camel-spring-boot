@@ -114,6 +114,7 @@ camel-openai-starter
 camel-openapi-java-starter
 camel-opensearch-starter
 camel-opentelemetry-starter
+camel-opentelemetry2-starter
 camel-paho-starter
 camel-paho-mqtt5-starter
 camel-platform-http-starter
