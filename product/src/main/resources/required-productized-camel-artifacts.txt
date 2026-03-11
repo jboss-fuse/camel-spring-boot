@@ -99,7 +99,7 @@ camel-mapstruct-starter
 camel-master-starter
 camel-micrometer-starter
 camel-milvus-starter
-camel-mina-ftp-starter
+camel-mina-sftp-starter
 camel-minio-starter
 camel-mllp-starter
 camel-mock-starter
