@@ -357,7 +357,7 @@
     <module>camel-micrometer-starter</module>
     <!-- <module>camel-milo-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-milvus-starter</module>
-    <!-- <module>camel-mina-sftp-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+    <module>camel-mina-sftp-starter</module>
     <!-- <module>camel-mina-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <module>camel-minio-starter</module>
     <module>camel-mllp-starter</module>

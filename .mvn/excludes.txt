@@ -172,7 +172,6 @@
 :camel-metrics-starter
 :camel-micrometer-observability-starter
 :camel-milo-starter
-:camel-mina-sftp-starter
 :camel-mina-starter
 :camel-mongodb-gridfs-starter
 :camel-mustache-starter
