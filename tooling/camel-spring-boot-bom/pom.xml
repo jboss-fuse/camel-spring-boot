@@ -572,6 +572,12 @@
         <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-debezium-oracle-starter</artifactId>
         <version>4.18.1</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>

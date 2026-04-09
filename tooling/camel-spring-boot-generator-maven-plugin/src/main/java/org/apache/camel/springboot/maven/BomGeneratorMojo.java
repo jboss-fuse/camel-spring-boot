@@ -296,6 +296,22 @@ public class BomGeneratorMojo extends AbstractMojo {
 
         outDependencies.sort(Comparator.comparing(d -> (d.getGroupId() + ":" + d.getArtifactId())));
 
+        // Add exclusions for specific dependencies
+        // ehcache:3.11.1 declares version range [2.2,3) for jaxb-runtime,
+        // resolved to pre-release 2.3.0-b170127.1453 which pulls jaxb-api
+        // from defunct HTTP-only repos (maven.java.net), blocked since
+        // Maven 3.8.1+. Not needed at runtime on Java 11+.
+        // See: https://github.com/ehcache/ehcache3/issues/3215
+        outDependencies.stream()
+                .filter(d -> "camel-debezium-oracle-starter".equals(d.getArtifactId()))
+                .findFirst()
+                .ifPresent(d -> {
+                    Exclusion exclusion = new Exclusion();
+                    exclusion.setGroupId("org.glassfish.jaxb");
+                    exclusion.setArtifactId("jaxb-runtime");
+                    d.addExclusion(exclusion);
+                });
+
         // include some dependencies for testing and management
         dep = new Dependency();
         dep.setGroupId("org.apache.camel");
