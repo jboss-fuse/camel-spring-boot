@@ -149,6 +149,18 @@
                 <artifactId>commons-beanutils</artifactId>
                 <version>${commons-beanutils-version}</version>
             </dependency>
+            <!-- Overrides for activemq -->
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>activemq-client-jakarta</artifactId>
+                <version>${activemq-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>activemq-client</artifactId>
+                <version>${activemq6-version}</version>
+            </dependency>
+
             <!-- Override for org.json:json -->
             <dependency>
                 <groupId>org.json</groupId>
