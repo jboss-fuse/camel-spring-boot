@@ -106,6 +106,13 @@
                 <version>${jackrabbit-version}</version>
             </dependency>
 
+            <!-- Overrides jsch -->
+            <dependency>
+                <groupId>com.github.mwiede</groupId>
+                <artifactId>jsch</artifactId>
+                <version>${jsch-version}</version>
+            </dependency>
+
             <!-- Overrides undertow-core/servlet since SB is using an older version -->
             <dependency>
                 <groupId>io.undertow</groupId>
