@@ -36,8 +36,8 @@ import org.apache.camel.component.cxf.spring.jaxws.CxfSpringEndpoint;
 import org.apache.camel.spring.boot.CamelAutoConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.web.embedded.undertow.UndertowServletWebServerFactory;
-import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
+import org.springframework.boot.undertow.servlet.UndertowServletWebServerFactory;
+import org.springframework.boot.web.server.servlet.ServletWebServerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.test.annotation.DirtiesContext;
@@ -49,13 +49,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import org.apache.camel.test.spring.junit5.CamelSpringBootTest;
+import org.apache.camel.test.spring.junit6.CamelSpringBootTest;
 import org.apache.cxf.endpoint.Server;
 import org.apache.cxf.frontend.ClientFactoryBean;
 import org.apache.cxf.frontend.ClientProxyFactoryBean;
 import org.apache.cxf.frontend.ServerFactoryBean;
-import org.apache.cxf.interceptor.Interceptor;
-import org.apache.cxf.interceptor.LoggingOutInterceptor;
+import org.apache.cxf.ext.logging.LoggingFeature;
 import org.apache.cxf.spring.boot.autoconfigure.CxfAutoConfiguration;
 
 
@@ -107,21 +106,18 @@ public class LoggingInterceptorInMessageModeTest {
     @Test
     public void testInvokingServiceFromCXFClient() throws Exception {
 
-        LoggingOutInterceptor logInterceptor = null;
+        LoggingFeature loggingFeature = null;
 
-        for (Interceptor<?> interceptor : context.getEndpoint("cxf:bean:serviceEndpoint", CxfSpringEndpoint.class)
-                .getOutInterceptors()) {
-            if (interceptor instanceof LoggingOutInterceptor) {
-                logInterceptor = LoggingOutInterceptor.class.cast(interceptor);
+        for (Object feature : context.getEndpoint("cxf:bean:serviceEndpoint", CxfSpringEndpoint.class)
+                .getFeatures()) {
+            if (feature instanceof LoggingFeature) {
+                loggingFeature = (LoggingFeature) feature;
                 break;
             }
         }
 
-        assertNotNull(logInterceptor);
-        // StringPrintWriter writer = new StringPrintWriter();
-        // Unfortunately, LoggingOutInterceptor does not have a setter for writer so
-        // we can't capture the output to verify.
-        // logInterceptor.setPrintWriter(writer);
+        assertNotNull(loggingFeature);
+        // Verify logging feature is configured
 
         ClientProxyFactoryBean proxyFactory = new ClientProxyFactoryBean();
         ClientFactoryBean clientBean = proxyFactory.getClientFactoryBean();
@@ -185,23 +181,22 @@ public class LoggingInterceptorInMessageModeTest {
         }
         
         @Bean
-        public CxfEndpoint serviceEndpoint(LoggingOutInterceptor loggingOutInterceptor) {
+        public CxfEndpoint serviceEndpoint(LoggingFeature loggingFeature) {
             CxfSpringEndpoint cxfEndpoint = new CxfSpringEndpoint();
-            cxfEndpoint.setAddress("http://localhost:" + port 
+            cxfEndpoint.setAddress("http://localhost:" + port
                                    + "/services" + SERVICE_ADDRESS);
             cxfEndpoint.setServiceClass(org.apache.camel.component.cxf.HelloService.class);
             Map<String, Object> properties = new HashMap<String, Object>();
             properties.put("dataFormat", "RAW");
             cxfEndpoint.setProperties(properties);
-            cxfEndpoint.getOutInterceptors().add(loggingOutInterceptor);
+            cxfEndpoint.getFeatures().add(loggingFeature);
             return cxfEndpoint;
         }
-        
-        
+
+
         @Bean
-        public LoggingOutInterceptor loggingOutInterceptor() {
-            LoggingOutInterceptor logger = new LoggingOutInterceptor("write");
-            return logger;
+        public LoggingFeature loggingFeature() {
+            return new LoggingFeature();
         }
     }
     

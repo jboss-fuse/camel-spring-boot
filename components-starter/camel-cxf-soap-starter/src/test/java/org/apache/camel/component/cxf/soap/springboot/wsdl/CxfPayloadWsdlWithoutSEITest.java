@@ -16,7 +16,7 @@
  */
 package org.apache.camel.component.cxf.soap.springboot.wsdl;
 
-import static org.apache.camel.test.junit5.TestSupport.assertStringContains;
+import static org.apache.camel.test.junit6.TestSupport.assertStringContains;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -47,7 +47,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.test.annotation.DirtiesContext;
-import org.apache.camel.test.spring.junit5.CamelSpringBootTest;
+import org.apache.camel.test.spring.junit6.CamelSpringBootTest;
 import org.apache.camel.wsdl_first.PersonImpl;
 import org.apache.cxf.binding.soap.SoapFault;
 import org.apache.cxf.spring.boot.autoconfigure.CxfAutoConfiguration;

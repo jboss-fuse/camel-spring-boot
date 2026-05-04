@@ -112,8 +112,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>com.redhat.integration</groupId>
       <artifactId>spring-boot-starter-undertow</artifactId>
+      <version>${spring-boot-undertow-version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
