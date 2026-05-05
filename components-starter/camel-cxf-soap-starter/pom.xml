@@ -27,6 +27,15 @@
   <artifactId>camel-cxf-soap-starter</artifactId>
   <packaging>jar</packaging>
   <name>Camel SB Starters :: CXF SOAP</name>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.glassfish.jaxb</groupId>
+        <artifactId>jaxb-core</artifactId>
+        <version>4.0.7</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -51,6 +60,10 @@
       <exclusions>
         <exclusion>
           <groupId>io.undertow</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>io.undertow.ee</groupId>
           <artifactId>*</artifactId>
         </exclusion>
       </exclusions>
@@ -140,7 +153,6 @@
       <artifactId>camel-test-infra-artemis</artifactId>
       <version>${camel-community-version}</version>
       <scope>test</scope>
-      <type>test-jar</type>
     </dependency>
     <!--START OF GENERATED CODE-->
     <dependency>

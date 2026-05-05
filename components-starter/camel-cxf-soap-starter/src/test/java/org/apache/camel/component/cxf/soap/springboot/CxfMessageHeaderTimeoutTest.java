@@ -108,7 +108,7 @@ public class CxfMessageHeaderTimeoutTest {
         Exchange reply = sendJaxWsMessage(endpointUri);
         Exception e = reply.getException();
         assertNotNull(e, "We should get the exception cause here");
-        assertTrue(e instanceof SocketTimeoutException, "We should get the time out exception here");
+        assertTrue(e instanceof java.net.http.HttpTimeoutException, "We should get the time out exception here");
     }
 
     protected Exchange sendJaxWsMessage(String endpointUri) throws InterruptedException {
