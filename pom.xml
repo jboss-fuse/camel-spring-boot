@@ -112,7 +112,7 @@
         <jna-version>5.17.0</jna-version>
         <jobjc-version>3.0.0</jobjc-version>
         <kryo-version>2.24.0</kryo-version>
-        <narayana-spring-boot.version>4.0.0.redhat-00001</narayana-spring-boot.version>
+        <narayana-spring-boot.version>4.0.0.redhat-00004</narayana-spring-boot.version>
         <openshift-maven-plugin-version>1.19.0.redhat-00032</openshift-maven-plugin-version>
         <org-json-json-version>20250517</org-json-json-version>
         <parsson-version>1.1.7</parsson-version>
