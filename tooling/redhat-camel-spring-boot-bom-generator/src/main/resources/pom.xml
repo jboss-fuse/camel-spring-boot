@@ -82,6 +82,13 @@
                 <version>${camel-version}</version>
             </dependency>
 
+            <!-- spring-boot undertow version -->
+            <dependency>
+                <groupId>com.redhat.integration</groupId>
+                <artifactId>spring-boot-starter-undertow</artifactId>
+                <version>${spring-boot-undertow-version}</version>
+            </dependency>
+
             <!-- Insert third party overrides here -->
             <dependency>
                 <groupId>org.yaml</groupId>
