@@ -341,6 +341,16 @@
                 <scope>import</scope>
             </dependency>
 
+            <!-- Log4J bom -->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-bom</artifactId>
+                <version>${log4j2-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+
             <!-- Dependency Convergence additions -->
             <dependency>
                 <groupId>at.yawk.lz4</groupId>
