@@ -35,7 +35,7 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509ExtendedKeyManager;
 
-import org.springframework.boot.undertow.UndertowBuilderCustomizer;
+import com.redhat.integration.undertow.UndertowBuilderCustomizer;
 import org.springframework.boot.web.server.Ssl;
 import org.springframework.boot.ssl.SslBundleKey;
 import org.springframework.boot.ssl.SslStoreBundle;

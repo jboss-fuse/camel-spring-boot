@@ -201,11 +201,35 @@ public class SpringBootPlatformHttpConsumer extends DefaultConsumer implements P
             cookie.setDomain(cookieConfiguration.getCookieDomain());
             cookie.setSecure(cookieConfiguration.isCookieSecure());
             cookie.setHttpOnly(cookieConfiguration.isCookieHttpOnly());
-            cookie.setAttribute("SameSite", cookieConfiguration.getCookieSameSite().getValue());
             if (cookieConfiguration.getCookieMaxAge() != null) {
                 cookie.setMaxAge(Math.toIntExact(cookieConfiguration.getCookieMaxAge()));
             }
-            response.addCookie(cookie);
+
+            // Build Set-Cookie header manually to include SameSite attribute
+            // Cookie.setAttribute("SameSite", ...) doesn't work reliably in all servlet containers
+            StringBuilder setCookieHeader = new StringBuilder();
+            setCookieHeader.append(cookieName).append("=").append(cookieValue);
+
+            if (cookieConfiguration.getCookiePath() != null) {
+                setCookieHeader.append("; Path=").append(cookieConfiguration.getCookiePath());
+            }
+            if (cookieConfiguration.getCookieDomain() != null) {
+                setCookieHeader.append("; Domain=").append(cookieConfiguration.getCookieDomain());
+            }
+            if (cookieConfiguration.getCookieMaxAge() != null) {
+                setCookieHeader.append("; Max-Age=").append(cookieConfiguration.getCookieMaxAge());
+            }
+            if (cookieConfiguration.isCookieSecure()) {
+                setCookieHeader.append("; Secure");
+            }
+            if (cookieConfiguration.isCookieHttpOnly()) {
+                setCookieHeader.append("; HttpOnly");
+            }
+            if (cookieConfiguration.getCookieSameSite() != null) {
+                setCookieHeader.append("; SameSite=").append(cookieConfiguration.getCookieSameSite().getValue());
+            }
+
+            response.addHeader("Set-Cookie", setCookieHeader.toString());
         }
 
         @Override

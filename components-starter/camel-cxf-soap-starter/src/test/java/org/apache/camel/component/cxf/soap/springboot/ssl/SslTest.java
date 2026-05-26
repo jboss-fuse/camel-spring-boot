@@ -42,7 +42,7 @@ import org.apache.camel.support.jsse.TrustManagersParameters;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ssl.SslBundle;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.undertow.servlet.UndertowServletWebServerFactory;
+import com.redhat.integration.undertow.servlet.UndertowServletWebServerFactory;
 import org.springframework.boot.web.server.Ssl;
 import org.springframework.boot.web.server.Ssl.ClientAuth;
 import org.springframework.boot.web.server.WebServerSslBundle;

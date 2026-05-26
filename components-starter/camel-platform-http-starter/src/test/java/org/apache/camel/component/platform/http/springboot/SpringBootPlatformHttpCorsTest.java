@@ -23,9 +23,10 @@ import org.apache.camel.spring.boot.CamelAutoConfiguration;
 import org.apache.camel.test.spring.junit6.CamelSpringBootTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.web.server.LocalServerPort;
+import org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -43,12 +44,12 @@ import static org.hamcrest.Matchers.not;
         PlatformHttpComponentAutoConfiguration.class, SpringBootPlatformHttpAutoConfiguration.class, })
 public class SpringBootPlatformHttpCorsTest {
 
-    @LocalServerPort
-    private Integer port;
+    @Autowired
+    private ServletWebServerApplicationContext webServerAppCtxt;
 
     @BeforeEach
     void setUp() {
-        RestAssured.port = port;
+        RestAssured.port = webServerAppCtxt.getWebServer().getPort();
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
     }
 

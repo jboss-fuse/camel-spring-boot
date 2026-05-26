@@ -25,15 +25,19 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration;
 import org.springframework.session.hazelcast.HazelcastIndexedSessionRepository;
 import org.springframework.session.hazelcast.PrincipalNameExtractor;
 import org.springframework.session.hazelcast.config.annotation.web.http.EnableHazelcastHttpSession;
+import org.springframework.session.web.http.DefaultCookieSerializer;
+import org.springframework.session.web.http.CookieSerializer;
 
 @EnableAutoConfiguration
 @CamelSpringBootTest
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, classes = { CamelAutoConfiguration.class,
         SpringBootPlatformHttpSpringSessionTest.class, SpringBootPlatformHttpSpringSessionTest.TestConfiguration.class,
         SpringBootPlatformHttpSessionTest.TestConfiguration.class,
+        SpringHttpSessionConfiguration.class,
         PlatformHttpComponentAutoConfiguration.class, SpringBootPlatformHttpAutoConfiguration.class, })
 public class SpringBootPlatformHttpSpringSessionTest extends SpringBootPlatformHttpSessionTest {
 
@@ -45,6 +49,13 @@ public class SpringBootPlatformHttpSpringSessionTest extends SpringBootPlatformH
     @Configuration
     @EnableHazelcastHttpSession(maxInactiveIntervalInSeconds = 150)
     public static class TestConfiguration {
+
+        @Bean
+        public CookieSerializer cookieSerializer() {
+            DefaultCookieSerializer serializer = new DefaultCookieSerializer();
+            serializer.setCookieName("SESSION");
+            return serializer;
+        }
 
         @Bean(destroyMethod = "shutdown")
         public HazelcastInstance hazelcastInstance() {

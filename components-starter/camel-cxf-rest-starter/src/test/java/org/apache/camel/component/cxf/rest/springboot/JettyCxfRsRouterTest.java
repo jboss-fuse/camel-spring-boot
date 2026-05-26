@@ -33,7 +33,7 @@ import org.junit.jupiter.api.Disabled;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.undertow.servlet.UndertowServletWebServerFactory;
+import com.redhat.integration.undertow.servlet.UndertowServletWebServerFactory;
 import org.springframework.boot.web.server.servlet.ServletWebServerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

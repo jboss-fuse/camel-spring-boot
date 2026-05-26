@@ -39,7 +39,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.undertow.servlet.UndertowServletWebServerFactory;
+import com.redhat.integration.undertow.servlet.UndertowServletWebServerFactory;
 import org.springframework.boot.web.server.servlet.ServletWebServerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

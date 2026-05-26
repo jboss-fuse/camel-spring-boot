@@ -26,7 +26,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.web.server.LocalServerPort;
+import org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -45,12 +45,12 @@ import static org.hamcrest.Matchers.equalTo;
         properties = { "server.servlet.context-path=/test", "camel.rest.context-path=/api" })
 public class SpringBootPlatformHttpContextPathTest {
 
-    @LocalServerPort
-    private Integer port;
+    @Autowired
+    private ServletWebServerApplicationContext webServerAppCtxt;
 
     @BeforeEach
     void setUp() {
-        RestAssured.port = port;
+        RestAssured.port = webServerAppCtxt.getWebServer().getPort();
     }
 
     @Configuration
