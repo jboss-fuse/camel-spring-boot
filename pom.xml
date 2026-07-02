@@ -113,7 +113,6 @@
         <jobjc-version>3.0.0</jobjc-version>
         <kryo-version>2.24.0</kryo-version>
         <narayana-spring-boot.version>3.5.0.redhat-00056</narayana-spring-boot.version>
-        <netty-42-version>4.2.15.Final</netty-42-version>
         <openshift-maven-plugin-version>1.19.0.redhat-00014</openshift-maven-plugin-version>
         <org-json-json-version>20250517</org-json-json-version>
         <parsson-version>1.1.7</parsson-version>
@@ -241,11 +240,6 @@
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
         <version>${org-json-json-version}</version>
-      </dependency>
-      <dependency>
-        <groupId>io.netty</groupId>
-        <artifactId>netty-codec-http3</artifactId>
-        <version>${netty-42-version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

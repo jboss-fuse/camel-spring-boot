@@ -316,13 +316,6 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- Not in netty-4.1 but being used -->
-            <dependency>
-                <groupId>io.netty</groupId>
-                <artifactId>netty-codec-http3</artifactId>
-                <version>${netty-42-version}</version>
-            </dependency>
-
             <!-- Override for reactor-netty-http -->
             <dependency>
                 <groupId>io.projectreactor.netty</groupId>
