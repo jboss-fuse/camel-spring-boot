@@ -56,59 +56,8 @@
       <version>${camel-spring-boot-community.version}</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.apache.cxf</groupId>
-      <artifactId>cxf-rt-transports-http-undertow</artifactId>
-      <version>${cxf-version}</version>
-      <scope>test</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>io.undertow</groupId>
-          <artifactId>*</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-cxf-common</artifactId>
-      <version>${camel-version}</version>
-      <type>test-jar</type>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-http</artifactId>
-      <version>${camel-version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.camel.springboot</groupId>
-      <artifactId>camel-xml-io-dsl-starter</artifactId>
-      <version>${project.version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>cglib</groupId>
-      <artifactId>cglib-nodep</artifactId>
-      <version>3.3.0</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-tomcat</artifactId>
-        </exclusion>
-      </exclusions>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.redhat.integration</groupId>
-      <artifactId>spring-boot-starter-undertow</artifactId>
-      <version>${spring-boot-undertow-version}</version>
-      <scope>test</scope>
-    </dependency>
+    <!-- CXF test dependencies removed - undertow test code needs adapting to com.redhat.integration -->
+
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-testutils</artifactId>
