@@ -135,6 +135,8 @@
       <version>${cxf-version}</version>
       <scope>test</scope>
     </dependency>
+    <!-- TODO: re-enable when camel-test-infra-artemis test-jar is available -->
+    <!--
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-test-infra-artemis</artifactId>
@@ -142,6 +144,7 @@
       <scope>test</scope>
       <type>test-jar</type>
     </dependency>
+    -->
     <!--START OF GENERATED CODE-->
     <dependency>
       <groupId>org.apache.camel.springboot</groupId>
