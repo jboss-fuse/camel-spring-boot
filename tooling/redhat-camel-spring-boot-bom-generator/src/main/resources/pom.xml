@@ -180,6 +180,12 @@
                 <artifactId>threetenbp</artifactId>
                 <version>${threetenbp-version}</version>
             </dependency>
+            <!-- Overrides neethi dependency -->
+            <dependency>
+                <groupId>org.apache.neethi</groupId>
+                <artifactId>neethi</artifactId>
+                <version>${neethi-version}</version>
+            </dependency>
             <!-- Overrides mvel dependency -->
             <dependency>
                 <groupId>org.mvel</groupId>
