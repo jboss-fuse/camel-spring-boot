@@ -145,6 +145,7 @@
         <arquillian-container-se-managed-version>1.0.2.Final</arquillian-container-se-managed-version>
         <arquillian-version>1.10.0.Final</arquillian-version>
         <avro-version>1.12.0</avro-version>
+        <commons-configuration2-version>2.15.1</commons-configuration2-version>
         <graal-sdk-version>22.3.2</graal-sdk-version>
         <jakarta-jaxb-version>4.0.2</jakarta-jaxb-version>
         <jaxb-version>2.3.0</jaxb-version>
