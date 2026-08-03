@@ -222,11 +222,6 @@
                 <artifactId>activemq-client-jakarta</artifactId>
                 <version>${activemq-version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.apache.activemq</groupId>
-                <artifactId>activemq-client</artifactId>
-                <version>${activemq6-version}</version>
-            </dependency>
 
             <!-- Override for org.json:json -->
             <dependency>
@@ -686,6 +681,15 @@
                 <groupId>org.apache.camel.springboot</groupId>
                 <artifactId>camel-spring-boot-bom</artifactId>
                 <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- ActiveMQ Classic BOM — overrides Spring Boot's activemq-bom to fix CVE-2026-50734 -->
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>activemq-bom</artifactId>
+                <version>${activemq6-version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
