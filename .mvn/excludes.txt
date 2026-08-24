@@ -1,5 +1,6 @@
 :camel-activemq-starter
 :camel-activemq6-starter
+:camel-ai-tool-starter
 :camel-arangodb-starter
 :camel-as2-starter
 :camel-asn1-starter
@@ -12,7 +13,6 @@
 :camel-aws-config-starter
 :camel-aws-parameter-store-starter
 :camel-aws-security-hub-starter
-:camel-aws-xray-starter
 :camel-aws2-athena-starter
 :camel-aws2-comprehend-starter
 :camel-aws2-ec2-starter
@@ -48,6 +48,7 @@
 :camel-chatscript-starter
 :camel-chunk-starter
 :camel-cli-debug-starter
+:camel-clickhouse-starter
 :camel-clickup-starter
 :camel-cloudevents-starter
 :camel-cm-sms-starter
@@ -72,6 +73,7 @@
 :camel-debezium-sqlserver-starter
 :camel-dfdl-starter
 :camel-dhis2-starter
+:camel-diagram-starter
 :camel-digitalocean-starter
 :camel-disruptor-starter
 :camel-djl-starter
@@ -80,6 +82,7 @@
 :camel-drill-starter
 :camel-dropbox-starter
 :camel-dsl-modeline-starter
+:camel-duckdb-starter
 :camel-dynamic-router-starter
 :camel-ehcache-starter
 :camel-exec-starter
@@ -92,7 +95,6 @@
 :camel-freemarker-starter
 :camel-geocoder-starter
 :camel-git-starter
-:camel-github-starter
 :camel-github2-starter
 :camel-google-calendar-starter
 :camel-google-drive-starter
@@ -105,9 +107,7 @@
 :camel-google-text-to-speech-starter
 :camel-google-vertexai-starter
 :camel-google-vision-starter
-:camel-grape-starter
 :camel-grok-starter
-:camel-guava-eventbus-starter
 :camel-hazelcast-starter
 :camel-huaweicloud-dms-starter
 :camel-huaweicloud-frs-starter
@@ -134,11 +134,14 @@
 :camel-irc-starter
 :camel-ironmq-starter
 :camel-iso8583-starter
+:camel-itest-resources-for-fatjar
 :camel-itest-spring-boot
+:camel-itest-spring-boot-farjar
 :camel-jackson3-avro-starter
 :camel-jackson3-protobuf-starter
 :camel-jackson3-starter
 :camel-jackson3xml-starter
+:camel-jactl-starter
 :camel-jandex-starter
 :camel-javascript-starter
 :camel-jcache-starter
@@ -158,6 +161,7 @@
 :camel-jsonapi-starter
 :camel-jsonata-starter
 :camel-jsonb-starter
+:camel-jsoup-starter
 :camel-jt400-starter
 :camel-jte-starter
 :camel-keycloak-starter
@@ -176,6 +180,7 @@
 :camel-lucene-starter
 :camel-lumberjack-starter
 :camel-lzf-starter
+:camel-mcp-server-starter
 :camel-mdc-starter
 :camel-metrics-starter
 :camel-micrometer-observability-starter
@@ -227,12 +232,10 @@
 :camel-spring-ai-chat-starter
 :camel-spring-ai-embeddings-starter
 :camel-spring-ai-image-starter
-:camel-spring-ai-tools-starter
 :camel-spring-ai-vector-store-starter
 :camel-spring-cloud-config-starter
 :camel-stax-starter
 :camel-stitch-starter
-:camel-stomp-starter
 :camel-stream-starter
 :camel-stringtemplate-starter
 :camel-stripe-starter
@@ -269,5 +272,10 @@
 :camel-zookeeper-cluster-service-starter
 :camel-zookeeper-master-starter
 :camel-zookeeper-starter
+:dependency-management-example
+:dependency-management-example-module1
 :docs
+:redhat-camel-spring-boot-maintenance
+:redhat-camel-spring-boot-patch-metadata
+:redhat-camel-spring-boot-patch-repository
 :tests
