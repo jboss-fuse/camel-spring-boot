@@ -75,8 +75,8 @@
         <module>core-starter</module>
         <module>dsl-starter</module>
         <module>catalog</module>
-        <module>tests</module>
-        <module>docs</module>
+        <!-- <module>tests</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
+        <!-- <module>docs</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
         <module>archetypes</module>
     </modules>
 
