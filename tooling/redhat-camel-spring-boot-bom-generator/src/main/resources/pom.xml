@@ -122,12 +122,12 @@
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-servlet</artifactId>
-                <version>${undertow-version}</version>
+                <version>${undertow-servlet-version}</version>
             </dependency>
             <dependency>
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-websockets-jsr</artifactId>
-                <version>${undertow-version}</version>
+                <version>${undertow-servlet-version}</version>
             </dependency>
             <!-- Overrides guava -->
             <dependency>
