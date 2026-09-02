@@ -105,6 +105,7 @@ camel-mapstruct-starter
 camel-master-starter
 camel-mcp-server-starter
 camel-mdc-starter
+camel-micrometer-observability-starter
 camel-micrometer-starter
 camel-milvus-starter
 camel-mina-sftp-starter
