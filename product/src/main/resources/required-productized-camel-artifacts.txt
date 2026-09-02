@@ -5,6 +5,8 @@ org.fusesource:camel-cics-starter
 com.redhat.camel.springboot.platform:patch-maven-plugin
 com.redhat.camel.springboot.platform:redhat-camel-spring-boot-bom
 com.redhat.camel.springboot.platform:redhat-camel-spring-boot-bom-generator
+camel-a2a-starter
+camel-ai-tool-starter
 camel-catalog-provider-springboot
 camel-sap-starter-parent
 camel-cics-starter-parent
@@ -70,9 +72,13 @@ camel-http-starter
 camel-infinispan-starter
 camel-infinispan-embedded-starter
 camel-jackson-starter
+camel-jackson3-starter
 camel-jackson-avro-starter
+camel-jackson3-avro-starter
 camel-jackson-protobuf-starter
+camel-jackson3-protobuf-starter
 camel-jacksonxml-starter
+camel-jackson3xml-starter
 camel-jasypt-starter
 camel-java-joor-dsl-starter
 camel-jaxb-starter
@@ -97,6 +103,8 @@ camel-mail-microsoft-oauth-starter
 camel-management-starter
 camel-mapstruct-starter
 camel-master-starter
+camel-mcp-server-starter
+camel-mdc-starter
 camel-micrometer-starter
 camel-milvus-starter
 camel-mina-sftp-starter
@@ -110,6 +118,7 @@ camel-netty-starter
 camel-netty-http-starter
 camel-observability-services-starter
 camel-olingo4-starter
+camel-once-starter
 camel-openai-starter
 camel-openapi-java-starter
 camel-opensearch-starter
@@ -118,6 +127,7 @@ camel-opentelemetry2-starter
 camel-paho-starter
 camel-paho-mqtt5-starter
 camel-platform-http-starter
+camel-pqc-starter
 camel-qdrant-starter
 camel-quartz-starter
 camel-ref-starter
@@ -156,6 +166,7 @@ camel-validator-starter
 camel-velocity-starter
 camel-vertx-http-starter
 camel-vertx-websocket-starter
+camel-weaviate-starter
 camel-webhook-starter
 camel-xj-starter
 camel-xml-io-dsl-starter
