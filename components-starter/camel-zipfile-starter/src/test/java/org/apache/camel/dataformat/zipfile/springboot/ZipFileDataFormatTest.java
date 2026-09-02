@@ -353,30 +353,28 @@ public class ZipFileDataFormatTest {
                             .process(new Processor() {
                                 @Override
                                 public void process(Exchange exchange) throws Exception {
-                                    ZipFile zfile = new ZipFile(new File("src/test/resources/hello.odt"));
-                                    ZipEntry entry = new ZipEntry(
-                                            (String) exchange.getIn().getHeader(Exchange.FILE_NAME));
-                                    String outputDirectory = "hello_out";
-                                    File file = new File(outputDirectory, entry.getName());
+                                    try (ZipFile zfile = new ZipFile(new File("src/test/resources/hello.odt"))) {
+                                        ZipEntry entry = zfile.getEntry(
+                                                (String) exchange.getIn().getHeader(Exchange.FILE_NAME));
+                                        String outputDirectory = "hello_out";
+                                        File file = new File(outputDirectory, entry.getName());
 
-                                    // Check for Path Traversal
-                                    File destDirectory = new File(outputDirectory);
-                                    String destCanonicalPath = destDirectory.getCanonicalPath();
-                                    String outputCanonicalPath = file.getCanonicalPath();
-                                    if (!outputCanonicalPath.startsWith(destCanonicalPath)) {
-                                        throw new Exception("Zip path traversal found, expected " + destCanonicalPath
-                                                + " but found " + outputCanonicalPath);
-                                    }
+                                        // Check for Path Traversal
+                                        File destDirectory = new File(outputDirectory);
+                                        String destCanonicalPath = destDirectory.getCanonicalPath();
+                                        String outputCanonicalPath = file.getCanonicalPath();
+                                        if (!outputCanonicalPath.startsWith(destCanonicalPath)) {
+                                            throw new Exception("Zip path traversal found, expected " + destCanonicalPath
+                                                    + " but found " + outputCanonicalPath);
+                                        }
 
-                                    if (entry.isDirectory()) {
-                                        file.mkdirs();
-                                    } else {
-                                        file.getParentFile().mkdirs();
-                                        InputStream in = zfile.getInputStream(entry);
-                                        try {
+                                        if (entry.isDirectory()) {
+                                            file.mkdirs();
+                                        } else {
+                                            file.getParentFile().mkdirs();
+                                            try (InputStream in = zfile.getInputStream(entry)) {
                                             copy(in, file);
-                                        } finally {
-                                            in.close();
+                                            }
                                         }
                                     }
                                 }
