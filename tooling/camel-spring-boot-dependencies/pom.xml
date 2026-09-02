@@ -314,6 +314,11 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.springboot</groupId>
+        <artifactId>camel-a2a-starter</artifactId>
+        <version>4.22.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.springboot</groupId>
         <artifactId>camel-activemq-starter</artifactId>
         <version>4.22.0</version>
       </dependency>
