@@ -20,6 +20,11 @@ import org.apache.camel.CamelContext;
 import org.apache.camel.api.management.JmxSystemPropertyKeys;
 import org.apache.camel.component.quartz.QuartzComponent;
 import org.apache.camel.spring.boot.CamelContextConfiguration;
+import org.quartz.Calendar;
+import org.quartz.Scheduler;
+import org.quartz.SchedulerException;
+import org.quartz.Trigger;
+import org.quartz.impl.matchers.GroupMatcher;
 import org.springframework.context.annotation.Bean;
 
 public class BaseQuartzTest {
@@ -30,6 +35,20 @@ public class BaseQuartzTest {
 
     protected boolean useJmx() {
         return true;
+    }
+
+    protected Calendar getCustomCalendar(CamelContext context) throws SchedulerException {
+        QuartzComponent component = context.getComponent("quartz", QuartzComponent.class);
+        Scheduler scheduler = component.getScheduler();
+
+        for (var triggerKey : scheduler.getTriggerKeys(GroupMatcher.anyTriggerGroup())) {
+            Trigger trigger = scheduler.getTrigger(triggerKey);
+            if (trigger.getCalendarName() != null) {
+                return scheduler.getCalendar(trigger.getCalendarName());
+            }
+        }
+
+        throw new IllegalStateException("No Quartz trigger with a custom calendar");
     }
 
     @Bean

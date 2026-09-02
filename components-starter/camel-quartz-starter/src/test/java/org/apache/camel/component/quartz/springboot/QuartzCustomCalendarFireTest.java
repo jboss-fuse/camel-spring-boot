@@ -23,8 +23,6 @@ import org.apache.camel.EndpointInject;
 import org.apache.camel.ProducerTemplate;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.mock.MockEndpoint;
-import org.apache.camel.component.quartz.QuartzComponent;
-import org.apache.camel.component.quartz.QuartzConstants;
 import org.apache.camel.spring.boot.CamelAutoConfiguration;
 
 import org.junit.jupiter.api.Test;
@@ -38,7 +36,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.test.annotation.DirtiesContext;
 import org.apache.camel.test.spring.junit6.CamelSpringBootTest;
 import org.quartz.Calendar;
-import org.quartz.Scheduler;
 import org.quartz.impl.calendar.HolidayCalendar;
 
 @DirtiesContext
@@ -61,10 +58,7 @@ public class QuartzCustomCalendarFireTest extends BaseQuartzTest {
 
         mock.expectedMinimumMessageCount(0);
 
-        QuartzComponent component = context.getComponent("quartz", QuartzComponent.class);
-        Scheduler scheduler = component.getScheduler();
-
-        Calendar c = scheduler.getCalendar(QuartzConstants.QUARTZ_CAMEL_CUSTOM_CALENDAR);
+        Calendar c = getCustomCalendar(context);
         Date now = new Date();
         java.util.Calendar tomorrow = java.util.Calendar.getInstance();
         tomorrow.setTime(now);
