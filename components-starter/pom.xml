@@ -105,6 +105,7 @@
   </build>
   <modules>
 
+    <module>camel-a2a-starter</module>
     <!-- <module>camel-activemq-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-activemq6-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
     <!-- <module>camel-ai-tool-starter</module> disabled by camel-spring-boot-prod-maven-plugin:camel-prod-excludes -->
