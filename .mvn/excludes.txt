@@ -62,7 +62,6 @@
 :camel-crypto-pgp-starter
 :camel-csimple-joor-starter
 :camel-csv-starter
-:camel-cyberark-vault-starter
 :camel-dapr-starter
 :camel-datasonnet-starter
 :camel-debezium-db2-starter

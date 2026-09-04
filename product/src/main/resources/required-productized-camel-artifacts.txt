@@ -38,6 +38,7 @@ camel-browse-starter
 camel-cassandraql-starter
 camel-cics-starter
 camel-cli-connector-starter
+camel-cyberark-vault-starter
 camel-componentdsl-starter
 camel-controlbus-starter
 camel-core-starter
