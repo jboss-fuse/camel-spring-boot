@@ -10,6 +10,7 @@ camel-ai-tool-starter
 camel-catalog-provider-springboot
 camel-sap-starter-parent
 camel-cics-starter-parent
+camel-cyberark-vault
 camel-archetype-spring-boot
 camel-spring-boot-engine-starter
 camel-spring-boot-starter

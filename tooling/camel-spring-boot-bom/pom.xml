@@ -36,17 +36,17 @@
       <dependency>
         <groupId>dev.snowdrop</groupId>
         <artifactId>narayana-spring-boot-core</artifactId>
-        <version>${narayana-spring-boot.version}</version>
+        <version>4.1.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>dev.snowdrop</groupId>
         <artifactId>narayana-spring-boot-recovery-controller</artifactId>
-        <version>${narayana-spring-boot.version}</version>
+        <version>4.1.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>dev.snowdrop</groupId>
         <artifactId>narayana-spring-boot-starter</artifactId>
-        <version>${narayana-spring-boot.version}</version>
+        <version>4.1.1-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>io.agroal</groupId>
