@@ -129,7 +129,6 @@ camel-opentelemetry2-starter
 camel-paho-starter
 camel-paho-mqtt5-starter
 camel-platform-http-starter
-camel-pqc-starter
 camel-qdrant-starter
 camel-quartz-starter
 camel-ref-starter
