@@ -273,6 +273,13 @@
                 <version>${neethi-version}</version>
             </dependency>
 
+            <!-- Overrides transitive zstd-jni from kafka-clients -->
+            <dependency>
+                <groupId>com.github.luben</groupId>
+                <artifactId>zstd-jni</artifactId>
+                <version>${zstd-jni-version}</version>
+            </dependency>
+
             <!-- Overrides vertx dependency since affected versions are used in io.fabric8:openshift-client -->
             <dependency>
                 <groupId>io.vertx</groupId>
