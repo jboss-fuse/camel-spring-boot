@@ -257,6 +257,13 @@
                 <version>${neethi-version}</version>
             </dependency>
 
+            <!-- Overrides transitive zstd-jni from kafka-clients -->
+            <dependency>
+                <groupId>com.github.luben</groupId>
+                <artifactId>zstd-jni</artifactId>
+                <version>${zstd-jni-version}</version>
+            </dependency>
+
             <!-- Overrides angus-mail dependency since SB is using an older version (CSB-3042) -->
             <dependency>
                 <groupId>org.eclipse.angus</groupId>
