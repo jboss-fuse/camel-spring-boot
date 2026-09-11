@@ -83,6 +83,22 @@
             </dependency>
 
             <!-- Insert third party overrides here -->
+            <!-- Align Micrometer metrics and tracing with Camel to fix CVE-2026-59296 -->
+            <dependency>
+                <groupId>io.micrometer</groupId>
+                <artifactId>micrometer-bom</artifactId>
+                <version>${micrometer-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.micrometer</groupId>
+                <artifactId>micrometer-tracing-bom</artifactId>
+                <version>${micrometer-tracing-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
             <!-- Overrides httpcore5 since SB is using an older version (CVE-2026-54399, CVE-2026-54428) -->
             <dependency>
                 <groupId>org.apache.httpcomponents.core5</groupId>
