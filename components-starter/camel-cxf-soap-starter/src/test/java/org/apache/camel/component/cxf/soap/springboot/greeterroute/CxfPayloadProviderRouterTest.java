@@ -24,6 +24,7 @@ import jakarta.xml.ws.Service;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.cxf.common.DataFormat;
+import org.apache.camel.component.cxf.common.message.CxfConstants;
 import org.apache.camel.component.cxf.jaxws.CxfEndpoint;
 import org.apache.camel.component.cxf.spring.jaxws.CxfSpringEndpoint;
 import org.apache.camel.spring.boot.CamelAutoConfiguration;
@@ -173,8 +174,9 @@ public class CxfPayloadProviderRouterTest extends AbstractCXFGreeterRouterTest {
                 @Override
                 public void configure() {
                     from("cxf:bean:routerEndpoint")
-                            .setHeader("operationNamespace", constant("http://camel.apache.org/cxf/jaxws/dispatch"))
-                            .setHeader("operationName", constant("Invoke"))
+                            .setHeader(CxfConstants.OPERATION_NAMESPACE,
+                                    constant("http://camel.apache.org/cxf/jaxws/dispatch"))
+                            .setHeader(CxfConstants.OPERATION_NAME, constant("Invoke"))
                             .to("cxf:bean:serviceEndpoint");
                 }
             };
