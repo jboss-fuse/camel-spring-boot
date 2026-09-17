@@ -91,6 +91,7 @@ public class WSAddressingPAYLOADTest {
     
     @BeforeEach
     public void setUp() throws Exception {
+        System.setProperty("org.apache.cxf.ws.addressing.decoupled.enabled", "true");
         JaxWsServerFactoryBean svrBean = new JaxWsServerFactoryBean();
         svrBean.setAddress("/WSAddressingPAYLOADTest/SoapContext/backendService");
         svrBean.setServiceClass(Greeter.class);
@@ -104,6 +105,7 @@ public class WSAddressingPAYLOADTest {
         if (serviceEndpoint != null) {
             serviceEndpoint.stop();
         }
+        System.clearProperty("org.apache.cxf.ws.addressing.decoupled.enabled");
     }
     
     @Test
