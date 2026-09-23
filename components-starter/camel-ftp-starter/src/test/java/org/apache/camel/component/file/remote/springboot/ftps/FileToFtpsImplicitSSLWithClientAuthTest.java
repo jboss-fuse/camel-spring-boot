@@ -40,7 +40,7 @@ public class FileToFtpsImplicitSSLWithClientAuthTest extends BaseFtpsImplicitCli
     protected String getFtpUrl() {
         return "ftps://admin@localhost:" + getPort()
                 + "/tmp2/camel?password=admin&initialDelay=2000&disableSecureDataChannelDefaults=true"
-                + "&securityProtocol=TLSv1.3&implicit=true&ftpClient.keyStore.file=./src/test/resources/server.jks&ftpClient.keyStore.type=JKS"
+                + "&securityProtocol=TLSv1.3&implicit=true&ftpClient.keyStore.file=./src/test/resources/server.jks&ftpClient.keyStore.type=PKCS12"
                 + "&ftpClient.keyStore.algorithm=SunX509&ftpClient.keyStore.password=password&ftpClient.keyStore.keyPassword=password&delete=true";
     }
 

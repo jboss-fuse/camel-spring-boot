@@ -21,8 +21,11 @@ import java.net.InetSocketAddress;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.security.Provider;
+import java.security.Security;
 import java.util.Collections;
 import java.util.List;
+import java.util.Locale;
 import java.util.function.BiConsumer;
 
 import org.apache.camel.test.infra.common.services.AbstractTestService;
@@ -81,6 +84,7 @@ public class MinaSftpEmbeddedService extends AbstractTestService implements FtpS
     }
 
     public void setUpServer() throws Exception {
+        enableSshdFipsModeWhenAvailable();
         sshd = SshServer.setUpDefaultServer();
         sshd.setPort(port);
         sshd.setKeyPairProvider(new FileKeyPairProvider(Paths.get("src/test/resources/hostkey.pem")));
@@ -102,6 +106,15 @@ public class MinaSftpEmbeddedService extends AbstractTestService implements FtpS
         sshd.start();
 
         port = ((InetSocketAddress) sshd.getBoundAddresses().iterator().next()).getPort();
+    }
+
+    private static void enableSshdFipsModeWhenAvailable() {
+        for (Provider provider : Security.getProviders()) {
+            if (provider.getName().toUpperCase(Locale.ROOT).contains("FIPS")) {
+                System.setProperty("org.apache.sshd.security.fipsEnabled", "true");
+                return;
+            }
+        }
     }
 
     protected PublickeyAuthenticator getPublickeyAuthenticator() {
