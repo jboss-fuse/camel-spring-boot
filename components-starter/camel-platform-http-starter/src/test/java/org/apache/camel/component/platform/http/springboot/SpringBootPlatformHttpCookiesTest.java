@@ -42,7 +42,7 @@ import org.springframework.context.annotation.Configuration;
 import static io.restassured.RestAssured.given;
 import static io.restassured.matcher.RestAssuredMatchers.detailedCookie;
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.startsWith;
+import static org.hamcrest.Matchers.nullValue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @EnableAutoConfiguration
@@ -239,7 +239,7 @@ public class SpringBootPlatformHttpCookiesTest {
                 .get("/echo")
                 .then()
                 .statusCode(200)
-                .header("cookie", startsWith("echo=cookie"))
+                .header("cookie", nullValue())
                 .body(equalTo("echo"));
     }
 

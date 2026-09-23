@@ -354,8 +354,9 @@ public class ZipFileDataFormatTest {
                                 @Override
                                 public void process(Exchange exchange) throws Exception {
                                     ZipFile zfile = new ZipFile(new File("src/test/resources/hello.odt"));
+                                    // CamelFileName is the stripped basename; zipFileName retains the archive entry path.
                                     ZipEntry entry = new ZipEntry(
-                                            (String) exchange.getIn().getHeader(Exchange.FILE_NAME));
+                                            (String) exchange.getIn().getHeader("zipFileName"));
                                     String outputDirectory = "hello_out";
                                     File file = new File(outputDirectory, entry.getName());
 
