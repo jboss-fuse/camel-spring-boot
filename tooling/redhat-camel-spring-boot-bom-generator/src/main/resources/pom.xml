@@ -69,6 +69,19 @@
     <dependencyManagement>
         <dependencies>
 
+            <!-- Cannot be removed, since mixing community and non community dependencies might break -->
+            <!-- Removing these there is a potential of java.lang.IllegalStateException: java.lang.NoSuchMethodError -->
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-api</artifactId>
+                <version>${camel-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-support</artifactId>
+                <version>${camel-version}</version>
+            </dependency>
+
             <!-- Insert third party overrides here -->
             <dependency>
                 <groupId>org.hsqldb</groupId>
