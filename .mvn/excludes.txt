@@ -186,7 +186,6 @@
 :camel-ocsf-starter
 :camel-ognl-starter
 :camel-olingo2-starter
-:camel-openapi-validator-starter
 :camel-openstack-starter
 :camel-opentelemetry-metrics-starter
 :camel-optaplanner-starter
