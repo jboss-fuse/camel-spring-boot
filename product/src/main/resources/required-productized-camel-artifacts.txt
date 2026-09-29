@@ -123,6 +123,7 @@ camel-olingo4-starter
 camel-once-starter
 camel-openai-starter
 camel-openapi-java-starter
+camel-openapi-validator-starter
 camel-opensearch-starter
 camel-opentelemetry-starter
 camel-opentelemetry2-starter
