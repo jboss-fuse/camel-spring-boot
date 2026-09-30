@@ -31,6 +31,8 @@ import org.springframework.test.web.servlet.client.EntityExchangeResult;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.Ordered;
+import org.springframework.core.annotation.Order;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
@@ -66,6 +68,7 @@ public class SpringBootPlatformHttpMultipleExecutorsTest extends PlatformHttpBas
 
 
         @Bean(name = "customPoolTaskExecutor")
+        @Order(Ordered.HIGHEST_PRECEDENCE)
         public Executor customPoolTaskExecutor() {
             final ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
             executor.setCorePoolSize(2);
