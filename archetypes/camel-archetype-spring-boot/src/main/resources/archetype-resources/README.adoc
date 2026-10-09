@@ -1,0 +1,57 @@
+= Camel Example Spring Boot
+
+This example shows how to work with a simple Apache Camel application using Spring Boot.
+
+The example generates messages using timer trigger, writes them to standard output.
+
+== Camel routes
+
+The Camel route is located in the `MyCamelRouter` class. In this class the route
+starts from a timer, that triggers every 2nd second and calls a Spring Bean `MyBean`
+which returns a message, that is routed to a stream endpoint which writes to standard output.
+The example contains test class demonstrating how to intercept and mock endpoints in unit tests using JUnit 5 and Camel Test Support.
+
+== Using Camel components
+
+Apache Camel provides 300+ components which you can use to integrate and route messages between many systems
+and data formats. To use any of these Camel components, add the component as a dependency to your project.
+
+== How to run
+
+You can run this example using
+
+    ./mvnw spring-boot:run
+
+== How to run test
+
+You can run unit test of this example using
+
+    ./mvnw clean test
+
+== How to deploy on OpenShift
+
+You can deploy on OpenShift using
+
+    ./mvnw clean install -P openshift
+
+the application will be built and deployed on the current project on the logged-in OpenShift cluster, so please be sure you are correctly logged in before running the command
+
+== How to deploy on MicroShift
+
+You can deploy on MicroShift using
+
+    ./mvnw clean install -P microshift -Djkube.docker.registry=[docker registry]
+
+the application will be deployed on the current project on the logged-in MicroShift cluster, so please be sure you are correctly logged in before running the command. Since MicroShift doesn't have an internal OCI registry, it is necessary to push/pull images externally, so a docker registry is needed (eg: `quay.io/my-organization` ) moreover if the registry is private the command requires the credentials for push and/or pull - https://eclipse.dev/jkube/docs/openshift-maven-plugin/#_pull_vs_push_authentication[documentation] eg:
+
+    ./mvnw clean install -P microshift \
+        -Djkube.docker.registry=quay.io/my-organization \
+        -Djkube.docker.username=myuser \
+        -Djkube.docker.password=mypassword
+
+== More information
+
+You can find more information about Apache Camel at the website: http://camel.apache.org/
+
+
+
