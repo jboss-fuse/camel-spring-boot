@@ -84,7 +84,9 @@ public class SftpKeyExchangeProtocolsTest extends BaseSftp {
             exception = exception.getCause();
         }
 
-        MatcherAssert.assertThat(errorMessages, Matchers.hasItem("Algorithm negotiation fail"));
+        org.assertj.core.api.Assertions
+                .assertThat(errorMessages)
+                .anyMatch(o -> o.contains("Algorithm negotiation fail"));
     }
 
     @Test
