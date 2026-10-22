@@ -115,7 +115,7 @@
     <kryo-version>2.24.0</kryo-version>
     <narayana-spring-boot.version>4.1.1-SNAPSHOT</narayana-spring-boot.version>
     <openshift-maven-plugin-version>1.19.1.redhat-00001</openshift-maven-plugin-version>
-    <spring-boot-undertow-version>1.0.0.Alpha1-SNAPSHOT</spring-boot-undertow-version>
+    <spring-boot-undertow-version>1.0.0-SNAPSHOT</spring-boot-undertow-version>
     <org-json-json-version>20250517</org-json-json-version>
     <parsson-version>1.1.7</parsson-version>
     <perfmark-version>0.27.0</perfmark-version>
@@ -137,36 +137,7 @@
         <minimalJavaBuildVersion>${jdk.version}</minimalJavaBuildVersion>
         <compiler.fork>false</compiler.fork>
 
-        <!-- Align with Spring Boot 4.1.2 until the Camel dependency parent is rebuilt. -->
-        <bytebuddy-version>1.18.15</bytebuddy-version>
-        <cassandra-driver-version>4.19.4</cassandra-driver-version>
-        <elasticsearch-java-client-sniffer-version>9.4.8</elasticsearch-java-client-sniffer-version>
-        <elasticsearch-java-client-version>9.4.8</elasticsearch-java-client-version>
-        <freemarker-version>2.3.35</freemarker-version>
-        <hibernate-validator-version>9.1.5.Final</hibernate-validator-version>
-        <hibernate-version>7.4.13.Final</hibernate-version>
-        <httpclient-version>5.6.5</httpclient-version>
-        <httpcore-version>5.4.4</httpcore-version>
-        <jakarta-json-bind-api-version>3.0.4</jakarta-json-bind-api-version>
-        <log4j2-version>2.25.5</log4j2-version>
-        <micrometer-tracing-version>1.7.2</micrometer-tracing-version>
-        <micrometer-version>1.17.2</micrometer-version>
-        <netty-version>4.2.19.Final</netty-version>
-        <pooled-jms-version>3.2.5</pooled-jms-version>
-        <pulsar-version>4.2.5</pulsar-version>
-        <reactor-netty-version>1.3.8</reactor-netty-version>
-        <reactor-version>3.8.8</reactor-version>
-        <slf4j-api-version>2.0.20</slf4j-api-version>
-        <slf4j-version>2.0.20</slf4j-version>
-        <spring-batch-version>6.0.6</spring-batch-version>
-        <spring-boot-version>4.1.2</spring-boot-version>
-        <spring-data-redis-version>4.1.2</spring-data-redis-version>
-        <spring-ldap-version>4.1.2</spring-ldap-version>
-        <spring-rabbitmq-version>4.1.2</spring-rabbitmq-version>
-        <spring-security-version>7.1.2</spring-security-version>
-        <spring-version>7.0.10</spring-version>
-        <spring-ws-version>5.0.3</spring-ws-version>
-        <yasson-version>3.0.5</yasson-version>
+        <!-- spring-boot-version is now maintained in camel/parent/pom.xml https://github.com/apache/camel/blob/main/parent/pom.xml#L484 -->
 
         <!-- Camel target version -->
         <camel-version>4.22.1</camel-version>
