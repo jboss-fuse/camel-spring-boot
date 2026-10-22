@@ -110,6 +110,8 @@
     <cq-plugin.version>4.16.2</cq-plugin.version>
     <jakarta-el-version>6.0.1</jakarta-el-version>
     <jakarta-resource-version>2.0.0</jakarta-resource-version>
+    <jackson2-version>2.22.4</jackson2-version>
+    <jackson3-version>3.2.4</jackson3-version>
     <jna-version>5.17.0</jna-version>
     <jobjc-version>3.0.0</jobjc-version>
     <kryo-version>2.24.0</kryo-version>
