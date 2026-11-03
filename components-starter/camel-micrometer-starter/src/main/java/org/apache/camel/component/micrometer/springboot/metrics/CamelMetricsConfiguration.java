@@ -106,6 +106,12 @@ public class CamelMetricsConfiguration {
     */
     private String logMetricsOnShutdownFilters;
 
+    /**
+     * Set whether to record the timestamp of the last exchange as a metric for the exchange event
+     * notifier (default, `true`).
+     */
+    private boolean recordLastExchangeTimestamp = true;
+
     public boolean isUriTagEnabled() {
         return uriTagEnabled;
     }
@@ -208,5 +214,13 @@ public class CamelMetricsConfiguration {
 
     public void setLogMetricsOnShutdownFilters(String logMetricsOnShutdownFilters) {
         this.logMetricsOnShutdownFilters = logMetricsOnShutdownFilters;
+    }
+
+    public boolean isRecordLastExchangeTimestamp() {
+        return recordLastExchangeTimestamp;
+    }
+
+    public void setRecordLastExchangeTimestamp(boolean recordLastExchangeTimestamp) {
+        this.recordLastExchangeTimestamp = recordLastExchangeTimestamp;
     }
 }
