@@ -76,6 +76,7 @@ public class CamelMetricsAutoConfiguration {
             MicrometerExchangeEventNotifier notifier = new MicrometerExchangeEventNotifier();
             notifier.setCamelContext(camelContext);
             notifier.setMeterRegistry(meterRegistry);
+            notifier.setRecordLastExchangeTimestamp(configuration.isRecordLastExchangeTimestamp());
             if ("legacy".equalsIgnoreCase(configuration.getNamingStrategy())) {
                 notifier.setNamingStrategy(new MicrometerExchangeEventNotifierNamingStrategyLegacy(
                     configuration.isBaseEndpointUriExchangeEventNotifier()
