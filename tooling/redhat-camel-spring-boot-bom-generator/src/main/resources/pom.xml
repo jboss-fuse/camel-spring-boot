@@ -83,6 +83,12 @@
             </dependency>
 
             <!-- Insert third party overrides here -->
+            <!-- Overrides snakeyaml to use productized version -->
+            <dependency>
+                <groupId>org.yaml</groupId>
+                <artifactId>snakeyaml</artifactId>
+                <version>${snakeyaml-version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.hsqldb</groupId>
                 <artifactId>hsqldb</artifactId>
@@ -203,6 +209,12 @@
                 <artifactId>commons-compress</artifactId>
                 <version>${commons-compress-version}</version>
             </dependency>
+            <!-- Overrides commons-lang3 to use productized version -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3-version}</version>
+            </dependency>
             <!-- Overrides snappy-java -->
             <dependency>
                 <groupId>org.xerial.snappy</groupId>
@@ -281,6 +293,14 @@
                 <version>${zstd-jni-version}</version>
             </dependency>
 
+            <!-- Overrides angus-mail to use productized version -->
+            <dependency>
+                <groupId>org.eclipse.angus</groupId>
+                <artifactId>angus-mail</artifactId>
+                <version>${angus-mail-version}</version>
+            </dependency>
+
+            <!-- Overrides jetty-bom to use productized version -->
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-bom</artifactId>
@@ -339,6 +359,16 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- Overrides log4j-bom to use productized version -->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-bom</artifactId>
+                <version>${log4j2-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
 
             <!-- Dependency Convergence additions -->
             <dependency>
