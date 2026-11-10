@@ -71,6 +71,11 @@
       <version>${camel-version}</version>
     </dependency>
     <dependency>
+      <groupId>org.apache.camel.springboot</groupId>
+      <artifactId>camel-ai-tool-starter</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>org.awaitility</groupId>
       <artifactId>awaitility</artifactId>
       <scope>test</scope>
