@@ -51,5 +51,6 @@ public class AiToolComponentExplicitHintsAutoConfigurationTest {
         // hints that were not configured stay unset
         assertNull(component.getConfiguration().getIdempotentHint());
         assertNull(component.getConfiguration().getOpenWorldHint());
+        assertNull(component.getConfiguration().getReturnDirect());
     }
 }

@@ -19,64 +19,48 @@ package org.apache.camel.component.ai.tool.springboot;
 import java.util.Map;
 import java.util.function.BiConsumer;
 
-import org.apache.camel.Component;
-import org.apache.camel.Ordered;
-import org.apache.camel.component.ai.tool.AiToolComponent;
-import org.apache.camel.component.ai.tool.AiToolConfiguration;
-import org.apache.camel.spi.ComponentCustomizer;
-import org.apache.camel.spring.boot.util.ConditionalOnCamelContextAndAutoConfigurationBeans;
-import org.apache.camel.spring.boot.util.ConditionalOnHierarchicalProperties;
-import org.apache.camel.spring.boot.util.HierarchicalPropertiesEvaluator;
+import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.context.properties.bind.Binder;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Conditional;
-import org.springframework.context.annotation.Lazy;
+import org.springframework.core.env.Environment;
 
 /**
- * Clears catalog defaults for ai-tool Boolean options that were not explicitly configured.
+ * Keeps ai-tool MCP hints and returnDirect unset unless they are explicitly configured (CSB-13056).
+ * <p>
+ * The Camel catalog reports a default of false for Boolean options without a declared default, so the generated
+ * {@link AiToolComponentConfiguration} initializes these options to false and the generated customizer would publish
+ * them on every tool. This clears them on the configuration class after Spring Boot binds it, leaving values set on a
+ * component or by a user customizer untouched.
+ * <p>
+ * Downstream only: this workaround is unnecessary once CAMEL-24501 is on this branch.
  */
-@AutoConfiguration(after = AiToolComponentAutoConfiguration.class)
-@Conditional(ConditionalOnCamelContextAndAutoConfigurationBeans.class)
-@ConditionalOnHierarchicalProperties({ "camel.component", "camel.component.ai-tool" })
+@AutoConfiguration
 public class AiToolUnsetHintsAutoConfiguration {
 
     private static final String PREFIX = "camel.component.ai-tool.";
 
-    private static final Map<String, BiConsumer<AiToolConfiguration, Boolean>> OPTIONS = Map.of(
-            "read-only-hint", AiToolConfiguration::setReadOnlyHint,
-            "destructive-hint", AiToolConfiguration::setDestructiveHint,
-            "idempotent-hint", AiToolConfiguration::setIdempotentHint,
-            "open-world-hint", AiToolConfiguration::setOpenWorldHint,
-            "return-direct", AiToolConfiguration::setReturnDirect);
+    private static final Map<String, BiConsumer<AiToolComponentConfiguration, Boolean>> OPTIONS = Map.of(
+            "read-only-hint", AiToolComponentConfiguration::setReadOnlyHint,
+            "destructive-hint", AiToolComponentConfiguration::setDestructiveHint,
+            "idempotent-hint", AiToolComponentConfiguration::setIdempotentHint,
+            "open-world-hint", AiToolComponentConfiguration::setOpenWorldHint,
+            "return-direct", AiToolComponentConfiguration::setReturnDirect);
 
-    @Lazy
     @Bean
-    public ComponentCustomizer resetUnsetAiToolHints(ApplicationContext applicationContext) {
-        Binder binder = Binder.get(applicationContext.getEnvironment());
-        return new ComponentCustomizer() {
+    static BeanPostProcessor clearUnsetAiToolHints(Environment environment) {
+        Binder binder = Binder.get(environment);
+        return new BeanPostProcessor() {
             @Override
-            public void configure(String name, Component target) {
-                AiToolConfiguration configuration = ((AiToolComponent) target).getConfiguration();
-                OPTIONS.forEach((option, setter) -> {
-                    if (!binder.bind(PREFIX + option, Boolean.class).isBound()) {
-                        // The generated configuration class initializes these values to false.
-                        setter.accept(configuration, null);
-                    }
-                });
-            }
-
-            @Override
-            public boolean isEnabled(String name, Component target) {
-                return target instanceof AiToolComponent
-                        && HierarchicalPropertiesEvaluator.evaluate(applicationContext,
-                                "camel.component.customizer", "camel.component.ai-tool.customizer");
-            }
-
-            @Override
-            public int getOrder() {
-                return Ordered.LOWEST;
+            public Object postProcessAfterInitialization(Object bean, String beanName) {
+                if (bean instanceof AiToolComponentConfiguration configuration) {
+                    OPTIONS.forEach((option, setter) -> {
+                        if (!binder.bind(PREFIX + option, Boolean.class).isBound()) {
+                            setter.accept(configuration, null);
+                        }
+                    });
+                }
+                return bean;
             }
         };
     }
