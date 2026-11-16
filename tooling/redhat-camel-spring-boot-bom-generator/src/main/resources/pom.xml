@@ -162,6 +162,12 @@
                 <version>${activemq6-version}</version>
             </dependency>
 
+            <!-- Override for org.json:json -->
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${org-json-json-version}</version>
+            </dependency>
             <!-- Override for threetenbp -->
             <dependency>
                 <groupId>org.threeten</groupId>
