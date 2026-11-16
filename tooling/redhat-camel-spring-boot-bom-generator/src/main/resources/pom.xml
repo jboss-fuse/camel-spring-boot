@@ -95,6 +95,13 @@
                 <version>${hsqldb-version}</version>
             </dependency>
 
+            <!-- Override commons-codec -->
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons-codec-version}</version>
+            </dependency>
+
             <!-- Override jackrabbit -->
             <dependency>
                 <groupId>org.apache.jackrabbit</groupId>
