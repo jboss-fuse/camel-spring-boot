@@ -54,7 +54,7 @@
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-test-infra-ftp</artifactId>
-      <version>${camel-version}</version>
+      <version>${camel-community-version}</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>
@@ -62,12 +62,6 @@
     <dependency>
       <groupId>org.apache.sshd</groupId>
       <artifactId>sshd-sftp</artifactId>
-      <version>${sshd-version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.sshd</groupId>
-      <artifactId>sshd-scp</artifactId>
       <version>${sshd-version}</version>
       <scope>test</scope>
     </dependency>
@@ -87,6 +81,13 @@
           <artifactId>slf4j-log4j12</artifactId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <!-- This override is needed by littleproxy during testing only -->
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>20.0</version>
+      <scope>test</scope>
     </dependency>
     <!--START OF GENERATED CODE-->
     <dependency>

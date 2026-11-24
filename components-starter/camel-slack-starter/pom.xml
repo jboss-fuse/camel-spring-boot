@@ -42,7 +42,7 @@
     <dependency>
       <groupId>org.apache.camel.springboot</groupId>
       <artifactId>camel-undertow-starter</artifactId>
-      <version>${project.version}</version>
+      <version>${camel-spring-boot-community.version}</version>
       <scope>test</scope>
     </dependency>
     <!--START OF GENERATED CODE-->
