@@ -343,7 +343,7 @@
             <dependency>
                 <groupId>io.opentelemetry</groupId>
                 <artifactId>opentelemetry-exporter-zipkin</artifactId>
-                <version>1.64.0</version>
+                <version>${opentelemetry-exporter-zipkin-version}</version>
             </dependency>
 
             <!-- Netty bom -->
